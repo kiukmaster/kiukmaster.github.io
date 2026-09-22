@@ -22,7 +22,7 @@ export const strings = {
   noResults:['검색 결과가 없습니다.','No matching entries.'], noResultsDesc:['검색어나 분류 조건을 바꿔보세요.','Try another search or filter.'],
   reset:['필터 초기화','Reset filters'], entries:['개의 글','posts'], featured:['추천 글','Featured'], read:['읽기','Read'],
   more:['더 보기','Load more'],
-  homeTitle:['생각과 배움의 기록','Thoughts & notes'], homeSubtitle:['생각하고, 배우고, 기록합니다.','Thoughts, notes, and things learned.'],
+  homeTitle:['기록','Thoughts & notes'], homeSubtitle:['경험을 글로 작성합니다.','Thoughts, notes, and things learned.'],
   aboutTitle:['소개','About'], aboutEmpty:['아직 소개가 작성되지 않았습니다.','No introduction has been added yet.'],
   contact:['연락처','Contact'], error:['데이터를 불러오지 못했습니다.','Could not load the data.'], retry:['다시 시도','Try again'],
   fileHint:['파일을 더블클릭하지 말고 로컬 서버 또는 GitHub Pages에서 열어주세요. README.md에 실행 방법이 있습니다.','Use a local web server or GitHub Pages instead of opening the file directly. See README.md.'],

@@ -5,6 +5,15 @@
       "slug": "p1",
       "title": "첫 포스트",
       "excerpt": "처음 작성하는 포스트 입니다.",
+      "date": "2026-09-21",
+      "type": "post",
+      "category":"",
+      "tags": [""]
+    },
+    {
+      "slug": "p2",
+      "title": "뉴스 크롤링 사이트 제작 by ChatGPT",
+      "excerpt": "Gemini API를 활용하여 뉴스 사이트들에서 기사를 크롤링 해서 요약 보여주는 웹 사이트입니다.",
       "date": "2026-09-22",
       "type": "post",
       "category":"",
