@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "posts": [
+    {
+      "slug": "p1",
+      "title": "첫 포스트",
+      "excerpt": "처음 작성하는 포스트 입니다.",
+      "date": "2026-09-22",
+      "type": "post",
+      "category":"",
+      "tags": [""]
+    }
+  ]
+}

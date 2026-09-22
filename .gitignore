@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+# 비공개 원고는 이 폴더 또는 저장소 밖에 보관하세요.
+_private/
+# 이전 버전의 로컬 백업이 실수로 포함되지 않게 유지합니다.
+*-draft.json
+publish-*.zip

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- [수정 1] 브라우저 탭 및 공유 제목·요약 -->
+  <title>첫 포스트</title>
+  <meta name="description" content="글의 요약을 한두 문장으로 입력하세요.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="글 제목">
+  <meta property="og:description" content="글의 요약을 한두 문장으로 입력하세요.">
+  <meta property="og:site_name" content="블로그 이름">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="article:published_time" content="2026-09-22T00:00:00+09:00">
+  <meta name="twitter:card" content="summary">
+
+  <!-- 공통 디자인과 읽기 기능: 아래 경로는 그대로 두세요. -->
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <script src="../../assets/js/boot.js"></script>
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <script type="module" src="../../assets/js/article.js"></script>
+</head>
+
+<!-- [수정 2] data-slug = posts/안의 폴더 이름 = 목록 JSON의 slug -->
+<body data-page="article" data-slug="my-first-post" data-content-language="ko">
+  <a class="skip-link" href="#page-content">본문으로 건너뛰기</a>
+  <header id="site-header" class="site-header">
+    <nav class="no-js-nav" aria-label="기본 메뉴">
+      <a href="../../index.html">홈</a>
+    </nav>
+  </header>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+
+  <div class="layout article-layout">
+    <aside class="site-sidebar" id="site-sidebar"></aside>
+    <main class="article-main" id="page-content" tabindex="-1">
+      <a class="back-link" href="../../writing.html" id="article-back">← 목록</a>
+      <article>
+
+        <details class="mobile-toc" id="mobile-toc" hidden>
+          <summary data-i18n="toc">목차</summary>
+          <nav class="toc-list" aria-label="목차"></nav>
+        </details>
+
+        <!-- 본문 시작. id="article-body"는 유지 -->
+        <div class="prose" id="article-body" lang="ko">
+          <!-- 소제목은 h2, 그 아래 단계는 h3. h1은 글 제목 -->
+          <h1 id="section-one">첫 포스트</h2>
+          <p>처음 올리는 포스트입니다.</p>
+
+          <h2 id="section-two">우려사항</h2>
+          <p>꾸준하게 이어갈 수 있을지 걱정됩니다....</p>
+        </div>
+        <!-- 본문 끝 -->
+      </article>
+
+      <!-- 읽기 보조 기능: 유지해도 되고, 필요 없는 버튼은 삭제해도 됩니다. -->
+      <div class="article-actions">
+        <a class="button ghost" href="#page-content" data-i18n="top">맨 위로</a>
+      </div>
+      <nav class="article-adjacent" id="adjacent-posts" aria-label="다른 글"></nav>
+    </main>
+  </div>
+  <footer id="site-footer" class="site-footer"></footer>
+  <noscript><p class="no-js-warning">본문은 JavaScript 없이도 읽을 수 있습니다. 검색·목차·테마 전환·복사에는 JavaScript가 필요합니다.</p></noscript>
+</body>
+</html>
