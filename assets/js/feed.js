@@ -1,4 +1,4 @@
-import { config, t, esc, icon, rootURL, postURL, coverURL, dateLabel, storage, setTitle, renderShell, loadPosts, errorState, emptyState } from './core.js';
+import { config, t, esc, icon, rootURL, postURL, coverURL, dateLabel, postDateTime, sortPostsByPublished, storage, setTitle, renderShell, loadPosts, errorState, emptyState } from './core.js';
 const page=document.body.dataset.page;
 const initialParams=new URLSearchParams(location.search);
 let posts=[], visible=config.pageSize||8, timer;
@@ -18,12 +18,12 @@ function filteredPosts() {
   if(state.tag)result=result.filter(p=>p.tags.includes(state.tag));
   const tokens=state.q.trim().toLocaleLowerCase().split(/\s+/).filter(Boolean);
   if(tokens.length)result=result.filter(p=>{const hay=[p.title,p.excerpt,p.category,...p.tags,p.searchText||''].join(' ').normalize('NFKC').toLocaleLowerCase();return tokens.every(word=>hay.includes(word.normalize('NFKC')));});
-  return result.sort((a,b)=>state.sort==='title'?a.title.localeCompare(b.title,'ko'):state.sort==='oldest'?a.date.localeCompare(b.date)||a.slug.localeCompare(b.slug):b.date.localeCompare(a.date)||a.slug.localeCompare(b.slug));
+  return state.sort==='title' ? result.sort((a,b)=>a.title.localeCompare(b.title,'ko')) : sortPostsByPublished(result,state.sort==='newest');
 }
 function card(p,featured=false) {
   const cover=coverURL(p),url=postURL(p);
   const tags=p.tags.slice(0,3).map(tag=>`<a class="tag" href="${rootURL('index.html')}?tag=${encodeURIComponent(tag)}">${esc(tag)}</a>`).join('');
-  const body=`<div class="${featured?'featured-content':'card-body'}">${featured?`<div class="featured-label"><span class="badge">${t('featured')}</span><span>${esc(p.category||t('post'))}</span></div>`:`<div class="card-meta"><span class="category-label">${esc(p.category||t('post'))}</span><time datetime="${p.date}">${dateLabel(p.date)}</time></div>`}<h2><a href="${url}">${esc(p.title)}</a></h2>${p.excerpt?`<p class="card-excerpt">${esc(p.excerpt)}</p>`:''}${featured?`<div class="card-bottom"><span class="fine-print">${dateLabel(p.date)} · ${p.readingMinutes||1}${t('minutes')}</span><a class="text-link" href="${url}" aria-label="${esc(p.title)} — ${t('read')}">${t('read')} ${icon('arrow')}</a></div>`:''}</div>`;
+  const body=`<div class="${featured?'featured-content':'card-body'}">${featured?`<div class="featured-label"><span class="badge">${t('featured')}</span><span>${esc(p.category||t('post'))}</span></div>`:`<div class="card-meta"><span class="category-label">${esc(p.category||t('post'))}</span><time datetime="${postDateTime(p)}">${dateLabel(p.date,p.time)}</time></div>`}<h2><a href="${url}">${esc(p.title)}</a></h2>${p.excerpt?`<p class="card-excerpt">${esc(p.excerpt)}</p>`:''}${featured?`<div class="card-bottom"><span class="fine-print">${dateLabel(p.date,p.time)} · ${p.readingMinutes||1}${t('minutes')}</span><a class="text-link" href="${url}" aria-label="${esc(p.title)} — ${t('read')}">${t('read')} ${icon('arrow')}</a></div>`:''}</div>`;
   return `<article class="post-card ${featured?'featured-card':''} ${!cover?'no-cover':''}">${cover?`<a class="card-cover" href="${url}" tabindex="-1" aria-hidden="true"><img src="${esc(cover)}" alt="" loading="${featured?'eager':'lazy'}" decoding="async"></a>`:''}${body}${!featured?`<div class="card-bottom"><div class="tag-list">${tags}</div><a class="card-arrow" href="${url}" aria-label="${esc(p.title)} — ${t('read')}">${icon('external')}</a></div>`:''}</article>`;
 }
 function buildUI() {
@@ -42,7 +42,7 @@ function render() {
   document.querySelectorAll('button[data-view]').forEach(btn=>btn.setAttribute('aria-pressed',state.view===btn.dataset.view));
   const feed=document.getElementById('feed'),more=document.getElementById('load-more');more.innerHTML='';
   if(!result.length){feed.innerHTML=emptyState(isFiltered);document.getElementById('reset-empty')?.addEventListener('click',reset);return;}
-  const featured=page==='home'&&!isFiltered&&state.sort==='newest'&&state.view==='grid'?result.find(p=>p.featured):null;
+  const featured=page==='home'&&!isFiltered&&state.sort==='newest'&&state.view==='grid'&&result[0]?.featured?result[0]:null;
   const remaining=featured?result.filter(p=>p.slug!==featured.slug):result;
   feed.innerHTML=`${featured?card(featured,true):''}<div class="posts-grid" data-view="${state.view}">${remaining.slice(0,visible).map(p=>card(p)).join('')}</div>`;
   if(remaining.length>visible) {

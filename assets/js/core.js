@@ -69,6 +69,16 @@ export function validDate(date) {
   const parsed = new Date(`${date}T12:00:00Z`);
   return !Number.isNaN(+parsed) && parsed.toISOString().slice(0, 10) === date;
 }
+export const validTime = time => typeof time === 'string' && /^(?:[01]\d|2[0-3]):[0-5]\d$/.test(time);
+export function sortPostsByPublished(posts, newest = false) {
+  // 시각이 없는 기존 글은 자정으로 간주하고, 시각까지 같으면 JSON에 적힌 순서를 사용합니다.
+  return posts.map((post, index) => ({post, index})).sort((a, b) => {
+    const order = a.post.date.localeCompare(b.post.date)
+      || (a.post.time || '00:00').localeCompare(b.post.time || '00:00')
+      || a.index - b.index;
+    return newest ? -order : order;
+  }).map(({post}) => post);
+}
 export function validateIndex(data) {
   if (data?.version !== 1 || !Array.isArray(data.posts)) throw new Error('data/posts.json은 {"version": 1, "posts": [...]} 형식이어야 합니다.');
   const seen = new Set();
@@ -79,6 +89,7 @@ export function validateIndex(data) {
     if (seen.has(p.slug)) fail(`slug가 중복되었습니다: ${p.slug}`);
     if (typeof p.title !== 'string' || !p.title.trim()) fail('title에 제목을 입력하세요.');
     if (!validDate(p.date)) fail('date를 실제 날짜 YYYY-MM-DD로 입력하세요.');
+    if (p.time !== undefined && !validTime(p.time)) fail('time은 한국 시간 기준 HH:mm(24시간제)으로 입력하세요.');
     if (typeof p.category !== 'string') fail('category는 문자열이어야 합니다.');
     if (!Array.isArray(p.tags) || p.tags.some(tag=>typeof tag !== 'string')) fail('tags는 문자열 배열이어야 합니다. 예: ["Python", "보안"]');
     for (const field of ['excerpt','searchText','cover','updated','language']) {
@@ -99,7 +110,8 @@ export async function loadPosts() {
 }
 export const postURL = p => rootURL(`posts/${p.slug}/`);
 export const coverURL = p => p.cover ? safeURL(p.cover, new URL(`posts/${p.slug}/`, ROOT), false) : '';
-export const dateLabel = date => validDate(date) ? new Intl.DateTimeFormat(lang === 'ko' ? 'ko-KR' : 'en-US', {year:'numeric',month:'short',day:'numeric'}).format(new Date(`${date}T12:00:00`)) : '';
+export const dateLabel = (date, time = '') => validDate(date) ? new Intl.DateTimeFormat(lang === 'ko' ? 'ko-KR' : 'en-US', {year:'numeric',month:'short',day:'numeric'}).format(new Date(`${date}T12:00:00`)) + (validTime(time) ? ` ${time}` : '') : '';
+export const postDateTime = post => post.time ? `${post.date}T${post.time}:00+09:00` : post.date;
 export const readingTime = text => Math.max(1, Math.ceil(String(text).replace(/\s/g,'').length / 850));
 export function notify(message) {
   let el = document.getElementById('toast');

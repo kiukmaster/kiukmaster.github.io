@@ -1,5 +1,5 @@
 /** 정적 HTML 본문을 읽는 기능만 담당합니다. 파일 생성·수정·업로드는 하지 않습니다. */
-import {t,esc,icon,renderShell,loadPosts,postURL,rootURL,enhanceProse,copyText,notify,lang,readingTime} from './core.js';
+import {t,esc,icon,renderShell,loadPosts,postURL,rootURL,enhanceProse,copyText,notify,lang,readingTime,sortPostsByPublished} from './core.js';
 const slug=document.body.dataset.slug;
 let posts=[];
 try { posts=await loadPosts(); }
@@ -8,7 +8,7 @@ renderShell('writing',posts);
 const contentLanguage=document.body.dataset.contentLanguage||'ko';
 document.querySelectorAll('[data-i18n]').forEach(el=>{el.textContent=t(el.dataset.i18n);el.lang=lang;});
 const back=document.getElementById('article-back');
-if (back) { back.innerHTML=icon('arrow')+t('back');back.href=rootURL('writing.html'); }
+if (back) { back.innerHTML=icon('arrow')+t('back');back.href=rootURL('index.html'); }
 const prose=document.getElementById('article-body');
 if (prose) {
   prose.lang=contentLanguage;
@@ -62,7 +62,7 @@ if (prose) {
   }
 }
 document.getElementById('share-link')?.addEventListener('click',async()=>notify(t(await copyText(location.href.split('#')[0])?'copied':'copyFail')));
-const sorted=[...posts].sort((a,b)=>a.date.localeCompare(b.date)||a.slug.localeCompare(b.slug));
+const sorted=sortPostsByPublished(posts);
 const index=sorted.findIndex(post=>post.slug===slug),adjacent=document.getElementById('adjacent-posts');
 if(index>=0 && adjacent){
   const prev=sorted[index-1],next=sorted[index+1];
