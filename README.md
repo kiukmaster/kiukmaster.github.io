@@ -165,7 +165,7 @@ PowerShell에서 저장소 루트 기준으로 실행합니다.
 | `content/posts/` | 글과 글별 이미지 |
 | `content/_index.md` | 이전 소개 주소를 홈으로 연결 |
 | `hugo.toml` | 사이트 이름·프로필·연락처 |
-| `static/assets/images/profile.jpg` | 원본 프로필 사진. 표시용 작은 사본은 자동 생성 |
+| `static/assets/images/bluescreen.png` | 프로필 이미지. 표시용 작은 사본은 자동 생성 |
 | `layouts/` | 공통 HTML·목록·글 템플릿 |
 | `assets/css/style.css` | 화면 스타일 |
 | `assets/js/` | 검색·보기·테마·읽기 보조 |
