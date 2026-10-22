@@ -1,0 +1,7 @@
+{{- $rows := slice -}}
+{{- range . -}}
+  {{- $rows = $rows | append (dict "key" (printf "%020d:%s" (sub 999999999999999 .Date.UnixMilli) .RelPermalink) "page" .) -}}
+{{- end -}}
+{{- $pages := slice -}}
+{{- range sort $rows "key" "asc" -}}{{- $pages = $pages | append .page -}}{{- end -}}
+{{- return $pages -}}

@@ -1,0 +1,12 @@
+{{- $image := .Page.Resources.GetMatch .Destination -}}
+{{- if $image -}}
+  {{- if in (slice "image/jpeg" "image/png" "image/webp") $image.MediaType.Type -}}
+    {{- $display := $image.Fit "1440x1440 webp q82" -}}
+    {{- $small := $display -}}{{- if gt $display.Width 720 -}}{{- $small = $display.Resize "720x webp q82" -}}{{- end -}}
+    <img src="{{ $display.RelPermalink }}" {{ if ne $small.RelPermalink $display.RelPermalink }}srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ $display.RelPermalink }} {{ $display.Width }}w" sizes="(max-width: 640px) calc(100vw - 36px), 800px"{{ end }} width="{{ $display.Width }}" height="{{ $display.Height }}" alt="{{ .PlainText }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+  {{- else -}}<img src="{{ $image.RelPermalink }}" alt="{{ .PlainText }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" decoding="async">{{- end -}}
+{{- else -}}
+  {{- $url := urls.Parse .Destination -}}
+  {{- if or (eq $url.Scheme "https") (hasPrefix .Destination "/") -}}<img src="{{ .Destination }}" alt="{{ .PlainText }}" {{ with .Title }}title="{{ . }}"{{ end }} loading="lazy" decoding="async">
+  {{- else -}}{{- errorf "%s: 이미지 파일을 찾을 수 없습니다: %s" .Position .Destination -}}{{- end -}}
+{{- end -}}

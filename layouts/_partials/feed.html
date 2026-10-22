@@ -1,0 +1,18 @@
+{{ $pages := partial "posts.html" .pages }}
+{{ $page := .page }}
+{{ $pagination := $page.Paginate $pages }}
+<div class="page-heading"><h1 {{ if .titleKey }}data-i18n="{{ .titleKey }}"{{ end }}>{{ .title }}</h1><span id="results-count" class="results-count" role="status" aria-live="polite">{{ len $pages }} <span data-i18n="entries">{{ partial "t.html" "entries" }}</span></span></div>
+<section id="post-feed" data-index="/index.json" data-list-root="{{ $page.RelPermalink }}" data-category="{{ .category | default "" }}" data-tag="{{ .tag | default "" }}" data-page-number="{{ $pagination.PageNumber }}" data-page-size="{{ site.Params.pagesize }}" data-total="{{ len $pages }}">
+  <form class="toolbar" id="search-form" role="search" data-js hidden>
+    <div class="search-field"><label class="sr-only" for="search" data-i18n="search">{{ partial "t.html" "search" }}</label><input id="search" type="search" name="q" placeholder="{{ partial "t.html" "searchPlaceholder" }}" data-i18n-placeholder="searchPlaceholder" autocomplete="off"></div>
+    <div class="toolbar-controls">
+      <div class="segmented view-switch" role="group" aria-label="보기" data-i18n-aria="view"><button type="button" data-view="grid" aria-pressed="true" data-i18n="grid">{{ partial "t.html" "grid" }}</button><button type="button" data-view="list" aria-pressed="false" data-i18n="list">{{ partial "t.html" "list" }}</button></div>
+      <label class="sr-only" for="sort" data-i18n="sort">{{ partial "t.html" "sort" }}</label><select id="sort">{{ range slice "newest" "oldest" "title" }}{{ $key := . }}{{ if eq . "title" }}{{ $key = "titleSort" }}{{ end }}<option value="{{ . }}" data-i18n="{{ $key }}">{{ partial "t.html" $key }}</option>{{ end }}</select>
+    </div>
+  </form>
+  <div class="filter-row"><button type="button" class="reset-filter" id="reset" hidden data-i18n="reset">{{ partial "t.html" "reset" }}</button></div>
+  <div id="feed-error" class="feed-error" role="alert" hidden><span data-i18n="loadError">{{ partial "t.html" "loadError" }}</span> <button type="button" id="retry" data-i18n="retry">{{ partial "t.html" "retry" }}</button></div>
+  <div class="posts-grid" id="post-list" data-view="grid">{{ range $pagination.Pages }}{{ partial "card.html" . }}{{ else }}<p data-i18n="noPosts">{{ partial "t.html" "noPosts" }}</p>{{ end }}</div>
+  <nav class="pagination" id="pagination" aria-label="페이지">{{ if $pagination.HasPrev }}<a class="button secondary" href="{{ $pagination.Prev.URL }}" data-i18n="prevPage">{{ partial "t.html" "prevPage" }}</a>{{ end }}{{ if $pagination.HasNext }}<a class="button secondary" href="{{ $pagination.Next.URL }}" data-i18n="nextPage">{{ partial "t.html" "nextPage" }}</a>{{ end }}</nav>
+  <div class="load-more-wrap"><button class="button secondary" type="button" id="more" hidden data-i18n="more">{{ partial "t.html" "more" }}</button></div>
+</section>

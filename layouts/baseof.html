@@ -1,0 +1,16 @@
+{{- $valid := partialCached "validate.html" site -}}
+<!DOCTYPE html>
+<html lang="ko" data-theme="{{ site.Params.defaulttheme }}" data-storage-root="/">
+<head>{{ partial "head.html" . }}</head>
+<body>
+  <a class="skip-link" href="#page-content" data-i18n="skip">{{ partial "t.html" "skip" }}</a>
+  {{ partial "header.html" . }}
+  {{ if and .IsPage (eq .Section "posts") }}<div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>{{ end }}
+  <div class="layout {{ if and .IsPage (eq .Section "posts") }}article-layout{{ end }}">
+    {{ partial "sidebar.html" . }}
+    <main id="page-content" class="page-content {{ if .IsPage }}article-main{{ end }}" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  </div>
+  <footer class="site-footer">© {{ site.Params.author.name }}</footer>
+  <div class="toast" id="notice" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

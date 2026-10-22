@@ -1,10 +1,10 @@
-/* 스타일 로딩 전에 저장된 테마를 적용합니다. 외부 요청은 하지 않습니다. */
 (() => {
-  const root = new URL('../../', document.currentScript.src).pathname;
+  const root = document.documentElement;
+  const prefix = `blog:${root.dataset.storageRoot || '/'}:`;
   try {
-    const theme = localStorage.getItem(`blog:${root}:theme`);
-    if (['light', 'gray', 'dark'].includes(theme)) document.documentElement.dataset.theme = theme;
-    const lang = localStorage.getItem(`blog:${root}:lang`);
-    if (['ko', 'en'].includes(lang)) document.documentElement.lang = lang;
-  } catch { /* 저장소가 차단되어도 기본 테마로 표시합니다. */ }
+    const theme = localStorage.getItem(prefix + 'theme');
+    const language = localStorage.getItem(prefix + 'lang');
+    if (['light', 'gray', 'dark'].includes(theme)) root.dataset.theme = theme;
+    if (['ko', 'en'].includes(language)) root.lang = language;
+  } catch { /* 저장소가 차단돼도 기본 화면을 표시합니다. */ }
 })();

@@ -1,0 +1,69 @@
+baseURL = 'https://kiukmaster.github.io/'
+title = 'KIUK'
+defaultContentLanguage = 'ko'
+locale = 'ko-KR'
+timeZone = 'Asia/Seoul'
+hasCJKLanguage = true
+disableKinds = ['rss']
+disableHugoGeneratorInject = true
+enableGitInfo = false
+
+[[module.mounts]]
+source = 'assets'
+target = 'assets'
+[[module.mounts]]
+source = 'static/assets/images'
+target = 'assets/images'
+
+[pagination]
+pagerSize = 8
+
+[outputs]
+home = ['HTML', 'JSON']
+
+[taxonomies]
+category = 'categories'
+tag = 'tags'
+
+[frontmatter]
+date = ['date']
+publishDate = ['date']
+lastmod = ['lastmod', 'date']
+
+[markup.goldmark.renderer]
+unsafe = true # 저자가 작성한 표현용 HTML. HTML 소독 기능이 아닙니다.
+
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+
+[markup.highlight]
+noClasses = true
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+
+[security]
+enableInlineShortcodes = false
+allowContent = ['! ^text/html$', '! ^text/org$']
+[security.exec]
+allow = ['none']
+[security.http]
+urls = ['none']
+methods = ['none']
+
+[params]
+defaultTheme = 'gray'
+pageSize = 8
+[params.author]
+name = '유서준'
+nameEn = 'Ryu-SeoJun'
+role = '사이버보안전공 1학년'
+roleEn = 'Freshman in CyberSecurity'
+bio = '사이버 보안을 전공하는 학생입니다.'
+bioEn = 'I am a student majoring in cybersecurity.'
+avatar = '/assets/images/profile.jpg'
+github = 'https://github.com/kiukmaster'
+linkedin = 'https://www.linkedin.com/in/seojun-ryu-8b5177433/'
+email = 'kiuk5282@naver.com'

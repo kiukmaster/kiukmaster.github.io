@@ -1,0 +1,27 @@
+{{- $urls := slice -}}
+{{- range where .RegularPages "Section" "posts" -}}
+  {{- $path := path.Join "content" .File.Path -}}
+  {{- $source := os.ReadFile $path -}}
+  {{- $headers := findRE `(?s)\A---\r?\n.*?\r?\n---(?:\r?\n|$)` $source 1 -}}
+  {{- if not $headers -}}
+    {{- errorf "%s: YAML front matter가 필요합니다." $path -}}
+  {{- else -}}
+    {{- $yaml := replaceRE `(?s)\A---\r?\n(.*?)\r?\n---(?:\r?\n|$)` "$1" (index $headers 0) -}}
+    {{- $meta := transform.Unmarshal (dict "format" "yaml") $yaml -}}
+    {{- if not $meta.title -}}{{- errorf "%s: title을 입력하세요." $path -}}{{- end -}}
+    {{- $date := $meta.date -}}
+    {{- if ne (printf "%T" $date) "string" -}}
+      {{- errorf "%s: date를 따옴표로 감싼 날짜·시각·시간대로 입력하세요." $path -}}
+    {{- else if not (findRE `^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(Z|[+-]\d{2}:\d{2})$` $date) -}}
+      {{- errorf "%s: date 예시: \"2026-10-01T17:09:00+09:00\". 날짜만 입력할 수 없습니다." $path -}}
+    {{- else -}}
+      {{- $parsed := time.AsTime $date -}}
+      {{- if ne $parsed.Unix .Date.Unix -}}{{- errorf "%s: 게시 시각이 일치하지 않습니다." $path -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not (hasPrefix .RelPermalink "/posts/") -}}{{- errorf "%s: 글 URL은 /posts/ 아래에 있어야 합니다." $path -}}{{- end -}}
+  {{- if eq .RelPermalink "/posts/" -}}{{- errorf "%s: /posts/는 글 목록 경로입니다." $path -}}{{- end -}}
+  {{- if in $urls .RelPermalink -}}{{- errorf "%s: 중복 URL %s" $path .RelPermalink -}}{{- end -}}
+  {{- $urls = $urls | append .RelPermalink -}}
+{{- end -}}
+{{- return true -}}

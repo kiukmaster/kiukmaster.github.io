@@ -1,0 +1,21 @@
+{{ define "main" }}
+<a class="back-link" href="/" data-i18n="back">{{ partial "t.html" "back" }}</a>
+<article>
+  <header class="article-header">
+    <div class="card-meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ (time.In "Asia/Seoul" .Date).Format "2006.01.02 15:04" }}</time><span>{{ .ReadingTime }} <span data-i18n="minutes">{{ partial "t.html" "minutes" }}</span></span></div>
+    <h1 lang="ko">{{ .Title }}</h1>
+    {{ with .Description }}<p class="article-description" lang="ko">{{ . }}</p>{{ end }}
+    <div class="tag-list">{{ range .GetTerms "categories" }}<a class="tag" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ range .GetTerms "tags" }}<a class="tag" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</div>
+  </header>
+  {{ if .Fragments.Headings }}<details class="mobile-toc"><summary data-i18n="toc">{{ partial "t.html" "toc" }}</summary><div class="toc-list">{{ replace .TableOfContents "id=\"TableOfContents\"" "id=\"MobileTableOfContents\"" | safeHTML }}</div></details>{{ end }}
+  <div class="prose" id="article-body" lang="ko">{{ .Content }}</div>
+</article>
+<div class="article-actions"><a class="button ghost" href="#page-content" data-i18n="top">{{ partial "t.html" "top" }}</a><button type="button" class="button secondary" id="copy-link" data-js hidden data-i18n="copyLink">{{ partial "t.html" "copyLink" }}</button></div>
+{{ $current := . }}{{ $posts := partial "posts.html" (where site.RegularPages "Section" "posts") }}
+<nav class="article-adjacent" aria-label="다른 글">
+{{ range $i, $post := $posts }}{{ if eq $post.RelPermalink $current.RelPermalink }}
+  {{ if gt $i 0 }}{{ with index $posts (sub $i 1) }}<a href="{{ .RelPermalink }}"><span data-i18n="newerPost">{{ partial "t.html" "newerPost" }}</span>{{ .Title }}</a>{{ end }}{{ end }}
+  {{ if lt (add $i 1) (len $posts) }}{{ with index $posts (add $i 1) }}<a class="next-entry" href="{{ .RelPermalink }}"><span data-i18n="olderPost">{{ partial "t.html" "olderPost" }}</span>{{ .Title }}</a>{{ end }}{{ end }}
+{{ end }}{{ end }}
+</nav>
+{{ end }}

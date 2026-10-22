@@ -1,0 +1,1 @@
+{{ define "main" }}{{ $category := "" }}{{ $tag := "" }}{{ if eq .Data.Singular "category" }}{{ $category = .Title }}{{ else }}{{ $tag = .Title }}{{ end }}{{ partial "feed.html" (dict "page" . "pages" .RegularPages "title" .Title "category" $category "tag" $tag) }}{{ end }}

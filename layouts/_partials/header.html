@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/">{{ site.Title }}</a>
+    <nav class="main-nav" aria-label="메뉴" data-i18n-aria="menu">
+      <a href="/" {{ if .IsHome }}aria-current="page"{{ end }} data-i18n="home">{{ partial "t.html" "home" }}</a>
+    </nav>
+    <div class="header-controls" data-js hidden>
+      <label class="sr-only" for="theme" data-i18n="theme">{{ partial "t.html" "theme" }}</label>
+      <select id="theme">{{ range slice "light" "gray" "dark" }}<option value="{{ . }}" {{ if eq . site.Params.defaulttheme }}selected{{ end }} data-i18n="{{ . }}">{{ partial "t.html" . }}</option>{{ end }}</select>
+      <div class="segmented language-switch" role="group" aria-label="메뉴 언어" data-i18n-aria="language">
+        <button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,110 @@
+name: Build and deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: pages-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    env:
+      HUGO_VERSION: '0.168.0'
+      HUGO_SHA256: fada83ad56bb27ed4cb7dd81590303bdac16140f944ac4e66fc248117e2d5594
+    steps:
+      - name: Verify the runner's embedded Node runtime
+        run: &verify_runner_node |
+          set -euo pipefail
+          fail() { printf '::error::%s\n' "$1"; exit 1; }
+          [[ "${RUNNER_OS:-}" == Linux && "${RUNNER_ARCH:-}" == X64 && "${RUNNER_ENVIRONMENT:-}" == github-hosted ]] || fail 'This guard requires a Linux x64 GitHub-hosted runner without a job container.'
+
+          ancestor_pid="$PPID"
+          worker_exe=''
+          for ((depth = 0; depth < 32; depth++)); do
+            [[ "$ancestor_pid" =~ ^[1-9][0-9]*$ ]] || fail 'Cannot identify a Runner.Worker ancestor.'
+            ancestor_exe="$(readlink -e "/proc/$ancestor_pid/exe")" || fail 'Cannot read an ancestor executable path.'
+            if [[ "${ancestor_exe##*/}" == Runner.Worker ]]; then
+              [[ "${ancestor_exe%/*}" == */bin ]] || fail 'Runner.Worker is outside the expected bin directory.'
+              worker_exe="$ancestor_exe"
+              break
+            fi
+            ancestor_pid="$(awk '$1 == "PPid:" { print $2 }' "/proc/$ancestor_pid/status")" || fail 'Cannot read an ancestor parent process ID.'
+          done
+          [[ -n "$worker_exe" ]] || fail 'Runner.Worker was not found within 32 ancestors.'
+
+          runner_root="${worker_exe%/bin/Runner.Worker}"
+          runner_node="$runner_root/externals/node24/bin/node"
+          [[ -f "$runner_node" && -x "$runner_node" ]] || fail 'The identified runner has no executable embedded Node 24.'
+          node_version="$(env -u NODE_OPTIONS -u NODE_PATH "$runner_node" --version)" || fail 'Cannot read the embedded Node version.'
+          [[ "$node_version" =~ ^v24\.([0-9]+)\.([0-9]+)$ ]] || fail 'The embedded runtime is not a recognized stable Node 24 release.'
+          minor="${BASH_REMATCH[1]}"
+          patch="${BASH_REMATCH[2]}"
+          ((10#$minor > 22 || (10#$minor == 22 && 10#$patch >= 1))) || fail 'Embedded Node 24.22.1 or newer is required. Wait for a patched GitHub runner.'
+          printf 'Verified %s: %s\n' "$runner_node" "$node_version"
+
+      - name: Check out the repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Download and verify Hugo
+        run: |
+          set -euo pipefail
+          hugo_dir="$RUNNER_TEMP/hugo-$HUGO_VERSION"
+          hugo_archive="$RUNNER_TEMP/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl --fail --silent --show-error --location --proto '=https' --proto-redir '=https' --retry 3 \
+            --output "$hugo_archive" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
+          printf '%s  %s\n' "$HUGO_SHA256" "$hugo_archive" | sha256sum --check --strict
+          mkdir -p "$hugo_dir"
+          tar --extract --gzip --file "$hugo_archive" --directory "$hugo_dir" --no-same-owner hugo
+          chmod 0755 "$hugo_dir/hugo"
+
+      - name: Build the static site
+        run: |
+          "$RUNNER_TEMP/hugo-$HUGO_VERSION/hugo" build \
+            --minify --printPathWarnings --panicOnWarning \
+            --environment production --destination public
+
+      - name: Upload the Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: public
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Verify the runner's embedded Node runtime
+        run: *verify_runner_node
+
+      - name: Read the existing Pages configuration
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        with:
+          enablement: false
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

@@ -1,0 +1,5 @@
+{{ define "main" }}
+{{ $key := .Data.Plural }}
+<div class="page-heading"><h1 data-i18n="{{ $key }}">{{ partial "t.html" $key }}</h1></div>
+<ul class="taxonomy-list">{{ range .Data.Terms.Alphabetical }}<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="count">{{ .Count }}</span></a></li>{{ end }}</ul>
+{{ end }}

@@ -6,3 +6,11 @@ _private/
 # 이전 버전의 로컬 백업이 실수로 포함되지 않게 유지합니다.
 *-draft.json
 publish-*.zip
+
+# Hugo 생성물과 로컬 실행 도구
+public/
+resources/_gen/
+.hugo_cache/
+.hugo_build.lock
+.tools/
+.codex-work/

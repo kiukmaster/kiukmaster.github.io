@@ -1,0 +1,1 @@
+{{ define "main" }}{{ partial "feed.html" (dict "page" . "pages" (where site.RegularPages "Section" "posts") "title" (partial "t.html" "posts") "titleKey" "posts") }}{{ end }}

@@ -1,0 +1,20 @@
+{{ $author := site.Params.author }}
+{{ $avatar := resources.Get (strings.TrimPrefix "/assets/" $author.avatar) }}
+{{ $avatarSmall := $avatar.Fill "124x124 webp q85" }}
+<aside class="site-sidebar" id="site-sidebar">
+  <div class="sidebar-sticky">
+    <section class="profile-card panel">
+      <div class="profile-heading"><img class="avatar" src="{{ $avatarSmall.RelPermalink }}" alt="{{ $author.name }}" width="62" height="62" decoding="async"><h2 class="profile-name" data-ko="{{ $author.name }}" data-en="{{ $author.nameen }}">{{ $author.name }}</h2></div>
+      <p class="profile-role" data-ko="{{ $author.role }}" data-en="{{ $author.roleen }}">{{ $author.role }}</p>
+      <p class="profile-bio" data-ko="{{ $author.bio }}" data-en="{{ $author.bioen }}">{{ $author.bio }}</p>
+      {{ partial "contact.html" . }}
+    </section>
+    <nav class="category-nav panel" aria-label="분류" data-i18n-aria="categories">
+      <a class="category-link" href="/"><span data-i18n="all">{{ partial "t.html" "all" }}</span><span class="count">{{ len (where site.RegularPages "Section" "posts") }}</span></a>
+      {{ range site.Taxonomies.categories.Alphabetical }}<a class="category-link" href="{{ .Page.RelPermalink }}"><span>{{ .Page.Title }}</span><span class="count">{{ .Count }}</span></a>{{ end }}
+    </nav>
+    {{ if and .IsPage (eq .Section "posts") }}{{ if .Fragments.Headings }}
+    <section class="toc-panel panel"><h2 data-i18n="toc">{{ partial "t.html" "toc" }}</h2><div class="toc-list">{{ .TableOfContents }}</div></section>
+    {{ end }}{{ end }}
+  </div>
+</aside>

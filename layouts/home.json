@@ -1,0 +1,8 @@
+{{- $valid := partialCached "validate.html" site -}}
+{{- $posts := slice -}}
+{{- range partial "posts.html" (where site.RegularPages "Section" "posts") -}}
+  {{- $categories := slice -}}{{- range .GetTerms "categories" -}}{{- $categories = $categories | append (dict "name" .Title "url" .RelPermalink) -}}{{- end -}}
+  {{- $tags := slice -}}{{- range .GetTerms "tags" -}}{{- $tags = $tags | append (dict "name" .Title "url" .RelPermalink) -}}{{- end -}}
+  {{- $posts = $posts | append (dict "url" .RelPermalink "title" .Title "excerpt" .Description "date" ((time.In "Asia/Seoul" .Date).Format "2006-01-02T15:04:05Z07:00") "timestamp" .Date.UnixMilli "categories" $categories "tags" $tags "searchText" (.Params.searchtext | default "")) -}}
+{{- end -}}
+{{- dict "version" 1 "posts" $posts | jsonify -}}
