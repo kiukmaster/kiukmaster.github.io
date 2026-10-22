@@ -13,4 +13,5 @@ resources/_gen/
 .hugo_cache/
 .hugo_build.lock
 .tools/
+.pages-tools/
 .codex-work/

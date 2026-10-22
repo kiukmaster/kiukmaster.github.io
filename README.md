@@ -211,14 +211,14 @@ git push origin main
 | 대상 | 적용 방식 |
 |---|---|
 | Hugo | 공식 버전과 SHA-256 고정. 버전을 올릴 때 checksum도 함께 갱신 |
-| Actions | 공식 Action을 전체 commit SHA로 고정 |
-| Actions 내부 Node | 각 job 첫 shell 단계에서 실제 runner의 Node 24.22.1 이상 확인. 확인 실패 시 중단 |
+| 배포 도구 | 공식 upload-artifact·deploy-pages 소스를 전체 commit SHA로 고정 |
+| 배포 도구의 Node | 공식 Node 24.22.1 컨테이너를 SHA-256 digest로 고정하고 실행 버전 확인. 불일치 시 중단 |
 | 권한 | 빌드는 저장소 읽기, 배포 job에만 Pages·OIDC 쓰기 |
 | 브라우저 | CSP로 사이트 스크립트만 실행. 외부 스크립트·iframe·object 제한 |
 | 의존성 | 프로젝트 npm 패키지·PHP 서버·Node 서버 없음 |
 
-`setup-node`로 PATH의 Node를 올려도 Actions 내부 Node는 바뀌지 않습니다. runner 검사는 현재 Linux 프로세스 구조에 의존하므로 GitHub가 구조를 바꾸면 안전하게 실패합니다. 버전 검사를 제거해서 배포하지 마세요.
+GitHub runner의 내장 Node가 보안 기준보다 낮아 첫 배포가 중단되었습니다. 현재는 저장소를 Git으로 가져오고, 배포 JavaScript를 패치된 공식 Node 컨테이너 안에서 실행합니다. runner 내부 파일은 변경하지 않습니다. 컨테이너 digest와 `.github/scripts/run-pages-action.cjs`의 버전 확인을 함께 유지하세요. Git checkout은 현재 공개 저장소를 기준으로 구성되어 있습니다.
 
-버전 고정은 자동 업데이트를 뜻하지 않습니다. Hugo와 Actions를 갱신할 때 공식 보안 공지, checksum, Action 내부 실행 버전·`pre` 단계를 함께 확인합니다. 적용 근거와 실제 미확인 사항은 `.codex-work/blog-rebuild/security.md`에 기록합니다.
+버전 고정은 자동 업데이트를 뜻하지 않습니다. Hugo·Node 이미지·공식 배포 도구를 갱신할 때 공식 보안 공지, checksum·digest, 입력값과 실행 파일 경로를 함께 확인합니다. 적용 근거와 확인 내역은 로컬 `.codex-work/blog-rebuild/security.md`에 기록합니다.
 
 [Hugo 보안 정책](https://gohugo.io/configuration/security/) · [Node.js 2026-10-21 보안 수정](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases) · [GitHub Pages workflow](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)

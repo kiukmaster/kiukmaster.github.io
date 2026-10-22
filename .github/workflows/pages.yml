@@ -26,40 +26,14 @@ jobs:
       HUGO_VERSION: '0.168.0'
       HUGO_SHA256: fada83ad56bb27ed4cb7dd81590303bdac16140f944ac4e66fc248117e2d5594
     steps:
-      - name: Verify the runner's embedded Node runtime
-        run: &verify_runner_node |
+      - name: Check out the exact public repository commit
+        run: &checkout_public_commit |
           set -euo pipefail
-          fail() { printf '::error::%s\n' "$1"; exit 1; }
-          [[ "${RUNNER_OS:-}" == Linux && "${RUNNER_ARCH:-}" == X64 && "${RUNNER_ENVIRONMENT:-}" == github-hosted ]] || fail 'This guard requires a Linux x64 GitHub-hosted runner without a job container.'
-
-          ancestor_pid="$PPID"
-          worker_exe=''
-          for ((depth = 0; depth < 32; depth++)); do
-            [[ "$ancestor_pid" =~ ^[1-9][0-9]*$ ]] || fail 'Cannot identify a Runner.Worker ancestor.'
-            ancestor_exe="$(readlink -e "/proc/$ancestor_pid/exe")" || fail 'Cannot read an ancestor executable path.'
-            if [[ "${ancestor_exe##*/}" == Runner.Worker ]]; then
-              [[ "${ancestor_exe%/*}" == */bin ]] || fail 'Runner.Worker is outside the expected bin directory.'
-              worker_exe="$ancestor_exe"
-              break
-            fi
-            ancestor_pid="$(awk '$1 == "PPid:" { print $2 }' "/proc/$ancestor_pid/status")" || fail 'Cannot read an ancestor parent process ID.'
-          done
-          [[ -n "$worker_exe" ]] || fail 'Runner.Worker was not found within 32 ancestors.'
-
-          runner_root="${worker_exe%/bin/Runner.Worker}"
-          runner_node="$runner_root/externals/node24/bin/node"
-          [[ -f "$runner_node" && -x "$runner_node" ]] || fail 'The identified runner has no executable embedded Node 24.'
-          node_version="$(env -u NODE_OPTIONS -u NODE_PATH "$runner_node" --version)" || fail 'Cannot read the embedded Node version.'
-          [[ "$node_version" =~ ^v24\.([0-9]+)\.([0-9]+)$ ]] || fail 'The embedded runtime is not a recognized stable Node 24 release.'
-          minor="${BASH_REMATCH[1]}"
-          patch="${BASH_REMATCH[2]}"
-          ((10#$minor > 22 || (10#$minor == 22 && 10#$patch >= 1))) || fail 'Embedded Node 24.22.1 or newer is required. Wait for a patched GitHub runner.'
-          printf 'Verified %s: %s\n' "$runner_node" "$node_version"
-
-      - name: Check out the repository
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
+          git init --quiet
+          git remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git"
+          git fetch --quiet --no-tags --depth=1 origin "$GITHUB_SHA"
+          git checkout --quiet --detach FETCH_HEAD
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
 
       - name: Download and verify Hugo
         run: |
@@ -80,11 +54,44 @@ jobs:
             --minify --printPathWarnings --panicOnWarning \
             --environment production --destination public
 
-      - name: Upload the Pages artifact
+      - name: Fetch the pinned artifact upload tool
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        env:
+          PAGES_ACTION: upload-artifact
+          PAGES_ACTION_SHA: bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        run: &fetch_pages_action |
+          set -euo pipefail
+          action_dir="$GITHUB_WORKSPACE/.pages-tools/action"
+          mkdir -p "$action_dir"
+          git -C "$action_dir" init --quiet
+          git -C "$action_dir" remote add origin "https://github.com/actions/$PAGES_ACTION.git"
+          git -C "$action_dir" fetch --quiet --no-tags --depth=1 origin "$PAGES_ACTION_SHA"
+          git -C "$action_dir" checkout --quiet --detach FETCH_HEAD
+          test "$(git -C "$action_dir" rev-parse HEAD)" = "$PAGES_ACTION_SHA"
+
+      - name: Package the Pages artifact
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          tar --create --file "$GITHUB_WORKSPACE/.pages-tools/artifact.tar" \
+            --directory public --dereference --hard-dereference \
+            --exclude=.git --exclude=.github .
+
+      - name: Upload with patched Node 24.22.1
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: docker://node:24.22.1-bookworm-slim@sha256:2dd9a4f758e173b65fee15388f7706af6fb01ef50cf7a2c0538711d67a6981ae
+        env:
+          PAGES_ACTION_ENTRYPOINT: /github/workspace/.pages-tools/action/dist/upload/index.js
+          INPUT_NAME: github-pages
+          INPUT_PATH: /github/workspace/.pages-tools/artifact.tar
+          INPUT_IF-NO-FILES-FOUND: error
+          INPUT_RETENTION-DAYS: '1'
+          INPUT_COMPRESSION-LEVEL: '0'
+          INPUT_OVERWRITE: 'false'
+          INPUT_INCLUDE-HIDDEN-FILES: 'true'
+          INPUT_ARCHIVE: 'true'
         with:
-          path: public
+          entrypoint: /usr/local/bin/node
+          args: /github/workspace/.github/scripts/run-pages-action.cjs
 
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
@@ -97,14 +104,26 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Verify the runner's embedded Node runtime
-        run: *verify_runner_node
+      - name: Check out the exact public repository commit
+        run: *checkout_public_commit
 
-      - name: Read the existing Pages configuration
-        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
-        with:
-          enablement: false
+      - name: Fetch the pinned Pages deployment tool
+        env:
+          PAGES_ACTION: deploy-pages
+          PAGES_ACTION_SHA: 368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+        run: *fetch_pages_action
 
-      - name: Deploy GitHub Pages
+      - name: Deploy with patched Node 24.22.1
         id: deployment
-        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+        uses: docker://node:24.22.1-bookworm-slim@sha256:2dd9a4f758e173b65fee15388f7706af6fb01ef50cf7a2c0538711d67a6981ae
+        env:
+          PAGES_ACTION_ENTRYPOINT: /github/workspace/.pages-tools/action/dist/index.js
+          INPUT_TOKEN: ${{ github.token }}
+          INPUT_TIMEOUT: '600000'
+          INPUT_ERROR_COUNT: '10'
+          INPUT_REPORTING_INTERVAL: '5000'
+          INPUT_ARTIFACT_NAME: github-pages
+          INPUT_PREVIEW: 'false'
+        with:
+          entrypoint: /usr/local/bin/node
+          args: /github/workspace/.github/scripts/run-pages-action.cjs
