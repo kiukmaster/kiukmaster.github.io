@@ -4,7 +4,7 @@ date: "2026-10-26T22:17:17+09:00"
 description: "D4D 국방 해커톤에 참가한 이야기 입니다."
 categories: ["공모전 / 자격증"]
 tags: []
-draft: true
+draft: false
 ---
 
 <img src="D4D참가서.png" alt="참가인증서 자리입니다" loading=lazy width=400 />

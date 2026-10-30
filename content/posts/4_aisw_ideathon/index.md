@@ -4,7 +4,7 @@ date: "2026-10-26T20:46:28+09:00"
 description: "대구대학교 AI부트캠프사업단에서 진행하는 AI 창의 아이디어 부트캠프에 참가하여 \"R&D MetaScope\"를 제안하고,  수상 받았던 이야기 입니다."
 categories: ["공모전 / 자격증"]
 tags: []
-draft: true
+draft: false
 ---
 
 ## AI 창의 아이디어 부트캠프 우수상 수상! {#section-one}

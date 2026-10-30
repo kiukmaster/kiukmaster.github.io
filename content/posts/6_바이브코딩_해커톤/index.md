@@ -4,7 +4,7 @@ date: "2026-10-26T23:28:55+09:00"
 description: "대구대학교 SW중심대학 사업단에서 진행하는 모DU의 AI·SW 바이브코딩 해커톤에 참여하여 \n대상\n을 수상한 이야기 입니다!"
 categories: ["공모전 / 자격증"]
 tags: []
-draft: true
+draft: false
 ---
 
 ## AI · SW 바이브코딩 해커톤 대상

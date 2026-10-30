@@ -4,7 +4,7 @@ date: "2026-10-26T20:30:13+09:00"
 description: "대구 울산 경북지역 SW 중심대학 교육 Google Cloud AI Agent Challenge에 참여 했습니다."
 categories: ["공모전 / 자격증"]
 tags: []
-draft: true
+draft: false
 ---
 
 ## 대구 울산 경북지역 SW 중심대학 교육 Google Cloud AI Agent Challenge {#section-one}
