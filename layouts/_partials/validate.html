@@ -1,5 +1,8 @@
 {{- $urls := slice -}}
-{{- range where .RegularPages "Section" "posts" -}}
+{{- $pages := where .RegularPages "Section" "posts" -}}
+{{- with .GetPage "/contests" -}}{{- range .RegularPages -}}{{- $pages = $pages | append . -}}{{- end -}}{{- end -}}
+{{- range $pages -}}
+  {{- $sectionRoot := printf "/%s/" .Section -}}
   {{- $path := path.Join "content" .File.Path -}}
   {{- $source := os.ReadFile $path -}}
   {{- $headers := findRE `(?s)\A---\r?\n.*?\r?\n---(?:\r?\n|$)` $source 1 -}}
@@ -19,9 +22,11 @@
       {{- if ne $parsed.Unix .Date.Unix -}}{{- errorf "%s: 게시 시각이 일치하지 않습니다." $path -}}{{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- if not (hasPrefix .RelPermalink "/posts/") -}}{{- errorf "%s: 글 URL은 /posts/ 아래에 있어야 합니다." $path -}}{{- end -}}
-  {{- if eq .RelPermalink "/posts/" -}}{{- errorf "%s: /posts/는 글 목록 경로입니다." $path -}}{{- end -}}
-  {{- if in $urls .RelPermalink -}}{{- errorf "%s: 중복 URL %s" $path .RelPermalink -}}{{- end -}}
-  {{- $urls = $urls | append .RelPermalink -}}
+  {{- if eq .Section "posts" -}}
+    {{- if not (hasPrefix .RelPermalink $sectionRoot) -}}{{- errorf "%s: 글 URL은 %s 아래에 있어야 합니다." $path $sectionRoot -}}{{- end -}}
+    {{- if eq .RelPermalink $sectionRoot -}}{{- errorf "%s: %s는 글 목록 경로입니다." $path $sectionRoot -}}{{- end -}}
+    {{- if in $urls .RelPermalink -}}{{- errorf "%s: 중복 URL %s" $path .RelPermalink -}}{{- end -}}
+    {{- $urls = $urls | append .RelPermalink -}}
+  {{- end -}}
 {{- end -}}
 {{- return true -}}

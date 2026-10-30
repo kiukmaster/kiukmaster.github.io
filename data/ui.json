@@ -1,8 +1,9 @@
 {
   "skip": ["본문으로 건너뛰기", "Skip to content"],
   "home": ["홈", "Home"], "posts": ["글 목록", "Posts"], "menu": ["메뉴", "Menu"],
+  "contests": ["대회", "Contests"],
+  "noContests": ["등록된 대회가 없습니다.", "No published contests."], "pagination": ["페이지", "Pagination"],
   "all": ["전체 글", "All posts"], "categories": ["분류", "Categories"], "tags": ["태그", "Tags"],
-  "theme": ["테마", "Theme"], "light": ["밝음", "Light"], "gray": ["회색", "Gray"], "dark": ["어두움", "Dark"],
   "language": ["메뉴 언어", "Menu language"], "search": ["글 검색", "Search posts"],
   "searchPlaceholder": ["제목·요약·태그 검색", "Search titles, summaries, tags"],
   "sort": ["정렬", "Sort"], "newest": ["최신순", "Newest"], "oldest": ["오래된순", "Oldest"], "titleSort": ["제목순", "Title"],

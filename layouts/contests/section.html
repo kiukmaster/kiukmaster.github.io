@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{ $pages := partial "posts.html" .RegularPages }}
+{{ $pagination := .Paginate $pages 10 }}
+<div class="page-heading"><h1 data-i18n="contests">{{ partial "t.html" "contests" }}</h1><span class="results-count">{{ len $pages }} <span data-i18n="entries">{{ partial "t.html" "entries" }}</span></span></div>
+{{ if $pages }}
+<ul class="contest-list">
+  {{ range $pagination.Pages }}
+  {{ $summary := .Description }}
+  {{ if not $summary }}{{ $summary = .Plain }}{{ end }}
+  <li class="contest-row" lang="ko">
+    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ (time.In "Asia/Seoul" .Date).Format "2006.01.02" }}<span class="contest-time"> {{ (time.In "Asia/Seoul" .Date).Format "15:04" }}</span></time>
+    <span class="contest-text" title="{{ .Title }}{{ with $summary }} — {{ . }}{{ end }}"><span class="contest-title">{{ .Title }}</span>{{ with $summary }}<span class="contest-description">{{ . }}</span>{{ end }}</span>
+  </li>
+  {{ end }}
+</ul>
+{{ else }}<p class="contest-empty" data-i18n="noContests">{{ partial "t.html" "noContests" }}</p>{{ end }}
+{{ if gt $pagination.TotalPages 1 }}
+<nav class="pagination contest-pagination" aria-label="페이지" data-i18n-aria="pagination">
+  {{ if $pagination.HasPrev }}<a class="button secondary" href="{{ $pagination.Prev.URL }}" rel="prev" data-i18n="prevPage">{{ partial "t.html" "prevPage" }}</a>{{ end }}
+  {{ range $pagination.Pagers }}<a class="button secondary" href="{{ .URL }}" {{ if eq .PageNumber $pagination.PageNumber }}aria-current="page"{{ end }}>{{ .PageNumber }}</a>{{ end }}
+  {{ if $pagination.HasNext }}<a class="button secondary" href="{{ $pagination.Next.URL }}" rel="next" data-i18n="nextPage">{{ partial "t.html" "nextPage" }}</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

@@ -1,5 +1,4 @@
-:root,
-[data-theme="gray"] {
+:root {
   color-scheme: dark;
   --bg: #262629;
   --panel: #303033;
@@ -14,38 +13,6 @@
   --strong-border: #736b7d;
   --danger: #ffc3bc;
   --header-offset: 6rem;
-}
-
-[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #131316;
-  --panel: #1b1b1e;
-  --surface: #232326;
-  --high: #2c2c30;
-  --text: #e4e1e6;
-  --muted: #b5afbc;
-  --subtle: #a59cae;
-  --accent: #d3c1ff;
-  --accent-soft: #30283f;
-  --border: #333138;
-  --strong-border: #665d71;
-  --danger: #ffb4ab;
-}
-
-[data-theme="light"] {
-  color-scheme: light;
-  --bg: #f8f7fa;
-  --panel: #f0eef3;
-  --surface: #e9e6ed;
-  --high: #ded9e5;
-  --text: #29252f;
-  --muted: #605966;
-  --subtle: #716878;
-  --accent: #65508b;
-  --accent-soft: #e5dcf2;
-  --border: #ddd7e3;
-  --strong-border: #9b8cac;
-  --danger: #a53331;
 }
 
 * { box-sizing: border-box; }
@@ -210,6 +177,23 @@ input:focus, select:focus { border-color: var(--strong-border); }
 .pagination:empty { display: none; }
 .load-more-wrap { display: flex; justify-content: center; }
 .load-more-wrap .button { margin-top: 26px; }
+
+.contest-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--border); }
+.contest-list li { border-bottom: 1px solid var(--border); }
+.contest-row { display: flex; align-items: center; gap: 24px; min-height: 56px; padding: 14px 12px; }
+.contest-row time { flex: 0 0 148px; color: var(--subtle); font-size: 13px; white-space: nowrap; }
+.contest-text { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 15px; }
+.contest-title { font-weight: 600; }
+.contest-description { margin-left: 18px; color: var(--muted); font-size: 14px; }
+.contest-empty { padding: 20px 0; color: var(--muted); }
+.contest-pagination { justify-content: center; }
+.contest-pagination [aria-current="page"] { background: var(--accent-soft); border-color: var(--strong-border); color: var(--accent); }
+@media (max-width: 640px) {
+  .contest-row { gap: 12px; padding: 12px 0; }
+  .contest-row time { flex-basis: 78px; font-size: 12px; }
+  .contest-time { display: none; }
+  .contest-description { margin-left: 12px; }
+}
 
 .article-layout { grid-template-columns: 236px minmax(0, 1fr); }
 .article-main { max-width: 820px; }

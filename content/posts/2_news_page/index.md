@@ -2,7 +2,7 @@
 title: "뉴스 크롤링 사이트 제작 by Codex"
 date: "2026-09-22T18:00:00+09:00"
 description: "Gemini API를 활용하여 뉴스 사이트들에서 기사를 크롤링 해서 요약 보여주는 웹 사이트입니다."
-categories: []
+categories: ["개발"]
 tags: []
 url: "/posts/p2/"
 draft: false

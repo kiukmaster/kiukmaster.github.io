@@ -54,7 +54,6 @@ urls = ['none']
 methods = ['none']
 
 [params]
-defaultTheme = 'gray'
 pageSize = 8
 [params.author]
 name = '유서준'

@@ -314,15 +314,6 @@
     }
   }
 
-  const theme = document.getElementById('theme');
-  if (theme) {
-    theme.value = ['light', 'gray', 'dark'].includes(root.dataset.theme) ? root.dataset.theme : 'gray';
-    theme.addEventListener('change', () => {
-      if (!['light', 'gray', 'dark'].includes(theme.value)) return;
-      root.dataset.theme = theme.value;
-      storage.set('theme', theme.value);
-    });
-  }
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => {
     if (!['ko', 'en'].includes(button.dataset.lang)) return;
     language = button.dataset.lang;

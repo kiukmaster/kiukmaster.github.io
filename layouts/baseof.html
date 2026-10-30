@@ -1,6 +1,6 @@
 {{- $valid := partialCached "validate.html" site -}}
 <!DOCTYPE html>
-<html lang="ko" data-theme="{{ site.Params.defaulttheme }}" data-storage-root="/">
+<html lang="ko" data-theme="gray" data-storage-root="/">
 <head>{{ partial "head.html" . }}</head>
 <body>
   <a class="skip-link" href="#page-content" data-i18n="skip">{{ partial "t.html" "skip" }}</a>
