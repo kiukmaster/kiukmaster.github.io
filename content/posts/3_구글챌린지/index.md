@@ -1,11 +1,14 @@
 ---
-title: "Google AI Agent Challenge 참여"
+title: "Google AI Agent Challenge 우수상 수상"
 date: "2026-10-26T20:30:13+09:00"
-description: "대구 울산 경북지역 SW 중심대학 교육 Google Cloud AI Agent Challenge에 참여 했습니다."
+description: "대구 울산 경북지역 SW 중심대학 교육 Google Cloud AI Agent Challenge에 참여하여 우수상을 수상 했습니다."
 categories: ["공모전 / 자격증"]
 tags: []
 draft: false
 ---
+
+## 우수상
+<img src="상장.jpg" alt="error" loading=lazy width=400 />
 
 ## 대구 울산 경북지역 SW 중심대학 교육 Google Cloud AI Agent Challenge {#section-one}
 
