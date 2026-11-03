@@ -260,6 +260,18 @@ input:focus, select:focus { border-color: var(--strong-border); }
 @media (min-width: 761px) and (min-height: 850px) {
   .sidebar-sticky { position: sticky; top: 108px; }
 }
+@media (min-width: 761px) {
+  .article-layout > .site-sidebar { align-self: stretch; }
+  .article-layout .sidebar-sticky { position: static; height: 100%; }
+  .article-layout .toc-panel {
+    position: sticky;
+    top: var(--header-offset);
+    flex-shrink: 0;
+  }
+  .article-layout .toc-list {
+    max-height: min(20rem, calc(100dvh - var(--header-offset) - 6rem));
+  }
+}
 @media (max-width: 1280px) {
   .site-footer { margin-right: 32px; margin-left: 32px; }
 }
