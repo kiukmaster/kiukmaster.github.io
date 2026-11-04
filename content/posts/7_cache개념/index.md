@@ -15,8 +15,6 @@ draft: false
 
 <img src="공부노트.jpg" alt="error" loading=lazy width=900 />
 
-좀 더 상세한 수식과 딥한 내용은 다음 글에서 다룰 예정입니다!
-
 ## Cache란 무엇인가?{#section-one}
 
 Cache란 일종의 임시 저장소를 이야기 합니다.
@@ -29,7 +27,7 @@ Cache란 일종의 임시 저장소를 이야기 합니다.
 
 ## Cache Hit? Miss?{#section-two}
 
-API 호출 등을 통하여 모델을 만드신 분들이라면 다들 들어보셨을 개념입니다.
+API 호출을 해보신 분들은 조금 익숙하신 개념일 것 입니다.
 
 Cache Hit과 Cache Miss. 이게 뭐고 언제 발생하는지? 어떻게 계산되는지 궁금하셨던 적 없으신가요?
 
@@ -83,4 +81,4 @@ Anthropic의 24년 12월 기술 블로그에 올라온 글 "Building Effective A
 
 저도 이 개념은 Attention is All You Need 라는 논문이 있고, 이것이 현재 LLM의 기반인 Transformer 구조를 제안한 논문이다 라고만 알고 있었는데 이번 기회에 이것에 대해 공부해보려 합니다.
 
-이에대해 좀 더 자세하게 다룬 내용을 다음 글로 정리해 올리겠습니다!
+이것에 대해 좀 더 자세하게 다룬 내용을 다음 글로 정리해 올리겠습니다!

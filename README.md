@@ -1,8 +1,8 @@
 # KIUK
 
-| 기술 스택 | 선정 이유 |
-|---|---|
-| **Hugo** | 글을 정적 HTML로 미리 생성합니다. 접속할 때 본문을 JavaScript로 조립하지 않아 첫 화면의 처리량을 줄입니다. |
-| **Markdown + YAML** | 본문·제목·날짜·분류를 파일 하나로 관리합니다. 이미지와 HTML을 함께 쓰고, Git으로 변경 이력을 남길 수 있습니다. |
-| **HTML · CSS · JavaScript** | 화면과 검색·메일 복사에 필요한 기능만 직접 구현합니다. 프런트엔드 프레임워크 없이 로딩할 코드와 관리할 의존성을 줄이기 위해 선택했습니다. |
-| **GitHub Pages + Actions** | `main`에 push하면 자동으로 빌드·배포합니다. 기존 호스팅을 유지하면서 별도 웹 서버와 DB를 운영할 필요가 없습니다. |
+| 기술 스택 |
+|---|
+| **Hugo** |
+| **Markdown + YAML** |
+| **HTML · CSS · JavaScript** |
+| **GitHub Pages + Actions** |
