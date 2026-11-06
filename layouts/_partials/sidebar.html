@@ -6,15 +6,16 @@
     <section class="profile-card panel">
       <div class="profile-heading"><img class="avatar" src="{{ $avatarSmall.RelPermalink }}" alt="{{ $author.name }}" width="62" height="62" decoding="async"><h2 class="profile-name" data-ko="{{ $author.name }}" data-en="{{ $author.nameen }}">{{ $author.name }}</h2></div>
       <p class="profile-role" data-ko="{{ $author.role }}" data-en="{{ $author.roleen }}">{{ $author.role }}</p>
-      <p class="profile-bio" data-ko="{{ $author.bio }}" data-en="{{ $author.bioen }}">{{ $author.bio }}</p>
       {{ partial "contact.html" . }}
     </section>
+    <h2 class="sidebar-heading" data-i18n="categories">{{ partial "t.html" "categories" }}</h2>
     <nav class="category-nav panel" aria-label="분류" data-i18n-aria="categories">
-      <a class="category-link" href="/"><span data-i18n="all">{{ partial "t.html" "all" }}</span><span class="count">{{ len (where site.RegularPages "Section" "posts") }}</span></a>
-      {{ with site.GetPage "/categories" }}{{ range .Pages.ByTitle }}<a class="category-link" href="{{ .RelPermalink }}"><span>{{ .Title }}</span><span class="count">{{ len .RegularPages }}</span></a>{{ end }}{{ end }}
+      <a class="category-link" href="/posts/"{{ if and (eq .Section "posts") (not .IsPage) }} aria-current="page"{{ end }}><span data-i18n="all">{{ partial "t.html" "all" }}</span><span class="count">{{ len (where site.RegularPages "Section" "posts") }}</span></a>
+      {{ $current := . }}{{ with site.GetPage "/categories" }}{{ range partial "categories.html" .Pages }}<a class="category-link" href="{{ .RelPermalink }}"{{ if eq .RelPermalink $current.RelPermalink }} aria-current="page"{{ end }}><span>{{ .Title }}</span><span class="count">{{ len .RegularPages }}</span></a>{{ end }}{{ end }}
     </nav>
     {{ if and .IsPage (eq .Section "posts") }}{{ if .Fragments.Headings }}
     <section class="toc-panel panel"><h2 data-i18n="toc">{{ partial "t.html" "toc" }}</h2><div class="toc-list">{{ .TableOfContents }}</div></section>
     {{ end }}{{ end }}
+    <div class="sidebar-since"><span data-i18n="recordSince">{{ partial "t.html" "recordSince" }}</span><time datetime="2026-09-22">2026.09.22</time></div>
   </div>
 </aside>

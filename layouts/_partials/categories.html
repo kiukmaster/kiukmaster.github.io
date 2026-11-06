@@ -1,0 +1,11 @@
+{{- $rows := slice -}}
+{{- range . -}}
+  {{- $title := lower .Title -}}
+  {{- $group := 2 -}}
+  {{- if findRE `^[가-힣ㄱ-ㅎㅏ-ㅣ]` $title 1 -}}{{- $group = 0 -}}
+  {{- else if findRE `^[a-z]` $title 1 -}}{{- $group = 1 -}}{{- end -}}
+  {{- $rows = $rows | append (dict "key" (printf "%d:%s:%s" $group $title .RelPermalink) "page" .) -}}
+{{- end -}}
+{{- $pages := slice -}}
+{{- range sort $rows "key" -}}{{- $pages = $pages | append .page -}}{{- end -}}
+{{- return $pages -}}

@@ -18,6 +18,18 @@
 {{ $boot := resources.Get "js/boot.js" | minify | fingerprint "sha256" }}
 <script src="{{ $boot.RelPermalink }}" integrity="{{ $boot.Data.Integrity }}"></script>
 {{ $css := resources.Get "css/style.css" | minify | fingerprint "sha256" }}
+{{ $fonts := resources.Get "css/fonts.css" | minify | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{ $js := resources.Get "js/site.js" | resources.ExecuteAsTemplate "js/site.js" . | minify | fingerprint "sha256" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+{{ if .IsHome }}
+{{ $terminalCSS := resources.Get "css/terminal.css" | minify | fingerprint "sha256" }}
+{{ $terminalJS := resources.Get "js/terminal.js" | minify | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $terminalCSS.RelPermalink }}" integrity="{{ $terminalCSS.Data.Integrity }}">
+<script src="{{ $terminalJS.RelPermalink }}" integrity="{{ $terminalJS.Data.Integrity }}" defer></script>
+{{ $introCSS := resources.Get "css/intro.css" | minify | fingerprint "sha256" }}
+{{ $introJS := resources.Get "js/intro.js" | minify | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $introCSS.RelPermalink }}" integrity="{{ $introCSS.Data.Integrity }}">
+<script src="{{ $introJS.RelPermalink }}" integrity="{{ $introJS.Data.Integrity }}" defer></script>
+{{ end }}

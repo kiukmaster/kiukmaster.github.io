@@ -93,23 +93,27 @@
   function card(post) {
     const article = element('article', 'post-card');
     article.lang = 'ko';
-    const meta = element('div', 'card-meta');
     const parts = Object.fromEntries(dateFormat.formatToParts(new Date(post.timestamp)).map(part => [part.type, part.value]));
-    const time = element('time', '', `${parts.year}.${parts.month}.${parts.day} ${parts.hour}:${parts.minute}`);
+    const time = element('time', 'post-date');
     time.dateTime = post.date;
-    meta.append(time);
-    post.categories.forEach(category => { const link = element('a', 'category-label', category.name); link.href = category.url; meta.append(link); });
+    time.append(element('span', 'date-year', parts.year), element('span', 'date-day', `${parts.month}.${parts.day}`), element('span', 'date-clock', `${parts.hour}:${parts.minute}`));
+    const content = element('div', 'post-content');
+    const categories = element('div', 'card-categories');
+    post.categories.forEach(category => { const link = element('a', `category-label${category.name === '공모전 / 자격증' ? ' activity' : ''}`, category.name); link.href = category.url; categories.append(link); });
     const title = element('h2');
     const link = element('a', '', post.title);
     link.href = post.url;
     title.append(link);
-    article.append(meta, title);
-    if (post.excerpt) article.append(element('p', 'card-excerpt', post.excerpt));
+    content.append(categories, title);
+    if (post.excerpt) content.append(element('p', 'card-excerpt', post.excerpt));
     if (post.tags.length) {
       const tags = element('div', 'tag-list');
       post.tags.forEach(tag => { const link = element('a', 'tag', tag.name); link.href = tag.url; tags.append(link); });
-      article.append(tags);
+      content.append(tags);
     }
+    const arrow = element('span', 'post-arrow', '↗');
+    arrow.setAttribute('aria-hidden', 'true');
+    article.append(time, content, arrow);
     return article;
   }
 
@@ -124,7 +128,7 @@
     const error = document.getElementById('feed-error');
     const count = document.getElementById('results-count');
     const params = new URLSearchParams(location.search);
-    const listRoot = localPath(feed.dataset.listRoot || '/');
+    const listRoot = localPath(feed.dataset.listRoot || '/posts/');
     const pageSize = Math.max(1, Number(feed.dataset.pageSize) || 8);
     const state = {
       q: params.get('q') || '',
@@ -150,21 +154,12 @@
       reset.hidden = !(state.q || state.category || state.tag || state.sort !== 'newest');
       more.hidden = end >= total || queryKey() !== renderedQuery;
       document.querySelectorAll('.category-link').forEach(link => {
-        const active = state.category ? link.querySelector('span')?.textContent === state.category : new URL(link.href).pathname === '/';
+        const active = state.category ? link.querySelector('span')?.textContent === state.category : new URL(link.href).pathname === '/posts/';
         link.classList.toggle('active', active);
+        if (active) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
       });
     }
     refreshFeedLabels = updateControls;
-
-    function applyView(value) {
-      const view = value === 'list' ? 'list' : 'grid';
-      list.dataset.view = view;
-      document.querySelectorAll('[data-view]').forEach(button => {
-        if (button.tagName === 'BUTTON') button.setAttribute('aria-pressed', String(button.dataset.view === view));
-      });
-    }
-    applyView(storage.get('view', 'grid'));
-    document.querySelectorAll('button[data-view]').forEach(button => button.addEventListener('click', () => { storage.set('view', button.dataset.view); applyView(button.dataset.view); }));
 
     function writeURL() {
       const url = new URL(listRoot, location.origin);
@@ -251,7 +246,13 @@
     search.addEventListener('input', onInput);
     form.addEventListener('submit', event => { event.preventDefault(); state.q = search.value; load('reset'); });
     sort.addEventListener('change', () => { state.sort = ['newest', 'oldest', 'title'].includes(sort.value) ? sort.value : 'newest'; load('reset'); });
-    reset.addEventListener('click', () => location.assign('/'));
+    reset.addEventListener('click', () => location.assign('/posts/'));
+    document.addEventListener('keydown', event => {
+      if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !event.target.closest('input, textarea, select, [contenteditable]')) {
+        event.preventDefault();
+        search.focus();
+      }
+    });
     more.addEventListener('click', () => load('more'));
     document.getElementById('retry').addEventListener('click', () => load(failedMode));
     window.addEventListener('popstate', () => location.reload());

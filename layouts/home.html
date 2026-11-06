@@ -1,1 +1,62 @@
-{{ define "main" }}{{ partial "feed.html" (dict "page" . "pages" (where site.RegularPages "Section" "posts") "title" (partial "t.html" "posts") "titleKey" "posts") }}{{ end }}
+{{ define "main" }}
+{{ with site.GetPage "/introduction" }}
+<article class="home-introduction profile-terminal" id="introduction" lang="ko" data-profile-terminal>
+  <div class="terminal-window">
+    <header class="terminal-bar">
+      <span class="terminal-caption">profile</span>
+      <span class="terminal-state"><i class="terminal-state-dot" aria-hidden="true"></i>ready</span>
+    </header>
+    <div class="terminal-commands" role="group" aria-label="프로필 명령" data-terminal-controls hidden>
+      <button type="button" class="terminal-command" data-terminal-command="whoami" data-command-text="whoami" aria-pressed="true" aria-controls="terminal-output-whoami"><span class="terminal-command-label" data-ko="소개" data-en="Profile">소개</span><code>whoami</code></button>
+      <button type="button" class="terminal-command" data-terminal-command="posts" data-command-text="ls posts/" aria-pressed="false" aria-controls="terminal-output-posts"><span class="terminal-command-label" data-ko="최근 글" data-en="Recent posts">최근 글</span><code>ls posts/</code></button>
+      <button type="button" class="terminal-command" data-terminal-command="contests" data-command-text="ls contests/" aria-pressed="false" aria-controls="terminal-output-contests"><span class="terminal-command-label" data-ko="대회 기록" data-en="Contests">대회 기록</span><code>ls contests/</code></button>
+      <button type="button" class="terminal-command" data-terminal-command="contact" data-command-text="contact" aria-pressed="false" aria-controls="terminal-output-contact"><span class="terminal-command-label" data-ko="연락처" data-en="Contact">연락처</span><code>contact</code></button>
+    </div>
+    <div class="terminal-display">
+      <p class="terminal-prompt" aria-hidden="true"><span class="terminal-user">kiuk@profile</span><span class="terminal-path">~</span><span>$</span><code data-terminal-prompt>whoami</code><span class="terminal-cursor"></span></p>
+      <div class="terminal-output-shell" id="terminal-results">
+        <section class="terminal-output" id="terminal-output-whoami" data-terminal-panel="whoami" aria-labelledby="introduction-title">
+          <header class="introduction-heading">
+            <h1 class="introduction-title" id="introduction-title" tabindex="-1">{{ .Title }}</h1>
+            <p class="introduction-role">{{ site.Params.author.role }}</p>
+          </header>
+          <div class="prose">{{ .Content }}</div>
+        </section>
+        <section class="terminal-output" id="terminal-output-posts" data-terminal-panel="posts" aria-labelledby="terminal-posts-title" hidden>
+          <h2 class="terminal-section-title" id="terminal-posts-title">최근 글</h2>
+          <ol class="terminal-records">
+            {{ range first 4 (partial "posts.html" (where site.RegularPages "Section" "posts")) }}
+            <li><a class="terminal-record" href="{{ .RelPermalink }}"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ (time.In "Asia/Seoul" .Date).Format "2006.01.02" }}</time><strong>{{ .Title }}</strong><span class="terminal-record-arrow" aria-hidden="true">↗</span></a></li>
+            {{ else }}<li class="terminal-empty">게시된 글이 없습니다.</li>{{ end }}
+          </ol>
+          <a class="terminal-section-link" href="/posts/">전체 글 보기 →</a>
+        </section>
+        <section class="terminal-output" id="terminal-output-contests" data-terminal-panel="contests" aria-labelledby="terminal-contests-title" hidden>
+          <h2 class="terminal-section-title" id="terminal-contests-title">대회 기록</h2>
+          <ol class="terminal-records">
+            {{ with site.GetPage "/contests" }}{{ range first 4 (partial "posts.html" .RegularPages) }}
+            {{ $summary := .Description }}{{ if not $summary }}{{ $summary = .Plain }}{{ end }}
+            <li><div class="terminal-record"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ (time.In "Asia/Seoul" .Date).Format "2006.01.02" }}</time><div><strong>{{ .Title }}</strong>{{ with $summary }}<p class="terminal-record-summary">{{ . }}</p>{{ end }}</div></div></li>
+            {{ else }}<li class="terminal-empty">등록된 대회가 없습니다.</li>{{ end }}{{ end }}
+          </ol>
+          <a class="terminal-section-link" href="/contests/">전체 대회 기록 보기 →</a>
+        </section>
+        <section class="terminal-output" id="terminal-output-contact" data-terminal-panel="contact" aria-labelledby="terminal-contact-title" hidden>
+          <h2 class="terminal-section-title" id="terminal-contact-title">연락처</h2>
+          <p class="terminal-email">{{ site.Params.author.email }}</p>
+          {{ partial "contact.html" . }}
+        </section>
+      </div>
+      <p class="sr-only terminal-status" data-terminal-status role="status" aria-live="polite" aria-atomic="true"></p>
+    </div>
+  </div>
+  <noscript><div class="terminal-fallback"><a href="{{ site.Params.author.github }}" rel="me noopener">GitHub</a><a href="{{ site.Params.author.linkedin }}" rel="me noopener">LinkedIn</a><span>{{ site.Params.author.email }}</span></div></noscript>
+  <div class="introduction-links">
+    <a class="text-link" href="/posts/" data-i18n="all">{{ partial "t.html" "all" }}</a>
+    <a class="text-link" href="/contests/" data-i18n="contests">{{ partial "t.html" "contests" }}</a>
+    <button type="button" class="terminal-mode-toggle" data-terminal-mode aria-controls="terminal-results" hidden>모두 펼쳐 보기</button>
+    <button type="button" class="intro-replay" id="replay-intro" data-js hidden data-i18n="replayIntro">{{ partial "t.html" "replayIntro" }}</button>
+  </div>
+</article>
+{{ end }}
+{{ end }}

@@ -1,0 +1,92 @@
+.profile-terminal.home-introduction { max-width: 900px; }
+.profile-terminal .terminal-window { min-width: 0; border: 1px solid var(--strong-border); border-radius: 4px; background: var(--bg); }
+.profile-terminal .terminal-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 44px; padding: 10px 24px; border-bottom: 1px solid var(--border); background: var(--panel); border-radius: 3px 3px 0 0; font: 12px/1.5 var(--font-mono); letter-spacing: .035em; }
+.profile-terminal .terminal-caption { color: var(--muted); }
+.profile-terminal .terminal-state { display: inline-flex; align-items: center; gap: 8px; color: var(--sage); }
+.profile-terminal .terminal-state-dot { width: 5px; height: 5px; flex: 0 0 5px; background: currentColor; }
+.profile-terminal .terminal-commands { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--border); }
+.profile-terminal .terminal-command { position: relative; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 3px; min-width: 0; min-height: 76px; padding: 14px 20px; border-right: 1px solid var(--border); color: var(--muted); text-align: left; transition: color 140ms ease, background-color 140ms ease; }
+.profile-terminal .terminal-command:last-child { border-right: 0; }
+.profile-terminal .terminal-command::after { position: absolute; right: 16px; bottom: -1px; left: 16px; height: 2px; background: transparent; content: ''; }
+.profile-terminal .terminal-command:hover { background: var(--panel); color: var(--text); }
+.profile-terminal .terminal-command[aria-pressed="true"] { background: var(--surface); color: var(--text); }
+.profile-terminal .terminal-command[aria-pressed="true"]::after { background: var(--accent); }
+.profile-terminal .terminal-command:focus-visible { z-index: 1; outline-offset: -5px; }
+.profile-terminal .terminal-command-label { font-size: 14px; font-weight: 500; line-height: 1.5; }
+.profile-terminal .terminal-command code { font: 12px/1.6 var(--font-mono); color: var(--subtle); letter-spacing: 0; overflow-wrap: anywhere; }
+.profile-terminal .terminal-command[aria-pressed="true"] code { color: var(--accent); }
+.profile-terminal .terminal-display { min-width: 0; padding: 28px 32px 32px; }
+.profile-terminal .terminal-prompt { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 9px; margin-bottom: 30px; font: 13px/1.7 var(--font-mono); color: var(--muted); letter-spacing: 0; }
+.profile-terminal .terminal-user { color: var(--sage); }
+.profile-terminal .terminal-path { color: var(--subtle); }
+.profile-terminal .terminal-prompt code { color: var(--text); font: inherit; }
+.profile-terminal .terminal-cursor { align-self: center; width: 7px; height: 14px; background: var(--accent); opacity: .8; }
+.profile-terminal .terminal-output-shell { min-width: 0; min-height: 264px; }
+.profile-terminal .terminal-output { min-width: 0; }
+.profile-terminal .introduction-heading { display: block; margin: 0 0 24px; padding: 0; border: 0; }
+.profile-terminal .introduction-title { font-size: clamp(30px, 4vw, 42px); line-height: 1.5; }
+.profile-terminal .introduction-title:focus { outline: none; }
+.profile-terminal .introduction-role { margin-top: 8px; color: var(--subtle); font-size: 13px; }
+.profile-terminal .prose { font-size: 16px; line-height: 1.9; }
+.profile-terminal .prose > :last-child { margin-bottom: 0; }
+.profile-terminal .terminal-section-title { margin: 0 0 17px; font-size: 20px; font-weight: 500; line-height: 1.5; }
+.profile-terminal .terminal-records { list-style: none; margin: 0; padding: 0; }
+.profile-terminal .terminal-records > li { border-bottom: 1px solid var(--border); }
+.profile-terminal .terminal-record { display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; align-items: baseline; gap: 8px 16px; min-height: 56px; padding: 14px 0; }
+.profile-terminal .terminal-record time { color: var(--subtle); font: 11px/1.7 var(--font-mono); white-space: nowrap; }
+.profile-terminal .terminal-record strong { min-width: 0; color: var(--text); font-size: 15px; font-weight: 400; line-height: 1.65; word-break: keep-all; overflow-wrap: anywhere; }
+.profile-terminal .terminal-record > div { min-width: 0; }
+.profile-terminal a.terminal-record:hover strong, .profile-terminal a.terminal-record:hover .terminal-record-arrow { color: var(--accent); }
+.profile-terminal .terminal-record-arrow { color: var(--subtle); font-size: 14px; }
+.profile-terminal .terminal-record-summary { margin-top: 4px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+.profile-terminal .terminal-section-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 8px; color: var(--sage); font-size: 13px; text-decoration: underline; text-underline-offset: 4px; }
+.profile-terminal .terminal-section-link:hover { color: var(--accent); }
+.profile-terminal .terminal-email { color: var(--text); font: 16px/1.8 var(--font-mono); overflow-wrap: anywhere; }
+.profile-terminal .social-links { gap: 12px; margin-top: 20px; }
+.profile-terminal .social-links a, .profile-terminal .social-links button { width: 44px; height: 44px; border: 1px solid var(--border); border-radius: 3px; }
+.profile-terminal .social-links a:hover, .profile-terminal .social-links button:hover { border-color: var(--strong-border); }
+.profile-terminal .social-links svg { width: 19px; height: 19px; }
+.profile-terminal .introduction-links { justify-content: flex-start; align-items: center; gap: 8px 24px; margin-top: 20px; padding-top: 0; border: 0; }
+.profile-terminal .introduction-links a, .profile-terminal .intro-replay { display: inline-flex; align-items: center; min-height: 44px; }
+.profile-terminal .intro-replay { margin-left: auto; border: 0; }
+.profile-terminal .terminal-fallback { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+.profile-terminal .terminal-fallback a { color: var(--sage); text-decoration: underline; text-underline-offset: 4px; }
+.profile-terminal .terminal-mode-toggle { display: inline-flex; align-items: center; min-height: 44px; color: var(--muted); font-size: 12px; }
+.profile-terminal .terminal-mode-toggle:hover { color: var(--accent); }
+.profile-terminal.is-reading .terminal-bar, .profile-terminal.is-reading .terminal-prompt { display: none; }
+.profile-terminal.is-reading .terminal-window { border: 0; background: transparent; }
+.profile-terminal.is-reading .terminal-display { padding: 0; }
+.profile-terminal.is-reading .terminal-output-shell { min-height: 0; }
+.profile-terminal.is-reading .terminal-output + .terminal-output { margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--border); }
+
+@media (max-width: 640px) {
+  .profile-terminal .terminal-bar { padding-right: 18px; padding-left: 18px; }
+  .profile-terminal .terminal-commands { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .profile-terminal .terminal-command { min-height: 66px; padding: 11px 18px; }
+  .profile-terminal .terminal-command:nth-child(2) { border-right: 0; }
+  .profile-terminal .terminal-command:nth-child(-n + 2) { border-bottom: 1px solid var(--border); }
+  .profile-terminal .terminal-command::after { left: 14px; right: 14px; }
+  .profile-terminal .terminal-display { padding: 23px 20px 26px; }
+  .profile-terminal .terminal-prompt { gap: 0 7px; margin-bottom: 24px; font-size: 12px; }
+  .profile-terminal .terminal-output-shell { min-height: 240px; }
+  .profile-terminal .introduction-heading { margin-bottom: 20px; }
+  .profile-terminal .terminal-section-title { font-size: 19px; }
+  .profile-terminal .terminal-record { grid-template-columns: minmax(0, 1fr) auto; gap: 4px 10px; padding: 13px 0; }
+  .profile-terminal .terminal-record time { grid-column: 1 / -1; font-size: 10px; }
+  .profile-terminal .terminal-record strong { font-size: 14px; }
+  .profile-terminal .terminal-record > div { grid-column: 1 / -1; }
+  .profile-terminal .terminal-email { font-size: 14px; }
+  .profile-terminal .introduction-links { gap: 4px 20px; margin-top: 12px; }
+  .profile-terminal .introduction-links a { font-size: 13px; }
+}
+
+@media (max-width: 380px) {
+  .profile-terminal .terminal-display { padding-right: 16px; padding-left: 16px; }
+  .profile-terminal .terminal-command { padding-right: 14px; padding-left: 14px; }
+  .profile-terminal .terminal-command code { font-size: 11px; }
+  .profile-terminal .intro-replay { flex-basis: 100%; margin-left: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-terminal .terminal-command { transition: none; }
+}

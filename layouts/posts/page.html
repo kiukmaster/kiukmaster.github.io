@@ -1,5 +1,5 @@
 {{ define "main" }}
-<a class="back-link" href="/" data-i18n="back">{{ partial "t.html" "back" }}</a>
+<a class="back-link" href="/posts/" data-i18n="back">{{ partial "t.html" "back" }}</a>
 <article>
   <header class="article-header">
     <div class="card-meta"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ (time.In "Asia/Seoul" .Date).Format "2006.01.02 15:04" }}</time><span>{{ .ReadingTime }} <span data-i18n="minutes">{{ partial "t.html" "minutes" }}</span></span></div>
