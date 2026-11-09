@@ -5,6 +5,7 @@
       <a href="/" {{ if .IsHome }}aria-current="page"{{ end }} data-i18n="home">{{ partial "t.html" "home" }}</a>
       <a href="/posts/" {{ if or (eq .Section "posts") (in (slice "taxonomy" "term") .Kind) }}aria-current="page"{{ end }} data-i18n="writing">{{ partial "t.html" "writing" }}</a>
       <a href="/contests/" {{ if eq .Section "contests" }}aria-current="page"{{ end }} data-i18n="contests">{{ partial "t.html" "contests" }}</a>
+      <a href="/ongoing/" {{ if eq .Section "ongoing" }}aria-current="page"{{ end }} data-i18n="ongoing">{{ partial "t.html" "ongoing" }}</a>
     </nav>
     <div class="header-controls" data-js hidden>
       <div class="segmented language-switch" role="group" aria-label="메뉴 언어" data-i18n-aria="language">

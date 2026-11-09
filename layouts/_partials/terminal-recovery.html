@@ -1,0 +1,32 @@
+<section id="recovery-view" class="recovery-view" aria-labelledby="terminal-recovery-title" hidden>
+  <div class="recovery-heading">
+    <p class="eyebrow">RECOVERY MODE</p>
+    <h2 id="terminal-recovery-title" tabindex="-1">터미널 복구</h2>
+    <p>화면, 명령, 콘텐츠를 복구하면 소개가 열립니다.</p>
+  </div>
+  <div class="repair-layout">
+    <div class="repair-tasks">
+      {{ range slice (dict "key" "display" "label" "화면 출력" "module" "display.buffer" "index" "01") (dict "key" "commands" "label" "명령 연결" "module" "command.router" "index" "02") (dict "key" "content" "label" "콘텐츠" "module" "content.index" "index" "03") }}
+      <div class="repair-item" data-repair-item="{{ .key }}" data-repair-label="{{ .label }}">
+        <span class="task-index" aria-hidden="true">{{ .index }}</span>
+        <div class="task-copy"><h3>{{ .label }}</h3><code>{{ .module }}</code></div>
+        <button class="repair-button" type="button" data-repair="{{ .key }}" aria-label="{{ .label }} 복구"><span class="task-state">복구</span></button>
+        <span class="row-progress" aria-hidden="true"></span>
+      </div>
+      {{ end }}
+      <div class="repair-actions">
+        <button id="repair-all" class="primary-action" type="button">모두 복구</button>
+        <button id="skip-repair" class="text-action" type="button">건너뛰고 둘러보기 →</button>
+      </div>
+    </div>
+    <aside class="repair-preview" aria-hidden="true">
+      <div class="preview-bar"><span>출력 상태</span><code id="preview-prompt">$ _</code></div>
+      <div class="preview-screen">
+        <div class="preview-symbol"><svg width="56" height="48" viewBox="0 0 56 48" fill="none"><rect x="5" y="5" width="46" height="31" rx="1" stroke="currentColor" stroke-width="2"/><path d="M20 42H36M28 36V42M16 13L22 19M22 13L16 19M34 13L40 19M40 13L34 19M18 28L28 24L38 28" stroke="currentColor" stroke-width="2" stroke-linecap="square"/></svg></div>
+        <p id="preview-name" data-restored-text="{{ .Title }}">#_?__</p>
+        <p id="preview-description" data-restored-text="{{ site.Params.author.role }}">출력 대기</p>
+      </div>
+      <pre id="repair-log">[대기] 복구 항목을 선택하세요.</pre>
+    </aside>
+  </div>
+</section>

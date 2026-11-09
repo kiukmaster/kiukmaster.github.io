@@ -1,6 +1,7 @@
 {{- $urls := slice -}}
 {{- $pages := where .RegularPages "Section" "posts" -}}
 {{- with .GetPage "/contests" -}}{{- range .RegularPages -}}{{- $pages = $pages | append . -}}{{- end -}}{{- end -}}
+{{- with .GetPage "/ongoing" -}}{{- range .RegularPages -}}{{- $pages = $pages | append . -}}{{- end -}}{{- end -}}
 {{- range $pages -}}
   {{- $sectionRoot := printf "/%s/" .Section -}}
   {{- $path := path.Join "content" .File.Path -}}

@@ -3,6 +3,8 @@
   "home": ["홈", "Home"], "writing": ["글", "Posts"], "posts": ["전체 글", "All posts"], "menu": ["메뉴", "Menu"],
   "recordSince": ["기록 시작", "Since"], "replayIntro": ["인트로 다시 보기", "Replay intro"],
   "contests": ["대회", "Contests"],
+  "ongoing": ["진행중", "Ongoing"],
+  "ongoingEntries": ["개 프로그램", "programs"], "noOngoing": ["등록된 프로그램이 없습니다.", "No published programs."],
   "noContests": ["등록된 대회가 없습니다.", "No published contests."], "pagination": ["페이지", "Pagination"],
   "all": ["전체 글", "All posts"], "categories": ["카테고리", "Categories"], "tags": ["태그", "Tags"],
   "language": ["메뉴 언어", "Menu language"], "search": ["글 검색", "Search posts"],
