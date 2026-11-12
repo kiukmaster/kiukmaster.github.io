@@ -1,13 +1,14 @@
 {{ if . }}
 {{ $cache := hugo.Data.news_translations | default (dict) }}
 {{ $entries := $cache.entries | default (dict) }}
+{{ $promptVersion := $cache.prompt_version | default "2" }}
 <ul class="news-list">
   {{ range . }}
   {{ $published := time.In "Asia/Seoul" (time.AsTime .published_at) }}
   {{ $hash := crypto.SHA256 .text }}
-  {{ $key := printf "%s:%s:gpt-6.1-sol:medium:1" .id $hash }}
+  {{ $key := printf "%s:%s:gpt-6.1-sol:medium:%s" .id $hash $promptVersion }}
   {{ $entry := index $entries $key | default (dict) }}
-  {{ $matches := and (eq $entry.post_id .id) (eq $entry.source_hash $hash) (eq $entry.model "gpt-6.1-sol") (eq $entry.reasoning_effort "medium") (eq $entry.prompt_version "1") }}
+  {{ $matches := and (eq $entry.post_id .id) (eq $entry.source_hash $hash) (eq $entry.model "gpt-6.1-sol") (eq $entry.reasoning_effort "medium") (eq $entry.prompt_version $promptVersion) }}
   {{ $text := .text }}
   {{ $label := "newsTranslationPending" }}
   {{ if $matches }}
