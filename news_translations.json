@@ -3,7 +3,128 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "1",
-  "checked_at": "2026-11-12T10:56:54Z",
-  "status": "disabled",
-  "entries": {}
+  "checked_at": "2026-11-12T11:02:06Z",
+  "status": "ok",
+  "entries": {
+    "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
+      "post_id": "2120829090982773046",
+      "source_hash": "f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "해커들, 새로운 ScreenConnect 공격 캠페인에서 악성코드 배포 https://t.co/Y7H3GH0NuY",
+      "translated_at": "2026-11-12T11:01:37Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120827454701101121:08577bba4d427476bbb9345e1dd05ac4fbb1a3c1bd2caa506b2c4885e47dff3a:gpt-6.1-sol:medium:1": {
+      "post_id": "2120827454701101121",
+      "source_hash": "08577bba4d427476bbb9345e1dd05ac4fbb1a3c1bd2caa506b2c4885e47dff3a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "skipped",
+      "attempts": 0,
+      "last_error": null
+    },
+    "2120826693711774119:0598ca5e86905a638fdfca4b3d52547cd78afb8591f14fc46e8e2fbd2f5a6e3b:gpt-6.1-sol:medium:1": {
+      "post_id": "2120826693711774119",
+      "source_hash": "0598ca5e86905a638fdfca4b3d52547cd78afb8591f14fc46e8e2fbd2f5a6e3b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "\"SEIFZXRAT :: 명령 및 제어\"라는 제목의 어떤 패널: https://pharaohkit[.]cloud/\n\n\"SEIFZXRATC2\"\n\n\"운영자 콘솔, 세션 인증됨\"\n\n\"승인된 접근만 허용, 세션 유지됨\"\n\n😂\n\n🤷‍♂️",
+      "translated_at": "2026-11-12T11:01:42Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120825025297063976:4ffabf5cd2e902c781e39e5cba98edede4984a8f4ac1a2cff99c8645f69ec86c:gpt-6.1-sol:medium:1": {
+      "post_id": "2120825025297063976",
+      "source_hash": "4ffabf5cd2e902c781e39e5cba98edede4984a8f4ac1a2cff99c8645f69ec86c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "Microsoft, Windows 보안 업데이트 설치 문제 확인\n\nhttps://t.co/6CdYaN5PZj\n\nhttps://t.co/6CdYaN5PZj",
+      "translated_at": "2026-11-12T11:01:45Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120818564215058906:3e9269a1d27eb7fdab160e558c290e25f8c856c7f6bea00f91ca7e7ab3d97ccf:gpt-6.1-sol:medium:1": {
+      "post_id": "2120818564215058906",
+      "source_hash": "3e9269a1d27eb7fdab160e558c290e25f8c856c7f6bea00f91ca7e7ab3d97ccf",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "화요일, Check Point Research는 \"반짝이는 것이 모두 금은 아니다: 전 세계 CopperDragon의 Sparrow 프레임워크 추적\"이라는 제목의 글을 게시했다.\n\nIoC가 너무 많아 모두 살펴볼 수는 없지만, 다행히 쉽게 확인할 수 있는 것이 하나 있다. 그들은 해시 없이 \"Strategi_AS_Referensi_April2026.rar\"라는 이름의 샘플을 언급했는데, 어차피 해시는 필요하지도 않았다. 이름과 세부 정보만으로도 내가 이미 4월에 업로드용으로 @smica83에게 전달했던 것임을 확인하기에 충분했기 때문이다: https://t.co/defkSIj5Q4\n\n🤷‍♂️\n\nSzabolcs Schmidt (@smica83)\n\n인도네시아에서 'Strategi_AS_Referensi_April2026.rar' 관찰됨 @abuse_ch\n\nhttps://t.co/cM9wifSTen\n\n— https://nitter.gq/smica83/status/2047242097460216172",
+      "translated_at": "2026-11-12T11:01:53Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120814193419182253:f1b464e9078993c6ebaa12bbde8baaf4f9456c05c87c115fa2247c0599a7546f:gpt-6.1-sol:medium:1": {
+      "post_id": "2120814193419182253",
+      "source_hash": "f1b464e9078993c6ebaa12bbde8baaf4f9456c05c87c115fa2247c0599a7546f",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "N-able이 긴급히 패치를 배포하는 가운데 해커들이 N-central 제로데이 취약점을 노려 https://t.co/AwYnU1Vx9W",
+      "translated_at": "2026-11-12T11:01:56Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120813424984703295:7b88243d802739ccd7d691dda26ad0d41994841e270347dc288ab57c92084513:gpt-6.1-sol:medium:1": {
+      "post_id": "2120813424984703295",
+      "source_hash": "7b88243d802739ccd7d691dda26ad0d41994841e270347dc288ab57c92084513",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "해커들이 지속적인 접근을 위해 Linux 서버에 GSocket을 심는다\n\nhttps://t.co/YROD9osKuT\n\nhttps://t.co/YROD9osKuT",
+      "translated_at": "2026-11-12T11:01:59Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120811084764602372:defe3b33aa071b2ee7a651a7e09b910f88ffb8cff5a21c25ba5defcb0e6b0bae:gpt-6.1-sol:medium:1": {
+      "post_id": "2120811084764602372",
+      "source_hash": "defe3b33aa071b2ee7a651a7e09b910f88ffb8cff5a21c25ba5defcb0e6b0bae",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "🚨 인증되지 않은 요청 단 두 번만으로 MongoDB 서버 충돌을 유발할 수 있습니다.\n\n인증 전 단계의 치명적 결함(CVE-2026-118383, CVSS 9.5)으로 인해 장애 조치 중 취약한 복제 세트 멤버가 충돌할 수 있습니다.\n\n로그인이 필요하지 않습니다. 패치가 배포되었습니다.\n\n자세한 내용: https://t.co/sNxCLv20F1",
+      "translated_at": "2026-11-12T11:02:01Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120809958132662616:d1d11e8fdb62563ed40e768782d594a85efaf2be8bbeae94c3bc0ca6b5a5e927:gpt-6.1-sol:medium:1": {
+      "post_id": "2120809958132662616",
+      "source_hash": "d1d11e8fdb62563ed40e768782d594a85efaf2be8bbeae94c3bc0ca6b5a5e927",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "Red Hat Quay의 치명적 취약점으로 비공개 컨테이너 이미지가 노출될 수 있어 https://t.co/7u95to6GNv",
+      "translated_at": "2026-11-12T11:02:04Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2120799520699326735:432d05177b2458c22451ff836085eed36291c2cc36fbd4d9cc636741b028060c:gpt-6.1-sol:medium:1": {
+      "post_id": "2120799520699326735",
+      "source_hash": "432d05177b2458c22451ff836085eed36291c2cc36fbd4d9cc636741b028060c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "1",
+      "text_ko": "Maersk, 500만 달러 갈취 시도 속 데이터 도난 확인 https://t.co/jpqt6Oz9fo",
+      "translated_at": "2026-11-12T11:02:06Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    }
+  }
 }
