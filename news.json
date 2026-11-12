@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-12T11:01:26Z",
-  "last_success_at": "2026-11-12T11:01:26Z",
+  "checked_at": "2026-11-12T11:13:08Z",
+  "last_success_at": "2026-11-12T11:13:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-12T10:34:02Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-11T18:41:18Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-10T20:55:01Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
-      "latest_post_at": "2026-11-12T09:29:00Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
+      "latest_post_at": "2026-11-12T11:03:43Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-12T10:24:23Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-12T10:40:33Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-11T18:40:01Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-11T20:06:06Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:01:26Z",
-      "last_success_at": "2026-11-12T11:01:26Z",
+      "checked_at": "2026-11-12T11:13:08Z",
+      "last_success_at": "2026-11-12T11:13:08Z",
       "latest_post_at": "2026-11-12T10:31:01Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2120834921241694544",
+      "author": "TheHackersNews",
+      "text": "‼️ BREAKING: Recently patched N-central servers remain exploitable under certain conditions.\n\n\"4EverAble2Shell\" enables unauthenticated root RCE; \"Agent2Shell\" can run Windows SYSTEM commands with the appliance ID.\n\nAttackers are probing. N-able is investigating.\n\nDetails: https://t.co/t3tenC9MPi",
+      "url": "https://x.com/TheHackersNews/status/2120834921241694544",
+      "published_at": "2026-11-12T11:03:43Z",
+      "collected_at": "2026-11-12T11:13:08Z"
+    },
     {
       "id": "2120829090982773046",
       "author": "SecurityWeek",
