@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "checked_at": "2026-11-12T10:56:48Z",
+  "last_success_at": "2026-11-12T10:56:48Z",
+  "sources": {
+    "AISecHub": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-12T10:34:02Z",
+      "error": null
+    },
+    "wunderwuzzi23": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-11T18:41:18Z",
+      "error": null
+    },
+    "simonw": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-10T20:55:01Z",
+      "error": null
+    },
+    "TheHackersNews": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-12T09:29:00Z",
+      "error": null
+    },
+    "BleepinComputer": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-12T10:24:23Z",
+      "error": null
+    },
+    "SecurityWeek": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-12T10:40:33Z",
+      "error": null
+    },
+    "DarkReading": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-11T18:40:01Z",
+      "error": null
+    },
+    "InfosecurityMag": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-10T09:00:03Z",
+      "error": null
+    },
+    "Unit42_Intel": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-10T21:17:06Z",
+      "error": null
+    },
+    "MsftSecIntel": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-11T20:06:06Z",
+      "error": null
+    },
+    "malwrhunterteam": {
+      "status": "ok",
+      "checked_at": "2026-11-12T10:56:48Z",
+      "last_success_at": "2026-11-12T10:56:48Z",
+      "latest_post_at": "2026-11-12T10:31:01Z",
+      "error": null
+    }
+  },
+  "items": [
+    {
+      "id": "2120829090982773046",
+      "author": "SecurityWeek",
+      "text": "Hackers Deploy Malware in Fresh ScreenConnect Campaign https://t.co/Y7H3GH0NuY",
+      "url": "https://x.com/SecurityWeek/status/2120829090982773046",
+      "published_at": "2026-11-12T10:40:33Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120827454701101121",
+      "author": "AISecHub",
+      "text": "https://t.co/xf4xYe3hfQ",
+      "url": "https://x.com/AISecHub/status/2120827454701101121",
+      "published_at": "2026-11-12T10:34:02Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120826693711774119",
+      "author": "malwrhunterteam",
+      "text": "Some panel titled \"SEIFZXRAT :: Command & Control\": https://pharaohkit[.]cloud/\n\n\"SEIFZXRATC2\"\n\n\"operator console · session-authenticated\"\n\n\"authorized access only · session persists\"\n\n😂\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2120826693711774119",
+      "published_at": "2026-11-12T10:31:01Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120825025297063976",
+      "author": "BleepinComputer",
+      "text": "Microsoft confirms Windows security updates installation issues\n\nhttps://t.co/6CdYaN5PZj\n\nhttps://t.co/6CdYaN5PZj",
+      "url": "https://x.com/BleepinComputer/status/2120825025297063976",
+      "published_at": "2026-11-12T10:24:23Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120818564215058906",
+      "author": "malwrhunterteam",
+      "text": "On Tuesday, Check Point Research published an article, titled \"Not All That Glitters Is Gold: Tracking CopperDragon’s Sparrow Framework Around the Globe\".\n\nToo many IoCs to go through all, but thankfully there is an easy one. They mentioned a \"Strategi_AS_Referensi_April2026.rar\" named sample without the hash that was not even needed anyway, as that name and the details were enough to confirm that I already gave that to @smica83 for uploading in April: https://t.co/defkSIj5Q4\n\n🤷‍♂️\n\nSzabolcs Schmidt (@smica83)\n\n'Strategi_AS_Referensi_April2026.rar' seen from Indonesia @abuse_ch\n\nhttps://t.co/cM9wifSTen\n\n— https://nitter.gq/smica83/status/2047242097460216172",
+      "url": "https://x.com/malwrhunterteam/status/2120818564215058906",
+      "published_at": "2026-11-12T09:58:43Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120814193419182253",
+      "author": "SecurityWeek",
+      "text": "Hackers Target N-central Zero-Days as N-able Rushes Patches https://t.co/AwYnU1Vx9W",
+      "url": "https://x.com/SecurityWeek/status/2120814193419182253",
+      "published_at": "2026-11-12T09:41:21Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120813424984703295",
+      "author": "BleepinComputer",
+      "text": "Hackers plant GSocket on Linux servers for persistent access\n\nhttps://t.co/YROD9osKuT\n\nhttps://t.co/YROD9osKuT",
+      "url": "https://x.com/BleepinComputer/status/2120813424984703295",
+      "published_at": "2026-11-12T09:38:17Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120811084764602372",
+      "author": "TheHackersNews",
+      "text": "🚨 Just TWO unauthenticated requests can set up a MongoDB server crash.\n\nA critical pre-auth flaw (CVE-2026-118383, CVSS 9.5) can crash vulnerable replica set members during failover.\n\nNo login required. Patches are out.\n\nDetails: https://t.co/sNxCLv20F1",
+      "url": "https://x.com/TheHackersNews/status/2120811084764602372",
+      "published_at": "2026-11-12T09:29:00Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120809958132662616",
+      "author": "SecurityWeek",
+      "text": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images https://t.co/7u95to6GNv",
+      "url": "https://x.com/SecurityWeek/status/2120809958132662616",
+      "published_at": "2026-11-12T09:24:31Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    },
+    {
+      "id": "2120799520699326735",
+      "author": "SecurityWeek",
+      "text": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt https://t.co/jpqt6Oz9fo",
+      "url": "https://x.com/SecurityWeek/status/2120799520699326735",
+      "published_at": "2026-11-12T08:43:02Z",
+      "collected_at": "2026-11-12T10:56:48Z"
+    }
+  ],
+  "started_at": "2026-11-12T10:56:48Z"
+}
