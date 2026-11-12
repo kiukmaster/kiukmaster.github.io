@@ -1,0 +1,167 @@
+{
+  "version": 2,
+  "checked_at": "2026-11-12T09:16:50Z",
+  "last_success_at": "2026-11-12T09:16:50Z",
+  "sources": {
+    "AISecHub": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-12T04:36:10Z",
+      "error": null
+    },
+    "wunderwuzzi23": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-11T18:41:18Z",
+      "error": null
+    },
+    "simonw": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-10T20:55:01Z",
+      "error": null
+    },
+    "TheHackersNews": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-12T08:24:08Z",
+      "error": null
+    },
+    "BleepinComputer": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-11T23:01:49Z",
+      "error": null
+    },
+    "SecurityWeek": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-12T08:43:02Z",
+      "error": null
+    },
+    "DarkReading": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-11T18:40:01Z",
+      "error": null
+    },
+    "InfosecurityMag": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-10T09:00:03Z",
+      "error": null
+    },
+    "Unit42_Intel": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-10T21:17:06Z",
+      "error": null
+    },
+    "MsftSecIntel": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-11T20:06:06Z",
+      "error": null
+    },
+    "malwrhunterteam": {
+      "status": "ok",
+      "checked_at": "2026-11-12T09:16:50Z",
+      "last_success_at": "2026-11-12T09:16:50Z",
+      "latest_post_at": "2026-11-11T22:52:24Z",
+      "error": null
+    }
+  },
+  "items": [
+    {
+      "id": "2120799520699326735",
+      "author": "SecurityWeek",
+      "text": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt https://t.co/jpqt6Oz9fo",
+      "url": "https://x.com/SecurityWeek/status/2120799520699326735",
+      "published_at": "2026-11-12T08:43:02Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120794762886443159",
+      "author": "TheHackersNews",
+      "text": "🚨 Node.js fixes 16 security flaws, including an HTTPS bug that can expose TLS private keys under specific server conditions.\n\nAnother lets unauthenticated clients crash HTTP/2 servers on 24.x/26.x.\n\n7 rated high. Full details: https://t.co/8020ZkJJeO",
+      "url": "https://x.com/TheHackersNews/status/2120794762886443159",
+      "published_at": "2026-11-12T08:24:08Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120783672878186661",
+      "author": "TheHackersNews",
+      "text": "‼️ Attackers hijacked over 4,800 #GitHub accounts to plant credential-stealing malware in repositories.\n\nThe stealer executed in at least 1,806 repos, harvesting CI and cloud credentials while attackers often erased traces of its activity.\n\nSeen a wfx-docs branch? Check your repos: https://t.co/fwFKP1BKOx",
+      "url": "https://x.com/TheHackersNews/status/2120783672878186661",
+      "published_at": "2026-11-12T07:40:04Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120769833621180849",
+      "author": "TheHackersNews",
+      "text": "⚠️ Over 4,800 stolen GitHub accounts used to plant a CI secret stealer that ran in at least 1,806 repositories.\n\nThe malware targeted #GitHub secrets and cloud credentials. Attackers reverted malicious commits within a minute and usually deleted workflow logs.\n\nDetails → https://t.co/fwFKP1BKOx",
+      "url": "https://x.com/TheHackersNews/status/2120769833621180849",
+      "published_at": "2026-11-12T06:45:04Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120746775455858849",
+      "author": "TheHackersNews",
+      "text": "‼️ BREAKING - Critical Apache HTTP/2 flaw could allow unauthenticated remote code execution.\n\nCVE-2026-119618 affects versions 2.4.55–2.4.70 with HTTP/2 enabled.\n\nCVSS 9.8. Fixed in 2.4.71, but some #Linux distributions still await patches.\n\nRead more → https://t.co/pqK7XVed3I",
+      "url": "https://x.com/TheHackersNews/status/2120746775455858849",
+      "published_at": "2026-11-12T05:13:27Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120739362950234247",
+      "author": "SecurityWeek",
+      "text": "Critical Xen Orchestra Flaws Exploited in Attacks https://t.co/5pMHlKQUNK",
+      "url": "https://x.com/SecurityWeek/status/2120739362950234247",
+      "published_at": "2026-11-12T04:44:00Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120738768806404225",
+      "author": "TheHackersNews",
+      "text": "‼️ Hackers are abusing ScreenConnect to push rogue clients delivering SCKit malware.\n\nAt least 288 endpoints across 48 organizations were targeted, Huntress reports.\n\nConnectWise has disabled 5 third-party extensions.\n\nAttack details + IoCs → https://t.co/arJr75n9Tw",
+      "url": "https://x.com/TheHackersNews/status/2120738768806404225",
+      "published_at": "2026-11-12T04:41:38Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120737391044653059",
+      "author": "AISecHub",
+      "text": "https://t.co/XyPmpGZnAh",
+      "url": "https://x.com/AISecHub/status/2120737391044653059",
+      "published_at": "2026-11-12T04:36:10Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120730192431792482",
+      "author": "AISecHub",
+      "text": "https://t.co/pyDlMOtzM7\n\nAustralian Signals Directorate (@ASDGovAu)\n\nTesting AI agents in cyber security environments? Make sure they stay within scope. Our new publication, Securing AI testing environments, outlines practical steps to contain AI agents, strengthen oversight & reduce risk during testing. Find out more 👉 https://t.co/do913bRB7f\n\n— https://nitter.gq/ASDGovAu/status/2120645242810720348",
+      "url": "https://x.com/AISecHub/status/2120730192431792482",
+      "published_at": "2026-11-12T04:07:33Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    },
+    {
+      "id": "2120726925102727416",
+      "author": "AISecHub",
+      "text": "https://t.co/Bb6CHIb11M\n\nPerplexity (@perplexity_ai)\n\nWe are publishing new research on our findings from red-teaming SPACE, our VM sandbox for Computer agents.\n\nWe gave 12 models two tasks: escape the VM to take a credential from the host, and bypass SPACE's network policy to reach a blocked URL.\n\nWe found that the standard Capture the Flag setup used in red-teaming can steer agents away from the security boundary being tested, and that security-specialized models don't guarantee better results.\n\nhttps://t.co/Egh3x3uX4c\n\n— https://nitter.gq/perplexity_ai/status/2120582674549203004",
+      "url": "https://x.com/AISecHub/status/2120726925102727416",
+      "published_at": "2026-11-12T03:54:34Z",
+      "collected_at": "2026-11-12T09:16:50Z"
+    }
+  ],
+  "started_at": null
+}

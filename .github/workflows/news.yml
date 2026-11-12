@@ -1,0 +1,98 @@
+name: Collect X news
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/news.yml'
+      - '.github/scripts/collect-news.py'
+      - '.github/scripts/translate-news.py'
+      - 'data/news_sources.json'
+
+permissions: {}
+
+concurrency:
+  group: news-data
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  collect:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the exact public repository commit
+        run: |
+          set -euo pipefail
+          git init --quiet
+          git remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git"
+          git fetch --quiet --no-tags --depth=1 origin "$GITHUB_SHA"
+          git checkout --quiet --detach FETCH_HEAD
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+
+      - name: Restore the durable news archive
+        id: restore
+        run: |
+          set -euo pipefail
+          git init --quiet .news-state
+          git -C .news-state remote add origin "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git"
+          if git -C .news-state ls-remote --exit-code --heads origin refs/heads/news-data > /dev/null; then
+            git -C .news-state fetch --quiet --no-tags --depth=1 origin refs/heads/news-data
+            git -C .news-state checkout --quiet -B news-data FETCH_HEAD
+            test -f .news-state/news.json
+          else
+            result=$?
+            if [ "$result" -ne 2 ]; then exit "$result"; fi
+            git -C .news-state symbolic-ref HEAD refs/heads/news-data
+            cp data/news.json .news-state/news.json
+          fi
+          python3 .github/scripts/collect-news.py --state .news-state/news.json --migrate
+          python3 .github/scripts/translate-news.py --state .news-state/news.json \
+            --cache .news-state/news_translations.json --initialize-cache
+          python3 .github/scripts/translate-news.py --state .news-state/news.json \
+            --cache .news-state/news_translations.json --validate-only
+
+      - name: Collect public X posts
+        id: collection
+        continue-on-error: true
+        run: python3 .github/scripts/collect-news.py --state .news-state/news.json
+
+      - name: Translate new posts into Korean
+        id: translation
+        continue-on-error: true
+        timeout-minutes: 4
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 .github/scripts/translate-news.py --state .news-state/news.json \
+            --cache .news-state/news_translations.json
+
+      - name: Save posts and translations together
+        if: ${{ !cancelled() && steps.restore.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/translate-news.py --state .news-state/news.json \
+            --cache .news-state/news_translations.json --validate-only
+          git -C .news-state config user.name 'github-actions[bot]'
+          git -C .news-state config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C .news-state add -- news.json news_translations.json
+          if git -C .news-state diff --cached --quiet; then exit 0; fi
+          git -C .news-state commit --quiet -m 'chore: update X posts and translations'
+          auth_header="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+          git -C .news-state -c "http.extraheader=AUTHORIZATION: basic $auth_header" \
+            push origin HEAD:refs/heads/news-data
+
+      - name: Report collection or translation failures
+        if: ${{ !cancelled() && (steps.collection.outcome == 'failure' || steps.translation.outcome == 'failure') }}
+        run: |
+          echo 'Collection or translation failed. Check the preceding save step for persistence status.' >&2
+          exit 1

@@ -1,0 +1,13 @@
+[
+  {"handle": "AISecHub", "label": "AISecHub", "topic": "AI 보안 자료와 에이전트 위험", "topicEn": "AI security and agent risks"},
+  {"handle": "wunderwuzzi23", "label": "Johann Rehberger", "topic": "프롬프트 인젝션과 AI 공격 연구", "topicEn": "Prompt injection and AI attack research"},
+  {"handle": "simonw", "label": "Simon Willison", "topic": "AI 개발과 모델 보안", "topicEn": "AI development and model security"},
+  {"handle": "TheHackersNews", "label": "The Hacker News", "topic": "보안 속보와 취약점", "topicEn": "Security news and vulnerabilities"},
+  {"handle": "BleepinComputer", "label": "BleepingComputer", "topic": "침해 사고와 악성코드", "topicEn": "Security incidents and malware"},
+  {"handle": "SecurityWeek", "label": "SecurityWeek", "topic": "취약점과 보안 산업", "topicEn": "Vulnerabilities and security industry"},
+  {"handle": "DarkReading", "label": "Dark Reading", "topic": "사고 분석과 AI 위험", "topicEn": "Incident analysis and AI risks"},
+  {"handle": "InfosecurityMag", "label": "Infosecurity Magazine", "topic": "보안 뉴스와 AI 위험", "topicEn": "Security news and AI risks"},
+  {"handle": "Unit42_Intel", "label": "Unit 42", "topic": "위협 분석과 AI 공격", "topicEn": "Threat intelligence and AI attacks"},
+  {"handle": "MsftSecIntel", "label": "Microsoft Threat Intelligence", "topic": "Microsoft 위협 분석", "topicEn": "Microsoft threat intelligence"},
+  {"handle": "malwrhunterteam", "label": "MalwareHunterTeam", "topic": "악성코드와 랜섬웨어 관측", "topicEn": "Malware and ransomware tracking"}
+]

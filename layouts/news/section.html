@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{ $items := hugo.Data.news.items | default (slice) }}
+<div class="page-heading news-heading"><h1 data-i18n="news">{{ partial "t.html" "news" }}</h1><span class="results-count" data-i18n="newsLatest">{{ partial "t.html" "newsLatest" }}</span></div>
+{{ partial "news-status.html" . }}
+{{ partial "news-list.html" (first 10 $items) }}
+<div class="news-more"><a class="button secondary" href="/news/archive/"><span data-i18n="newsMore">{{ partial "t.html" "newsMore" }}</span><span>{{ len $items }}</span><span aria-hidden="true">→</span></a></div>
+{{ end }}

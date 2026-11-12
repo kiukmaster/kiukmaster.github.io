@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "prompt_version": "1",
+  "checked_at": null,
+  "status": "pending",
+  "entries": {}
+}

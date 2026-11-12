@@ -1,0 +1,54 @@
+{{ $news := hugo.Data.news | default (dict) }}
+{{ $sources := hugo.Data.news_sources | default (slice) }}
+{{ $states := $news.sources | default (dict) }}
+{{ $failed := slice }}
+{{ range $sources }}
+  {{ $state := index $states .handle | default (dict) }}
+  {{ if eq $state.status "error" }}{{ $failed = $failed | append . }}{{ end }}
+{{ end }}
+<div class="news-status">
+  <p class="news-status-line">
+    <span data-i18n="newsUpdated">{{ partial "t.html" "newsUpdated" }}</span>
+    {{ if and $news.started_at $news.last_success_at }}
+    {{ $updated := time.In "Asia/Seoul" (time.AsTime $news.last_success_at) }}
+    <time datetime="{{ $updated.Format "2006-01-02T15:04:05Z07:00" }}">{{ $updated.Format "2006.01.02 15:04" }} KST</time>
+    {{ else }}<span data-i18n="newsPending">{{ partial "t.html" "newsPending" }}</span>{{ end }}
+    <span class="news-hourly" data-i18n="newsHourly">{{ partial "t.html" "newsHourly" }}</span>
+  </p>
+  {{ $translation := hugo.Data.news_translations | default (dict) }}
+  {{ $translationLabel := "" }}
+  {{ if eq $translation.status "disabled" }}
+    {{ $translationLabel = "newsTranslationDisabled" }}
+  {{ else if eq $translation.status "configuration_error" }}
+    {{ $translationLabel = "newsTranslationConnectionError" }}
+  {{ else if in (slice "partial" "error") $translation.status }}
+    {{ $translationLabel = "newsTranslationIncomplete" }}
+  {{ end }}
+  {{ with $translationLabel }}<p class="news-status-line" data-i18n="{{ . }}">{{ partial "t.html" . }}</p>{{ end }}
+  {{ with $news.checked_at }}
+  {{ $checked := time.In "Asia/Seoul" (time.AsTime .) }}
+  <p class="news-status-line"><span data-i18n="newsChecked">{{ partial "t.html" "newsChecked" }}</span><time datetime="{{ $checked.Format "2006-01-02T15:04:05Z07:00" }}">{{ $checked.Format "2006.01.02 15:04" }} KST</time></p>
+  {{ end }}
+  {{ with $failed }}
+  <details class="news-details news-errors">
+    <summary><span data-i18n="newsFailures">{{ partial "t.html" "newsFailures" }}</span> ({{ len . }})</summary>
+    <p data-i18n="newsKept">{{ partial "t.html" "newsKept" }}</p>
+    <ul>
+      {{ range . }}
+      {{ $state := index $states .handle }}
+      <li><a href="https://x.com/{{ .handle }}" rel="noreferrer">@{{ .handle }}</a><span class="news-source-error">{{ $state.error }}</span></li>
+      {{ end }}
+    </ul>
+  </details>
+  {{ end }}
+  {{ with $sources }}
+  <details class="news-details">
+    <summary><span data-i18n="newsSources">{{ partial "t.html" "newsSources" }}</span> ({{ len . }})</summary>
+    <ul>
+      {{ range . }}
+      <li><a href="https://x.com/{{ .handle }}" rel="noreferrer">@{{ .handle }}</a><span class="news-source-label">{{ .label }}</span><span class="news-source-topic">{{ .topic }}</span></li>
+      {{ end }}
+    </ul>
+  </details>
+  {{ end }}
+</div>

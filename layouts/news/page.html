@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $items := hugo.Data.news.items | default (slice) }}
+{{ $number := int .Params.archive_page }}
+{{ $totalPages := int .Params.archive_total_pages }}
+{{ $offset := mul (sub $number 1) 30 }}
+<a class="back-link" href="/news/" data-i18n="newsBack">{{ partial "t.html" "newsBack" }}</a>
+<div class="page-heading news-heading"><h1 data-i18n="newsArchive">{{ partial "t.html" "newsArchive" }}</h1><span class="results-count">{{ len $items }} <span data-i18n="newsCollected">{{ partial "t.html" "newsCollected" }}</span></span></div>
+{{ partial "news-status.html" . }}
+{{ partial "news-list.html" (first 30 (after $offset $items)) }}
+{{ if gt $totalPages 1 }}
+<nav class="pagination news-pagination" aria-label="페이지" data-i18n-aria="pagination">
+  {{ if gt $number 1 }}
+  {{ $previous := "/news/archive/" }}
+  {{ if gt $number 2 }}{{ $previous = printf "/news/archive/%d/" (sub $number 1) }}{{ end }}
+  <a class="button secondary" href="{{ $previous }}" rel="prev" data-i18n="prevPage">{{ partial "t.html" "prevPage" }}</a>
+  {{ end }}
+  <span class="news-page-number">{{ $number }} / {{ $totalPages }}</span>
+  {{ if lt $number $totalPages }}<a class="button secondary" href="/news/archive/{{ add $number 1 }}/" rel="next" data-i18n="nextPage">{{ partial "t.html" "nextPage" }}</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

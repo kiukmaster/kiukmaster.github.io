@@ -1,0 +1,38 @@
+{{ if . }}
+{{ $cache := hugo.Data.news_translations | default (dict) }}
+{{ $entries := $cache.entries | default (dict) }}
+<ul class="news-list">
+  {{ range . }}
+  {{ $published := time.In "Asia/Seoul" (time.AsTime .published_at) }}
+  {{ $hash := crypto.SHA256 .text }}
+  {{ $key := printf "%s:%s:gpt-6.1-sol:medium:1" .id $hash }}
+  {{ $entry := index $entries $key | default (dict) }}
+  {{ $matches := and (eq $entry.post_id .id) (eq $entry.source_hash $hash) (eq $entry.model "gpt-6.1-sol") (eq $entry.reasoning_effort "medium") (eq $entry.prompt_version "1") }}
+  {{ $text := .text }}
+  {{ $label := "newsTranslationPending" }}
+  {{ if $matches }}
+    {{ if and (eq $entry.status "ok") $entry.text_ko }}
+      {{ $text = $entry.text_ko }}
+      {{ $label = "newsTranslated" }}
+    {{ else if eq $entry.status "error" }}
+      {{ $label = "newsTranslationFailed" }}
+    {{ else if eq $entry.status "skipped" }}
+      {{ $label = "newsTranslationSkipped" }}
+    {{ end }}
+  {{ end }}
+  <li class="news-item">
+    <div class="news-meta">
+      <a class="news-author" href="https://x.com/{{ .author }}" rel="noreferrer">@{{ .author }}</a>
+      <time datetime="{{ $published.Format "2006-01-02T15:04:05Z07:00" }}">{{ $published.Format "2006.01.02 15:04" }} KST</time>
+    </div>
+    <a class="news-post-link" href="{{ .url }}" rel="noreferrer"><span class="news-text" data-ko="{{ $text }}" data-en="{{ .text }}">{{ $text }}</span></a>
+    <div class="news-links">
+      <span class="news-translation" data-i18n="{{ $label }}">{{ partial "t.html" $label }}</span>
+      <a class="news-original" href="{{ .url }}" rel="noreferrer"><span data-i18n="newsOriginal">{{ partial "t.html" "newsOriginal" }}</span> ↗</a>
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ else }}
+<p class="news-empty" data-i18n="newsEmpty">{{ partial "t.html" "newsEmpty" }}</p>
+{{ end }}

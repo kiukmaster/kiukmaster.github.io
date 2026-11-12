@@ -1,0 +1,12 @@
+{{ $items := hugo.Data.news.items | default (slice) }}
+{{ $totalPages := math.Max 1 (math.Ceil (div (float (len $items)) 30)) | int }}
+{{ range seq $totalPages }}
+  {{ $path := "archive" }}
+  {{ if gt . 1 }}{{ $path = printf "archive/%d" . }}{{ end }}
+  {{ $.AddPage (dict
+    "kind" "page"
+    "path" $path
+    "title" "News 기록"
+    "params" (dict "archive_page" . "archive_total_pages" $totalPages)
+  ) }}
+{{ end }}

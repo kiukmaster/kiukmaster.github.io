@@ -8,9 +8,9 @@
   <a class="skip-link" href="#page-content" data-i18n="skip">{{ partial "t.html" "skip" }}</a>
   {{ partial "header.html" . }}
   {{ if and .IsPage (eq .Section "posts") }}<div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>{{ end }}
-  <div class="layout {{ if .IsHome }}home-layout{{ else if in (slice "contests" "ongoing") .Section }}wide-layout{{ else if and .IsPage (eq .Section "posts") }}article-layout{{ end }}">
-    {{ if not (or .IsHome (in (slice "contests" "ongoing") .Section)) }}{{ partial "sidebar.html" . }}{{ end }}
-    <main id="page-content" class="page-content {{ if .IsPage }}article-main{{ end }}" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  <div class="layout {{ if .IsHome }}home-layout{{ else if in (slice "contests" "ongoing" "news") .Section }}wide-layout{{ else if and .IsPage (eq .Section "posts") }}article-layout{{ end }}">
+    {{ if not (or .IsHome (in (slice "contests" "ongoing" "news") .Section)) }}{{ partial "sidebar.html" . }}{{ end }}
+    <main id="page-content" class="page-content {{ if and .IsPage (ne .Section "news") }}article-main{{ end }}" tabindex="-1">{{ block "main" . }}{{ end }}</main>
   </div>
   <footer class="site-footer">© {{ site.Params.author.name }}</footer>
   </div>

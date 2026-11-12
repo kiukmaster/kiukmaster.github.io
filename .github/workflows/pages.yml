@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  workflow_run:
+    workflows: ['Collect X news']
+    types: [completed]
+    branches: [main]
 
 permissions: {}
 
@@ -19,6 +23,11 @@ defaults:
 
 jobs:
   build:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.head_branch == 'main' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       contains(fromJSON('["success", "failure"]'), github.event.workflow_run.conclusion))
     runs-on: ubuntu-24.04
     permissions:
       contents: read
@@ -34,6 +43,28 @@ jobs:
           git fetch --quiet --no-tags --depth=1 origin "$GITHUB_SHA"
           git checkout --quiet --detach FETCH_HEAD
           test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+
+      - name: Restore collected news without running archive code
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin refs/heads/news-data > /dev/null; then
+            git fetch --quiet --no-tags --depth=1 origin refs/heads/news-data
+            git show FETCH_HEAD:news.json > data/news.json
+            translation_entry="$(git ls-tree --name-only FETCH_HEAD -- news_translations.json)"
+            if [ -n "$translation_entry" ]; then
+              git show FETCH_HEAD:news_translations.json > data/news_translations.json
+            else
+              rm -f -- data/news_translations.json
+            fi
+          else
+            result=$?
+            if [ "$result" -ne 2 ]; then exit "$result"; fi
+          fi
+          python3 .github/scripts/collect-news.py --state data/news.json --migrate
+          python3 .github/scripts/translate-news.py --state data/news.json \
+            --cache data/news_translations.json --initialize-cache
+          python3 .github/scripts/translate-news.py --state data/news.json \
+            --cache data/news_translations.json --validate-only
 
       - name: Download and verify Hugo
         run: |
@@ -94,7 +125,12 @@ jobs:
           args: /github/workspace/.github/scripts/run-pages-action.cjs
 
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: >-
+      github.ref == 'refs/heads/main' && github.event_name != 'pull_request' &&
+      (github.event_name != 'workflow_run' ||
+       (github.event.workflow_run.head_branch == 'main' &&
+        github.event.workflow_run.head_repository.full_name == github.repository &&
+        contains(fromJSON('["success", "failure"]'), github.event.workflow_run.conclusion)))
     needs: build
     runs-on: ubuntu-24.04
     permissions:
