@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-13T13:01:07Z",
-  "last_success_at": "2026-11-13T13:01:07Z",
+  "checked_at": "2026-11-13T14:01:08Z",
+  "last_success_at": "2026-11-13T14:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
-      "latest_post_at": "2026-11-13T11:17:03Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
+      "latest_post_at": "2026-11-13T13:57:57Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-13T12:27:57Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-13T12:41:40Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-12T18:35:03Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-12T17:11:30Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-13T13:01:07Z",
-      "last_success_at": "2026-11-13T13:01:07Z",
+      "checked_at": "2026-11-13T14:01:08Z",
+      "last_success_at": "2026-11-13T14:01:08Z",
       "latest_post_at": "2026-11-13T09:00:55Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121241157812490721",
+      "author": "TheHackersNews",
+      "text": "‼️ BREAKING - Trezor confirms hidden hardware implants in 3 'Safe 5 crypto wallets' sold by former reseller CryptoBilis.\n\nThe implants can steal recovery phrases and transmit them over mobile networks.\n\nA firmware update won't undo earlier exposure.\n\nDetails ↓ https://t.co/qO5M8Hgknf",
+      "url": "https://x.com/TheHackersNews/status/2121241157812490721",
+      "published_at": "2026-11-13T13:57:57Z",
+      "collected_at": "2026-11-13T14:01:08Z"
+    },
+    {
+      "id": "2121238724793254095",
+      "author": "TheHackersNews",
+      "text": "🚨 Shutting down a rogue AI agent may NOT stop it.\n\nQueued tasks, active sessions, and valid credentials could keep operations running—even after the model is disabled.\n\nHere's what security teams must do to actually contain a compromised or misbehaving AI agent: https://t.co/6rmg82Y09m",
+      "url": "https://x.com/TheHackersNews/status/2121238724793254095",
+      "published_at": "2026-11-13T13:48:17Z",
+      "collected_at": "2026-11-13T14:01:08Z"
+    },
     {
       "id": "2121221958922539359",
       "author": "SecurityWeek",
