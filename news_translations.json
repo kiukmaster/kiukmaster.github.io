@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-13T18:01:38Z",
+  "checked_at": "2026-11-13T19:01:23Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1286,6 +1286,18 @@
       "prompt_version": "2",
       "text_ko": "잇따른 공격에 동력을 제공하는 agentic AI pen-testing 도구, Artex를 소개한다.\n\n지난 7월 정상적인 framework로 GitHub에 공개된 Artex는 중국 정부와 연계된 Storm-0940부터 금전적 동기로 활동하는 캄보디아 기반 조직 Storm-3358까지 다양한 공격자에게 악용됐다.\n\n기본적인 공격 수법은 새로울 것이 없다. Password spraying, credential stuffing, supply chain pivoting 모두 익숙한 수법이다. 달라진 것은 누가 이를 실행할 수 있고, 얼마나 빠르게 실행할 수 있느냐다. 연구진은 도구의 정교함과 달리 많은 Artex 사용자의 operational security가 허술하다는 점도 지적한다. 이런 격차는 정교한 사이버 공격을 수행하기 위한 진입 장벽이 계속 낮아지고 있음을 시사한다.\n\nhttps://t.co/HE1Z5U5Ewf\n\n#Cybersecurity #ThreatIntelligence #AI #InfoSec",
       "translated_at": "2026-11-13T18:01:38Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121315838091198520:b8e11c5b9fc59032fa2e4bc24ebeb30011323643afed786d59f22173c0525af2:gpt-6.1-sol:medium:2": {
+      "post_id": "2121315838091198520",
+      "source_hash": "b8e11c5b9fc59032fa2e4bc24ebeb30011323643afed786d59f22173c0525af2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "이번 주 Recorded Future가 \"GhostFrame: Settra Ransomware와 연관된 새로운 ESXi Implant\"라는 제목의 글을 공개했습니다.\n\nIoCs 목록에는 hash 하나가 올라와 있습니다. 그 hash는 제가 이미 9월에 트윗했던 sample의 hash와 정확히 일치합니다: https://t.co/pX3G0sFRft\n\n🤷‍♂️\n\nMalwareHunterTeam (@malwrhunterteam)\n\n베트남에서 온 \"vmtools\"라는 이름의 파일을 봤습니다...\n\nVT의 Code insights에는 \"이 sample은 VMware ESXi에 특화된 backdoor이자 persistence implant입니다.\"라고 나오는데, 마지막 rescan 당시에도 VT에서 이를 탐지한 AV engine은 여전히 하나뿐이었습니다...\n\n🤷‍♂️\n\n— https://nitter.gq/malwrhunterteam/status/2102114347568832978",
+      "translated_at": "2026-11-13T19:01:23Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
