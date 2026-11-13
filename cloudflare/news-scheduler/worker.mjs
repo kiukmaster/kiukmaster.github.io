@@ -14,7 +14,7 @@ export default {
       try {
         response = await fetch(DISPATCH_URL, {
           method: 'POST',
-          redirect: 'error',
+          redirect: 'manual',
           signal: abort.signal,
           headers: {
             Accept: 'application/vnd.github+json',
