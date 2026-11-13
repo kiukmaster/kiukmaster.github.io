@@ -1,87 +1,119 @@
 {
   "version": 2,
-  "checked_at": "2026-11-13T15:01:17Z",
-  "last_success_at": "2026-11-13T15:01:17Z",
+  "checked_at": "2026-11-13T16:01:09Z",
+  "last_success_at": "2026-11-13T16:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
-      "latest_post_at": "2026-11-13T14:31:48Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
+      "latest_post_at": "2026-11-13T15:29:18Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
-      "latest_post_at": "2026-11-13T12:27:57Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
+      "latest_post_at": "2026-11-13T15:10:00Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
-      "latest_post_at": "2026-11-13T12:41:40Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
+      "latest_post_at": "2026-11-13T15:30:01Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-12T18:35:03Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-12T17:11:30Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-13T15:01:17Z",
-      "last_success_at": "2026-11-13T15:01:17Z",
+      "checked_at": "2026-11-13T16:01:09Z",
+      "last_success_at": "2026-11-13T16:01:09Z",
       "latest_post_at": "2026-11-13T09:00:55Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121264325440815294",
+      "author": "SecurityWeek",
+      "text": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach https://t.co/cSJBgC5dko",
+      "url": "https://x.com/SecurityWeek/status/2121264325440815294",
+      "published_at": "2026-11-13T15:30:01Z",
+      "collected_at": "2026-11-13T16:01:09Z"
+    },
+    {
+      "id": "2121264146390122799",
+      "author": "TheHackersNews",
+      "text": "🚨 Two new attacks break AMD's confidential VM protections.\n\nDubbed 'Mior' and 'Skyfall,' the attacks let malicious cloud hosts steal secrets from SEV-SNP-protected VMs. Mior can also forge signed attestation reports.\n\nRead details → https://t.co/uRmbCk0eCC",
+      "url": "https://x.com/TheHackersNews/status/2121264146390122799",
+      "published_at": "2026-11-13T15:29:18Z",
+      "collected_at": "2026-11-13T16:01:09Z"
+    },
+    {
+      "id": "2121263044273844391",
+      "author": "TheHackersNews",
+      "text": "🤔 Disabling the vulnerable feature could reopen older Windows attack paths.\n\nSignDrop targets CLFS log authentication, but turning it off lets Windows parse tampered logs again—exposing the memory corruption risks the protection was built to prevent.\n\nThe Hacker News (@TheHackersNews)\n\n‼️ NEW WINDOWS ZERO-DAY EXPLOIT!\n\nA security feature designed to stop attacks can be abused to gain SYSTEM privileges.\n\nDubbed SignDrop, the exploit targets Windows CLFS using Microsoft Defender. The code is now public.\n\nNo CVE. No patch. Microsoft has yet to confirm the flaw.\n\nRead: https://t.co/yeLsrhOlqP\n\n— https://nitter.gq/TheHackersNews/status/2120938288148316633",
+      "url": "https://x.com/TheHackersNews/status/2121263044273844391",
+      "published_at": "2026-11-13T15:24:55Z",
+      "collected_at": "2026-11-13T16:01:09Z"
+    },
+    {
+      "id": "2121259288916373868",
+      "author": "BleepinComputer",
+      "text": "🚨 An AI agent built to process invoices could be tricked into changing vendor bank details simply by reading a malicious email.\n\n🔍 @TheTokenSec explores five AI agent security gaps and how to address them.\n\n➡️ https://t.co/edLG2KHu0V\n\n#cybersecurity #ai #sponsored",
+      "url": "https://x.com/BleepinComputer/status/2121259288916373868",
+      "published_at": "2026-11-13T15:10:00Z",
+      "collected_at": "2026-11-13T16:01:09Z"
+    },
     {
       "id": "2121249678167806415",
       "author": "TheHackersNews",
