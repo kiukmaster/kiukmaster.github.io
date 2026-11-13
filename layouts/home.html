@@ -19,8 +19,10 @@
       <div class="terminal-output-shell" id="terminal-results">
         <section class="terminal-output" id="terminal-output-whoami" data-terminal-panel="whoami" aria-labelledby="introduction-title">
           <header class="introduction-heading">
+            <div class="introduction-rule" aria-hidden="true"><span>┌</span><span class="introduction-rule-line">────────────────────────────────────────────────────────────────</span><span>┐</span></div>
             <h1 class="introduction-title" id="introduction-title" tabindex="-1">{{ .Title }}</h1>
             <p class="introduction-role">{{ site.Params.author.role }}</p>
+            <div class="introduction-rule" aria-hidden="true"><span>└</span><span class="introduction-rule-line">────────────────────────────────────────────────────────────────</span><span>┘</span></div>
           </header>
           <div class="prose">{{ .Content }}</div>
         </section>
