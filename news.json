@@ -1,87 +1,623 @@
 {
   "version": 2,
-  "checked_at": "2026-11-12T11:13:08Z",
-  "last_success_at": "2026-11-12T11:13:08Z",
+  "checked_at": "2026-11-13T11:42:28Z",
+  "last_success_at": "2026-11-13T11:42:28Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-12T10:34:02Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-13T03:52:14Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-11T18:41:18Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-10T20:55:01Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-12T11:03:43Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-13T11:17:03Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-12T10:24:23Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-13T10:44:38Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-12T10:40:33Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-13T10:50:25Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-11T18:40:01Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-12T18:35:03Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-11T20:06:06Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-12T17:11:30Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-12T11:13:08Z",
-      "last_success_at": "2026-11-12T11:13:08Z",
-      "latest_post_at": "2026-11-12T10:31:01Z",
+      "checked_at": "2026-11-13T11:42:28Z",
+      "last_success_at": "2026-11-13T11:42:28Z",
+      "latest_post_at": "2026-11-13T09:00:55Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121200667809436138",
+      "author": "TheHackersNews",
+      "text": "‼️ Hackers hijacked telecom networks across Asia to intercept SMS 2FA codes and spy on mobile users.\n\nA newly uncovered espionage group, SilentAir, compromised telecom equipment in at least 6 countries, targeting users primarily in Taiwan.\n\nHere's how they pulled it off: https://t.co/63ohVVjslV",
+      "url": "https://x.com/TheHackersNews/status/2121200667809436138",
+      "published_at": "2026-11-13T11:17:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121195748180291733",
+      "author": "TheHackersNews",
+      "text": "⚡ International police have taken down infrastructure behind Gootloader, CastleRAT, and StealC in a major cybercrime crackdown.\n\nOperation Endgame seized 235 servers, 257 domains, and 6.4 million stolen logins linked to over 40,000 victims.\n\nFull details → https://t.co/ugghCuMlPY",
+      "url": "https://x.com/TheHackersNews/status/2121195748180291733",
+      "published_at": "2026-11-13T10:57:30Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121193962912256227",
+      "author": "SecurityWeek",
+      "text": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure https://t.co/ve0HX1qBNW",
+      "url": "https://x.com/SecurityWeek/status/2121193962912256227",
+      "published_at": "2026-11-13T10:50:25Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121192507849539914",
+      "author": "BleepinComputer",
+      "text": "Check Point warns of zero-day flaw exploited for root access\n\nhttps://t.co/PZrS2pjqq5\n\nhttps://t.co/PZrS2pjqq5",
+      "url": "https://x.com/BleepinComputer/status/2121192507849539914",
+      "published_at": "2026-11-13T10:44:38Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121176042266099880",
+      "author": "BleepinComputer",
+      "text": "Microsoft confirms Windows activation failures after November updates\n\nhttps://t.co/UEeOPaPGk9\n\nhttps://t.co/UEeOPaPGk9",
+      "url": "https://x.com/BleepinComputer/status/2121176042266099880",
+      "published_at": "2026-11-13T09:39:12Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121175676426588559",
+      "author": "SecurityWeek",
+      "text": "Citrix Patches 10 Critical NetScaler Vulnerabilities https://t.co/c0rfOM3bsG",
+      "url": "https://x.com/SecurityWeek/status/2121175676426588559",
+      "published_at": "2026-11-13T09:37:45Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121175079622991994",
+      "author": "SecurityWeek",
+      "text": "OpenAI Unveils Daybreak Red Team, Defense Factory Security Tools https://t.co/3vHtsGEorM",
+      "url": "https://x.com/SecurityWeek/status/2121175079622991994",
+      "published_at": "2026-11-13T09:35:23Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121166405165105630",
+      "author": "malwrhunterteam",
+      "text": "🤷‍♂️\n\nMoonlock Lab (@moonlock_lab)\n\n1/ We analyzed few stages of a Node.js #macOS loader that hides its next stage on public blockchains and pulls it only at runtime:\n\nStage 1 → TRON memo → BSC tx → Stage 2 → HTTP C2 → Stage 3\n\nFUD on VT static engines as of now, shared by @malwrhunterteam. More info below👇\n\n— https://nitter.gq/moonlock_lab/status/2120993459582726445",
+      "url": "https://x.com/malwrhunterteam/status/2121166405165105630",
+      "published_at": "2026-11-13T09:00:55Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121164340850258256",
+      "author": "SecurityWeek",
+      "text": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ https://t.co/hEpQpLC7nk",
+      "url": "https://x.com/SecurityWeek/status/2121164340850258256",
+      "published_at": "2026-11-13T08:52:42Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121159781599559968",
+      "author": "BleepinComputer",
+      "text": "Police arrest 354 suspects in dark web cybercrime crackdown\n\nhttps://t.co/SZbBbmZnwd\n\nhttps://t.co/SZbBbmZnwd",
+      "url": "https://x.com/BleepinComputer/status/2121159781599559968",
+      "published_at": "2026-11-13T08:34:35Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121153267644436507",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers are exploiting #PHP2Shell flaws in unpatched Check Point gateways to gain root access, deploy stealthy backdoors, and wipe files on VMware ESXi hosts.\n\nAttacks have targeted organizations worldwide.\n\nDetails: https://t.co/8eOVlgiOBC",
+      "url": "https://x.com/TheHackersNews/status/2121153267644436507",
+      "published_at": "2026-11-13T08:08:42Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121146159687500105",
+      "author": "SecurityWeek",
+      "text": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks https://t.co/pCoW7g5Yi6",
+      "url": "https://x.com/SecurityWeek/status/2121146159687500105",
+      "published_at": "2026-11-13T07:40:28Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121142035931603260",
+      "author": "SecurityWeek",
+      "text": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication https://t.co/6SC3SJdy02",
+      "url": "https://x.com/SecurityWeek/status/2121142035931603260",
+      "published_at": "2026-11-13T07:24:04Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121116969432957070",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers breached 21 N-able N-central servers. 19 were already running Hotfix 2.\n\nAttackers exploited critical flaws to gain root access and deploy crypto miners.\n\nThe alarming part? Hotfix 2 alone wasn't enough.\n\nWhat admins need to know ↓ https://t.co/NVpGauIYkw",
+      "url": "https://x.com/TheHackersNews/status/2121116969432957070",
+      "published_at": "2026-11-13T05:44:28Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121100492411458001",
+      "author": "SecurityWeek",
+      "text": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google https://t.co/xvIg0NF6kn",
+      "url": "https://x.com/SecurityWeek/status/2121100492411458001",
+      "published_at": "2026-11-13T04:39:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121088726482776252",
+      "author": "AISecHub",
+      "text": "https://t.co/lMnz1AFkXI",
+      "url": "https://x.com/AISecHub/status/2121088726482776252",
+      "published_at": "2026-11-13T03:52:14Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121085644831072284",
+      "author": "SecurityWeek",
+      "text": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign https://t.co/BHsQffkb2m",
+      "url": "https://x.com/SecurityWeek/status/2121085644831072284",
+      "published_at": "2026-11-13T03:40:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121085644697166228",
+      "author": "SecurityWeek",
+      "text": "Hackers Deploy Malware in Fresh ScreenConnect Campaign https://t.co/Y7H3GH1lkw",
+      "url": "https://x.com/SecurityWeek/status/2121085644697166228",
+      "published_at": "2026-11-13T03:40:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121068098531029049",
+      "author": "SecurityWeek",
+      "text": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance - https://t.co/u7EQQWUyTi",
+      "url": "https://x.com/SecurityWeek/status/2121068098531029049",
+      "published_at": "2026-11-13T02:30:16Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121064756987703599",
+      "author": "SecurityWeek",
+      "text": "Daylight Lands $80 Million for AI-Powered Security Operations https://t.co/Evj262UNTZ",
+      "url": "https://x.com/SecurityWeek/status/2121064756987703599",
+      "published_at": "2026-11-13T02:17:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121063631546995191",
+      "author": "SecurityWeek",
+      "text": "Microsoft 365 Outage Update - A process that establishes secure connections was becoming overwhelmed, causing affected servers to stop handling requests. Microsoft began rolling back a recent network configuration change that coincided with the start of the disruption and was monitoring whether the rollback helped. https://t.co/GTFowzCSR9",
+      "url": "https://x.com/SecurityWeek/status/2121063631546995191",
+      "published_at": "2026-11-13T02:12:31Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121058968793444668",
+      "author": "SecurityWeek",
+      "text": "Notion Customer Data Compromised in Fireworks AI Hack https://t.co/KWhCLToAKg",
+      "url": "https://x.com/SecurityWeek/status/2121058968793444668",
+      "published_at": "2026-11-13T01:54:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121051419012968452",
+      "author": "SecurityWeek",
+      "text": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images https://t.co/7u95to6GNv",
+      "url": "https://x.com/SecurityWeek/status/2121051419012968452",
+      "published_at": "2026-11-13T01:24:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121040597758693726",
+      "author": "SecurityWeek",
+      "text": "Hackers Target N-central Zero-Days as N-able Rushes Patches https://t.co/AwYnU1UZko",
+      "url": "https://x.com/SecurityWeek/status/2121040597758693726",
+      "published_at": "2026-11-13T00:41:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121039423441981444",
+      "author": "simonw",
+      "text": "The pricing for Gemini 4 is pretty confusing - Argon and Carbon are the same token price as each other, and the new Hydrogen is only a 25% discount on that price - though Carbon/Argon will 2x in price on Dec 1st\n\nHydrogen's pelicans are notably worse\n\nhttps://t.co/XZqY5eQxcD",
+      "url": "https://x.com/simonw/status/2121039423441981444",
+      "published_at": "2026-11-13T00:36:20Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121025926804783510",
+      "author": "AISecHub",
+      "text": "https://t.co/bftdEgcnus",
+      "url": "https://x.com/AISecHub/status/2121025926804783510",
+      "published_at": "2026-11-12T23:42:42Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121013528765055381",
+      "author": "BleepinComputer",
+      "text": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks\n\nhttps://t.co/ZfJxD9r5em\n\nhttps://t.co/ZfJxD9r5em",
+      "url": "https://x.com/BleepinComputer/status/2121013528765055381",
+      "published_at": "2026-11-12T22:53:26Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121012762046234649",
+      "author": "AISecHub",
+      "text": "https://t.co/SjC3WOZYOw",
+      "url": "https://x.com/AISecHub/status/2121012762046234649",
+      "published_at": "2026-11-12T22:50:23Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2121006572713177466",
+      "author": "BleepinComputer",
+      "text": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials\n\nhttps://t.co/q1jCZOyecU\n\nhttps://t.co/q1jCZOyecU",
+      "url": "https://x.com/BleepinComputer/status/2121006572713177466",
+      "published_at": "2026-11-12T22:25:47Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120984241181737070",
+      "author": "SecurityWeek",
+      "text": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams. Was the Microsoft outage caused by a cyberattack?https://t.co/j6lTRvympa",
+      "url": "https://x.com/SecurityWeek/status/2120984241181737070",
+      "published_at": "2026-11-12T20:57:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120973666661900321",
+      "author": "BleepinComputer",
+      "text": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide\n\nhttps://t.co/57AIUsFxjV\n\nhttps://t.co/57AIUsFxjV",
+      "url": "https://x.com/BleepinComputer/status/2120973666661900321",
+      "published_at": "2026-11-12T20:15:02Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120967754446516278",
+      "author": "BleepinComputer",
+      "text": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released\n\nhttps://t.co/UdaWAryJ58\n\nhttps://t.co/UdaWAryJ58",
+      "url": "https://x.com/BleepinComputer/status/2120967754446516278",
+      "published_at": "2026-11-12T19:51:32Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120962147496927621",
+      "author": "AISecHub",
+      "text": "https://t.co/EYHHMXsQIs",
+      "url": "https://x.com/AISecHub/status/2120962147496927621",
+      "published_at": "2026-11-12T19:29:16Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120958110537764904",
+      "author": "BleepinComputer",
+      "text": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw\n\nhttps://t.co/zAte6y7tdT\n\nhttps://t.co/zAte6y7tdT",
+      "url": "https://x.com/BleepinComputer/status/2120958110537764904",
+      "published_at": "2026-11-12T19:13:13Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120957115896307857",
+      "author": "BleepinComputer",
+      "text": "Koofr’s 1TB lifetime cloud storage plan drops to $160 with a code\n\nhttps://t.co/bhgI7vyPDr\n\nhttps://t.co/bhgI7vyPDr",
+      "url": "https://x.com/BleepinComputer/status/2120957115896307857",
+      "published_at": "2026-11-12T19:09:16Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120950350505038036",
+      "author": "malwrhunterteam",
+      "text": "Imagine the clowns who released another episode of the \"Operation Endgame\" marketing shit today would actually start caring and for example would solve these very obviously and openly working \"certificate authorities\" gangs...\n\n🤷‍♂️\n\nSquiblydoo (@SquiblydooBlog)\n\nImagine getting ransomwared because a CA gave a code-signing cert to an Estonian firewood company.\n\n— https://nitter.gq/SquiblydooBlog/status/2120848219869794326",
+      "url": "https://x.com/malwrhunterteam/status/2120950350505038036",
+      "published_at": "2026-11-12T18:42:23Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120950014130503842",
+      "author": "wunderwuzzi23",
+      "text": "cool, even got a bounty for this one from apple 😀\n\nCVE-2026-64750",
+      "url": "https://x.com/wunderwuzzi23/status/2120950014130503842",
+      "published_at": "2026-11-12T18:41:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120948502817583383",
+      "author": "DarkReading",
+      "text": "Inside an AI Attack Against a US Retailer https://t.co/Al7QaodYQZ by Alexander Culafi",
+      "url": "https://x.com/DarkReading/status/2120948502817583383",
+      "published_at": "2026-11-12T18:35:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120945988948906286",
+      "author": "DarkReading",
+      "text": "Chinese AI Project Scouts Spies in Taiwan Chip Industry https://t.co/EXDlejH5oz by Nate Nelson #DRGlobal",
+      "url": "https://x.com/DarkReading/status/2120945988948906286",
+      "published_at": "2026-11-12T18:25:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120945216454529341",
+      "author": "malwrhunterteam",
+      "text": "The clowns keep clowning... or in other words, instead of even just starting to show signs of that they would finally care stopping malware, they keep throwing bones to the dogs... but looks the dogs are very happy with the bones, so why these clowns would start caring anyway?\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2120945216454529341",
+      "published_at": "2026-11-12T18:21:59Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120943474983801040",
+      "author": "DarkReading",
+      "text": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise https://t.co/MQ2qloD8t6 by Robert Lemos #DRGlobal",
+      "url": "https://x.com/DarkReading/status/2120943474983801040",
+      "published_at": "2026-11-12T18:15:04Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120941100441702854",
+      "author": "TheHackersNews",
+      "text": "🚨 Microsoft uncovers 59 Linux kernel bugs, including 8 with working root exploits.\n\nAlso in this week's #ThreatsDay:\n\n• Falcon browser spyware\n\n• GSocket backdoor surge\n\n• Europol server takedown\n\n• $6.43B crypto laundering\n\n• AI-powered espionage\n\n• Citrus ransomware\n\n• OAuth agent phishing\n\n• NTLM security hardening\n\n• Armorsteal malware\n\n• RevStealer campaigns\n\n• AI phishing kits\n\n• Signal security proofs\n\n20 stories. Full roundup ↓ https://t.co/SyJk0kOEUI",
+      "url": "https://x.com/TheHackersNews/status/2120941100441702854",
+      "published_at": "2026-11-12T18:05:38Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120940956438442027",
+      "author": "DarkReading",
+      "text": "Attackers Say 'Hello' to a Different Scale of Cloud Attack https://t.co/S47AmrzHOv by Arielle Waldman",
+      "url": "https://x.com/DarkReading/status/2120940956438442027",
+      "published_at": "2026-11-12T18:05:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120938436815151444",
+      "author": "DarkReading",
+      "text": "AI Raises the Stakes for Cyber Resilience https://t.co/0zSEnICvNr by Jai Vijayan",
+      "url": "https://x.com/DarkReading/status/2120938436815151444",
+      "published_at": "2026-11-12T17:55:03Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120938288148316633",
+      "author": "TheHackersNews",
+      "text": "‼️ NEW WINDOWS ZERO-DAY EXPLOIT!\n\nA security feature designed to stop attacks can be abused to gain SYSTEM privileges.\n\nDubbed SignDrop, the exploit targets Windows CLFS using Microsoft Defender. The code is now public.\n\nNo CVE. No patch. Microsoft has yet to confirm the flaw.\n\nRead: https://t.co/yeLsrhOlqP",
+      "url": "https://x.com/TheHackersNews/status/2120938288148316633",
+      "published_at": "2026-11-12T17:54:27Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120935624949502052",
+      "author": "DarkReading",
+      "text": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws https://t.co/qtgYAG1Pyv by Elizabeth Montalbano",
+      "url": "https://x.com/DarkReading/status/2120935624949502052",
+      "published_at": "2026-11-12T17:43:52Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120927480588484989",
+      "author": "MsftSecIntel",
+      "text": "A model backdoor embeds hidden behavior that stays dormant until a trigger appears. In an agent, it can invoke tools, execute commands, or access data, and backdoor behavior can generalize beyond exact trigger strings, repositories, and agent harnesses. https://t.co/DNg23W8t0Z\n\nTwo studies of the post-training supply chain, from Microsoft Defender Research and the Microsoft AI Red Team, examine poisoned fine-tuning datasets and backdoored open-weight checkpoints. Their findings support Satya Nadella's argument that trustworthy enterprise AI requires independent observability and controls that sit outside the model.\n\nCapability evaluation and subsequent training are not sufficient evidence that a model is free of hidden conditional behavior. Read the blog for the full findings and guidance on controls over training-data pipelines, model adoption, and tools.",
+      "url": "https://x.com/MsftSecIntel/status/2120927480588484989",
+      "published_at": "2026-11-12T17:11:30Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120919548987945264",
+      "author": "malwrhunterteam",
+      "text": "🤷‍♂️\n\nL0Psec (@L0Psec)\n\nRealized after this post that @malwrhunterteam had shared a related DMG with me: 380df7164ce9d69ab91a4f1ebf07df097160283be767c398e93c5efa7a6724ae - MicrosoftTeamsSetup.dmg\n\nThis instructs the user to click the icon, which opens Script Editor and to press play or Run it.\n\n🧵\n\n— https://nitter.gq/L0Psec/status/2120903905613902080",
+      "url": "https://x.com/malwrhunterteam/status/2120919548987945264",
+      "published_at": "2026-11-12T16:39:59Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120918501577871463",
+      "author": "TheHackersNews",
+      "text": "‼️Two critical Red Hat Quay flaws (CVSS 9.8 & 9.9) expose private container images to theft and tampering.\n\nOne flaw lets attackers read or overwrite ALL private images in a registry — no account needed if anonymous access is enabled.\n\nDetails ↓ https://t.co/IoQQoUpYuv",
+      "url": "https://x.com/TheHackersNews/status/2120918501577871463",
+      "published_at": "2026-11-12T16:35:50Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120910612893233249",
+      "author": "TheHackersNews",
+      "text": "⚡ Your SIEM or EDR flags a threat. But can your SOC tell what the compromised identity can actually access?\n\nThat blind spot can slow containment and leave attackers room to move.\n\nJoin this FREE webinar to learn how to close the gap: https://t.co/haDRrzgrxd",
+      "url": "https://x.com/TheHackersNews/status/2120910612893233249",
+      "published_at": "2026-11-12T16:04:29Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120910565698650391",
+      "author": "BleepinComputer",
+      "text": "New Windows SignDrop zero-day gives hackers SYSTEM privileges\n\nhttps://t.co/9r7FyjnGo1\n\nhttps://t.co/9r7FyjnGo1",
+      "url": "https://x.com/BleepinComputer/status/2120910565698650391",
+      "published_at": "2026-11-12T16:04:18Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120904618498728251",
+      "author": "TheHackersNews",
+      "text": "🚨 Citrix patches 12 security flaws, including a critical NetScaler Console authentication bypass (CVSS 9.4) that could let unauthenticated attackers access restricted resources.\n\nA separate NetScaler flaw scores 9.5 and could cause DoS.\n\nWhat to patch: https://t.co/Hh2Y8kTNMY",
+      "url": "https://x.com/TheHackersNews/status/2120904618498728251",
+      "published_at": "2026-11-12T15:40:40Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120904344715645237",
+      "author": "SecurityWeek",
+      "text": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google https://t.co/xvIg0NFE9V",
+      "url": "https://x.com/SecurityWeek/status/2120904344715645237",
+      "published_at": "2026-11-12T15:39:34Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120898921711157320",
+      "author": "TheHackersNews",
+      "text": "🚨 186 fake domains impersonate ChatGPT, Claude, Gemini and 24 other AI brands.\n\nA mistyped URL can lead to fake security checks, malware downloads or Chrome extensions that hijack searches.\n\nHow the scheme works: https://t.co/x6q2YleMrZ",
+      "url": "https://x.com/TheHackersNews/status/2120898921711157320",
+      "published_at": "2026-11-12T15:18:01Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120896901063254175",
+      "author": "BleepinComputer",
+      "text": "🔐 The same tools IT teams use to patch and secure thousands of endpoints can become powerful weapons when attackers take control.\n\n🔍 @Action1corp explains how to prevent attackers from hijacking endpoint operations.\n\n➡️ https://t.co/eFuAxrvRvP\n\n#cybersecurity #sponsored",
+      "url": "https://x.com/BleepinComputer/status/2120896901063254175",
+      "published_at": "2026-11-12T15:10:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120896298706514114",
+      "author": "BleepinComputer",
+      "text": "Police dismantles Gootloader, CastleRAT, StealC malware infrastructure\n\nhttps://t.co/eyu1wnhdSP\n\nhttps://t.co/eyu1wnhdSP",
+      "url": "https://x.com/BleepinComputer/status/2120896298706514114",
+      "published_at": "2026-11-12T15:07:36Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120889854582288507",
+      "author": "SecurityWeek",
+      "text": "Chrome, Firefox Updates Patch 180 Vulnerabilities https://t.co/YOGKG5CLc0",
+      "url": "https://x.com/SecurityWeek/status/2120889854582288507",
+      "published_at": "2026-11-12T14:42:00Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120888612283662464",
+      "author": "BleepinComputer",
+      "text": "Apify rotates API tokens, prompts 2FA resets after breach\n\nhttps://t.co/ismPovZmsI\n\nhttps://t.co/ismPovZmsI",
+      "url": "https://x.com/BleepinComputer/status/2120888612283662464",
+      "published_at": "2026-11-12T14:37:04Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120885384477381068",
+      "author": "SecurityWeek",
+      "text": "Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board at #NVIDIA (NASDAQ: $NVDA). Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, will serve as Interim Chief Executive Officer. The Board is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates. https://t.co/ZV0xLZ60j6",
+      "url": "https://x.com/SecurityWeek/status/2120885384477381068",
+      "published_at": "2026-11-12T14:24:14Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120871491810254888",
+      "author": "TheHackersNews",
+      "text": "Lava and OWASP have released the OWASP Top 10 Neocloud & AI Data Center Security Risks.\n\nAs the AI boom accelerates, the new framework highlights critical security risks across the infrastructure powering AI, from hardware and networking to tenant isolation and more.\n\nExplore the framework: https://t.co/e4eLIY5Qgd",
+      "url": "https://x.com/TheHackersNews/status/2120871491810254888",
+      "published_at": "2026-11-12T13:29:02Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120866724543398276",
+      "author": "TheHackersNews",
+      "text": "🚨 ScreenConnect attackers have a new target: IT support technicians.\n\nSCKit malware exploits a patched 9.9-rated flaw and attempts to hijack technician sessions to spread across MSP customer networks.\n\nThe patch blocks the exploit but not session hijacking.\n\nDetails: https://t.co/uEmhlF6VZQ",
+      "url": "https://x.com/TheHackersNews/status/2120866724543398276",
+      "published_at": "2026-11-12T13:10:05Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120853514872340558",
+      "author": "TheHackersNews",
+      "text": "🛑 Google Cloud warns of 3 security flaws in AMD EPYC Turin CPUs that could leak sensitive data inside VMs.\n\nC4D, N4D, H4D, Z4D and G4 instances are affected.\n\nand... a simple reboot won't fix it.\n\nWhat customers need to know: https://t.co/cMSYYVg8MO",
+      "url": "https://x.com/TheHackersNews/status/2120853514872340558",
+      "published_at": "2026-11-12T12:17:36Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120851972941046240",
+      "author": "BleepinComputer",
+      "text": "Microsoft: Recent Windows updates cause SQL Server performance issues\n\nhttps://t.co/JE9hZNrZOJ\n\nhttps://t.co/JE9hZNrZOJ",
+      "url": "https://x.com/BleepinComputer/status/2120851972941046240",
+      "published_at": "2026-11-12T12:11:28Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120850655615037772",
+      "author": "BleepinComputer",
+      "text": "Browse anonymously on your devices with 3 years of Surfshark VPN for $67\n\nhttps://t.co/86Cob2J1OU\n\nhttps://t.co/86Cob2J1OU",
+      "url": "https://x.com/BleepinComputer/status/2120850655615037772",
+      "published_at": "2026-11-12T12:06:14Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120847519530062306",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers used Google Calendar invites to hijack corporate Google sessions—even after victims approved genuine MFA prompts.\n\nThe trick: trusted Google links and live phishing proxies that captured authenticated sessions.\n\n897 attacker domains taken down.\n\nInside the campaign: https://t.co/Wbmrw9UHn9",
+      "url": "https://x.com/TheHackersNews/status/2120847519530062306",
+      "published_at": "2026-11-12T11:53:46Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120847224670167468",
+      "author": "malwrhunterteam",
+      "text": "Yes, a small Estonian company that on paper is \"focused on the wholesale of solid fuels (primarily firewood)\", that in past years looked very dormant (zero revenue in 2024-2025), surely was in a very big need of a code signing cert in 2026 October... so it's still not totally obvious that SSL Corp is just one of the \"legit certificate authority companies\" that are actually gangs giving certs to basically anyone as long as they are getting the money for the given certs...\n\n🤷‍♂️\n\nSquiblydoo (@SquiblydooBlog)\n\nThis is my favorite malicious signer in a long time: \"BEST FIREWOOD BALTIC OU\"\n\nThe malware was the same as we've published about before: https://t.co/ungS7nE5rh\n\ncfe976aa42a6c1d8e99098aff4124c6799ba210bc936173d8bd7a55ead45f620\n\nh/t @malwrhunterteam\n\n— https://nitter.gq/SquiblydooBlog/status/2120838975069864402",
+      "url": "https://x.com/malwrhunterteam/status/2120847224670167468",
+      "published_at": "2026-11-12T11:52:36Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
+    {
+      "id": "2120844091349155877",
+      "author": "TheHackersNews",
+      "text": "🚨 PTC patches critical Windchill and FlexPLM flaw that could allow remote code execution.\n\nCVE-2026-126325 scores 9.2. PTC-hosted systems are already patched; other deployments need the fix.\n\nhttps://t.co/W2d5pdgy66",
+      "url": "https://x.com/TheHackersNews/status/2120844091349155877",
+      "published_at": "2026-11-12T11:40:09Z",
+      "collected_at": "2026-11-13T11:42:28Z"
+    },
     {
       "id": "2120834921241694544",
       "author": "TheHackersNews",
