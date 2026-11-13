@@ -1,87 +1,119 @@
 {
   "version": 2,
-  "checked_at": "2026-11-13T17:01:09Z",
-  "last_success_at": "2026-11-13T17:01:09Z",
+  "checked_at": "2026-11-13T18:01:08Z",
+  "last_success_at": "2026-11-13T18:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
-      "latest_post_at": "2026-11-13T16:22:03Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
+      "latest_post_at": "2026-11-13T17:32:12Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-13T15:30:01Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
-      "latest_post_at": "2026-11-12T18:35:03Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
+      "latest_post_at": "2026-11-13T18:00:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-12T17:11:30Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-13T17:01:09Z",
-      "last_success_at": "2026-11-13T17:01:09Z",
+      "checked_at": "2026-11-13T18:01:08Z",
+      "last_success_at": "2026-11-13T18:01:08Z",
       "latest_post_at": "2026-11-13T09:00:55Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121302285816938530",
+      "author": "DarkReading",
+      "text": "Cyber Experts Weigh In: How to Fight Artex & AntiFox https://t.co/Kxtpo5l36d by Nate Nelson",
+      "url": "https://x.com/DarkReading/status/2121302285816938530",
+      "published_at": "2026-11-13T18:00:51Z",
+      "collected_at": "2026-11-13T18:01:08Z"
+    },
+    {
+      "id": "2121299309635178711",
+      "author": "DarkReading",
+      "text": "Extortion Group Luna Moth Flits Into Law Firms a Second Time https://t.co/TZKng4i8NW by Alexander Culafi",
+      "url": "https://x.com/DarkReading/status/2121299309635178711",
+      "published_at": "2026-11-13T17:49:01Z",
+      "collected_at": "2026-11-13T18:01:08Z"
+    },
+    {
+      "id": "2121295074529071172",
+      "author": "BleepinComputer",
+      "text": "German military drone operations disrupted by cyberattack\n\nhttps://t.co/qH6Dn9hKBN\n\nhttps://t.co/qH6Dn9hKBN",
+      "url": "https://x.com/BleepinComputer/status/2121295074529071172",
+      "published_at": "2026-11-13T17:32:12Z",
+      "collected_at": "2026-11-13T18:01:08Z"
+    },
+    {
+      "id": "2121288250224476360",
+      "author": "DarkReading",
+      "text": "Meet Artex: The agentic AI pen-testing tool fueling a wave of attacks.\n\nPublished to GitHub as a legitimate framework in July, a swath of attackers have abused Artex, from Chinese state-linked Storm-0940 to a financially motivated Cambodia-based cluster, Storm-3358.\n\nNone of the underlying tradecraft is new. Password spraying, credential stuffing, supply chain pivoting: This is familiar territory. What has changed is who can execute it, and how fast. Researchers also note that many Artex users show weak operational security despite the tool's sophistication, a gap that suggests the bar for who can pull off sophisticated cyberattacks keeps dropping.\n\nhttps://t.co/HE1Z5U5Ewf\n\n#Cybersecurity #ThreatIntelligence #AI #InfoSec",
+      "url": "https://x.com/DarkReading/status/2121288250224476360",
+      "published_at": "2026-11-13T17:05:05Z",
+      "collected_at": "2026-11-13T18:01:08Z"
+    },
     {
       "id": "2121287163065319838",
       "author": "TheHackersNews",
