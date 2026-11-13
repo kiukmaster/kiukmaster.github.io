@@ -1,87 +1,127 @@
 {
   "version": 2,
-  "checked_at": "2026-11-13T21:01:17Z",
-  "last_success_at": "2026-11-13T21:01:17Z",
+  "checked_at": "2026-11-13T22:01:08Z",
+  "last_success_at": "2026-11-13T22:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-13T19:38:55Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
-      "latest_post_at": "2026-11-13T15:30:01Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
+      "latest_post_at": "2026-11-13T21:54:36Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
-      "latest_post_at": "2026-11-10T21:17:06Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
+      "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
-      "status": "error",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T20:01:21Z",
-      "latest_post_at": "2026-11-12T17:11:30Z",
-      "error": "Network request failed"
+      "status": "ok",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
+      "latest_post_at": "2026-11-13T21:38:43Z",
+      "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-13T21:01:17Z",
-      "last_success_at": "2026-11-13T21:01:17Z",
-      "latest_post_at": "2026-11-13T18:54:42Z",
+      "checked_at": "2026-11-13T22:01:08Z",
+      "last_success_at": "2026-11-13T22:01:08Z",
+      "latest_post_at": "2026-11-13T21:34:39Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121361112562295172",
+      "author": "SecurityWeek",
+      "text": "FAA issues ground stop due to ‘extraordinary circumstances’ said to be a \"communication issue impacting all Air Route Traffic Control Centers - No mention of possible cyberattack at this time - https://t.co/R1khg85bp1",
+      "url": "https://x.com/SecurityWeek/status/2121361112562295172",
+      "published_at": "2026-11-13T21:54:36Z",
+      "collected_at": "2026-11-13T22:01:08Z"
+    },
+    {
+      "id": "2121359457263194271",
+      "author": "Unit42_Intel",
+      "text": "We analyzed Falcon, a browser C2 framework targeting government portals in five countries. Attackers steal credentials, sideload malicious PDF viewer extensions and deliver the Antino implant. Read our complete analysis: https://t.co/BgCfnXae5l",
+      "url": "https://x.com/Unit42_Intel/status/2121359457263194271",
+      "published_at": "2026-11-13T21:48:02Z",
+      "collected_at": "2026-11-13T22:01:08Z"
+    },
+    {
+      "id": "2121357112009732242",
+      "author": "MsftSecIntel",
+      "text": "Microsoft Threat Intelligence’s analysis of the active campaign abusing ScreenConnect to target managed service providers (MSPs) details how the remote support application is used to deploy the worm SCKit and install additional unauthorized clients. https://t.co/AbbE5BoAR8\n\nSCKit is a malware toolkit that establishes persistence through scheduled tasks and registry Run entries and deploys RelayTrap, a component designed to deliver a malicious payload to technicians' workstations when they connect for support.\n\nRead the blog for analysis, indicators of compromise, Microsoft Defender XDR detections and hunting queries, and mitigation guidance covering technician client updates, removal of toolkit persistence, and revocation of exposed sessions.",
+      "url": "https://x.com/MsftSecIntel/status/2121357112009732242",
+      "published_at": "2026-11-13T21:38:43Z",
+      "collected_at": "2026-11-13T22:01:08Z"
+    },
+    {
+      "id": "2121356411812647075",
+      "author": "SecurityWeek",
+      "text": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’ - https://t.co/R1khg84Dzt",
+      "url": "https://x.com/SecurityWeek/status/2121356411812647075",
+      "published_at": "2026-11-13T21:35:56Z",
+      "collected_at": "2026-11-13T22:01:08Z"
+    },
+    {
+      "id": "2121356088742477994",
+      "author": "malwrhunterteam",
+      "text": "🤷‍♂️\n\nMarcelo Rivero (@MarceloRivero)\n\n#SeifzxRAT looks like a new #macOS stealer/RAT 🧐\n\n📦 copycat CrashStealer disguise → com[.]apple[.]crashreporter\n\n🧬 C++ · debug logs left in 👇 img\n\n📡 45s beacon → remote shell\n\n💰 10 wallets · seeds · clipboard\n\n🇷🇺 gates: ptrace · sandbox ×11 · CIS\n\n🎭 fake prompt → PAM → keychain dump\n\n🌐 Chrome·Brave·Edge·Opera·Vivaldi·Arc → pw · cards\n\n👀 C2: pharaohkit[.]cloud →\n\nhttps://t.co/IFSBsLQgb2\n\n— https://nitter.gq/MarceloRivero/status/2121351820308271290",
+      "url": "https://x.com/malwrhunterteam/status/2121356088742477994",
+      "published_at": "2026-11-13T21:34:39Z",
+      "collected_at": "2026-11-13T22:01:08Z"
+    },
     {
       "id": "2121326963553861713",
       "author": "BleepinComputer",
