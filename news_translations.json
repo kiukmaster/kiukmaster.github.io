@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-13T16:01:43Z",
+  "checked_at": "2026-11-13T17:01:34Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1214,6 +1214,30 @@
       "prompt_version": "2",
       "text_ko": "🚨 청구서를 처리하도록 만들어진 AI agent가 악성 이메일을 읽는 것만으로도 속아서 공급업체의 은행 계좌 정보를 변경할 수 있습니다.\n\n🔍 @TheTokenSec이 AI agent의 보안 허점 다섯 가지와 대응 방법을 살펴봅니다.\n\n➡️ https://t.co/edLG2KHu0V\n\n#cybersecurity #ai #sponsored",
       "translated_at": "2026-11-13T16:01:43Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121287163065319838:a2519c941548e518a317035fc69ec5a878e78825313b04364434115515771545:gpt-6.1-sol:medium:2": {
+      "post_id": "2121287163065319838",
+      "source_hash": "a2519c941548e518a317035fc69ec5a878e78825313b04364434115515771545",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "⚠️ PostgreSQL이 remote code execution을 허용하는 22년 된 bug를 포함해 보안 결함 52개를 수정했다.\n\nCVE-2026-6460(CVSS 8.8)으로 등록된 이 결함을 이용하면 객체 생성 권한이 있는 인증된 사용자가 데이터베이스 서버에서 코드를 실행할 수 있다.\n\n패치만으로는 충분하지 않을 수 있다.\n\n그 이유는 ▸ https://t.co/7HlSdG2uJo",
+      "translated_at": "2026-11-13T17:01:26Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121277422100177137:923145c90f6cd69d92d362186d79736bf80848f919f6d7983f4c2039e4e6c27b:gpt-6.1-sol:medium:2": {
+      "post_id": "2121277422100177137",
+      "source_hash": "923145c90f6cd69d92d362186d79736bf80848f919f6d7983f4c2039e4e6c27b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "PHP2Shell을 통해 Check Point gateways를 해킹해 VMware ESXi wiper 배포\n\nhttps://t.co/DgqByN4BFq\n\nhttps://t.co/DgqByN4BFq",
+      "translated_at": "2026-11-13T17:01:34Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

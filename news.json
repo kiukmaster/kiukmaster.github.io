@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-13T16:01:09Z",
-  "last_success_at": "2026-11-13T16:01:09Z",
+  "checked_at": "2026-11-13T17:01:09Z",
+  "last_success_at": "2026-11-13T17:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
-      "latest_post_at": "2026-11-13T15:29:18Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
+      "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
-      "latest_post_at": "2026-11-13T15:10:00Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
+      "latest_post_at": "2026-11-13T16:22:03Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-13T15:30:01Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-12T18:35:03Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-12T17:11:30Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-13T16:01:09Z",
-      "last_success_at": "2026-11-13T16:01:09Z",
+      "checked_at": "2026-11-13T17:01:09Z",
+      "last_success_at": "2026-11-13T17:01:09Z",
       "latest_post_at": "2026-11-13T09:00:55Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121287163065319838",
+      "author": "TheHackersNews",
+      "text": "⚠️ PostgreSQL patches 52 security flaws — including a 22-year-old bug allowing remote code execution.\n\nTracked as CVE-2026-6460 (CVSS 8.8), the flaw lets authenticated users with object-creation privileges execute code on database servers.\n\nPatching alone may not be enough.\n\nHere's why ▸ https://t.co/7HlSdG2uJo",
+      "url": "https://x.com/TheHackersNews/status/2121287163065319838",
+      "published_at": "2026-11-13T17:00:45Z",
+      "collected_at": "2026-11-13T17:01:09Z"
+    },
+    {
+      "id": "2121277422100177137",
+      "author": "BleepinComputer",
+      "text": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper\n\nhttps://t.co/DgqByN4BFq\n\nhttps://t.co/DgqByN4BFq",
+      "url": "https://x.com/BleepinComputer/status/2121277422100177137",
+      "published_at": "2026-11-13T16:22:03Z",
+      "collected_at": "2026-11-13T17:01:09Z"
+    },
     {
       "id": "2121264325440815294",
       "author": "SecurityWeek",
