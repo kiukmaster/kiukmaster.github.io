@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-13T14:02:34Z",
+  "checked_at": "2026-11-13T15:01:36Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1154,6 +1154,18 @@
       "prompt_version": "2",
       "text_ko": "🚨 PTC가 remote code execution을 허용할 수 있는 Windchill 및 FlexPLM의 치명적인 결함을 패치했습니다.\n\nCVE-2026-126325의 점수는 9.2점입니다. PTC가 호스팅하는 시스템에는 이미 패치가 적용됐으며, 그 외 배포 환경에는 수정 사항을 적용해야 합니다.\n\nhttps://t.co/W2d5pdgy66",
       "translated_at": "2026-11-13T14:02:34Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121249678167806415:d94538f6e63b68d63b172f310f34d68d9457512151fbd599e80c261ed35d13bf:gpt-6.1-sol:medium:2": {
+      "post_id": "2121249678167806415",
+      "source_hash": "d94538f6e63b68d63b172f310f34d68d9457512151fbd599e80c261ed35d13bf",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🛑 FBI에 따르면 북한 해커들이 가짜 영상 통화와 deepfakes를 이용해 4억 달러가 넘는 암호화폐를 탈취했다.\n\n이들은 탈취한 계정과 익숙한 얼굴, 가짜 음성 오류를 이용해 피해자들을 속여 malware를 설치하게 했다.\n\nFBI는 현재 이 공격에 사용된 인프라를 압수한 상태다.\n\n수법 자세히 보기 ↓ https://t.co/kVGMK7j3Mb",
+      "translated_at": "2026-11-13T15:01:36Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
