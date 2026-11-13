@@ -1,87 +1,135 @@
 {
   "version": 2,
-  "checked_at": "2026-11-13T12:01:07Z",
-  "last_success_at": "2026-11-13T12:01:07Z",
+  "checked_at": "2026-11-13T13:01:07Z",
+  "last_success_at": "2026-11-13T13:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
-      "latest_post_at": "2026-11-13T03:52:14Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
+      "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-13T11:17:03Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
-      "latest_post_at": "2026-11-13T10:44:38Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
+      "latest_post_at": "2026-11-13T12:27:57Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
-      "latest_post_at": "2026-11-13T10:50:25Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
+      "latest_post_at": "2026-11-13T12:41:40Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-12T18:35:03Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-10T21:17:06Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-12T17:11:30Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-13T12:01:07Z",
-      "last_success_at": "2026-11-13T12:01:07Z",
+      "checked_at": "2026-11-13T13:01:07Z",
+      "last_success_at": "2026-11-13T13:01:07Z",
       "latest_post_at": "2026-11-13T09:00:55Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121221958922539359",
+      "author": "SecurityWeek",
+      "text": "Apify Confirms Customer Data Accessed in Cyberattack https://t.co/d6AttW3Eu9",
+      "url": "https://x.com/SecurityWeek/status/2121221958922539359",
+      "published_at": "2026-11-13T12:41:40Z",
+      "collected_at": "2026-11-13T13:01:07Z"
+    },
+    {
+      "id": "2121218507115282773",
+      "author": "BleepinComputer",
+      "text": "Microsoft says November security updates cause printing issues\n\nhttps://t.co/Ooc8X4WDMO\n\nhttps://t.co/Ooc8X4WDMO",
+      "url": "https://x.com/BleepinComputer/status/2121218507115282773",
+      "published_at": "2026-11-13T12:27:57Z",
+      "collected_at": "2026-11-13T13:01:07Z"
+    },
+    {
+      "id": "2121217513706914060",
+      "author": "SecurityWeek",
+      "text": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication https://t.co/6SC3SJd0au",
+      "url": "https://x.com/SecurityWeek/status/2121217513706914060",
+      "published_at": "2026-11-13T12:24:00Z",
+      "collected_at": "2026-11-13T13:01:07Z"
+    },
+    {
+      "id": "2121216813640118397",
+      "author": "SecurityWeek",
+      "text": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks https://t.co/UdHatfFdFe",
+      "url": "https://x.com/SecurityWeek/status/2121216813640118397",
+      "published_at": "2026-11-13T12:21:13Z",
+      "collected_at": "2026-11-13T13:01:07Z"
+    },
+    {
+      "id": "2121214550812831958",
+      "author": "BleepinComputer",
+      "text": "Take 20% off five years of flowkey piano lessons in this deal\n\nhttps://t.co/9NWG3NDOvk\n\nhttps://t.co/9NWG3NDOvk",
+      "url": "https://x.com/BleepinComputer/status/2121214550812831958",
+      "published_at": "2026-11-13T12:12:13Z",
+      "collected_at": "2026-11-13T13:01:07Z"
+    },
+    {
+      "id": "2121212179991204003",
+      "author": "AISecHub",
+      "text": "https://t.co/yuG4Rbz4D9",
+      "url": "https://x.com/AISecHub/status/2121212179991204003",
+      "published_at": "2026-11-13T12:02:48Z",
+      "collected_at": "2026-11-13T13:01:07Z"
+    },
     {
       "id": "2121200667809436138",
       "author": "TheHackersNews",
