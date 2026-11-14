@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-14T03:01:11Z",
+  "checked_at": "2026-11-14T04:01:18Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1382,6 +1382,18 @@
       "prompt_version": "2",
       "text_ko": "🤷‍♂️\n\nMarcelo Rivero (@MarceloRivero)\n\n#SeifzxRAT는 새로운 #macOS stealer/RAT로 보임 🧐\n\n📦 CrashStealer를 모방한 위장 → com[.]apple[.]crashreporter\n\n🧬 C++ / debug logs가 남아 있음 👇 이미지\n\n📡 45초 간격 beacon → remote shell\n\n💰 지갑 10개 / seeds / clipboard\n\n🇷🇺 gates: ptrace / sandbox ×11 / CIS\n\n🎭 가짜 prompt → PAM → keychain dump\n\n🌐 Chrome / Brave / Edge / Opera / Vivaldi / Arc → pw / 카드\n\n👀 C2: pharaohkit[.]cloud →\n\nhttps://t.co/IFSBsLQgb2\n\n— https://nitter.gq/MarceloRivero/status/2121351820308271290",
       "translated_at": "2026-11-13T22:01:56Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121448032415744463:c4e012a436abb823005432b5c5c479d3b59a70eb165586b59e6f6fc9fdc3bf95:gpt-6.1-sol:medium:2": {
+      "post_id": "2121448032415744463",
+      "source_hash": "c4e012a436abb823005432b5c5c479d3b59a70eb165586b59e6f6fc9fdc3bf95",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Check Point Gateway를 겨냥한 파괴적 공격에 PHP2Shell 악용 https://t.co/pCoW7g5qsy",
+      "translated_at": "2026-11-14T04:01:18Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

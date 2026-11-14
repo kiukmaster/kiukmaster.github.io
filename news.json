@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-14T03:01:06Z",
-  "last_success_at": "2026-11-14T03:01:06Z",
+  "checked_at": "2026-11-14T04:01:07Z",
+  "last_success_at": "2026-11-14T04:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T19:38:55Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
-      "latest_post_at": "2026-11-13T21:54:36Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
+      "latest_post_at": "2026-11-14T03:40:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T21:38:43Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-14T03:01:06Z",
-      "last_success_at": "2026-11-14T03:01:06Z",
+      "checked_at": "2026-11-14T04:01:07Z",
+      "last_success_at": "2026-11-14T04:01:07Z",
       "latest_post_at": "2026-11-13T21:34:39Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121448032415744463",
+      "author": "SecurityWeek",
+      "text": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks https://t.co/pCoW7g5qsy",
+      "url": "https://x.com/SecurityWeek/status/2121448032415744463",
+      "published_at": "2026-11-14T03:40:00Z",
+      "collected_at": "2026-11-14T04:01:07Z"
+    },
     {
       "id": "2121361112562295172",
       "author": "SecurityWeek",
