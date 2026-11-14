@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-14T08:01:15Z",
+  "checked_at": "2026-11-14T09:01:23Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1418,6 +1418,18 @@
       "prompt_version": "2",
       "text_ko": "Microsoft Threat Intelligence는 11월 12일 발생한 Microsoft 365 서비스 장애를 악용하는 phishing 캠페인이 진행 중인 것을 관찰했다. 해당 메시지는 Microsoft 365 서비스 상태 알림을 사칭하며 실제 Exchange Online 장애인 EX1550543을 언급한다.\n\nMicrosoft가 11월 13일 탐지한 phishing 이메일 중 일부는 장애 발생 중 메시지가 보류되었으며, 수신자가 클릭해 복원하지 않으면 24시간 이내에 삭제된다고 거짓으로 주장한다.\n\n관찰된 이메일 제목은 \"Outage - [6자리 코드]\" 형식이며, 발신자 표시 이름은 조직별 접두사 뒤에 \"Outage Notification\" 또는 \"Service Health\"가 붙는 형태다.\n\n이 캠페인은 moments-notice[.]com, planetmaison[.]com, newbooker[.]com 등 세 개의 발신자 도메인을 사용한다. 수신자별로 생성된 SendGrid 클릭 추적 링크는 reallifeaccounting[.]com으로 리디렉션되며, 관찰된 경로에는 /themelist0.html이 포함된다. 미국 내 여러 업종의 조직을 대상으로도 유사한 메시지가 발송되었다.\n\n이 활동은 credential phishing의 양상과 일치하지만, credential 수집이나 malware 전달은 확인되지 않았다.\n\n보안팀이 활용할 수 있는 도구로는 Microsoft Defender for Office 365 Threat Explorer와 Microsoft Defender XDR advan…",
       "translated_at": "2026-11-14T07:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121525196943409403:184130385ac0969ede03c3cf68b4c34ecdd51e1ab9f5b552a54ce78bd76e49e5:gpt-6.1-sol:medium:2": {
+      "post_id": "2121525196943409403",
+      "source_hash": "184130385ac0969ede03c3cf68b4c34ecdd51e1ab9f5b552a54ce78bd76e49e5",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "FAA 이륙 중단 사태에서 Hacking 징후 없어… FBI는 Software Update 조사 중인 것으로 알려져 https://t.co/vDFLSvRWOM",
+      "translated_at": "2026-11-14T09:01:23Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
