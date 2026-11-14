@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-14T15:01:09Z",
-  "last_success_at": "2026-11-14T15:01:09Z",
+  "checked_at": "2026-11-14T16:01:08Z",
+  "last_success_at": "2026-11-14T16:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-14T12:39:50Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
-      "latest_post_at": "2026-11-14T13:12:12Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
+      "latest_post_at": "2026-11-14T15:18:15Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-14T13:07:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-14T15:01:09Z",
-      "last_success_at": "2026-11-14T15:01:09Z",
+      "checked_at": "2026-11-14T16:01:08Z",
+      "last_success_at": "2026-11-14T16:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121623755101229236",
+      "author": "BleepinComputer",
+      "text": "US disrupts North Korean campaign behind $400 million crypto theft\n\nhttps://t.co/d4Jwv8PSDH\n\nhttps://t.co/d4Jwv8PSDH",
+      "url": "https://x.com/BleepinComputer/status/2121623755101229236",
+      "published_at": "2026-11-14T15:18:15Z",
+      "collected_at": "2026-11-14T16:01:08Z"
+    },
     {
       "id": "2121592031457735044",
       "author": "BleepinComputer",

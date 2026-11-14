@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-14T15:01:15Z",
+  "checked_at": "2026-11-14T16:01:21Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1514,6 +1514,18 @@
       "prompt_version": "2",
       "text_ko": "FBI가 Software Update를 조사 중인 것으로 알려진 가운데 FAA의 이륙 중단 조치와 관련해 Hacking 징후는 없어 https://t.co/vDFLSvRoZe",
       "translated_at": "2026-11-14T14:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121623755101229236:e5c5c61aaf3920dd42b2aa5dc3dbc0d3821a96824a9304aa48e0ff238e162120:gpt-6.1-sol:medium:2": {
+      "post_id": "2121623755101229236",
+      "source_hash": "e5c5c61aaf3920dd42b2aa5dc3dbc0d3821a96824a9304aa48e0ff238e162120",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "미국, 4억 달러 규모 가상자산 탈취 배후의 북한 공작에 제동\n\nhttps://t.co/d4Jwv8PSDH\n\nhttps://t.co/d4Jwv8PSDH",
+      "translated_at": "2026-11-14T16:01:21Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
