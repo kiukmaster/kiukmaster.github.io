@@ -10,8 +10,9 @@ build:
 사이버 보안을 공부하고, AI 보안에 관심 많은 학생입니다.
 
 ## 교육 이력
-K-Shield Jr. (11.1 ~ 11.30)
-Knights Frontier 3기 (26.11 ~ 27.05)
+<b>⭐</b> Knights Frontier 3기 (26.11 ~ 27.05)
+
+<b>⭐</b> K-Shield Jr. (11.1 ~ 11.30)
 
 ## 수상 이력(교내포함)
 Google AI Agent Challenge <b>우수상</b>
