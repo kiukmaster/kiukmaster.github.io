@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-14T13:01:27Z",
+  "checked_at": "2026-11-14T14:01:27Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1490,6 +1490,30 @@
       "prompt_version": "2",
       "text_ko": "🚨 해커들이 심각도가 높은 UnrealIRCd 취약점을 활발히 악용하고 있습니다.\n\nCVE-2026-114713(CVSS 8.6)을 악용하면 공격자가 서버 수준의 권한으로 명령을 주입할 수 있습니다.\n\nCISA는 이 취약점을 실제 악용된 취약점 목록에 추가했습니다. 지금 패치를 적용하세요.\n\n자세한 내용: https://t.co/7j56ImJr0c",
       "translated_at": "2026-11-14T13:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121592031457735044:817a0817b69475d29747dd1d8f7cdeb9d65ee9a61622a4463da3e4e22f007628:gpt-6.1-sol:medium:2": {
+      "post_id": "2121592031457735044",
+      "source_hash": "817a0817b69475d29747dd1d8f7cdeb9d65ee9a61622a4463da3e4e22f007628",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "매달 요금을 내지 않고 암호화된 cloud storage 2TB를 이용하세요\n\nhttps://t.co/Th94WZ5NPX\n\nhttps://t.co/Th94WZ5NPX",
+      "translated_at": "2026-11-14T14:01:19Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121590722910417302:bfdcd544f9c474823f7af1be1ef56db88a33da443711c921a90eac8cfb138006:gpt-6.1-sol:medium:2": {
+      "post_id": "2121590722910417302",
+      "source_hash": "bfdcd544f9c474823f7af1be1ef56db88a33da443711c921a90eac8cfb138006",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "FBI가 Software Update를 조사 중인 것으로 알려진 가운데 FAA의 이륙 중단 조치와 관련해 Hacking 징후는 없어 https://t.co/vDFLSvRoZe",
+      "translated_at": "2026-11-14T14:01:27Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
