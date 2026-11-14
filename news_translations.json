@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-14T11:01:13Z",
+  "checked_at": "2026-11-14T12:01:23Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1442,6 +1442,30 @@
       "prompt_version": "2",
       "text_ko": "🤷‍♂️\n\nvx-underground (@vxunderground)\n\n> 나임\n\n> 친구 @malwrhunterteam이 goop을 찾음\n\n> 시발 나 goop(malware) 개좋아하는데\n\n> malware를 건네줌\n\n> 다운로드함\n\n> 안을 들여다봄\n\n> .dll 파일임\n\n> 병신 같은 쓰레기\n\n> c++ abstractions를 9000개 넘게 써서 만듦\n\n> wrappers를 헤집고 파악하느라 한세월 보냄\n\n> payload 부분을 찾음\n\n> C2에 연결함\n\n> C2가 payload를 보내주길 기다림\n\n> sandbox에서 돌림\n\n> 기다림\n\n> ... 아직도 기다리는 중\n\n> ... 아직도 기다리는 중이라고\n\n> goop은 끝내 안 옴\n\n이 malware 개발자들은 뭔가 아주 특정한 걸 찾고 있는 게 거의 확실하다(그게 뭔지는 전혀 모르겠다). 진짜 goop은 끝끝내 내주지 않았기 때문이다.\n\n— https://nitter.gq/vxunderground/status/2121489430271692906",
       "translated_at": "2026-11-14T10:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121560240122437750:b31d69fe380e4a8ae0bc9857bcc33d4b3eb49a2ddaec3cb3dfd3461e3bc0ed09:gpt-6.1-sol:medium:2": {
+      "post_id": "2121560240122437750",
+      "source_hash": "b31d69fe380e4a8ae0bc9857bcc33d4b3eb49a2ddaec3cb3dfd3461e3bc0ed09",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Apple, Secure Exclaves가 카메라와 마이크 데이터를 보호하는 방식 공개 https://t.co/w50YpLTJmP",
+      "translated_at": "2026-11-14T12:01:20Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121560020974449141:5aca8f558a35f9d654ea0cca76f7a3dab970c4be9744566f5747295ff87335f8:gpt-6.1-sol:medium:2": {
+      "post_id": "2121560020974449141",
+      "source_hash": "5aca8f558a35f9d654ea0cca76f7a3dab970c4be9744566f5747295ff87335f8",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Apple, Secure Exclaves가 카메라와 마이크 데이터를 보호하는 방식 공개 https://t.co/w50YpLUhcn",
+      "translated_at": "2026-11-14T12:01:23Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

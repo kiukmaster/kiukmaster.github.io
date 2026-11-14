@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-14T11:01:06Z",
-  "last_success_at": "2026-11-14T11:01:06Z",
+  "checked_at": "2026-11-14T12:01:08Z",
+  "last_success_at": "2026-11-14T12:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-13T19:38:55Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
-      "latest_post_at": "2026-11-14T08:46:37Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
+      "latest_post_at": "2026-11-14T11:05:52Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-14T11:01:06Z",
-      "last_success_at": "2026-11-14T11:01:06Z",
+      "checked_at": "2026-11-14T12:01:08Z",
+      "last_success_at": "2026-11-14T12:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121560240122437750",
+      "author": "SecurityWeek",
+      "text": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data https://t.co/w50YpLTJmP",
+      "url": "https://x.com/SecurityWeek/status/2121560240122437750",
+      "published_at": "2026-11-14T11:05:52Z",
+      "collected_at": "2026-11-14T12:01:08Z"
+    },
+    {
+      "id": "2121560020974449141",
+      "author": "SecurityWeek",
+      "text": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data https://t.co/w50YpLUhcn",
+      "url": "https://x.com/SecurityWeek/status/2121560020974449141",
+      "published_at": "2026-11-14T11:05:00Z",
+      "collected_at": "2026-11-14T12:01:08Z"
+    },
     {
       "id": "2121530066803069170",
       "author": "malwrhunterteam",
