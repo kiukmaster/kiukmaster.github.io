@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-14T09:01:07Z",
-  "last_success_at": "2026-11-14T09:01:07Z",
+  "checked_at": "2026-11-14T10:01:07Z",
+  "last_success_at": "2026-11-14T10:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-13T19:38:55Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-14T08:46:37Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-14T09:01:07Z",
-      "last_success_at": "2026-11-14T09:01:07Z",
-      "latest_post_at": "2026-11-13T21:34:39Z",
+      "checked_at": "2026-11-14T10:01:07Z",
+      "last_success_at": "2026-11-14T10:01:07Z",
+      "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121530066803069170",
+      "author": "malwrhunterteam",
+      "text": "🤷‍♂️\n\nvx-underground (@vxunderground)\n\n> be me\n\n> friend @malwrhunterteam finds goop\n\n> wtf i love goop (malware)\n\n> gives malware\n\n> download\n\n> look inside\n\n> .dll file\n\n> dumb piece of shit\n\n> written using over 9000 c++ abstractions\n\n> spend forever sorting through wrappers\n\n> find payload portion\n\n> connects to C2\n\n> waits for C2 to deliver payload\n\n> sandbox\n\n> wait\n\n> ... still waiting\n\n> ... STILL WAITING\n\n> goop never comes\n\nI'm fairly certain these malware developers are looking for something very specific (I have no idea what it is) because they REFUSED to give me the actual goop.\n\n— https://nitter.gq/vxunderground/status/2121489430271692906",
+      "url": "https://x.com/malwrhunterteam/status/2121530066803069170",
+      "published_at": "2026-11-14T09:05:58Z",
+      "collected_at": "2026-11-14T10:01:07Z"
+    },
     {
       "id": "2121525196943409403",
       "author": "SecurityWeek",

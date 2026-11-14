@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-14T09:01:23Z",
+  "checked_at": "2026-11-14T10:01:22Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1430,6 +1430,18 @@
       "prompt_version": "2",
       "text_ko": "FAA 이륙 중단 사태에서 Hacking 징후 없어… FBI는 Software Update 조사 중인 것으로 알려져 https://t.co/vDFLSvRWOM",
       "translated_at": "2026-11-14T09:01:23Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121530066803069170:03cb9ee4a53e04966f1d2b5fdcb18ea4fc7b6e0940a476560f504d67f3a5e524:gpt-6.1-sol:medium:2": {
+      "post_id": "2121530066803069170",
+      "source_hash": "03cb9ee4a53e04966f1d2b5fdcb18ea4fc7b6e0940a476560f504d67f3a5e524",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🤷‍♂️\n\nvx-underground (@vxunderground)\n\n> 나임\n\n> 친구 @malwrhunterteam이 goop을 찾음\n\n> 시발 나 goop(malware) 개좋아하는데\n\n> malware를 건네줌\n\n> 다운로드함\n\n> 안을 들여다봄\n\n> .dll 파일임\n\n> 병신 같은 쓰레기\n\n> c++ abstractions를 9000개 넘게 써서 만듦\n\n> wrappers를 헤집고 파악하느라 한세월 보냄\n\n> payload 부분을 찾음\n\n> C2에 연결함\n\n> C2가 payload를 보내주길 기다림\n\n> sandbox에서 돌림\n\n> 기다림\n\n> ... 아직도 기다리는 중\n\n> ... 아직도 기다리는 중이라고\n\n> goop은 끝내 안 옴\n\n이 malware 개발자들은 뭔가 아주 특정한 걸 찾고 있는 게 거의 확실하다(그게 뭔지는 전혀 모르겠다). 진짜 goop은 끝끝내 내주지 않았기 때문이다.\n\n— https://nitter.gq/vxunderground/status/2121489430271692906",
+      "translated_at": "2026-11-14T10:01:22Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
