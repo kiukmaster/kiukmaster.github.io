@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-14T06:01:07Z",
-  "last_success_at": "2026-11-14T06:01:07Z",
+  "checked_at": "2026-11-14T07:01:07Z",
+  "last_success_at": "2026-11-14T07:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T17:00:45Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T19:38:55Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-14T04:21:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
-      "latest_post_at": "2026-11-13T21:38:43Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
+      "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-14T06:01:07Z",
-      "last_success_at": "2026-11-14T06:01:07Z",
+      "checked_at": "2026-11-14T07:01:07Z",
+      "last_success_at": "2026-11-14T07:01:07Z",
       "latest_post_at": "2026-11-13T21:34:39Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121491564161581148",
+      "author": "MsftSecIntel",
+      "text": "Microsoft Threat Intelligence observed an active phishing campaign exploiting the Microsoft 365 service disruption on November 12. The messages impersonate Microsoft 365 service health notifications and reference the legitimate Exchange Online incident EX1550543.\n\nSome of the phishing emails Microsoft detected on November 13 falsely claim that messages were held during the outage and will be deleted within 24 hours unless recipients click to restore them.\n\nObserved subjects follow the pattern \"Outage - [six-character code],\" with sender display names using organization-specific prefixes followed by \"Outage Notification\" or \"Service Health.\"\n\nThe campaign uses three sender domains, moments-notice[.]com, planetmaison[.]com, and newbooker[.]com, with recipient-specific SendGrid click-tracking links redirecting to reallifeaccounting[.]com, including the observed path /themelist0.html. Similar messages targeted organizations across multiple US sectors.\n\nThe activity is consistent with credential phishing, although credential collection and malware delivery have not been confirmed.\n\nSecurity teams can use Microsoft Defender for Office 365 Threat Explorer and Microsoft Defender XDR advan…",
+      "url": "https://x.com/MsftSecIntel/status/2121491564161581148",
+      "published_at": "2026-11-14T06:32:58Z",
+      "collected_at": "2026-11-14T07:01:07Z"
+    },
     {
       "id": "2121458350483292200",
       "author": "SecurityWeek",
