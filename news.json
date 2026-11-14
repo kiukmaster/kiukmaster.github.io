@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-14T12:01:08Z",
-  "last_success_at": "2026-11-14T12:01:08Z",
+  "checked_at": "2026-11-14T13:01:07Z",
+  "last_success_at": "2026-11-14T13:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-13T12:02:48Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-12T18:41:03Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-13T00:36:20Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
-      "latest_post_at": "2026-11-13T17:00:45Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
+      "latest_post_at": "2026-11-14T12:39:50Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-13T19:38:55Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
-      "latest_post_at": "2026-11-14T11:05:52Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
+      "latest_post_at": "2026-11-14T12:52:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-14T12:01:08Z",
-      "last_success_at": "2026-11-14T12:01:08Z",
+      "checked_at": "2026-11-14T13:01:07Z",
+      "last_success_at": "2026-11-14T13:01:07Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121586947965558805",
+      "author": "SecurityWeek",
+      "text": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’ https://t.co/hEpQpLBzxM",
+      "url": "https://x.com/SecurityWeek/status/2121586947965558805",
+      "published_at": "2026-11-14T12:52:00Z",
+      "collected_at": "2026-11-14T13:01:07Z"
+    },
+    {
+      "id": "2121583887499542810",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers are actively exploiting a high-severity UnrealIRCd flaw.\n\nCVE-2026-114713 (CVSS 8.6) lets attackers inject commands with server-level privileges.\n\nCISA has added it to its exploited vulnerabilities list. Patch now.\n\nDetails: https://t.co/7j56ImJr0c",
+      "url": "https://x.com/TheHackersNews/status/2121583887499542810",
+      "published_at": "2026-11-14T12:39:50Z",
+      "collected_at": "2026-11-14T13:01:07Z"
+    },
     {
       "id": "2121560240122437750",
       "author": "SecurityWeek",
