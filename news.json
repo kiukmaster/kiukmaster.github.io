@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-15T04:01:06Z",
-  "last_success_at": "2026-11-15T03:01:10Z",
+  "checked_at": "2026-11-15T05:01:08Z",
+  "last_success_at": "2026-11-15T05:01:08Z",
   "sources": {
     "AISecHub": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T23:41:03Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "wunderwuzzi23": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "simonw": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "TheHackersNews": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T12:39:50Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "BleepinComputer": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T17:27:39Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "SecurityWeek": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
-      "latest_post_at": "2026-11-15T02:50:00Z",
-      "error": "HTTP 502"
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
+      "latest_post_at": "2026-11-15T04:37:00Z",
+      "error": null
     },
     "DarkReading": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "InfosecurityMag": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "Unit42_Intel": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "MsftSecIntel": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "malwrhunterteam": {
-      "status": "error",
-      "checked_at": "2026-11-15T04:01:06Z",
-      "last_success_at": "2026-11-15T03:01:10Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T05:01:08Z",
+      "last_success_at": "2026-11-15T05:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
-      "error": "HTTP 502"
+      "error": null
     }
   },
   "items": [
+    {
+      "id": "2121824764851634287",
+      "author": "SecurityWeek",
+      "text": "Citrix Patches 10 Critical NetScaler Vulnerabilities https://t.co/c0rfOM3bsG",
+      "url": "https://x.com/SecurityWeek/status/2121824764851634287",
+      "published_at": "2026-11-15T04:37:00Z",
+      "collected_at": "2026-11-15T05:01:08Z"
+    },
     {
       "id": "2121797837512216845",
       "author": "SecurityWeek",
