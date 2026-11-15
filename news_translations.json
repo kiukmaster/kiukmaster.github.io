@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-15T18:01:15Z",
+  "checked_at": "2026-11-15T19:01:28Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1682,6 +1682,30 @@
       "prompt_version": "2",
       "text_ko": "TSMC 직원 data breach, 클라우드 제공업체와 연관\n\nhttps://t.co/7sRYVR86zH\n\nhttps://t.co/7sRYVR86zH",
       "translated_at": "2026-11-15T16:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122034446178140201:5aea2a09741bea44af5406be859751f5390ff3df0ae9b73be7eb50fe8054af90:gpt-6.1-sol:medium:2": {
+      "post_id": "2122034446178140201",
+      "source_hash": "5aea2a09741bea44af5406be859751f5390ff3df0ae9b73be7eb50fe8054af90",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "FBI, ARTEX AI hacking tool이 전 세계 cyberattacks에 활용되고 있다고 경고\n\nhttps://t.co/1K8BnanRLc\n\nhttps://t.co/1K8BnanRLc",
+      "translated_at": "2026-11-15T19:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122031081037635782:4ac1877d033a3609e62447f279ebb9e36fc12c13aac7ce5a7cb44714000e1a13:gpt-6.1-sol:medium:2": {
+      "post_id": "2122031081037635782",
+      "source_hash": "4ac1877d033a3609e62447f279ebb9e36fc12c13aac7ce5a7cb44714000e1a13",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Meta, Facebook의 Android 갤러리 사진과 동영상 관련해 이탈리아에서 8억 8,700만 달러 벌금 부과받아 https://t.co/qE2ICggOoZ",
+      "translated_at": "2026-11-15T19:01:28Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
