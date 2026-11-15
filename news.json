@@ -1,82 +1,82 @@
 {
   "version": 2,
-  "checked_at": "2026-11-15T20:01:08Z",
-  "last_success_at": "2026-11-15T20:01:08Z",
+  "checked_at": "2026-11-15T21:01:08Z",
+  "last_success_at": "2026-11-15T21:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-15T06:00:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-15T11:29:11Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-15T18:30:12Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-15T19:17:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-15T20:01:08Z",
-      "last_success_at": "2026-11-15T20:01:08Z",
+      "checked_at": "2026-11-15T21:01:08Z",
+      "last_success_at": "2026-11-15T21:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
