@@ -1,84 +1,84 @@
 {
   "version": 2,
-  "checked_at": "2026-11-15T07:01:07Z",
+  "checked_at": "2026-11-15T08:01:08Z",
   "last_success_at": "2026-11-15T07:01:07Z",
   "sources": {
     "AISecHub": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-15T06:00:01Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "wunderwuzzi23": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "simonw": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "TheHackersNews": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-14T12:39:50Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "BleepinComputer": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-14T17:27:39Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "SecurityWeek": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-15T04:37:00Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "DarkReading": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "InfosecurityMag": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "Unit42_Intel": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "MsftSecIntel": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
-      "error": null
+      "error": "HTTP 502"
     },
     "malwrhunterteam": {
-      "status": "ok",
-      "checked_at": "2026-11-15T07:01:07Z",
+      "status": "error",
+      "checked_at": "2026-11-15T08:01:08Z",
       "last_success_at": "2026-11-15T07:01:07Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
-      "error": null
+      "error": "HTTP 502"
     }
   },
   "items": [
