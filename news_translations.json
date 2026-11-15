@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-15T19:01:28Z",
+  "checked_at": "2026-11-15T20:01:21Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1706,6 +1706,18 @@
       "prompt_version": "2",
       "text_ko": "Meta, Facebook의 Android 갤러리 사진과 동영상 관련해 이탈리아에서 8억 8,700만 달러 벌금 부과받아 https://t.co/qE2ICggOoZ",
       "translated_at": "2026-11-15T19:01:28Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122046224119554548:dc7bbf140466fb14ef800bc1e6abfc1de6d01efc0142c7bcf065cfe43df38151:gpt-6.1-sol:medium:2": {
+      "post_id": "2122046224119554548",
+      "source_hash": "dc7bbf140466fb14ef800bc1e6abfc1de6d01efc0142c7bcf065cfe43df38151",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "미 국방부, CDAO 명칭을 ‘Super Intelligence Office’로 변경 https://t.co/KQBxUoOLcQ",
+      "translated_at": "2026-11-15T20:01:21Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
