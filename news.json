@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-15T11:01:08Z",
-  "last_success_at": "2026-11-15T11:01:08Z",
+  "checked_at": "2026-11-15T12:01:12Z",
+  "last_success_at": "2026-11-15T12:01:12Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-15T06:00:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
-      "latest_post_at": "2026-11-15T08:24:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
+      "latest_post_at": "2026-11-15T11:29:11Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-14T17:27:39Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-15T04:37:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-15T11:01:08Z",
-      "last_success_at": "2026-11-15T11:01:08Z",
+      "checked_at": "2026-11-15T12:01:12Z",
+      "last_success_at": "2026-11-15T12:01:12Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121928494527685015",
+      "author": "TheHackersNews",
+      "text": "⚡ Italy slaps Meta with a €805 MILLION fine over Facebook accessing Android users' photo galleries without explicit consent.\n\nThe feature was ON by default, affecting roughly 20 million users.\n\nMeta now has 60 days to change it.\n\nFull story: https://t.co/qUQ5cjC9SW",
+      "url": "https://x.com/TheHackersNews/status/2121928494527685015",
+      "published_at": "2026-11-15T11:29:11Z",
+      "collected_at": "2026-11-15T12:01:12Z"
+    },
     {
       "id": "2121881924348342477",
       "author": "TheHackersNews",

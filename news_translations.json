@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-15T11:01:15Z",
+  "checked_at": "2026-11-15T12:01:29Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1634,6 +1634,18 @@
       "prompt_version": "2",
       "text_ko": "🚨 탈취된 Fireworks AI 키로 인해 Cursor에서 침해 사고가 발생했고, trojanized Claude Code 확장 프로그램까지 등장했습니다.\n\n공격자들은 SSH backdoor를 설치하도록 설계된 악성 업데이트를 배포했습니다. 최대 5,000명의 사용자가 이 업데이트를 받았을 가능성이 있습니다.\n\n공격이 진행된 과정: https://t.co/xZdNkKbCmT",
       "translated_at": "2026-11-15T09:01:21Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121928494527685015:59b72fec560bd0eac2767c035a59f674c9eea129d550f31c983b3cf0d86fac65:gpt-6.1-sol:medium:2": {
+      "post_id": "2121928494527685015",
+      "source_hash": "59b72fec560bd0eac2767c035a59f674c9eea129d550f31c983b3cf0d86fac65",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "⚡ 이탈리아가 명시적 동의 없이 Android 사용자의 사진첩에 접근한 Facebook과 관련해 Meta에 8억 500만 유로의 과징금을 부과했다.\n\n이 기능은 기본적으로 켜져 있었으며, 약 2,000만 명의 사용자에게 영향을 미쳤다.\n\nMeta는 이제 60일 이내에 이를 변경해야 한다.\n\n기사 전문: https://t.co/qUQ5cjC9SW",
+      "translated_at": "2026-11-15T12:01:29Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
