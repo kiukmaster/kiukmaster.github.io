@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-15T05:01:08Z",
-  "last_success_at": "2026-11-15T05:01:08Z",
+  "checked_at": "2026-11-15T06:01:07Z",
+  "last_success_at": "2026-11-15T06:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
-      "latest_post_at": "2026-11-14T23:41:03Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
+      "latest_post_at": "2026-11-15T06:00:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-14T12:39:50Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-14T17:27:39Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-15T04:37:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-15T05:01:08Z",
-      "last_success_at": "2026-11-15T05:01:08Z",
+      "checked_at": "2026-11-15T06:01:07Z",
+      "last_success_at": "2026-11-15T06:01:07Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2121845658185531663",
+      "author": "AISecHub",
+      "text": "Interesting profile to follow.\n\nReza Shakeri (@ai_ba_reza)\n\nاگه مدل های بدون سانسور رو دوست دارید پیشنهاد می کنم Venice ai رو نصب کنید و در حالت agent mode از DeepSeek V4.1 Flash Uncensored استفاده کنید کاملا رایگان\n\nhttps://t.co/TcKYoJTwtU\n\nبهترین تجربه‌م بوده از استفاده از مدل های بدون سانسور ❤️\n\n— https://nitter.gq/ai_ba_reza/status/2121499761492824458",
+      "url": "https://x.com/AISecHub/status/2121845658185531663",
+      "published_at": "2026-11-15T06:00:01Z",
+      "collected_at": "2026-11-15T06:01:07Z"
+    },
     {
       "id": "2121824764851634287",
       "author": "SecurityWeek",

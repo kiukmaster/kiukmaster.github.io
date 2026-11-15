@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-15T05:01:20Z",
+  "checked_at": "2026-11-15T06:01:22Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1610,6 +1610,18 @@
       "prompt_version": "2",
       "text_ko": "Citrix, NetScaler의 치명적인 취약점 10개 수정 https://t.co/c0rfOM3bsG",
       "translated_at": "2026-11-15T05:01:20Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121845658185531663:a717b398cc80d4b77f8b48a28b7868d99552fe238916b768c05ced08446d9a7a:gpt-6.1-sol:medium:2": {
+      "post_id": "2121845658185531663",
+      "source_hash": "a717b398cc80d4b77f8b48a28b7868d99552fe238916b768c05ced08446d9a7a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "팔로우해 볼 만한 흥미로운 계정입니다.\n\nReza Shakeri (@ai_ba_reza)\n\n검열 없는 모델을 좋아하신다면 Venice ai를 설치하고 agent mode에서 DeepSeek V4.1 Flash Uncensored를 사용해 보세요. 완전히 무료입니다.\n\nhttps://t.co/TcKYoJTwtU\n\n검열 없는 모델을 사용해 본 경험 중 가장 좋았어요 ❤️\n\n— https://nitter.gq/ai_ba_reza/status/2121499761492824458",
+      "translated_at": "2026-11-15T06:01:22Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
