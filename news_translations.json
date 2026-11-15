@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-15T08:01:10Z",
+  "checked_at": "2026-11-15T09:01:21Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1622,6 +1622,18 @@
       "prompt_version": "2",
       "text_ko": "팔로우해 볼 만한 흥미로운 계정입니다.\n\nReza Shakeri (@ai_ba_reza)\n\n검열 없는 모델을 좋아하신다면 Venice ai를 설치하고 agent mode에서 DeepSeek V4.1 Flash Uncensored를 사용해 보세요. 완전히 무료입니다.\n\nhttps://t.co/TcKYoJTwtU\n\n검열 없는 모델을 사용해 본 경험 중 가장 좋았어요 ❤️\n\n— https://nitter.gq/ai_ba_reza/status/2121499761492824458",
       "translated_at": "2026-11-15T06:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2121881924348342477:ddac923638cb1c9fde52f9a19a7f81122344fcfd050ba8f59cbbd674cfc47ff7:gpt-6.1-sol:medium:2": {
+      "post_id": "2121881924348342477",
+      "source_hash": "ddac923638cb1c9fde52f9a19a7f81122344fcfd050ba8f59cbbd674cfc47ff7",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 탈취된 Fireworks AI 키로 인해 Cursor에서 침해 사고가 발생했고, trojanized Claude Code 확장 프로그램까지 등장했습니다.\n\n공격자들은 SSH backdoor를 설치하도록 설계된 악성 업데이트를 배포했습니다. 최대 5,000명의 사용자가 이 업데이트를 받았을 가능성이 있습니다.\n\n공격이 진행된 과정: https://t.co/xZdNkKbCmT",
+      "translated_at": "2026-11-15T09:01:21Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

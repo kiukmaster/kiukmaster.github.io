@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-15T08:01:08Z",
-  "last_success_at": "2026-11-15T07:01:07Z",
+  "checked_at": "2026-11-15T09:01:06Z",
+  "last_success_at": "2026-11-15T09:01:06Z",
   "sources": {
     "AISecHub": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-15T06:00:01Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "wunderwuzzi23": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "simonw": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "TheHackersNews": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
-      "latest_post_at": "2026-11-14T12:39:50Z",
-      "error": "HTTP 502"
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
+      "latest_post_at": "2026-11-15T08:24:08Z",
+      "error": null
     },
     "BleepinComputer": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-14T17:27:39Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "SecurityWeek": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-15T04:37:00Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "DarkReading": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "InfosecurityMag": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "Unit42_Intel": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "MsftSecIntel": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
-      "error": "HTTP 502"
+      "error": null
     },
     "malwrhunterteam": {
-      "status": "error",
-      "checked_at": "2026-11-15T08:01:08Z",
-      "last_success_at": "2026-11-15T07:01:07Z",
+      "status": "ok",
+      "checked_at": "2026-11-15T09:01:06Z",
+      "last_success_at": "2026-11-15T09:01:06Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
-      "error": "HTTP 502"
+      "error": null
     }
   },
   "items": [
+    {
+      "id": "2121881924348342477",
+      "author": "TheHackersNews",
+      "text": "🚨 A stolen Fireworks AI key triggered a breach at Cursor—and a trojanized Claude Code extension.\n\nAttackers pushed a malicious update designed to install an SSH backdoor. Up to 5,000 users may have received it.\n\nHow the attack unfolded: https://t.co/xZdNkKbCmT",
+      "url": "https://x.com/TheHackersNews/status/2121881924348342477",
+      "published_at": "2026-11-15T08:24:08Z",
+      "collected_at": "2026-11-15T09:01:06Z"
+    },
     {
       "id": "2121845658185531663",
       "author": "AISecHub",
