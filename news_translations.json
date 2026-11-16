@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T19:01:22Z",
+  "checked_at": "2026-11-16T20:01:32Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2114,6 +2114,30 @@
       "prompt_version": "2",
       "text_ko": "ArcticRAT 사이버 범죄 조직, AI로 피해자의 재정 상태 분석 https://t.co/9nDe5xnp4w 작성: Jai Vijayan",
       "translated_at": "2026-11-16T18:01:33Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122418803166310527:9fb09dbb9f4c6025e6729e27a03baaea4f41a50f1a4fa15c362eb02298813207:gpt-6.1-sol:medium:2": {
+      "post_id": "2122418803166310527",
+      "source_hash": "9fb09dbb9f4c6025e6729e27a03baaea4f41a50f1a4fa15c362eb02298813207",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Barracuda, 클라우드 침해 사건을 ARTEX의 AI 기반 사이버 공격과 연관 지어\n\nhttps://t.co/ZVZbGw5Gxy\n\nhttps://t.co/ZVZbGw5Gxy",
+      "translated_at": "2026-11-16T20:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122407673559687535:c25f7cb7d1934fe08c44b5cd7a782373d09c0331e0120826afa742e59f86d3cc:gpt-6.1-sol:medium:2": {
+      "post_id": "2122407673559687535",
+      "source_hash": "c25f7cb7d1934fe08c44b5cd7a782373d09c0331e0120826afa742e59f86d3cc",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "'Sleeper Agent' 기법, Open-Weight AI 모델에 Payloads 숨긴다 https://t.co/IKykVAcbnX 작성: Nate Nelson",
+      "translated_at": "2026-11-16T20:01:32Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
