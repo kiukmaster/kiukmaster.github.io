@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T07:01:24Z",
+  "checked_at": "2026-11-16T08:01:24Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1742,6 +1742,18 @@
       "prompt_version": "2",
       "text_ko": "🚨 해커들이 VMware vCenter의 Log4Shell을 악용해 러시아 소프트웨어 개발사에 침입했습니다.\n\nBO Team은 root access를 확보하고 backdoors를 심었으며, 해당 개발사의 code-signing server까지 침해해 software supply chain attack에 대한 우려를 키웠습니다.\n\n자세히 보기: https://t.co/onp3jkxxAO",
       "translated_at": "2026-11-16T07:01:24Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122232175529766932:28829fa6ef43c5f2c688b8c2ec45e9727322aec11fc440a993f1d37724e3b6d3:gpt-6.1-sol:medium:2": {
+      "post_id": "2122232175529766932",
+      "source_hash": "28829fa6ef43c5f2c688b8c2ec45e9727322aec11fc440a993f1d37724e3b6d3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 Amazon이 LiteLLM, Dify 등 여러 AI 앱에서 API keys를 노리는 AI agents를 발견했다.\n\n확보된 로그에는 공격 수법이 드러나 있다. 취약한 지점 악용 → API keys 탈취 → 탈취한 키로 추가 공격 수행.\n\n이 공격 활동이 거뒀다고 보고된 성과는 아직 검증되지 않았다.\n\n기사 전문: https://t.co/k7y80PiRnl",
+      "translated_at": "2026-11-16T08:01:24Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

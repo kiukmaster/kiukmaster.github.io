@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T07:01:08Z",
-  "last_success_at": "2026-11-16T07:01:08Z",
+  "checked_at": "2026-11-16T08:01:08Z",
+  "last_success_at": "2026-11-16T08:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
-      "latest_post_at": "2026-11-16T06:54:48Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
+      "latest_post_at": "2026-11-16T07:35:54Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-15T18:30:12Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-15T19:17:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T07:01:08Z",
-      "last_success_at": "2026-11-16T07:01:08Z",
+      "checked_at": "2026-11-16T08:01:08Z",
+      "last_success_at": "2026-11-16T08:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122232175529766932",
+      "author": "TheHackersNews",
+      "text": "🚨 Amazon uncovers AI agents hunting API keys across LiteLLM, Dify, and other AI apps.\n\nCaptured logs reveal the playbook: exploit weak spots → steal API keys → use those keys to power more attacks.\n\nThe campaign's reported results remain unverified.\n\nFull story: https://t.co/k7y80PiRnl",
+      "url": "https://x.com/TheHackersNews/status/2122232175529766932",
+      "published_at": "2026-11-16T07:35:54Z",
+      "collected_at": "2026-11-16T08:01:08Z"
+    },
     {
       "id": "2122221831893794898",
       "author": "TheHackersNews",
