@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T15:01:36Z",
+  "checked_at": "2026-11-16T16:01:47Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2030,6 +2030,54 @@
       "prompt_version": "2",
       "text_ko": "모든 AI 보안 업체는 agent를 통제합니다. Virtru는 데이터를 통제합니다.\n\n11월 17일 오후 3시 ET에 열리는 Virtru Data Harbor Platform 출시 행사를 실시간으로 시청하려면 등록하세요.\n\nhttps://t.co/JxhFntH5E9",
       "translated_at": "2026-11-16T15:01:36Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122355607604691300:8a3c913e0e7526ed63e4f9aee57d71108ee022bc4e25eb8b51a8473bd0a335eb:gpt-6.1-sol:medium:2": {
+      "post_id": "2122355607604691300",
+      "source_hash": "8a3c913e0e7526ed63e4f9aee57d71108ee022bc4e25eb8b51a8473bd0a335eb",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Cursor Supply Chain Attack은 Fireworks AI에서 시작됐다 https://t.co/D0gzFo1G40",
+      "translated_at": "2026-11-16T16:01:31Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122355161439867020:6b9732e0fc5173c9d45d13bee1d632e1df4a3581ec276ab7ea4f70f9747af178:gpt-6.1-sol:medium:2": {
+      "post_id": "2122355161439867020",
+      "source_hash": "6b9732e0fc5173c9d45d13bee1d632e1df4a3581ec276ab7ea4f70f9747af178",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Fandango, 해커가 결제 페이지에서 결제 카드 정보를 훔쳤다고 밝혀\n\nhttps://t.co/YeO3cgYPEx\n\nhttps://t.co/YeO3cgYPEx",
+      "translated_at": "2026-11-16T16:01:37Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122352098553586102:4c983bdd5c18e583b7fdd2a312332273becdcd3fe7bd23f582e0cdd43414830a:gpt-6.1-sol:medium:2": {
+      "post_id": "2122352098553586102",
+      "source_hash": "4c983bdd5c18e583b7fdd2a312332273becdcd3fe7bd23f582e0cdd43414830a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Google Project Zero, 30일 공개 시한 도입 추진 https://t.co/UHBakcgwrn",
+      "translated_at": "2026-11-16T16:01:41Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122346514668490844:c3189e2860a189a914179e19b9afecd6d4c6553b20a275641a9a4a56c24feb55:gpt-6.1-sol:medium:2": {
+      "post_id": "2122346514668490844",
+      "source_hash": "c3189e2860a189a914179e19b9afecd6d4c6553b20a275641a9a4a56c24feb55",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Artex를 활용한 사이버 공격이 급증하는 가운데 Barracuda 해킹 피해 https://t.co/12A1eRSB0F",
+      "translated_at": "2026-11-16T16:01:47Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

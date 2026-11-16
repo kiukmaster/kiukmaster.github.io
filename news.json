@@ -1,87 +1,119 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T15:01:12Z",
-  "last_success_at": "2026-11-16T15:01:12Z",
+  "checked_at": "2026-11-16T16:01:19Z",
+  "last_success_at": "2026-11-16T16:01:19Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
-      "latest_post_at": "2026-11-16T14:00:16Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
+      "latest_post_at": "2026-11-16T15:44:36Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
-      "latest_post_at": "2026-11-16T12:49:26Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
+      "latest_post_at": "2026-11-16T15:46:22Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T15:01:12Z",
-      "last_success_at": "2026-11-16T15:01:12Z",
+      "checked_at": "2026-11-16T16:01:19Z",
+      "last_success_at": "2026-11-16T16:01:19Z",
       "latest_post_at": "2026-11-16T14:30:50Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122355607604691300",
+      "author": "SecurityWeek",
+      "text": "Cursor Supply Chain Attack Started at Fireworks AI https://t.co/D0gzFo1G40",
+      "url": "https://x.com/SecurityWeek/status/2122355607604691300",
+      "published_at": "2026-11-16T15:46:22Z",
+      "collected_at": "2026-11-16T16:01:19Z"
+    },
+    {
+      "id": "2122355161439867020",
+      "author": "BleepinComputer",
+      "text": "Fandango says hackers stole payment card details from checkout pages\n\nhttps://t.co/YeO3cgYPEx\n\nhttps://t.co/YeO3cgYPEx",
+      "url": "https://x.com/BleepinComputer/status/2122355161439867020",
+      "published_at": "2026-11-16T15:44:36Z",
+      "collected_at": "2026-11-16T16:01:19Z"
+    },
+    {
+      "id": "2122352098553586102",
+      "author": "SecurityWeek",
+      "text": "Google Project Zero Sets Course for 30-Day Disclosure Deadline https://t.co/UHBakcgwrn",
+      "url": "https://x.com/SecurityWeek/status/2122352098553586102",
+      "published_at": "2026-11-16T15:32:26Z",
+      "collected_at": "2026-11-16T16:01:19Z"
+    },
+    {
+      "id": "2122346514668490844",
+      "author": "SecurityWeek",
+      "text": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks https://t.co/12A1eRSB0F",
+      "url": "https://x.com/SecurityWeek/status/2122346514668490844",
+      "published_at": "2026-11-16T15:10:15Z",
+      "collected_at": "2026-11-16T16:01:19Z"
+    },
     {
       "id": "2122336598893207800",
       "author": "malwrhunterteam",
