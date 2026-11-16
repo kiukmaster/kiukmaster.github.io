@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T22:01:20Z",
+  "checked_at": "2026-11-16T23:01:29Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2162,6 +2162,30 @@
       "prompt_version": "2",
       "text_ko": "Uber Data Breach로 15만 명 피해 https://t.co/7oNJLu19S4",
       "translated_at": "2026-11-16T21:01:36Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122464137208836201:076fc8f6e3b9815abb7975541d5bd42ff3b1e30a2b211e5f5fd9801f6a173ae4:gpt-6.1-sol:medium:2": {
+      "post_id": "2122464137208836201",
+      "source_hash": "076fc8f6e3b9815abb7975541d5bd42ff3b1e30a2b211e5f5fd9801f6a173ae4",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "이걸 @smica83에게 공유했을 때 아마 이런 생각이었던 것 같다. \"뭐 이딴 지루한 게 다 있나 싶지만, 헝가리에서 관측됐다니 이 사람은 관심 있을지도\"...\n\n그런데 GTIG의 말이 맞다면, 이건 \"러시아 첩보 행위자 COLD RELIC(이전 명칭 COLDRIVER, UNC4057)\"이 사용한 sample이었고... 헝가리의 탐사보도 기자를 표적으로 삼는 데 쓰였다고 한다(그러니까 뇌가 없는 멍청이는 아닐 가능성이 큰 사람을 노렸다는 얘기다)...\n\n물론 FSB 내부에서 무슨 일이 돌아가는지, 윗선에서 뭘 승인하는지 같은 건 전혀 모른다. 하지만 이게 대단히 똑똑하다는 FSB 행위자들의 \"spear-phishing 작전\"이었다고 받아들인다면, 최대한 좋게 말해도 이 일로 그들이 더 나아 보이거나, 더 진지해 보이거나... 하지는 않는다. 전혀...\n\n😂\n\n🤷‍♂️\n\nSzabolcs Schmidt (@smica83)\n\n헝가리에서 'BP_PS_kapcsolata.pdf' 관측됨 @abuse_ch\n\n6ee17554545ebe2c31f1462e2758e1e16b0b5aacef1274ff6c57345b79eab1e2\n\nhttps://t.co/8Lj2mzegIQ\n\nURL: hxxps://deducationist(.)com/rejets_6bc7c1/zibethdisowntexter.php?Sabo=vsbejyf63fwhrvbhk4u8wy7gerh\n\n— https://nitter.gq/smica83/status/2118432741155013063",
+      "translated_at": "2026-11-16T23:01:25Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122463279079469148:608e8559cbc93c7672b0dfea5d204bb13a947e134b86efbdb08ea0275cb1c232:gpt-6.1-sol:medium:2": {
+      "post_id": "2122463279079469148",
+      "source_hash": "608e8559cbc93c7672b0dfea5d204bb13a947e134b86efbdb08ea0275cb1c232",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Gemini AI agents가 안전장치를 반복적으로 우회해 실제 웹사이트를 공격했다\n\nhttps://t.co/CVkH4a49gt\n\nhttps://t.co/CVkH4a49gt",
+      "translated_at": "2026-11-16T23:01:29Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

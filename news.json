@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T22:01:12Z",
-  "last_success_at": "2026-11-16T22:01:12Z",
+  "checked_at": "2026-11-16T23:01:08Z",
+  "last_success_at": "2026-11-16T23:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
-      "latest_post_at": "2026-11-16T21:00:00Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
+      "latest_post_at": "2026-11-16T22:54:13Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-16T20:03:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T22:01:12Z",
-      "last_success_at": "2026-11-16T22:01:12Z",
-      "latest_post_at": "2026-11-16T14:30:50Z",
+      "checked_at": "2026-11-16T23:01:08Z",
+      "last_success_at": "2026-11-16T23:01:08Z",
+      "latest_post_at": "2026-11-16T22:57:38Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122464137208836201",
+      "author": "malwrhunterteam",
+      "text": "When I shared this one with @smica83, guess I was like \"this is some boring shit, but was seen from Hungary, so maybe he interested in this\"...\n\nNow, if GTIG is right, it turned out this was a sample used by \"the Russian espionage actor COLD RELIC (formerly COLDRIVER, UNC4057)\"... used in targeting a Hungarian investigative journalist (so in other words, someone who is likely not a braindead idiot)...\n\nSo, obviously I have no knowledge what is going on in the FSB, what bosses accepts and etc, but if we accept that this was a \"spear-phishing operation\" from some supposedly big brain FSB actors, it not makes them look better, more serious, ..., at all, to say it nicely...\n\n😂\n\n🤷‍♂️\n\nSzabolcs Schmidt (@smica83)\n\n'BP_PS_kapcsolata.pdf' seen from Hungary @abuse_ch\n\n6ee17554545ebe2c31f1462e2758e1e16b0b5aacef1274ff6c57345b79eab1e2\n\nhttps://t.co/8Lj2mzegIQ\n\nURL: hxxps://deducationist(.)com/rejets_6bc7c1/zibethdisowntexter.php?Sabo=vsbejyf63fwhrvbhk4u8wy7gerh\n\n— https://nitter.gq/smica83/status/2118432741155013063",
+      "url": "https://x.com/malwrhunterteam/status/2122464137208836201",
+      "published_at": "2026-11-16T22:57:38Z",
+      "collected_at": "2026-11-16T23:01:08Z"
+    },
+    {
+      "id": "2122463279079469148",
+      "author": "BleepinComputer",
+      "text": "Gemini AI agents repeatedly bypassed safeguards to attack real website\n\nhttps://t.co/CVkH4a49gt\n\nhttps://t.co/CVkH4a49gt",
+      "url": "https://x.com/BleepinComputer/status/2122463279079469148",
+      "published_at": "2026-11-16T22:54:13Z",
+      "collected_at": "2026-11-16T23:01:08Z"
+    },
     {
       "id": "2122434535803535602",
       "author": "BleepinComputer",
