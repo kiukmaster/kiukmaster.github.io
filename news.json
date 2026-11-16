@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T09:01:10Z",
-  "last_success_at": "2026-11-16T09:01:10Z",
+  "checked_at": "2026-11-16T10:01:08Z",
+  "last_success_at": "2026-11-16T10:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
-      "latest_post_at": "2026-11-16T07:35:54Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
+      "latest_post_at": "2026-11-16T09:40:32Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
-      "latest_post_at": "2026-11-16T08:27:08Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
+      "latest_post_at": "2026-11-16T09:30:20Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-16T08:59:02Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T09:01:10Z",
-      "last_success_at": "2026-11-16T09:01:10Z",
+      "checked_at": "2026-11-16T10:01:08Z",
+      "last_success_at": "2026-11-16T10:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122263542368006193",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers are hijacking Linux GPUs—and making them appear idle.\n\nNew SANSAR cryptomining malware modifies NVIDIA's monitoring library to falsely report 0% GPU usage, while a kernel rootkit hides malicious activity.\n\nHow the attack works: https://t.co/g8u0toeGAK",
+      "url": "https://x.com/TheHackersNews/status/2122263542368006193",
+      "published_at": "2026-11-16T09:40:32Z",
+      "collected_at": "2026-11-16T10:01:08Z"
+    },
+    {
+      "id": "2122260973100630522",
+      "author": "BleepinComputer",
+      "text": "New NoisyTCP vulnerability lets attackers crash Linux servers\n\nhttps://t.co/movpuEP3CP\n\nhttps://t.co/movpuEP3CP",
+      "url": "https://x.com/BleepinComputer/status/2122260973100630522",
+      "published_at": "2026-11-16T09:30:20Z",
+      "collected_at": "2026-11-16T10:01:08Z"
+    },
     {
       "id": "2122253097900859762",
       "author": "SecurityWeek",

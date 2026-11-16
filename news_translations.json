@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T09:01:31Z",
+  "checked_at": "2026-11-16T10:01:33Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1802,6 +1802,30 @@
       "prompt_version": "2",
       "text_ko": "Microsoft, 서비스 중단 원인으로 Cyberattack 배제하고 Phishing 캠페인 경고 https://t.co/CO63rkF16l",
       "translated_at": "2026-11-16T09:01:31Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122263542368006193:1fc0a248df9de9bd9d4155df8824f5904e721f96b5b38ffc912f89803835b8e0:gpt-6.1-sol:medium:2": {
+      "post_id": "2122263542368006193",
+      "source_hash": "1fc0a248df9de9bd9d4155df8824f5904e721f96b5b38ffc912f89803835b8e0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 해커들이 Linux GPU를 탈취하고도 사용하지 않는 것처럼 보이게 만들고 있습니다.\n\n새로운 cryptomining malware인 SANSAR는 NVIDIA의 monitoring library를 변조해 GPU 사용률을 0%로 허위 보고하며, kernel rootkit은 악성 활동을 숨깁니다.\n\n공격 방식: https://t.co/g8u0toeGAK",
+      "translated_at": "2026-11-16T10:01:26Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122260973100630522:e7bffa6730d3b7a485d06524b063bc0a6cb782d85f7b241c060bb1d90e9625e7:gpt-6.1-sol:medium:2": {
+      "post_id": "2122260973100630522",
+      "source_hash": "e7bffa6730d3b7a485d06524b063bc0a6cb782d85f7b241c060bb1d90e9625e7",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "새로운 NoisyTCP 취약점으로 공격자가 Linux 서버를 다운시킬 수 있어\n\nhttps://t.co/movpuEP3CP\n\nhttps://t.co/movpuEP3CP",
+      "translated_at": "2026-11-16T10:01:33Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
