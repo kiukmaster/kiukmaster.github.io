@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T11:01:22Z",
+  "checked_at": "2026-11-16T12:01:26Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1838,6 +1838,42 @@
       "prompt_version": "2",
       "text_ko": "Anthropic의 Claude Fable 5.2는 보안 작업을 차단하는 경우가 줄었고, Mythos는 bugs를 찾아내는 능력이 향상됐다\n\nhttps://t.co/kywznPPEvD\n\nhttps://t.co/kywznPPEvD",
       "translated_at": "2026-11-16T11:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122290081939538307:5ca444a02c77b4c13fc90f5ec7bd0f5edea0456cdadb0363a5ad37c38914cb9e:gpt-6.1-sol:medium:2": {
+      "post_id": "2122290081939538307",
+      "source_hash": "5ca444a02c77b4c13fc90f5ec7bd0f5edea0456cdadb0363a5ad37c38914cb9e",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "해커들, Copeland 냉동 제어기에서 새로 공개된 취약점 탐색 https://t.co/y3h72H4I4N",
+      "translated_at": "2026-11-16T12:01:19Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122288174198059492:be3868762ba3dce864ec387337b24a7af25677db16895d4186ff11292be570a3:gpt-6.1-sol:medium:2": {
+      "post_id": "2122288174198059492",
+      "source_hash": "be3868762ba3dce864ec387337b24a7af25677db16895d4186ff11292be570a3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "호주 대형 유통업체 Coles, 사이버 보안 사고 조사\n\nhttps://t.co/1p9Lhvhp4B\n\nhttps://t.co/1p9Lhvhp4B",
+      "translated_at": "2026-11-16T12:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122284511941554627:b945234bcf81473c12451e92b83b121e9a412bfe1acc842d46e05b5e3e760f4e:gpt-6.1-sol:medium:2": {
+      "post_id": "2122284511941554627",
+      "source_hash": "b945234bcf81473c12451e92b83b121e9a412bfe1acc842d46e05b5e3e760f4e",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Uber 데이터 유출로 15만 명 피해 https://t.co/7oNJLu0C2w",
+      "translated_at": "2026-11-16T12:01:26Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

@@ -1,87 +1,111 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T11:01:07Z",
-  "last_success_at": "2026-11-16T11:01:07Z",
+  "checked_at": "2026-11-16T12:01:07Z",
+  "last_success_at": "2026-11-16T12:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-16T09:40:32Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
-      "latest_post_at": "2026-11-16T11:00:13Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
+      "latest_post_at": "2026-11-16T11:18:25Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
-      "latest_post_at": "2026-11-16T08:59:02Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
+      "latest_post_at": "2026-11-16T11:26:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T11:01:07Z",
-      "last_success_at": "2026-11-16T11:01:07Z",
+      "checked_at": "2026-11-16T12:01:07Z",
+      "last_success_at": "2026-11-16T12:01:07Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122290081939538307",
+      "author": "SecurityWeek",
+      "text": "Hackers Probe Newly Disclosed Flaws in Copeland Refrigeration Controllers https://t.co/y3h72H4I4N",
+      "url": "https://x.com/SecurityWeek/status/2122290081939538307",
+      "published_at": "2026-11-16T11:26:00Z",
+      "collected_at": "2026-11-16T12:01:07Z"
+    },
+    {
+      "id": "2122288174198059492",
+      "author": "BleepinComputer",
+      "text": "Australian retail giant Coles investigates cybersecurity incident\n\nhttps://t.co/1p9Lhvhp4B\n\nhttps://t.co/1p9Lhvhp4B",
+      "url": "https://x.com/BleepinComputer/status/2122288174198059492",
+      "published_at": "2026-11-16T11:18:25Z",
+      "collected_at": "2026-11-16T12:01:07Z"
+    },
+    {
+      "id": "2122284511941554627",
+      "author": "SecurityWeek",
+      "text": "Uber Data Breach Impacts 150,000 People https://t.co/7oNJLu0C2w",
+      "url": "https://x.com/SecurityWeek/status/2122284511941554627",
+      "published_at": "2026-11-16T11:03:52Z",
+      "collected_at": "2026-11-16T12:01:07Z"
+    },
     {
       "id": "2122283594773127467",
       "author": "BleepinComputer",
