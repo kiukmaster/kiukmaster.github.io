@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T10:01:33Z",
+  "checked_at": "2026-11-16T11:01:22Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1826,6 +1826,18 @@
       "prompt_version": "2",
       "text_ko": "새로운 NoisyTCP 취약점으로 공격자가 Linux 서버를 다운시킬 수 있어\n\nhttps://t.co/movpuEP3CP\n\nhttps://t.co/movpuEP3CP",
       "translated_at": "2026-11-16T10:01:33Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122283594773127467:0735b220acd6c041912c189c3a037029691c5887b6ed468a99e56ba6b05a881c:gpt-6.1-sol:medium:2": {
+      "post_id": "2122283594773127467",
+      "source_hash": "0735b220acd6c041912c189c3a037029691c5887b6ed468a99e56ba6b05a881c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Anthropic의 Claude Fable 5.2는 보안 작업을 차단하는 경우가 줄었고, Mythos는 bugs를 찾아내는 능력이 향상됐다\n\nhttps://t.co/kywznPPEvD\n\nhttps://t.co/kywznPPEvD",
+      "translated_at": "2026-11-16T11:01:22Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
