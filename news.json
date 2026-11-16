@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T17:01:24Z",
-  "last_success_at": "2026-11-16T17:01:24Z",
+  "checked_at": "2026-11-16T18:01:13Z",
+  "last_success_at": "2026-11-16T18:01:13Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-16T16:43:42Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-16T15:46:22Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
-      "latest_post_at": "2026-11-13T19:31:02Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
+      "latest_post_at": "2026-11-16T17:50:04Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T17:01:24Z",
-      "last_success_at": "2026-11-16T17:01:24Z",
+      "checked_at": "2026-11-16T18:01:13Z",
+      "last_success_at": "2026-11-16T18:01:13Z",
       "latest_post_at": "2026-11-16T14:30:50Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122386735543816515",
+      "author": "DarkReading",
+      "text": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks https://t.co/Vu3UuOK69a by Elizabeth Montalbano",
+      "url": "https://x.com/DarkReading/status/2122386735543816515",
+      "published_at": "2026-11-16T17:50:04Z",
+      "collected_at": "2026-11-16T18:01:13Z"
+    },
+    {
+      "id": "2122384469059346815",
+      "author": "DarkReading",
+      "text": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI https://t.co/9nDe5xnp4w by Jai Vijayan",
+      "url": "https://x.com/DarkReading/status/2122384469059346815",
+      "published_at": "2026-11-16T17:41:04Z",
+      "collected_at": "2026-11-16T18:01:13Z"
+    },
     {
       "id": "2122370033472913754",
       "author": "BleepinComputer",

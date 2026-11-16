@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T17:01:36Z",
+  "checked_at": "2026-11-16T18:01:33Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2090,6 +2090,30 @@
       "prompt_version": "2",
       "text_ko": "Microsoft, 수개월 된 bug가 전 세계 Microsoft 365 서비스 장애의 원인이라고 밝혀\n\nhttps://t.co/dGRFcx9Bqx\n\nhttps://t.co/dGRFcx9Bqx",
       "translated_at": "2026-11-16T17:01:36Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122386735543816515:6e7c951525eac70251bddca6e22256d0b1a81774f45ff69737f939179de75ac6:gpt-6.1-sol:medium:2": {
+      "post_id": "2122386735543816515",
+      "source_hash": "6e7c951525eac70251bddca6e22256d0b1a81774f45ff69737f939179de75ac6",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "중국 연계 공격자들, AI 기반 공격으로 조직 10곳 침해 https://t.co/Vu3UuOK69a 작성자: Elizabeth Montalbano",
+      "translated_at": "2026-11-16T18:01:28Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122384469059346815:f2094100e889ec6e3481cf749ea77de0e2333614521e9d0cd22218a0538620b2:gpt-6.1-sol:medium:2": {
+      "post_id": "2122384469059346815",
+      "source_hash": "f2094100e889ec6e3481cf749ea77de0e2333614521e9d0cd22218a0538620b2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "ArcticRAT 사이버 범죄 조직, AI로 피해자의 재정 상태 분석 https://t.co/9nDe5xnp4w 작성: Jai Vijayan",
+      "translated_at": "2026-11-16T18:01:33Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
