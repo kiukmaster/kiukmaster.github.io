@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T16:01:47Z",
+  "checked_at": "2026-11-16T17:01:36Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2078,6 +2078,18 @@
       "prompt_version": "2",
       "text_ko": "Artex를 활용한 사이버 공격이 급증하는 가운데 Barracuda 해킹 피해 https://t.co/12A1eRSB0F",
       "translated_at": "2026-11-16T16:01:47Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122370033472913754:f735ce60f3299f6f5441e5e63d624cbea113b14bd48edc312e02250314ff337c:gpt-6.1-sol:medium:2": {
+      "post_id": "2122370033472913754",
+      "source_hash": "f735ce60f3299f6f5441e5e63d624cbea113b14bd48edc312e02250314ff337c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft, 수개월 된 bug가 전 세계 Microsoft 365 서비스 장애의 원인이라고 밝혀\n\nhttps://t.co/dGRFcx9Bqx\n\nhttps://t.co/dGRFcx9Bqx",
+      "translated_at": "2026-11-16T17:01:36Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
