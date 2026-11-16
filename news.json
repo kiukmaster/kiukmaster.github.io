@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T06:01:07Z",
-  "last_success_at": "2026-11-16T06:01:07Z",
+  "checked_at": "2026-11-16T07:01:08Z",
+  "last_success_at": "2026-11-16T07:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
-      "latest_post_at": "2026-11-15T11:29:11Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
+      "latest_post_at": "2026-11-16T06:54:48Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-15T18:30:12Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-15T19:17:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-10T09:00:03Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T06:01:07Z",
-      "last_success_at": "2026-11-16T06:01:07Z",
+      "checked_at": "2026-11-16T07:01:08Z",
+      "last_success_at": "2026-11-16T07:01:08Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122221831893794898",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers exploited Log4Shell in VMware vCenter to breach a Russian software developer.\n\nBO Team gained root access, planted backdoors, and compromised its code-signing server—raising fears of a software supply chain attack.\n\nRead: https://t.co/onp3jkxxAO",
+      "url": "https://x.com/TheHackersNews/status/2122221831893794898",
+      "published_at": "2026-11-16T06:54:48Z",
+      "collected_at": "2026-11-16T07:01:08Z"
+    },
     {
       "id": "2122137101231685933",
       "author": "AISecHub",

@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T06:01:13Z",
+  "checked_at": "2026-11-16T07:01:24Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1732,6 +1732,18 @@
       "translated_at": null,
       "status": "skipped",
       "attempts": 0,
+      "last_error": null
+    },
+    "2122221831893794898:83f5d46c7c797084c9608a9881dc8d94631cce66b1e06711648f60ad8d55c0ff:gpt-6.1-sol:medium:2": {
+      "post_id": "2122221831893794898",
+      "source_hash": "83f5d46c7c797084c9608a9881dc8d94631cce66b1e06711648f60ad8d55c0ff",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 해커들이 VMware vCenter의 Log4Shell을 악용해 러시아 소프트웨어 개발사에 침입했습니다.\n\nBO Team은 root access를 확보하고 backdoors를 심었으며, 해당 개발사의 code-signing server까지 침해해 software supply chain attack에 대한 우려를 키웠습니다.\n\n자세히 보기: https://t.co/onp3jkxxAO",
+      "translated_at": "2026-11-16T07:01:24Z",
+      "status": "ok",
+      "attempts": 1,
       "last_error": null
     }
   }
