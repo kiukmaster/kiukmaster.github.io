@@ -1,87 +1,119 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T08:01:08Z",
-  "last_success_at": "2026-11-16T08:01:08Z",
+  "checked_at": "2026-11-16T09:01:10Z",
+  "last_success_at": "2026-11-16T09:01:10Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-16T07:35:54Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
-      "latest_post_at": "2026-11-15T18:30:12Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
+      "latest_post_at": "2026-11-16T08:27:08Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
-      "latest_post_at": "2026-11-15T19:17:00Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
+      "latest_post_at": "2026-11-16T08:59:02Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
-      "latest_post_at": "2026-11-10T09:00:03Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
+      "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T08:01:08Z",
-      "last_success_at": "2026-11-16T08:01:08Z",
+      "checked_at": "2026-11-16T09:01:10Z",
+      "last_success_at": "2026-11-16T09:01:10Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122253097900859762",
+      "author": "SecurityWeek",
+      "text": "Tor Updates DoS Defenses Again as Relay Attacks Continue https://t.co/IiT2wvAPS0",
+      "url": "https://x.com/SecurityWeek/status/2122253097900859762",
+      "published_at": "2026-11-16T08:59:02Z",
+      "collected_at": "2026-11-16T09:01:10Z"
+    },
+    {
+      "id": "2122252063367118983",
+      "author": "InfosecurityMag",
+      "text": "As AI reshapes the threat landscape, this raises a critical question: are traditional models of security accountability still fit for purpose?\n\n@fastly's CISO explores the growing pressures facing security leaders and the challenges of defining accountability in an increasingly complex cybersecurity landscape: https://t.co/AtNxIUyNrp",
+      "url": "https://x.com/InfosecurityMag/status/2122252063367118983",
+      "published_at": "2026-11-16T08:54:56Z",
+      "collected_at": "2026-11-16T09:01:10Z"
+    },
+    {
+      "id": "2122245066999628077",
+      "author": "BleepinComputer",
+      "text": "Microsoft pushes Windows emergency updates to fix activation failures\n\nhttps://t.co/LuJvLbIWiA\n\nhttps://t.co/LuJvLbIWiA",
+      "url": "https://x.com/BleepinComputer/status/2122245066999628077",
+      "published_at": "2026-11-16T08:27:08Z",
+      "collected_at": "2026-11-16T09:01:10Z"
+    },
+    {
+      "id": "2122242428664991932",
+      "author": "SecurityWeek",
+      "text": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign https://t.co/CO63rkF16l",
+      "url": "https://x.com/SecurityWeek/status/2122242428664991932",
+      "published_at": "2026-11-16T08:16:39Z",
+      "collected_at": "2026-11-16T09:01:10Z"
+    },
     {
       "id": "2122232175529766932",
       "author": "TheHackersNews",

@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T08:01:24Z",
+  "checked_at": "2026-11-16T09:01:31Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1754,6 +1754,54 @@
       "prompt_version": "2",
       "text_ko": "🚨 Amazon이 LiteLLM, Dify 등 여러 AI 앱에서 API keys를 노리는 AI agents를 발견했다.\n\n확보된 로그에는 공격 수법이 드러나 있다. 취약한 지점 악용 → API keys 탈취 → 탈취한 키로 추가 공격 수행.\n\n이 공격 활동이 거뒀다고 보고된 성과는 아직 검증되지 않았다.\n\n기사 전문: https://t.co/k7y80PiRnl",
       "translated_at": "2026-11-16T08:01:24Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122253097900859762:c6e79893c00d58ce74fb8651c951babcf13b15f3f09ec8968211363c35f7c423:gpt-6.1-sol:medium:2": {
+      "post_id": "2122253097900859762",
+      "source_hash": "c6e79893c00d58ce74fb8651c951babcf13b15f3f09ec8968211363c35f7c423",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "중계 노드를 겨냥한 공격이 계속되자 Tor가 DoS 방어 기능을 다시 업데이트했다 https://t.co/IiT2wvAPS0",
+      "translated_at": "2026-11-16T09:01:19Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122252063367118983:7c13fc234ca9110d8ab30d256530f54ab056f37489164d56d2080f6e243460e0:gpt-6.1-sol:medium:2": {
+      "post_id": "2122252063367118983",
+      "source_hash": "7c13fc234ca9110d8ab30d256530f54ab056f37489164d56d2080f6e243460e0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "AI가 위협 지형을 바꾸면서 중요한 질문이 제기된다. 보안에 대한 기존의 책임 체계는 여전히 제 역할을 할 수 있을까?\n\n@fastly의 CISO가 보안 리더들이 직면한 점점 커지는 압박과 갈수록 복잡해지는 cybersecurity 환경에서 책임 소재를 정하는 데 따르는 어려움을 살펴본다: https://t.co/AtNxIUyNrp",
+      "translated_at": "2026-11-16T09:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122245066999628077:96bebf073c05a8cad35c857600760d5041054ad0f1d4df5ca0242e07ed2daa40:gpt-6.1-sol:medium:2": {
+      "post_id": "2122245066999628077",
+      "source_hash": "96bebf073c05a8cad35c857600760d5041054ad0f1d4df5ca0242e07ed2daa40",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft, 정품 인증 실패 문제 해결 위한 Windows 긴급 업데이트 배포\n\nhttps://t.co/LuJvLbIWiA\n\nhttps://t.co/LuJvLbIWiA",
+      "translated_at": "2026-11-16T09:01:25Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122242428664991932:4b328d27b9ed3cf9947afdfc1c18faa5cab0ee2829f0f6497104f124fbb6f775:gpt-6.1-sol:medium:2": {
+      "post_id": "2122242428664991932",
+      "source_hash": "4b328d27b9ed3cf9947afdfc1c18faa5cab0ee2829f0f6497104f124fbb6f775",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft, 서비스 중단 원인으로 Cyberattack 배제하고 Phishing 캠페인 경고 https://t.co/CO63rkF16l",
+      "translated_at": "2026-11-16T09:01:31Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
