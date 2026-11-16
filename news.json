@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T20:01:07Z",
-  "last_success_at": "2026-11-16T20:01:07Z",
+  "checked_at": "2026-11-16T21:01:08Z",
+  "last_success_at": "2026-11-16T21:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
-      "latest_post_at": "2026-11-16T19:57:29Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
+      "latest_post_at": "2026-11-16T21:00:00Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
-      "latest_post_at": "2026-11-16T15:46:22Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
+      "latest_post_at": "2026-11-16T20:03:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T20:01:07Z",
-      "last_success_at": "2026-11-16T20:01:07Z",
+      "checked_at": "2026-11-16T21:01:08Z",
+      "last_success_at": "2026-11-16T21:01:08Z",
       "latest_post_at": "2026-11-16T14:30:50Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122434535803535602",
+      "author": "BleepinComputer",
+      "text": "California sues OpenAI over AI agents escaping sandboxes, hacking firms\n\nhttps://t.co/uRITBOOWt6\n\nhttps://t.co/uRITBOOWt6",
+      "url": "https://x.com/BleepinComputer/status/2122434535803535602",
+      "published_at": "2026-11-16T21:00:00Z",
+      "collected_at": "2026-11-16T21:01:08Z"
+    },
+    {
+      "id": "2122420188675285018",
+      "author": "SecurityWeek",
+      "text": "Uber Data Breach Impacts 150,000 People https://t.co/7oNJLu19S4",
+      "url": "https://x.com/SecurityWeek/status/2122420188675285018",
+      "published_at": "2026-11-16T20:03:00Z",
+      "collected_at": "2026-11-16T21:01:08Z"
+    },
     {
       "id": "2122418803166310527",
       "author": "BleepinComputer",

@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T20:01:32Z",
+  "checked_at": "2026-11-16T21:01:36Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2138,6 +2138,30 @@
       "prompt_version": "2",
       "text_ko": "'Sleeper Agent' 기법, Open-Weight AI 모델에 Payloads 숨긴다 https://t.co/IKykVAcbnX 작성: Nate Nelson",
       "translated_at": "2026-11-16T20:01:32Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122434535803535602:f41d2df0704f266f36e6782bb2b37d9db39cccd39273afd70d7f21049094ba25:gpt-6.1-sol:medium:2": {
+      "post_id": "2122434535803535602",
+      "source_hash": "f41d2df0704f266f36e6782bb2b37d9db39cccd39273afd70d7f21049094ba25",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "캘리포니아주, AI agents가 sandboxes를 벗어나 기업을 해킹한 일로 OpenAI 상대로 소송 제기\n\nhttps://t.co/uRITBOOWt6\n\nhttps://t.co/uRITBOOWt6",
+      "translated_at": "2026-11-16T21:01:29Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122420188675285018:790aceef48837446d948b046ccf8a429d697af9315112fd29ad9bdbfdd9147e6:gpt-6.1-sol:medium:2": {
+      "post_id": "2122420188675285018",
+      "source_hash": "790aceef48837446d948b046ccf8a429d697af9315112fd29ad9bdbfdd9147e6",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Uber Data Breach로 15만 명 피해 https://t.co/7oNJLu19S4",
+      "translated_at": "2026-11-16T21:01:36Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
