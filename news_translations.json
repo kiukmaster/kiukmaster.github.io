@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T13:02:05Z",
+  "checked_at": "2026-11-16T14:01:30Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1970,6 +1970,30 @@
       "prompt_version": "2",
       "text_ko": "UnrealIRCd의 최근 취약점, 공격에 악용돼 https://t.co/Di4tW3QzZz",
       "translated_at": "2026-11-16T13:02:05Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122328904836829643:716f58cbdf52a56122051b868cb1a854bb7e82ca3a6639d9f68e614044304391:gpt-6.1-sol:medium:2": {
+      "post_id": "2122328904836829643",
+      "source_hash": "716f58cbdf52a56122051b868cb1a854bb7e82ca3a6639d9f68e614044304391",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Google, 완전 자동화된 AI 공격이 곧 등장할 것이라고 경고\n\nhttps://t.co/Rst8y3wKOm\n\nhttps://t.co/Rst8y3wKOm",
+      "translated_at": "2026-11-16T14:01:21Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122321350165663994:790e24af9179bd7211e6e1878ab8c0cb5ccf0d1c00b217d09670b56fd3280384:gpt-6.1-sol:medium:2": {
+      "post_id": "2122321350165663994",
+      "source_hash": "790e24af9179bd7211e6e1878ab8c0cb5ccf0d1c00b217d09670b56fd3280384",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "‼️ 이제 냉장고에도 zero-days가 있다.\n\nN-able 서버 해킹. Windows SYSTEM exploit. 공격받는 Chrome. 지갑 키를 훔치는 소프트웨어 업데이트.\n\n게다가 연구진은 단 90시간 만에 bugs 99개를 발견했다.\n\n일부 공격은 점점 더 교묘해지고 있다. 반면 어떤 공격은 애쓸 필요조차 거의 없다.\n\n⚡ 이번 주 사이버 보안 소식은 정말 심상치 않다 ↓ https://t.co/2OFtngAcCP",
+      "translated_at": "2026-11-16T14:01:30Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
