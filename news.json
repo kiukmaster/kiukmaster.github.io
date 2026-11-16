@@ -1,87 +1,111 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T14:01:12Z",
-  "last_success_at": "2026-11-16T14:01:12Z",
+  "checked_at": "2026-11-16T15:01:12Z",
+  "last_success_at": "2026-11-16T15:01:12Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
-      "latest_post_at": "2026-11-16T13:30:15Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
+      "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-16T14:00:16Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-16T12:49:26Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T14:01:12Z",
-      "last_success_at": "2026-11-16T14:01:12Z",
-      "latest_post_at": "2026-11-14T09:05:58Z",
+      "checked_at": "2026-11-16T15:01:12Z",
+      "last_success_at": "2026-11-16T15:01:12Z",
+      "latest_post_at": "2026-11-16T14:30:50Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122336598893207800",
+      "author": "malwrhunterteam",
+      "text": "Opendir: http://172.237.115[.]15:8080/cloud/\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2122336598893207800",
+      "published_at": "2026-11-16T14:30:50Z",
+      "collected_at": "2026-11-16T15:01:12Z"
+    },
+    {
+      "id": "2122330337334464721",
+      "author": "TheHackersNews",
+      "text": "🛑 Google warns hackers are using autonomous AI agents to turn security patches into working exploits.\n\nAttackers are deploying multi-agent frameworks to automate hacking, weaponize known flaws, and speed up intrusions.\n\nHere's what Google uncovered: https://t.co/4LYuPonBzW",
+      "url": "https://x.com/TheHackersNews/status/2122330337334464721",
+      "published_at": "2026-11-16T14:05:58Z",
+      "collected_at": "2026-11-16T15:01:12Z"
+    },
+    {
+      "id": "2122329147452375161",
+      "author": "TheHackersNews",
+      "text": "Every AI security vendor governs the agent. Virtru governs the data.\n\nRegister to watch the Virtru Data Harbor Platform launch live, Nov 17 at 3:00 PM ET.\n\nhttps://t.co/JxhFntH5E9",
+      "url": "https://x.com/TheHackersNews/status/2122329147452375161",
+      "published_at": "2026-11-16T14:01:14Z",
+      "collected_at": "2026-11-16T15:01:12Z"
+    },
     {
       "id": "2122328904836829643",
       "author": "BleepinComputer",

@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T14:01:30Z",
+  "checked_at": "2026-11-16T15:01:36Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -1994,6 +1994,42 @@
       "prompt_version": "2",
       "text_ko": "‼️ 이제 냉장고에도 zero-days가 있다.\n\nN-able 서버 해킹. Windows SYSTEM exploit. 공격받는 Chrome. 지갑 키를 훔치는 소프트웨어 업데이트.\n\n게다가 연구진은 단 90시간 만에 bugs 99개를 발견했다.\n\n일부 공격은 점점 더 교묘해지고 있다. 반면 어떤 공격은 애쓸 필요조차 거의 없다.\n\n⚡ 이번 주 사이버 보안 소식은 정말 심상치 않다 ↓ https://t.co/2OFtngAcCP",
       "translated_at": "2026-11-16T14:01:30Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122336598893207800:f28f18892fa205a1e08530e18ab232ab2149f440cdd4e4f6aeaecb84c4d365cc:gpt-6.1-sol:medium:2": {
+      "post_id": "2122336598893207800",
+      "source_hash": "f28f18892fa205a1e08530e18ab232ab2149f440cdd4e4f6aeaecb84c4d365cc",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Opendir: http://172.237.115[.]15:8080/cloud/\n\n🤷‍♂️",
+      "translated_at": "2026-11-16T15:01:23Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122330337334464721:8ac89f709f8e9ced5749547de14338ef70f1d6d08c1bbbbb1fc9ba2dd1717b5c:gpt-6.1-sol:medium:2": {
+      "post_id": "2122330337334464721",
+      "source_hash": "8ac89f709f8e9ced5749547de14338ef70f1d6d08c1bbbbb1fc9ba2dd1717b5c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🛑 Google이 해커들이 autonomous AI agents를 이용해 security patches를 실제로 작동하는 exploits로 바꾸고 있다고 경고했습니다.\n\n공격자들은 hacking을 자동화하고, 알려진 결함을 무기화하며, 침입 속도를 높이기 위해 multi-agent frameworks를 활용하고 있습니다.\n\nGoogle이 밝혀낸 내용은 다음과 같습니다: https://t.co/4LYuPonBzW",
+      "translated_at": "2026-11-16T15:01:31Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122329147452375161:e56b4c54d0f8d4d45c71aed16e088f307bfaa57f0cecce5c0afabce395c0b1bf:gpt-6.1-sol:medium:2": {
+      "post_id": "2122329147452375161",
+      "source_hash": "e56b4c54d0f8d4d45c71aed16e088f307bfaa57f0cecce5c0afabce395c0b1bf",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "모든 AI 보안 업체는 agent를 통제합니다. Virtru는 데이터를 통제합니다.\n\n11월 17일 오후 3시 ET에 열리는 Virtru Data Harbor Platform 출시 행사를 실시간으로 시청하려면 등록하세요.\n\nhttps://t.co/JxhFntH5E9",
+      "translated_at": "2026-11-16T15:01:36Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
