@@ -1,87 +1,151 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T12:01:07Z",
-  "last_success_at": "2026-11-16T12:01:07Z",
+  "checked_at": "2026-11-16T13:01:11Z",
+  "last_success_at": "2026-11-16T13:01:11Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-16T01:18:06Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
-      "latest_post_at": "2026-11-16T09:40:32Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
+      "latest_post_at": "2026-11-16T12:57:34Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
-      "latest_post_at": "2026-11-16T11:18:25Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
+      "latest_post_at": "2026-11-16T12:53:36Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
-      "latest_post_at": "2026-11-16T11:26:00Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
+      "latest_post_at": "2026-11-16T12:49:26Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-13T19:31:02Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-13T21:48:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T12:01:07Z",
-      "last_success_at": "2026-11-16T12:01:07Z",
+      "checked_at": "2026-11-16T13:01:11Z",
+      "last_success_at": "2026-11-16T13:01:11Z",
       "latest_post_at": "2026-11-14T09:05:58Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122313127035597252",
+      "author": "TheHackersNews",
+      "text": "‼️ No login. No patch. Remote takeover risk.\n\nSix unpatched flaws in Danfoss AK-SM800A refrigeration controllers could let attackers seize control, tamper with cooling systems, and destroy stock.\n\nEven the latest firmware remains vulnerable.\n\nRead: https://t.co/L8WqsEBMuU",
+      "url": "https://x.com/TheHackersNews/status/2122313127035597252",
+      "published_at": "2026-11-16T12:57:34Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122312126215725244",
+      "author": "BleepinComputer",
+      "text": "Microsoft: Windows Server 2016 reaches end of support in 60 days\n\nhttps://t.co/Dgt0pSg01w\n\nhttps://t.co/Dgt0pSg01w",
+      "url": "https://x.com/BleepinComputer/status/2122312126215725244",
+      "published_at": "2026-11-16T12:53:36Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122311078462034377",
+      "author": "SecurityWeek",
+      "text": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch https://t.co/Kj1JJofgMP",
+      "url": "https://x.com/SecurityWeek/status/2122311078462034377",
+      "published_at": "2026-11-16T12:49:26Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122307696078602516",
+      "author": "TheHackersNews",
+      "text": "🚨 A Windows worm taken down 7 years ago is back.\n\nRetadup's old command-and-control domains have been revived to spread CoffeeLoader malware via infected USB drives.\n\nKaspersky says it blocked infections on ~15,000 systems.\n\nHere's what researchers uncovered ↓ https://t.co/5JlnNGt6Vq",
+      "url": "https://x.com/TheHackersNews/status/2122307696078602516",
+      "published_at": "2026-11-16T12:35:59Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122302664012898554",
+      "author": "SecurityWeek",
+      "text": "Microsoft Rules Out Cyberattack in Outage, Warns of Phishing Campaign https://t.co/CO63rkFyVT",
+      "url": "https://x.com/SecurityWeek/status/2122302664012898554",
+      "published_at": "2026-11-16T12:16:00Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122302467480178738",
+      "author": "BleepinComputer",
+      "text": "Get 98+ hours of Excel training for $19.97 in this deal\n\nhttps://t.co/7CEegjFXqJ\n\nhttps://t.co/7CEegjFXqJ",
+      "url": "https://x.com/BleepinComputer/status/2122302467480178738",
+      "published_at": "2026-11-16T12:15:13Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122301770047336730",
+      "author": "TheHackersNews",
+      "text": "🚨 AI is making developers faster. Five other teams are paying the price.\n\n94% report more code needing remediation. 97% face rising governance workloads.\n\nLeslie Pascual of @ActiveState reveals the hidden costs of AI-assisted development.\n\nRead more: https://t.co/eX9lNAKDyZ",
+      "url": "https://x.com/TheHackersNews/status/2122301770047336730",
+      "published_at": "2026-11-16T12:12:27Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
+    {
+      "id": "2122299141686751353",
+      "author": "SecurityWeek",
+      "text": "Recent UnrealIRCd Vulnerability Exploited in Attacks https://t.co/Di4tW3QzZz",
+      "url": "https://x.com/SecurityWeek/status/2122299141686751353",
+      "published_at": "2026-11-16T12:02:00Z",
+      "collected_at": "2026-11-16T13:01:11Z"
+    },
     {
       "id": "2122290081939538307",
       "author": "SecurityWeek",
