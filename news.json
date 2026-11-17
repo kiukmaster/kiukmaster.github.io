@@ -1,87 +1,127 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T17:01:12Z",
-  "last_success_at": "2026-11-17T17:01:12Z",
+  "checked_at": "2026-11-17T18:01:10Z",
+  "last_success_at": "2026-11-17T18:01:10Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-17T12:21:27Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
-      "latest_post_at": "2026-11-17T01:21:22Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
+      "latest_post_at": "2026-11-17T17:37:41Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
-      "latest_post_at": "2026-11-17T15:45:00Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
+      "latest_post_at": "2026-11-17T17:29:33Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-17T16:00:14Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-17T14:57:42Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
-      "latest_post_at": "2026-11-16T19:13:16Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
+      "latest_post_at": "2026-11-17T17:58:07Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-17T15:07:01Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T17:01:12Z",
-      "last_success_at": "2026-11-17T17:01:12Z",
+      "checked_at": "2026-11-17T18:01:10Z",
+      "last_success_at": "2026-11-17T18:01:10Z",
       "latest_post_at": "2026-11-17T16:38:15Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122751149606322366",
+      "author": "DarkReading",
+      "text": "Google Project Zero Slashes Bug Disclosure Deadlines, Splitting Experts https://t.co/dfk426JWOm by Alexander Culafi",
+      "url": "https://x.com/DarkReading/status/2122751149606322366",
+      "published_at": "2026-11-17T17:58:07Z",
+      "collected_at": "2026-11-17T18:01:10Z"
+    },
+    {
+      "id": "2122748959860936718",
+      "author": "DarkReading",
+      "text": "Ransomware Attacks Increase Behind AI, but Payments Decline https://t.co/PCrLo3Afm8 by Robert Lemos",
+      "url": "https://x.com/DarkReading/status/2122748959860936718",
+      "published_at": "2026-11-17T17:49:25Z",
+      "collected_at": "2026-11-17T18:01:10Z"
+    },
+    {
+      "id": "2122746008736276734",
+      "author": "simonw",
+      "text": "I shipped a new version of Datasette Lite recently - my build of the Datasette Python web app that runs entirely in the browser with WebAssembly and Pyodide - here's what's new and how it all works\n\nhttps://t.co/MXSF8Sus79",
+      "url": "https://x.com/simonw/status/2122746008736276734",
+      "published_at": "2026-11-17T17:37:41Z",
+      "collected_at": "2026-11-17T18:01:10Z"
+    },
+    {
+      "id": "2122743961622286549",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers found a way around GitHub SHA pinning.\n\nIn real-world attacks, malicious commits slipped past checks designed to secure GitHub Actions.\n\nThe catch? A pinned SHA doesn't prove who wrote the code.\n\nJoin this THN webinar to learn how to close the gap → https://t.co/6n0L1dGdrv",
+      "url": "https://x.com/TheHackersNews/status/2122743961622286549",
+      "published_at": "2026-11-17T17:29:33Z",
+      "collected_at": "2026-11-17T18:01:10Z"
+    },
+    {
+      "id": "2122739738310545813",
+      "author": "TheHackersNews",
+      "text": "AI Code Scanning 101\n\nIn the era of AI defenders need a way to proactively identify complex vulnerabilities in code before attackers do.\n\nAI is changing how software is built and how attackers uncover vulnerabilities. Traditional SAST alone is no longer enough to identify the risks that matter most.\n\nIn this infographic, you'll learn:\n\n⮞ Why AI is reshaping application security\n\n⮞ How traditional SAST and AI-powered code analysis work together\n\n⮞ How to identify vulnerabilities that are actually exploitable\n\n⮞ Practical steps to accelerate remediation and reduce application risk\n\nIt’s a flashcard-style guide to help you get up to speed, fast.\n\nDownload → https://t.co/2o6bgOJs4T",
+      "url": "https://x.com/TheHackersNews/status/2122739738310545813",
+      "published_at": "2026-11-17T17:12:46Z",
+      "collected_at": "2026-11-17T18:01:10Z"
+    },
     {
       "id": "2122731051822780803",
       "author": "malwrhunterteam",

@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T17:01:29Z",
+  "checked_at": "2026-11-17T18:02:02Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2714,6 +2714,66 @@
       "prompt_version": "2",
       "text_ko": "🤷‍♂️\n\nSquiblydoo (@SquiblydooBlog)\n\nstealer를 실행하고 가짜 crypto-apps를 설치해 seed phrases 등을 훔치는 데 사용된 \"GoogleCert.scpt\".\n\n제보: @malwrhunterteam\n\nDPRK도 이와 같은 empty padding 기법을 쓴다. 이게 누구 짓인지는 모르겠지만, 기발해 보였다.\n\nhttps://t.co/7icFwkB1TS\n\n— https://nitter.gq/SquiblydooBlog/status/2122721556866416739",
       "translated_at": "2026-11-17T17:01:29Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122751149606322366:1c0133abea8cb9cbe99dd7f3617474247a04cb04b1995fc539ba7a3c50d8b5c7:gpt-6.1-sol:medium:2": {
+      "post_id": "2122751149606322366",
+      "source_hash": "1c0133abea8cb9cbe99dd7f3617474247a04cb04b1995fc539ba7a3c50d8b5c7",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Google Project Zero, Bug Disclosure 기한 대폭 단축... 전문가들 의견 엇갈려 https://t.co/dfk426JWOm Alexander Culafi 기자",
+      "translated_at": "2026-11-17T18:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122748959860936718:e6867ae40842ff90b68aaa199e5fa221f878d78bb944682241c2f8ce3bc6c8ca:gpt-6.1-sol:medium:2": {
+      "post_id": "2122748959860936718",
+      "source_hash": "e6867ae40842ff90b68aaa199e5fa221f878d78bb944682241c2f8ce3bc6c8ca",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "AI에 힘입어 Ransomware 공격은 증가했지만 몸값 지불은 감소 https://t.co/PCrLo3Afm8 Robert Lemos 작성",
+      "translated_at": "2026-11-17T18:01:32Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122746008736276734:4eef7552bef5d65269cc734bb2d8a2a1289a87e02147ef2b9d4a8c38a01fe504:gpt-6.1-sol:medium:2": {
+      "post_id": "2122746008736276734",
+      "source_hash": "4eef7552bef5d65269cc734bb2d8a2a1289a87e02147ef2b9d4a8c38a01fe504",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "최근 Datasette Lite의 새 버전을 출시했습니다. Datasette Lite는 제가 Datasette Python 웹 앱을 WebAssembly와 Pyodide를 이용해 전적으로 브라우저에서 실행되도록 만든 버전입니다. 무엇이 새로워졌고 전체적으로 어떻게 작동하는지 소개합니다.\n\nhttps://t.co/MXSF8Sus79",
+      "translated_at": "2026-11-17T18:01:38Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122743961622286549:740e6634de89b325c6b49a76c179aaf71ce992062da36ad1141e64dc6e4a78e3:gpt-6.1-sol:medium:2": {
+      "post_id": "2122743961622286549",
+      "source_hash": "740e6634de89b325c6b49a76c179aaf71ce992062da36ad1141e64dc6e4a78e3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 해커들이 GitHub SHA pinning을 우회하는 방법을 찾아냈습니다.\n\n실제 공격에서 악성 commits가 GitHub Actions를 보호하기 위한 검사를 통과했습니다.\n\n문제는 pinned SHA만으로는 누가 코드를 작성했는지 입증할 수 없다는 점입니다.\n\n이 허점을 어떻게 보완할 수 있는지 THN 웨비나에서 알아보세요 → https://t.co/6n0L1dGdrv",
+      "translated_at": "2026-11-17T18:01:48Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122739738310545813:5b8f4675db27fdda07d3fab9b5414066f0b3cce93b40d7f7ac969271ff13be67:gpt-6.1-sol:medium:2": {
+      "post_id": "2122739738310545813",
+      "source_hash": "5b8f4675db27fdda07d3fab9b5414066f0b3cce93b40d7f7ac969271ff13be67",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "AI Code Scanning 기초\n\nAI 시대에는 공격자보다 먼저 코드의 복잡한 취약점을 선제적으로 찾아낼 방법이 방어자에게 필요합니다.\n\nAI는 소프트웨어를 만드는 방식과 공격자가 취약점을 찾아내는 방식을 바꾸고 있습니다. 이제 기존 SAST만으로는 가장 중요한 위험을 식별하기에 충분하지 않습니다.\n\n이 인포그래픽에서는 다음 내용을 알아봅니다.\n\n⮞ AI가 application security를 재편하는 이유\n\n⮞ 기존 SAST와 AI 기반 code analysis가 함께 작동하는 방식\n\n⮞ 실제로 악용 가능한 취약점을 식별하는 방법\n\n⮞ 취약점 해결을 앞당기고 애플리케이션 위험을 줄이기 위한 실질적인 단계\n\n핵심 내용을 빠르게 익힐 수 있도록 플래시카드 형식으로 구성한 가이드입니다.\n\n다운로드 → https://t.co/2o6bgOJs4T",
+      "translated_at": "2026-11-17T18:02:02Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
