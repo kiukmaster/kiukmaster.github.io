@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T11:01:33Z",
+  "checked_at": "2026-11-17T12:01:44Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2426,6 +2426,66 @@
       "prompt_version": "2",
       "text_ko": "Optimizely 취약점이 악용돼 주요 웹사이트에서 Malware 유포 https://t.co/wR3PKh65vJ",
       "translated_at": "2026-11-17T11:01:33Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122659321674694732:184d5e728dc34f46bf5298f984460f9587a9f137a371ede9335f8e67b5896d4a:gpt-6.1-sol:medium:2": {
+      "post_id": "2122659321674694732",
+      "source_hash": "184d5e728dc34f46bf5298f984460f9587a9f137a371ede9335f8e67b5896d4a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "swissnet711911[.]top\n\n🤷‍♂️",
+      "translated_at": "2026-11-17T12:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122655462931714342:bf73745837729523fe26167a338dafc01f90fde999ce1a15034d6ba678271cdb:gpt-6.1-sol:medium:2": {
+      "post_id": "2122655462931714342",
+      "source_hash": "bf73745837729523fe26167a338dafc01f90fde999ce1a15034d6ba678271cdb",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "보안팀은 어떤 취약점에 즉시 대응해야 하는지, 승인된 시스템 밖에서 이루어지는 AI 사용을 어떻게 탐지할지, 언제 위험을 수용하는 것이 비즈니스에 도움이 되는지를 두고 어려운 결정을 내려야 합니다.\n\n오늘 열리는 Enterprise Security Virtual Summit에 참여해 보안 리더들이 이러한 결정을 어떻게 내리고 있는지 알아보세요. 실제 악용 가능한 위험의 검증과 shadow AI 감사부터 법적 책임 관리, 기업 공급망 전반의 AI 관리까지 다룹니다: https://t.co/nO811waDsz\n\n동영상",
+      "translated_at": "2026-11-17T12:01:30Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122654351588254143:9d976419ca474aa479970ee8cfa4dc8519add07b9eeb21afb5f29f18abcd4412:gpt-6.1-sol:medium:2": {
+      "post_id": "2122654351588254143",
+      "source_hash": "9d976419ca474aa479970ee8cfa4dc8519add07b9eeb21afb5f29f18abcd4412",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 새 소식: 해커들이 GitHub와 Microsoft SharePoint를 은밀한 command-and-control 채널로 악용하고 있습니다.\n\n새롭게 발견된 두 backdoors인 GitDoor와 GraphDoor가 아시아와 아프리카 전역의 정부 부문을 겨냥한 사이버 첩보 공격에 사용되고 있습니다.\n\n자세한 내용: https://t.co/DaU4bYWcFn",
+      "translated_at": "2026-11-17T12:01:39Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122650993024188522:b30f3084b5ba26757282723b32ea06b7c3a22a5d50695d1f823365120f7b157f:gpt-6.1-sol:medium:2": {
+      "post_id": "2122650993024188522",
+      "source_hash": "b30f3084b5ba26757282723b32ea06b7c3a22a5d50695d1f823365120f7b157f",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft, 분실 또는 도난당한 Windows 기기용 Remote Lock 테스트 중\n\nhttps://t.co/V4YnmLw9Un\n\nhttps://t.co/V4YnmLw9Un",
+      "translated_at": "2026-11-17T12:01:41Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122648823801708751:87d97e1442cf74280b0a0a2cd6a04777b31a2c51758799639cadbc76e6a6d9aa:gpt-6.1-sol:medium:2": {
+      "post_id": "2122648823801708751",
+      "source_hash": "87d97e1442cf74280b0a0a2cd6a04777b31a2c51758799639cadbc76e6a6d9aa",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "⚡ AI agents로 인한 새로운 보안 위험이 대두되면서 Apple이 macOS의 권한 관리를 강화하고 있습니다.\n\nmacOS 27.3 beta에서는 앱에 Mac 전체가 아닌 특정 파일과 폴더에만 접근할 수 있는 권한을 부여할 수 있습니다.\n\n앱이 접근을 요청할 때마다 승인을 받도록 설정할 수도 있습니다.\n\n자세히 보기 → https://t.co/XgXvQckkNZ",
+      "translated_at": "2026-11-17T12:01:44Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

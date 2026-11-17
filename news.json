@@ -1,87 +1,127 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T11:01:11Z",
-  "last_success_at": "2026-11-17T11:01:11Z",
+  "checked_at": "2026-11-17T12:01:11Z",
+  "last_success_at": "2026-11-17T12:01:11Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-17T04:17:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
-      "latest_post_at": "2026-11-17T07:51:31Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
+      "latest_post_at": "2026-11-17T11:33:29Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
-      "latest_post_at": "2026-11-17T09:45:15Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
+      "latest_post_at": "2026-11-17T11:20:08Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-17T10:23:45Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
-      "latest_post_at": "2026-11-16T08:54:56Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
+      "latest_post_at": "2026-11-17T11:37:54Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
       "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T11:01:11Z",
-      "last_success_at": "2026-11-17T11:01:11Z",
-      "latest_post_at": "2026-11-17T10:47:50Z",
+      "checked_at": "2026-11-17T12:01:11Z",
+      "last_success_at": "2026-11-17T12:01:11Z",
+      "latest_post_at": "2026-11-17T11:53:14Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122659321674694732",
+      "author": "malwrhunterteam",
+      "text": "swissnet711911[.]top\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2122659321674694732",
+      "published_at": "2026-11-17T11:53:14Z",
+      "collected_at": "2026-11-17T12:01:11Z"
+    },
+    {
+      "id": "2122655462931714342",
+      "author": "InfosecurityMag",
+      "text": "Security teams face difficult decisions about which vulnerabilities warrant immediate action, how to detect AI use outside approved systems and when accepting risk supports the business.\n\nJoin today’s Enterprise Security Virtual Summit to learn how security leaders are addressing these decisions, from verifying exploitable risk and auditing shadow AI to managing legal liability and governing AI across the enterprise supply chain: https://t.co/nO811waDsz\n\nVideo",
+      "url": "https://x.com/InfosecurityMag/status/2122655462931714342",
+      "published_at": "2026-11-17T11:37:54Z",
+      "collected_at": "2026-11-17T12:01:11Z"
+    },
+    {
+      "id": "2122654351588254143",
+      "author": "TheHackersNews",
+      "text": "🚨 NEW: Hackers are turning GitHub and Microsoft SharePoint into covert command-and-control channels.\n\nTwo newly uncovered backdoors, GitDoor and GraphDoor, are being used in cyberespionage attacks targeting government sectors across Asia and Africa.\n\nFull details: https://t.co/DaU4bYWcFn",
+      "url": "https://x.com/TheHackersNews/status/2122654351588254143",
+      "published_at": "2026-11-17T11:33:29Z",
+      "collected_at": "2026-11-17T12:01:11Z"
+    },
+    {
+      "id": "2122650993024188522",
+      "author": "BleepinComputer",
+      "text": "Microsoft testing Remote Lock for lost or stolen Windows devices\n\nhttps://t.co/V4YnmLw9Un\n\nhttps://t.co/V4YnmLw9Un",
+      "url": "https://x.com/BleepinComputer/status/2122650993024188522",
+      "published_at": "2026-11-17T11:20:08Z",
+      "collected_at": "2026-11-17T12:01:11Z"
+    },
+    {
+      "id": "2122648823801708751",
+      "author": "TheHackersNews",
+      "text": "⚡ Apple is tightening macOS permissions as AI agents raise new security risks.\n\nIn macOS 27.3 beta, apps can get access to specific files and folders instead of your entire Mac.\n\nUsers can also require approval every time an app requests access.\n\nRead → https://t.co/XgXvQckkNZ",
+      "url": "https://x.com/TheHackersNews/status/2122648823801708751",
+      "published_at": "2026-11-17T11:11:31Z",
+      "collected_at": "2026-11-17T12:01:11Z"
+    },
     {
       "id": "2122642865989845164",
       "author": "malwrhunterteam",
