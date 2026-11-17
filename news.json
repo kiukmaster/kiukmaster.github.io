@@ -1,87 +1,151 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T12:01:11Z",
-  "last_success_at": "2026-11-17T12:01:11Z",
+  "checked_at": "2026-11-17T13:01:12Z",
+  "last_success_at": "2026-11-17T13:01:12Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
-      "latest_post_at": "2026-11-17T04:17:01Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
+      "latest_post_at": "2026-11-17T12:21:27Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
-      "latest_post_at": "2026-11-17T11:33:29Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
+      "latest_post_at": "2026-11-17T12:25:52Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
-      "latest_post_at": "2026-11-17T11:20:08Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
+      "latest_post_at": "2026-11-17T12:15:15Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
-      "latest_post_at": "2026-11-17T10:23:45Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
+      "latest_post_at": "2026-11-17T12:59:58Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
       "latest_post_at": "2026-11-17T11:37:54Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
       "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T12:01:11Z",
-      "last_success_at": "2026-11-17T12:01:11Z",
-      "latest_post_at": "2026-11-17T11:53:14Z",
+      "checked_at": "2026-11-17T13:01:12Z",
+      "last_success_at": "2026-11-17T13:01:12Z",
+      "latest_post_at": "2026-11-17T12:12:01Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122676117069070660",
+      "author": "SecurityWeek",
+      "text": "Access Dental Management Data Breach Impacts Over 340,000 https://t.co/Su7XTKChMT",
+      "url": "https://x.com/SecurityWeek/status/2122676117069070660",
+      "published_at": "2026-11-17T12:59:58Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122674893552525563",
+      "author": "SecurityWeek",
+      "text": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity https://t.co/WYnnFoLetf",
+      "url": "https://x.com/SecurityWeek/status/2122674893552525563",
+      "published_at": "2026-11-17T12:55:06Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122668816849113486",
+      "author": "SecurityWeek",
+      "text": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days https://t.co/J6DcV6EJ4o",
+      "url": "https://x.com/SecurityWeek/status/2122668816849113486",
+      "published_at": "2026-11-17T12:30:57Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122667534742929446",
+      "author": "TheHackersNews",
+      "text": "‼️ iPhone apps could SECRETLY record you—even after you tapped “Don’t Allow.”\n\nResearchers uncovered an #Apple flaw that bypassed microphone permissions, sometimes without triggering the orange recording indicator.\n\nHere’s how it worked ↓ https://t.co/ghOhhrE8MJ",
+      "url": "https://x.com/TheHackersNews/status/2122667534742929446",
+      "published_at": "2026-11-17T12:25:52Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122666423071961095",
+      "author": "AISecHub",
+      "text": "That’s how once amazing companies die. @snyksec urgently needs CPR. Find something more valuable to do than repeatedly rescanning skills. MOVE ON!\n\nSnyk (@snyksec)\n\nWe re-scanned the top 10,000 skills on https://t.co/t3xD9BjmRE and ClawHub.\n\n64%+ promote unsafe behaviors.\n\n18 are actively malicious.\n\nMalicious skills are the needle in the haystack. Unsafe-by-design skills are the haystack.\n\nhttps://t.co/BdctV5Ww6n\n\n— https://nitter.gq/snyksec/status/2122404786033106952",
+      "url": "https://x.com/AISecHub/status/2122666423071961095",
+      "published_at": "2026-11-17T12:21:27Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122664863302381985",
+      "author": "BleepinComputer",
+      "text": "Learn ChatGPT, Claude, and 50+ AI tools in 19 courses for $14.97\n\nhttps://t.co/ODVdKn3kfv\n\nhttps://t.co/ODVdKn3kfv",
+      "url": "https://x.com/BleepinComputer/status/2122664863302381985",
+      "published_at": "2026-11-17T12:15:15Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122664853949346259",
+      "author": "AISecHub",
+      "text": "https://t.co/BketlUiRan",
+      "url": "https://x.com/AISecHub/status/2122664853949346259",
+      "published_at": "2026-11-17T12:15:13Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
+    {
+      "id": "2122664050295214188",
+      "author": "malwrhunterteam",
+      "text": "4yhqdcistf9bsk5[.]icu\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2122664050295214188",
+      "published_at": "2026-11-17T12:12:01Z",
+      "collected_at": "2026-11-17T13:01:12Z"
+    },
     {
       "id": "2122659321674694732",
       "author": "malwrhunterteam",
