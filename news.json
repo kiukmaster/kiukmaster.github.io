@@ -1,87 +1,135 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T19:01:12Z",
-  "last_success_at": "2026-11-17T19:01:12Z",
+  "checked_at": "2026-11-17T20:01:10Z",
+  "last_success_at": "2026-11-17T20:01:10Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
-      "latest_post_at": "2026-11-17T12:21:27Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
+      "latest_post_at": "2026-11-17T19:15:08Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
       "latest_post_at": "2026-11-17T17:37:41Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
-      "latest_post_at": "2026-11-17T17:29:33Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
+      "latest_post_at": "2026-11-17T19:38:14Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
-      "latest_post_at": "2026-11-17T18:21:40Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
+      "latest_post_at": "2026-11-17T19:24:29Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
       "latest_post_at": "2026-11-17T18:18:24Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
-      "latest_post_at": "2026-11-16T23:54:08Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
+      "latest_post_at": "2026-11-17T19:45:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
-      "latest_post_at": "2026-11-17T15:07:01Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
+      "latest_post_at": "2026-11-17T19:14:32Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T19:01:12Z",
-      "last_success_at": "2026-11-17T19:01:12Z",
+      "checked_at": "2026-11-17T20:01:10Z",
+      "last_success_at": "2026-11-17T20:01:10Z",
       "latest_post_at": "2026-11-17T18:48:19Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122778054577541288",
+      "author": "Unit42_Intel",
+      "text": "We observed threat actors using the Cairn framework with AI models to run autonomous operations against nineteen defense, semiconductor and civil society targets. We found that the breaches exploited familiar identity and patching gaps: https://t.co/hjjDidOfxb",
+      "url": "https://x.com/Unit42_Intel/status/2122778054577541288",
+      "published_at": "2026-11-17T19:45:02Z",
+      "collected_at": "2026-11-17T20:01:10Z"
+    },
+    {
+      "id": "2122776345285640584",
+      "author": "TheHackersNews",
+      "text": "‼️ Telegram’s new Android sandbox may have TWO RCE bypasses.\n\nResearchers claim bot widgets can evade its filter; one route chains a kernel bug. Demoed on a test server. Live impact unconfirmed.\n\nRead: https://t.co/zGhzM9OSKg",
+      "url": "https://x.com/TheHackersNews/status/2122776345285640584",
+      "published_at": "2026-11-17T19:38:14Z",
+      "collected_at": "2026-11-17T20:01:10Z"
+    },
+    {
+      "id": "2122772883495636996",
+      "author": "BleepinComputer",
+      "text": "Apple reports outages affecting iCloud Mail, AppleCare and more\n\nhttps://t.co/dVpMAs8UEt\n\nhttps://t.co/dVpMAs8UEt",
+      "url": "https://x.com/BleepinComputer/status/2122772883495636996",
+      "published_at": "2026-11-17T19:24:29Z",
+      "collected_at": "2026-11-17T20:01:10Z"
+    },
+    {
+      "id": "2122770530839187879",
+      "author": "AISecHub",
+      "text": "Part 2: https://t.co/nZ2XvUoq3R",
+      "url": "https://x.com/AISecHub/status/2122770530839187879",
+      "published_at": "2026-11-17T19:15:08Z",
+      "collected_at": "2026-11-17T20:01:10Z"
+    },
+    {
+      "id": "2122770379915805067",
+      "author": "MsftSecIntel",
+      "text": "Microsoft FORGE Lab researchers worked with @github and the maintainers of six open-source projects to test whether AI-assisted vulnerability discovery can deliver verified, fixable reports instead of raw findings. https://t.co/4TnBvleVbv\n\nCodename MDASH, using Microsoft's MAI Cyber model, flagged thousands of possible issues. After triage and manual review, maintainers received 99 private reports, each with a proof of concept and a suggested fix.\n\nThe pipeline had three stages:\n\n-MDASH scanned each project and proposed fixes.\n\n-An AI triage agent from GitHub Security Lab removed duplicates, checked validity, and prioritized high-impact bugs.\n\n-Seven FORGE Lab researchers then validated remaining findings by hand, spending about two days per project.\n\nThe projects were AutoGPT, Caddy, Express, FastMCP, ImageMagick, and Netty. Reports went through GitHub private vulnerability reporting, and maintainers decided what to fix and when. The first fixes shipped about a week after the initial scan.\n\nThe research also shows the limits. Manual validation doesn't scale yet, and filtering wasn't perfect: at least one valid report duplicated an issue maintainers already knew about. Each lesson…",
+      "url": "https://x.com/MsftSecIntel/status/2122770379915805067",
+      "published_at": "2026-11-17T19:14:32Z",
+      "collected_at": "2026-11-17T20:01:10Z"
+    },
+    {
+      "id": "2122768297544294469",
+      "author": "BleepinComputer",
+      "text": "Edit RAW photos in your browser with this $59 Luminar bundle\n\nhttps://t.co/XRdfGkiQTI\n\nhttps://t.co/XRdfGkiQTI",
+      "url": "https://x.com/BleepinComputer/status/2122768297544294469",
+      "published_at": "2026-11-17T19:06:15Z",
+      "collected_at": "2026-11-17T20:01:10Z"
+    },
     {
       "id": "2122763783357473170",
       "author": "malwrhunterteam",

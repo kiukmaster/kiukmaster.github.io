@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T19:01:56Z",
+  "checked_at": "2026-11-17T20:02:03Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2846,6 +2846,78 @@
       "prompt_version": "2",
       "text_ko": "Tor, DDoS 공격이 계속되는 가운데 긴급 업데이트 배포\n\nhttps://t.co/GhiKcMQqLu\n\nhttps://t.co/GhiKcMQqLu",
       "translated_at": "2026-11-17T19:01:56Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122778054577541288:445ed481b8c061b70d1f05c3f0e4b94fedb67541f701d8296b617f82a202c510:gpt-6.1-sol:medium:2": {
+      "post_id": "2122778054577541288",
+      "source_hash": "445ed481b8c061b70d1f05c3f0e4b94fedb67541f701d8296b617f82a202c510",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "위협 행위자들이 Cairn framework와 AI 모델을 사용해 국방, 반도체, 시민사회 분야의 표적 19곳을 상대로 자율적으로 작전을 수행하는 것을 관찰했습니다. 이들 침해에는 identity와 patching에서 흔히 나타나는 허점이 악용된 것으로 확인됐습니다: https://t.co/hjjDidOfxb",
+      "translated_at": "2026-11-17T20:01:33Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122776345285640584:80bb3d11d924a1ec4a5dd870598a283d3b4db14586e50f20974193ae2c4a87d5:gpt-6.1-sol:medium:2": {
+      "post_id": "2122776345285640584",
+      "source_hash": "80bb3d11d924a1ec4a5dd870598a283d3b4db14586e50f20974193ae2c4a87d5",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "‼️ Telegram의 새로운 Android sandbox에 RCE 우회 경로가 두 가지나 있을 수 있습니다.\n\n연구진은 bot widgets으로 filter를 우회할 수 있으며, 그중 한 경로는 kernel bug를 연계한다고 주장합니다. test server에서 시연됐습니다. 실제 서비스에 미치는 영향은 확인되지 않았습니다.\n\n자세히 보기: https://t.co/zGhzM9OSKg",
+      "translated_at": "2026-11-17T20:01:44Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122772883495636996:e2735f04a9fb1120f34f93673331f533ad0dfd9d3482e84a4648e848c45d2f00:gpt-6.1-sol:medium:2": {
+      "post_id": "2122772883495636996",
+      "source_hash": "e2735f04a9fb1120f34f93673331f533ad0dfd9d3482e84a4648e848c45d2f00",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Apple, iCloud Mail과 AppleCare 등에서 서비스 장애 발생했다고 밝혀\n\nhttps://t.co/dVpMAs8UEt\n\nhttps://t.co/dVpMAs8UEt",
+      "translated_at": "2026-11-17T20:01:46Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122770530839187879:bb972182d44e7b2280526f2b006d6ff50d59ac2c8ed5d09d7be87117c3cd5a36:gpt-6.1-sol:medium:2": {
+      "post_id": "2122770530839187879",
+      "source_hash": "bb972182d44e7b2280526f2b006d6ff50d59ac2c8ed5d09d7be87117c3cd5a36",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "2부: https://t.co/nZ2XvUoq3R",
+      "translated_at": "2026-11-17T20:01:48Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122770379915805067:d623309fa2701688733d748c03c57502378c6f61cb75a060a98e7a886b776430:gpt-6.1-sol:medium:2": {
+      "post_id": "2122770379915805067",
+      "source_hash": "d623309fa2701688733d748c03c57502378c6f61cb75a060a98e7a886b776430",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft FORGE Lab 연구진은 @github 및 open-source 프로젝트 6개의 유지관리자들과 함께 AI를 활용한 vulnerability discovery가 가공되지 않은 탐지 결과가 아닌, 검증을 거쳐 수정에 활용할 수 있는 보고서를 제공할 수 있는지 시험했다. https://t.co/4TnBvleVbv\n\nMicrosoft의 MAI Cyber 모델을 사용하는 Codename MDASH는 수천 건의 잠재적 문제를 찾아냈다. Triage와 수동 검토를 거친 뒤, 유지관리자들에게는 각각 proof of concept와 수정 제안이 포함된 비공개 보고서 99건이 전달됐다.\n\nPipeline은 세 단계로 구성됐다.\n\n-MDASH가 각 프로젝트를 분석하고 수정안을 제안했다.\n\n-GitHub Security Lab의 AI triage agent가 중복을 제거하고 유효성을 확인한 뒤, 영향이 큰 bug의 우선순위를 정했다.\n\n-이후 FORGE Lab 연구진 7명이 프로젝트당 약 이틀을 들여 나머지 탐지 결과를 직접 검증했다.\n\n대상 프로젝트는 AutoGPT, Caddy, Express, FastMCP, ImageMagick, Netty였다. 보고서는 GitHub private vulnerability reporting을 통해 전달됐으며, 무엇을 언제 수정할지는 유지관리자들이 결정했다. 첫 수정 사항은 최초 분석 후 약 일주일 만에 배포됐다.\n\n이번 연구는 한계도 보여준다. 수동 검증은 아직 규모를 확대하기 어렵고, 걸러내는 과정도 완벽하지 않았다. 유효한 보고서 가운데 최소 한 건은 유지관리자들이 이미 알고 있던 문제와 중복됐다. 각각의 교훈은…",
+      "translated_at": "2026-11-17T20:02:00Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122768297544294469:56aada37ed2d63f8b4392ddc90eff7f089bd2b4a1e74cbae62a57684f6a81856:gpt-6.1-sol:medium:2": {
+      "post_id": "2122768297544294469",
+      "source_hash": "56aada37ed2d63f8b4392ddc90eff7f089bd2b4a1e74cbae62a57684f6a81856",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "59달러짜리 Luminar 번들로 브라우저에서 RAW 사진을 편집하세요\n\nhttps://t.co/XRdfGkiQTI\n\nhttps://t.co/XRdfGkiQTI",
+      "translated_at": "2026-11-17T20:02:03Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
