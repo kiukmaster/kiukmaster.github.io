@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T22:01:31Z",
+  "checked_at": "2026-11-17T23:01:27Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2978,6 +2978,30 @@
       "prompt_version": "2",
       "text_ko": "OPTIMJACK supply chain attack으로 180개에 가까운 웹사이트가 피해를 입으면서, dynamic web assembly가 방문자를 crypto wallet swapping, card skimming, exploit kits의 위험에 노출할 수 있다는 점이 드러났습니다. segmentation이 이 위협에 맞서는 가장 강력한 방어 수단인 이유를 알아보세요: https://t.co/WiPpizHM8u",
       "translated_at": "2026-11-17T22:01:31Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122822310428279136:7ab114ce82add4e97d39906b861d605d764f7da7952694401bbb38ca7a1549b2:gpt-6.1-sol:medium:2": {
+      "post_id": "2122822310428279136",
+      "source_hash": "7ab114ce82add4e97d39906b861d605d764f7da7952694401bbb38ca7a1549b2",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "\"three js로 용커스가 거대한 메카로 일어나서(일어나는 동작은 멋지게) 맨해튼과 퀸스, 브루클린을 쿵쿵거리며 돌아다니는 애니메이션을 만들어 줘. openstreetmap 지도 데이터를 사용해 줘\"라는 요청에 대한 GPT-6.2 Astra와 GPT-6.2 Sol의 결과입니다. https://t.co/oRZT2zMByi\n\n동영상",
+      "translated_at": "2026-11-17T23:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122813728064241740:5acb653ed8fa7bf9914646c98fe3212f2f6da605dae8cfd8ba2abc1a9874aa77:gpt-6.1-sol:medium:2": {
+      "post_id": "2122813728064241740",
+      "source_hash": "5acb653ed8fa7bf9914646c98fe3212f2f6da605dae8cfd8ba2abc1a9874aa77",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "\"WEEB\"라는 제목이 붙은 어떤 패널: https://panel.mehmeterdogdu[.]shop/\n\n🤷‍♂️",
+      "translated_at": "2026-11-17T23:01:27Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

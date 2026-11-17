@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T22:01:10Z",
-  "last_success_at": "2026-11-17T22:01:10Z",
+  "checked_at": "2026-11-17T23:01:06Z",
+  "last_success_at": "2026-11-17T23:01:06Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T19:15:08Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
-      "latest_post_at": "2026-11-17T17:37:41Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
+      "latest_post_at": "2026-11-17T22:40:53Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T19:38:14Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T21:27:34Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T20:44:58Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T21:20:03Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T22:01:10Z",
-      "last_success_at": "2026-11-17T22:01:10Z",
-      "latest_post_at": "2026-11-17T18:48:19Z",
+      "checked_at": "2026-11-17T23:01:06Z",
+      "last_success_at": "2026-11-17T23:01:06Z",
+      "latest_post_at": "2026-11-17T22:06:47Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122822310428279136",
+      "author": "simonw",
+      "text": "Here's GPT-6.2 Astra and GPT-6.2 Sol for \"Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data\" https://t.co/oRZT2zMByi\n\nVideo",
+      "url": "https://x.com/simonw/status/2122822310428279136",
+      "published_at": "2026-11-17T22:40:53Z",
+      "collected_at": "2026-11-17T23:01:06Z"
+    },
+    {
+      "id": "2122813728064241740",
+      "author": "malwrhunterteam",
+      "text": "Some panel titled \"WEEB\": https://panel.mehmeterdogdu[.]shop/\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2122813728064241740",
+      "published_at": "2026-11-17T22:06:47Z",
+      "collected_at": "2026-11-17T23:01:06Z"
+    },
     {
       "id": "2122803859982610699",
       "author": "BleepinComputer",
