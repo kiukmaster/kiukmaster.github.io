@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T08:01:09Z",
-  "last_success_at": "2026-11-17T08:01:09Z",
+  "checked_at": "2026-11-17T09:01:15Z",
+  "last_success_at": "2026-11-17T09:01:15Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-17T04:17:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-17T07:51:31Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
-      "latest_post_at": "2026-11-17T07:26:00Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
+      "latest_post_at": "2026-11-17T08:35:58Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-17T03:49:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
       "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T08:01:09Z",
-      "last_success_at": "2026-11-17T08:01:09Z",
-      "latest_post_at": "2026-11-16T22:57:38Z",
+      "checked_at": "2026-11-17T09:01:15Z",
+      "last_success_at": "2026-11-17T09:01:15Z",
+      "latest_post_at": "2026-11-17T08:54:43Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122614398132887788",
+      "author": "malwrhunterteam",
+      "text": "🤷‍♂️\n\nScott Helme (@Scott_Helme)\n\nThis is a big one.\n\nWe found malicious JavaScript being served through Optimizely to some of the world's largest websites.\n\n178 organisations affected, with everything from crypto theft and card skimming to iOS exploits.\n\nZoom, BBC, CNN, HSBC, Salesforce, GitLab, KLM, IKEA, Equifax, Ledger. The list goes on... Full list in the post.\n\nhttps://t.co/f8iiN3nrZ7\n\n— https://nitter.gq/Scott_Helme/status/2122464168989098461",
+      "url": "https://x.com/malwrhunterteam/status/2122614398132887788",
+      "published_at": "2026-11-17T08:54:43Z",
+      "collected_at": "2026-11-17T09:01:15Z"
+    },
+    {
+      "id": "2122609680547553285",
+      "author": "BleepinComputer",
+      "text": "Uber notifies drivers of data breach affecting nearly 150,000 people\n\nhttps://t.co/3arh397Bkv\n\nhttps://t.co/3arh397Bkv",
+      "url": "https://x.com/BleepinComputer/status/2122609680547553285",
+      "published_at": "2026-11-17T08:35:58Z",
+      "collected_at": "2026-11-17T09:01:15Z"
+    },
     {
       "id": "2122598492103413990",
       "author": "TheHackersNews",

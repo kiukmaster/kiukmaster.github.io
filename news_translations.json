@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T08:01:36Z",
+  "checked_at": "2026-11-17T09:01:39Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2366,6 +2366,30 @@
       "prompt_version": "2",
       "text_ko": "‼️ 속보 - 해커들이 Optimizely scripts를 가로채 CNN, BBC, Zoom 등 주요 사이트 방문자에게 악성 code를 전달했습니다.\n\n최소 178개 조직이 영향을 받았습니다. payload는 카드 정보를 노리고 암호화폐 주소를 바꿔치기했으며, iOS exploits를 시도했습니다.\n\n전체 기사 ↓ https://t.co/oDJPzHc4Ma",
       "translated_at": "2026-11-17T08:01:36Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122614398132887788:35396d1bec4cd9cdc67070d7b685c493e2b71ca942b9e1fa1f49622cb69ceb8b:gpt-6.1-sol:medium:2": {
+      "post_id": "2122614398132887788",
+      "source_hash": "35396d1bec4cd9cdc67070d7b685c493e2b71ca942b9e1fa1f49622cb69ceb8b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🤷‍♂️\n\nScott Helme (@Scott_Helme)\n\n이번 건은 심각합니다.\n\nOptimizely를 통해 세계 최대 규모의 웹사이트 일부에 악성 JavaScript가 배포되고 있는 것을 발견했습니다.\n\n178개 조직이 영향을 받았으며, 암호화폐 탈취와 card skimming부터 iOS exploits까지 다양한 공격이 확인됐습니다.\n\nZoom, BBC, CNN, HSBC, Salesforce, GitLab, KLM, IKEA, Equifax, Ledger. 이 밖에도 더 있습니다... 전체 목록은 게시물에서 확인할 수 있습니다.\n\nhttps://t.co/f8iiN3nrZ7\n\n— https://nitter.gq/Scott_Helme/status/2122464168989098461",
+      "translated_at": "2026-11-17T09:01:37Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122609680547553285:36f04d1f3ada6594eb6e024702885150cc523ac63c0fb662c025a434d0135c8b:gpt-6.1-sol:medium:2": {
+      "post_id": "2122609680547553285",
+      "source_hash": "36f04d1f3ada6594eb6e024702885150cc523ac63c0fb662c025a434d0135c8b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Uber, 약 15만 명에게 영향을 미친 데이터 유출 사실을 운전자들에게 통지\n\nhttps://t.co/3arh397Bkv\n\nhttps://t.co/3arh397Bkv",
+      "translated_at": "2026-11-17T09:01:39Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
