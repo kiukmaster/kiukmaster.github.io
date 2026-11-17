@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T18:02:02Z",
+  "checked_at": "2026-11-17T19:01:56Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2774,6 +2774,78 @@
       "prompt_version": "2",
       "text_ko": "AI Code Scanning 기초\n\nAI 시대에는 공격자보다 먼저 코드의 복잡한 취약점을 선제적으로 찾아낼 방법이 방어자에게 필요합니다.\n\nAI는 소프트웨어를 만드는 방식과 공격자가 취약점을 찾아내는 방식을 바꾸고 있습니다. 이제 기존 SAST만으로는 가장 중요한 위험을 식별하기에 충분하지 않습니다.\n\n이 인포그래픽에서는 다음 내용을 알아봅니다.\n\n⮞ AI가 application security를 재편하는 이유\n\n⮞ 기존 SAST와 AI 기반 code analysis가 함께 작동하는 방식\n\n⮞ 실제로 악용 가능한 취약점을 식별하는 방법\n\n⮞ 취약점 해결을 앞당기고 애플리케이션 위험을 줄이기 위한 실질적인 단계\n\n핵심 내용을 빠르게 익힐 수 있도록 플래시카드 형식으로 구성한 가이드입니다.\n\n다운로드 → https://t.co/2o6bgOJs4T",
       "translated_at": "2026-11-17T18:02:02Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122763783357473170:1c765279a1116fb3145be9c51f031e312d553a27757958ac1df378e64694ffba:gpt-6.1-sol:medium:2": {
+      "post_id": "2122763783357473170",
+      "source_hash": "1c765279a1116fb3145be9c51f031e312d553a27757958ac1df378e64694ffba",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "\"ghostrat C2 패널\"이라는 제목의 어떤 패널: http://102.220.163[.]79:18081/\n\n🤷‍♂️",
+      "translated_at": "2026-11-17T19:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122763164043321701:e96dbf76f04678066e0625c9530c241d406719ffc40f8969053f6dbdc30837ed:gpt-6.1-sol:medium:2": {
+      "post_id": "2122763164043321701",
+      "source_hash": "e96dbf76f04678066e0625c9530c241d406719ffc40f8969053f6dbdc30837ed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Cursor, 악성 Claude Code extension이 제3자 침해 사고에서 비롯됐음을 확인 https://t.co/tngJYdfGGi 작성: Jai Vijayan",
+      "translated_at": "2026-11-17T19:01:35Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122761443233739202:e5461fb084ecd97e0975b516dab7a8519fbe918104fc648f0857151b6b16c8ad:gpt-6.1-sol:medium:2": {
+      "post_id": "2122761443233739202",
+      "source_hash": "e5461fb084ecd97e0975b516dab7a8519fbe918104fc648f0857151b6b16c8ad",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Grok Bots, 사용자 승인 없이 기업 데이터에 접근 시도 https://t.co/RqfGPo3m7N Elizabeth Montalbano 작성",
+      "translated_at": "2026-11-17T19:01:41Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122757077588205811:45daf281d42b5a8c52ec153be46ce83352556f1c03b58ca96ca6f6774ccb8127:gpt-6.1-sol:medium:2": {
+      "post_id": "2122757077588205811",
+      "source_hash": "45daf281d42b5a8c52ec153be46ce83352556f1c03b58ca96ca6f6774ccb8127",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "연구진, 인기 AI 모델 Kokoro의 Hugging Face 계정 탈취\n\nhttps://t.co/JdmCg5IOTr\n\nhttps://t.co/JdmCg5IOTr",
+      "translated_at": "2026-11-17T19:01:45Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122756255173484566:6e7ea91d35511a1d425bbb1c0ef56609731ee86fb65c2eddf505beff99763da6:gpt-6.1-sol:medium:2": {
+      "post_id": "2122756255173484566",
+      "source_hash": "6e7ea91d35511a1d425bbb1c0ef56609731ee86fb65c2eddf505beff99763da6",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Google, AI Framework가 실제 공격에서 결함을 자율적으로 무기화했다고 밝혀 https://t.co/UrPa2rOWH9",
+      "translated_at": "2026-11-17T19:01:54Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122752755630563536:eba2c2e76e07dda28a4b93a064e6cad94a569b57ff85550c0ec6bd99116c6d08:gpt-6.1-sol:medium:2": {
+      "post_id": "2122752755630563536",
+      "source_hash": "eba2c2e76e07dda28a4b93a064e6cad94a569b57ff85550c0ec6bd99116c6d08",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Tor, DDoS 공격이 계속되는 가운데 긴급 업데이트 배포\n\nhttps://t.co/GhiKcMQqLu\n\nhttps://t.co/GhiKcMQqLu",
+      "translated_at": "2026-11-17T19:01:56Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

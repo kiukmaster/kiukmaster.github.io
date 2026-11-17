@@ -1,87 +1,135 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T18:01:10Z",
-  "last_success_at": "2026-11-17T18:01:10Z",
+  "checked_at": "2026-11-17T19:01:12Z",
+  "last_success_at": "2026-11-17T19:01:12Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-17T12:21:27Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-17T17:37:41Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-17T17:29:33Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
-      "latest_post_at": "2026-11-17T16:00:14Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
+      "latest_post_at": "2026-11-17T18:21:40Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
-      "latest_post_at": "2026-11-17T14:57:42Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
+      "latest_post_at": "2026-11-17T18:18:24Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
-      "latest_post_at": "2026-11-17T17:58:07Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
+      "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
       "latest_post_at": "2026-11-17T15:07:01Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T18:01:10Z",
-      "last_success_at": "2026-11-17T18:01:10Z",
-      "latest_post_at": "2026-11-17T16:38:15Z",
+      "checked_at": "2026-11-17T19:01:12Z",
+      "last_success_at": "2026-11-17T19:01:12Z",
+      "latest_post_at": "2026-11-17T18:48:19Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122763783357473170",
+      "author": "malwrhunterteam",
+      "text": "Some panel titled \"ghostrat · C2 面板\": http://102.220.163[.]79:18081/\n\n🤷‍♂️",
+      "url": "https://x.com/malwrhunterteam/status/2122763783357473170",
+      "published_at": "2026-11-17T18:48:19Z",
+      "collected_at": "2026-11-17T19:01:12Z"
+    },
+    {
+      "id": "2122763164043321701",
+      "author": "DarkReading",
+      "text": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach https://t.co/tngJYdfGGi by Jai Vijayan",
+      "url": "https://x.com/DarkReading/status/2122763164043321701",
+      "published_at": "2026-11-17T18:45:51Z",
+      "collected_at": "2026-11-17T19:01:12Z"
+    },
+    {
+      "id": "2122761443233739202",
+      "author": "DarkReading",
+      "text": "Grok Bots Attempt to Access Corporate Data Without User Approval https://t.co/RqfGPo3m7N by Elizabeth Montalbano",
+      "url": "https://x.com/DarkReading/status/2122761443233739202",
+      "published_at": "2026-11-17T18:39:01Z",
+      "collected_at": "2026-11-17T19:01:12Z"
+    },
+    {
+      "id": "2122757077588205811",
+      "author": "BleepinComputer",
+      "text": "Researchers hijack Hugging Face account for popular Kokoro AI model\n\nhttps://t.co/JdmCg5IOTr\n\nhttps://t.co/JdmCg5IOTr",
+      "url": "https://x.com/BleepinComputer/status/2122757077588205811",
+      "published_at": "2026-11-17T18:21:40Z",
+      "collected_at": "2026-11-17T19:01:12Z"
+    },
+    {
+      "id": "2122756255173484566",
+      "author": "SecurityWeek",
+      "text": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says https://t.co/UrPa2rOWH9",
+      "url": "https://x.com/SecurityWeek/status/2122756255173484566",
+      "published_at": "2026-11-17T18:18:24Z",
+      "collected_at": "2026-11-17T19:01:12Z"
+    },
+    {
+      "id": "2122752755630563536",
+      "author": "BleepinComputer",
+      "text": "Tor releases emergency update amid ongoing DDoS attack\n\nhttps://t.co/GhiKcMQqLu\n\nhttps://t.co/GhiKcMQqLu",
+      "url": "https://x.com/BleepinComputer/status/2122752755630563536",
+      "published_at": "2026-11-17T18:04:30Z",
+      "collected_at": "2026-11-17T19:01:12Z"
+    },
     {
       "id": "2122751149606322366",
       "author": "DarkReading",
