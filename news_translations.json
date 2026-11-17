@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T06:01:21Z",
+  "checked_at": "2026-11-17T07:01:19Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2318,6 +2318,18 @@
       "prompt_version": "2",
       "text_ko": "🚨 해커들이 이미 N-central 취약점을 악용해 crypto miners를 배포하고 있습니다.\n\n이런 가운데 N-able이 authentication bypass와 remote code execution 위험을 포함한 취약점 17개를 추가로 패치했습니다.\n\n⚠️ Agents와 Probes도 업데이트해야 합니다.\n\n자세한 내용: https://t.co/3b8dW7Tw4s",
       "translated_at": "2026-11-17T06:01:21Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122578077301784897:66867c11d5da7b6bc363b06d6393ce4748f88e1d63edfe4d6d96136af370bf6b:gpt-6.1-sol:medium:2": {
+      "post_id": "2122578077301784897",
+      "source_hash": "66867c11d5da7b6bc363b06d6393ce4748f88e1d63edfe4d6d96136af370bf6b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 ScreenConnect를 겨냥한 공격이 여전히 이어지고 있습니다.\n\nConnectWise는 해커들이 SCKit malware로 패치되지 않은 시스템을 노리고 있어 MSP 네트워크가 위험에 처해 있다고 경고했습니다.\n\n최근 공격이 급증하면서 41개 조직의 호스트 205대가 피해를 입었습니다. CVSS 점수 9.9의 심각한 취약점까지 더해져 위협이 커지고 있습니다.\n\n알아두어야 할 내용 ↓ https://t.co/a5iRyEcm0p",
+      "translated_at": "2026-11-17T07:01:19Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

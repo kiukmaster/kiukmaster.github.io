@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T06:01:09Z",
-  "last_success_at": "2026-11-17T06:01:09Z",
+  "checked_at": "2026-11-17T07:01:07Z",
+  "last_success_at": "2026-11-17T07:01:07Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-17T04:17:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
-      "latest_post_at": "2026-11-17T05:03:33Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
+      "latest_post_at": "2026-11-17T06:30:23Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-17T02:12:33Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-17T03:49:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T06:01:09Z",
-      "last_success_at": "2026-11-17T06:01:09Z",
+      "checked_at": "2026-11-17T07:01:07Z",
+      "last_success_at": "2026-11-17T07:01:07Z",
       "latest_post_at": "2026-11-16T22:57:38Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122578077301784897",
+      "author": "TheHackersNews",
+      "text": "🚨 ScreenConnect attacks are still underway.\n\nConnectWise warns hackers are targeting unpatched systems with SCKit malware, putting MSP networks at risk.\n\n205 hosts across 41 organizations hit in a recent spike. A critical 9.9 CVSS flaw adds to the threat.\n\nWhat you need to know ↓ https://t.co/a5iRyEcm0p",
+      "url": "https://x.com/TheHackersNews/status/2122578077301784897",
+      "published_at": "2026-11-17T06:30:23Z",
+      "collected_at": "2026-11-17T07:01:07Z"
+    },
     {
       "id": "2122556224076140967",
       "author": "TheHackersNews",
