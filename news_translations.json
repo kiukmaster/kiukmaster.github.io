@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T21:01:42Z",
+  "checked_at": "2026-11-17T22:01:31Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2954,6 +2954,30 @@
       "prompt_version": "2",
       "text_ko": "⚠️ 이제 Phishing kits에도 admin dashboards와 AI 기능, 지원까지 포함되면서 공격자가 Microsoft 365 session tokens를 탈취하고 replay하기가 더 쉬워졌습니다.\n\n🔍 @HuntressLabs가 이러한 키트 중 세 가지를 조사합니다.\n\n➡️ https://t.co/VPGqOHCecs\n\n#cybersecurity #sponsored",
       "translated_at": "2026-11-17T21:01:42Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122803859982610699:52dd6bd2954e21a01c47994e33a8b6035f187ce0dd338eb5a0e3ea1e058cb823:gpt-6.1-sol:medium:2": {
+      "post_id": "2122803859982610699",
+      "source_hash": "52dd6bd2954e21a01c47994e33a8b6035f187ce0dd338eb5a0e3ea1e058cb823",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Docker Hub images에서 유출된 Cloud keys는 수초 만에 탈취된다\n\nhttps://t.co/Ep1CsEWJpk\n\nhttps://t.co/Ep1CsEWJpk",
+      "translated_at": "2026-11-17T22:01:26Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122801967579759028:352ee2f3828b0949a51d2f0e275465ef5fb519682c80027fdff09b460b49189c:gpt-6.1-sol:medium:2": {
+      "post_id": "2122801967579759028",
+      "source_hash": "352ee2f3828b0949a51d2f0e275465ef5fb519682c80027fdff09b460b49189c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "OPTIMJACK supply chain attack으로 180개에 가까운 웹사이트가 피해를 입으면서, dynamic web assembly가 방문자를 crypto wallet swapping, card skimming, exploit kits의 위험에 노출할 수 있다는 점이 드러났습니다. segmentation이 이 위협에 맞서는 가장 강력한 방어 수단인 이유를 알아보세요: https://t.co/WiPpizHM8u",
+      "translated_at": "2026-11-17T22:01:31Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
