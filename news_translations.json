@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T04:01:29Z",
+  "checked_at": "2026-11-17T05:01:14Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2296,6 +2296,18 @@
       "translated_at": "2026-11-17T04:01:29Z",
       "status": "ok",
       "attempts": 1,
+      "last_error": null
+    },
+    "2122544514594181215:5b4b5067b1f8134b5cf4e441e46e0e5f66c5dfe7124c5738e9bdffaa023d3ab4:gpt-6.1-sol:medium:2": {
+      "post_id": "2122544514594181215",
+      "source_hash": "5b4b5067b1f8134b5cf4e441e46e0e5f66c5dfe7124c5738e9bdffaa023d3ab4",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "skipped",
+      "attempts": 0,
       "last_error": null
     }
   }
