@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T13:01:58Z",
+  "checked_at": "2026-11-17T14:01:33Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2582,6 +2582,30 @@
       "prompt_version": "2",
       "text_ko": "4yhqdcistf9bsk5[.]icu\n\n🤷‍♂️",
       "translated_at": "2026-11-17T13:01:58Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122682914244571158:8b029f6456471f07319fa49ce4166212c64342ed31f3705682368513811a51c3:gpt-6.1-sol:medium:2": {
+      "post_id": "2122682914244571158",
+      "source_hash": "8b029f6456471f07319fa49ce4166212c64342ed31f3705682368513811a51c3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "한 달간 이어진 캠페인의 표적이 된 MSP ScreenConnect 서버 https://t.co/2lncLpDXT0",
+      "translated_at": "2026-11-17T14:01:23Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122678434124243350:dd400cdd7636aaec02de447b2d90c134c4b0557855f445991a7f9fabc36aaa6a:gpt-6.1-sol:medium:2": {
+      "post_id": "2122678434124243350",
+      "source_hash": "dd400cdd7636aaec02de447b2d90c134c4b0557855f445991a7f9fabc36aaa6a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🤷‍♂️\n\nSquiblydoo (@SquiblydooBlog)\n\n\"MARQUEE AUDIO VISUAL LIMITED\" 명의로 서명된 가짜 Zscaler client. 이 파일은 backdoor를 설치하거나 proxy로 작동하거나 데이터를 exfil할 수 있습니다.\n\nfe9829f1c102a79b4ca33c8c8bda8ef2236dc94c6d1de88249c89e82681adc8c\n\nFUD 상태였으며, @malwrhunterteam이 발견했습니다.\n\nhttps://t.co/R6cGeEHDOz\n\n— https://nitter.gq/SquiblydooBlog/status/2122663057147019285",
+      "translated_at": "2026-11-17T14:01:33Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
