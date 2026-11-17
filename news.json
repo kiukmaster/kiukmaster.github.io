@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T09:01:15Z",
-  "last_success_at": "2026-11-17T09:01:15Z",
+  "checked_at": "2026-11-17T10:01:08Z",
+  "last_success_at": "2026-11-17T10:01:08Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-17T04:17:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-17T07:51:31Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
-      "latest_post_at": "2026-11-17T08:35:58Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
+      "latest_post_at": "2026-11-17T09:45:15Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-17T03:49:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T09:01:15Z",
-      "last_success_at": "2026-11-17T09:01:15Z",
+      "checked_at": "2026-11-17T10:01:08Z",
+      "last_success_at": "2026-11-17T10:01:08Z",
       "latest_post_at": "2026-11-17T08:54:43Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122627114251714902",
+      "author": "BleepinComputer",
+      "text": "Court clears brothers of $25 million Ethereum crypto heist charges\n\nhttps://t.co/yLUCD2eu37\n\nhttps://t.co/yLUCD2eu37",
+      "url": "https://x.com/BleepinComputer/status/2122627114251714902",
+      "published_at": "2026-11-17T09:45:15Z",
+      "collected_at": "2026-11-17T10:01:08Z"
+    },
     {
       "id": "2122614398132887788",
       "author": "malwrhunterteam",
