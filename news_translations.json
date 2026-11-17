@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T10:01:22Z",
+  "checked_at": "2026-11-17T11:01:33Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2402,6 +2402,30 @@
       "prompt_version": "2",
       "text_ko": "법원, 2,500만 달러 규모 Ethereum 암호화폐 탈취 혐의로 기소된 형제에게 무죄 판결\n\nhttps://t.co/yLUCD2eu37\n\nhttps://t.co/yLUCD2eu37",
       "translated_at": "2026-11-17T10:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122642865989845164:0b3f87135b282ebc64382a6bb1b49772c37c58f88c0c988866c20099c39679b4:gpt-6.1-sol:medium:2": {
+      "post_id": "2122642865989845164",
+      "source_hash": "0b3f87135b282ebc64382a6bb1b49772c37c58f88c0c988866c20099c39679b4",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "\"台灣企業軟體庫\"라는 이름의 사이트: https://taxationmaipij[.]com/\n\n그런데 \"BUSINESS SOFTWARE HUB\"라더니, 정작 malware를 배포하네요...\n\n🤷‍♂️",
+      "translated_at": "2026-11-17T11:01:28Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122636805644394830:15f604c3f3731a8348c587b9abb029df9fe860eacd2df5aee00f73e306911fe0:gpt-6.1-sol:medium:2": {
+      "post_id": "2122636805644394830",
+      "source_hash": "15f604c3f3731a8348c587b9abb029df9fe860eacd2df5aee00f73e306911fe0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Optimizely 취약점이 악용돼 주요 웹사이트에서 Malware 유포 https://t.co/wR3PKh65vJ",
+      "translated_at": "2026-11-17T11:01:33Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
