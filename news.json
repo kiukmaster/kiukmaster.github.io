@@ -1,87 +1,111 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T20:01:10Z",
-  "last_success_at": "2026-11-17T20:01:10Z",
+  "checked_at": "2026-11-17T21:01:09Z",
+  "last_success_at": "2026-11-17T21:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T19:15:08Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T17:37:41Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T19:38:14Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
-      "latest_post_at": "2026-11-17T19:24:29Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
+      "latest_post_at": "2026-11-17T20:51:37Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
-      "latest_post_at": "2026-11-17T18:18:24Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
+      "latest_post_at": "2026-11-17T20:44:58Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T19:45:02Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T20:01:10Z",
-      "last_success_at": "2026-11-17T20:01:10Z",
+      "checked_at": "2026-11-17T21:01:09Z",
+      "last_success_at": "2026-11-17T21:01:09Z",
       "latest_post_at": "2026-11-17T18:48:19Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122794814152290810",
+      "author": "BleepinComputer",
+      "text": "Japan takes Fugaku supercomputer offlline after cyberattack\n\nhttps://t.co/nMzd3SZ1uh\n\nhttps://t.co/nMzd3SZ1uh",
+      "url": "https://x.com/BleepinComputer/status/2122794814152290810",
+      "published_at": "2026-11-17T20:51:37Z",
+      "collected_at": "2026-11-17T21:01:09Z"
+    },
+    {
+      "id": "2122793138976600279",
+      "author": "SecurityWeek",
+      "text": "You Can’t Secure What You Can’t See: SBOM, AIBOM & Software Supply Chain Risk - In this episode of the SecurityWeek Podcast, Brian Schleifer sits down with Allan Friedman for a deep dive into SBOMs, AI Bills of Materials (AIBOMs), software supply chain security, VEX, and the growing challenge of understanding exactly what is inside the technology organizations depend on. https://t.co/YEM6SDw3TX",
+      "url": "https://x.com/SecurityWeek/status/2122793138976600279",
+      "published_at": "2026-11-17T20:44:58Z",
+      "collected_at": "2026-11-17T21:01:09Z"
+    },
+    {
+      "id": "2122782184071188868",
+      "author": "BleepinComputer",
+      "text": "⚠️ Phishing kits now come with admin dashboards, AI features, and support, making it easier for attackers to steal and replay Microsoft 365 session tokens.\n\n🔍 @HuntressLabs investigates three of these kits.\n\n➡️ https://t.co/VPGqOHCecs\n\n#cybersecurity #sponsored",
+      "url": "https://x.com/BleepinComputer/status/2122782184071188868",
+      "published_at": "2026-11-17T20:01:26Z",
+      "collected_at": "2026-11-17T21:01:09Z"
+    },
     {
       "id": "2122778054577541288",
       "author": "Unit42_Intel",

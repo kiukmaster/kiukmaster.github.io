@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T20:02:03Z",
+  "checked_at": "2026-11-17T21:01:42Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2918,6 +2918,42 @@
       "prompt_version": "2",
       "text_ko": "59달러짜리 Luminar 번들로 브라우저에서 RAW 사진을 편집하세요\n\nhttps://t.co/XRdfGkiQTI\n\nhttps://t.co/XRdfGkiQTI",
       "translated_at": "2026-11-17T20:02:03Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122794814152290810:e567162c940bc5048fc8947159f53974fd2a035cc8f3c453ed5853136b728141:gpt-6.1-sol:medium:2": {
+      "post_id": "2122794814152290810",
+      "source_hash": "e567162c940bc5048fc8947159f53974fd2a035cc8f3c453ed5853136b728141",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "일본, cyberattack 이후 Fugaku supercomputer 가동 중단\n\nhttps://t.co/nMzd3SZ1uh\n\nhttps://t.co/nMzd3SZ1uh",
+      "translated_at": "2026-11-17T21:01:23Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122793138976600279:1b1ce982174a754aed380cb718c1948e45904e6bbcd08f03fbbc103b3c6832db:gpt-6.1-sol:medium:2": {
+      "post_id": "2122793138976600279",
+      "source_hash": "1b1ce982174a754aed380cb718c1948e45904e6bbcd08f03fbbc103b3c6832db",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "보이지 않는 것은 보호할 수 없다: SBOM, AIBOM과 Software Supply Chain 위험 - 이번 SecurityWeek Podcast에서 Brian Schleifer는 Allan Friedman과 함께 SBOMs, AI Bills of Materials (AIBOMs), software supply chain security, VEX를 심층적으로 살펴보고, 조직이 의존하는 기술에 정확히 무엇이 들어 있는지 파악하는 일이 점점 더 어려워지는 문제를 논의한다. https://t.co/YEM6SDw3TX",
+      "translated_at": "2026-11-17T21:01:32Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122782184071188868:eec7834a97b474f5a35f6d02aa3cb799a2d803785502b167849327009c22a168:gpt-6.1-sol:medium:2": {
+      "post_id": "2122782184071188868",
+      "source_hash": "eec7834a97b474f5a35f6d02aa3cb799a2d803785502b167849327009c22a168",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "⚠️ 이제 Phishing kits에도 admin dashboards와 AI 기능, 지원까지 포함되면서 공격자가 Microsoft 365 session tokens를 탈취하고 replay하기가 더 쉬워졌습니다.\n\n🔍 @HuntressLabs가 이러한 키트 중 세 가지를 조사합니다.\n\n➡️ https://t.co/VPGqOHCecs\n\n#cybersecurity #sponsored",
+      "translated_at": "2026-11-17T21:01:42Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
