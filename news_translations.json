@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T14:01:33Z",
+  "checked_at": "2026-11-17T15:01:39Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2606,6 +2606,54 @@
       "prompt_version": "2",
       "text_ko": "🤷‍♂️\n\nSquiblydoo (@SquiblydooBlog)\n\n\"MARQUEE AUDIO VISUAL LIMITED\" 명의로 서명된 가짜 Zscaler client. 이 파일은 backdoor를 설치하거나 proxy로 작동하거나 데이터를 exfil할 수 있습니다.\n\nfe9829f1c102a79b4ca33c8c8bda8ef2236dc94c6d1de88249c89e82681adc8c\n\nFUD 상태였으며, @malwrhunterteam이 발견했습니다.\n\nhttps://t.co/R6cGeEHDOz\n\n— https://nitter.gq/SquiblydooBlog/status/2122663057147019285",
       "translated_at": "2026-11-17T14:01:33Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122705744361673158:00a7945f3da6822a2adc9c726f6642928221021824242d44bdcc4679b1c83e6f:gpt-6.1-sol:medium:2": {
+      "post_id": "2122705744361673158",
+      "source_hash": "00a7945f3da6822a2adc9c726f6642928221021824242d44bdcc4679b1c83e6f",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "시장조사 대기업 Ipsos, 내부 시스템 침해 사건 조사 중 https://t.co/qyadUFdiZK",
+      "translated_at": "2026-11-17T15:01:23Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122699033672065237:73bd3e58e683d3e8699a1ef09f8fdfad1a3813921c46f3e2b401b958b4637b46:gpt-6.1-sol:medium:2": {
+      "post_id": "2122699033672065237",
+      "source_hash": "73bd3e58e683d3e8699a1ef09f8fdfad1a3813921c46f3e2b401b958b4637b46",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "러시아 연계 해킹 조직 Turla가 침해된 정부 기관의 Microsoft Exchange 서버에 Cereal이라는 새로운 toolset을 배포했다. 한 사례에서는 NATO와 EU 주소로 보내거나 해당 주소에서 받은 이메일을 골라내도록 설정했다.\n\n@ESET은 새 보고서에서 카자흐스탄과 루마니아의 정부 기관이 각각 한 곳씩 피해를 입었다고 밝혔다: https://t.co/fYhU8eOcG1",
+      "translated_at": "2026-11-17T15:01:32Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122698345801982195:2df8a002b81b584fba4fda8933f95950da1f4e60584bdf309db386f96010b492:gpt-6.1-sol:medium:2": {
+      "post_id": "2122698345801982195",
+      "source_hash": "2df8a002b81b584fba4fda8933f95950da1f4e60584bdf309db386f96010b492",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "us.figma-asso[.]services\n\n🤔\n\n🤷‍♂️",
+      "translated_at": "2026-11-17T15:01:35Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122695057757306890:ae58a06c9a2710cda6980f40ee80149fa8b99fd629f35ee12d5313020d43c3ed:gpt-6.1-sol:medium:2": {
+      "post_id": "2122695057757306890",
+      "source_hash": "ae58a06c9a2710cda6980f40ee80149fa8b99fd629f35ee12d5313020d43c3ed",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Fandango, 티켓 구매자들에게 결제 카드 정보 노출 경고 https://t.co/xQFZe6CCcc",
+      "translated_at": "2026-11-17T15:01:39Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
