@@ -1,87 +1,119 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T15:01:10Z",
-  "last_success_at": "2026-11-17T15:01:10Z",
+  "checked_at": "2026-11-17T16:01:09Z",
+  "last_success_at": "2026-11-17T16:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-17T12:21:27Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
-      "latest_post_at": "2026-11-17T12:25:52Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
+      "latest_post_at": "2026-11-17T15:45:00Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
-      "latest_post_at": "2026-11-17T12:15:15Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
+      "latest_post_at": "2026-11-17T16:00:14Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-17T14:57:42Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
-      "latest_post_at": "2026-11-17T00:17:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
+      "latest_post_at": "2026-11-17T15:07:01Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T15:01:10Z",
-      "last_success_at": "2026-11-17T15:01:10Z",
+      "checked_at": "2026-11-17T16:01:09Z",
+      "last_success_at": "2026-11-17T16:01:09Z",
       "latest_post_at": "2026-11-17T14:28:18Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122721481184489904",
+      "author": "BleepinComputer",
+      "text": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool\n\nhttps://t.co/I7UG5TF959\n\nhttps://t.co/I7UG5TF959",
+      "url": "https://x.com/BleepinComputer/status/2122721481184489904",
+      "published_at": "2026-11-17T16:00:14Z",
+      "collected_at": "2026-11-17T16:01:09Z"
+    },
+    {
+      "id": "2122717648786186364",
+      "author": "TheHackersNews",
+      "text": "🚨 Hackers are impersonating nearly 50 AI and blockchain brands to infect developers with infostealers.\n\nDubbed \"Trigram,\" the campaign uses fake job offers, malicious code repositories, and clipboard tricks to steal credentials, crypto wallets, and SSH keys.\n\nHow it works ⬇️ https://t.co/SiDuELwZtC",
+      "url": "https://x.com/TheHackersNews/status/2122717648786186364",
+      "published_at": "2026-11-17T15:45:00Z",
+      "collected_at": "2026-11-17T16:01:09Z"
+    },
+    {
+      "id": "2122711601447092667",
+      "author": "TheHackersNews",
+      "text": "‼️ BREAKING: Oracle is set to patch 11 Java vulnerabilities today — all potentially exploitable remotely without authentication.\n\nMeanwhile, reports of a critical OpenJDK RCE flaw (CVE-2026-114938, CVSS 9.2) are raising alarms. Details remain unconfirmed.\n\nWhat Java users need to know ↓ https://t.co/qb0pUMqTLe",
+      "url": "https://x.com/TheHackersNews/status/2122711601447092667",
+      "published_at": "2026-11-17T15:20:58Z",
+      "collected_at": "2026-11-17T16:01:09Z"
+    },
+    {
+      "id": "2122708091741286672",
+      "author": "MsftSecIntel",
+      "text": "Microsoft research shows how device code phishing, which persuades users to approve a legitimate sign-in rather than stealing a password, can extend to AI coding agents, using GitHub Copilot CLI as an example. https://t.co/7f9wVY7Omw\n\nIn a controlled proof-of-concept simulation, one approved device code led to four possible outcomes: remote steering of an active session, misleading entries in agent memory, exposure of synced session history, and access to private repositories. None of which were observed in the wild.\n\nAny device-flow client can be targeted this way, and a legitimate verification page does not mean the request is safe. Microsoft Defender detections and disruption help connect phishing attempts to GitHub authorization activity. Read the blog for the full findings and mitigation guidance.",
+      "url": "https://x.com/MsftSecIntel/status/2122708091741286672",
+      "published_at": "2026-11-17T15:07:01Z",
+      "collected_at": "2026-11-17T16:01:09Z"
+    },
     {
       "id": "2122705744361673158",
       "author": "SecurityWeek",

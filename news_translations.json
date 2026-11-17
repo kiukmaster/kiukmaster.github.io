@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T15:01:39Z",
+  "checked_at": "2026-11-17T16:01:57Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2654,6 +2654,54 @@
       "prompt_version": "2",
       "text_ko": "Fandango, 티켓 구매자들에게 결제 카드 정보 노출 경고 https://t.co/xQFZe6CCcc",
       "translated_at": "2026-11-17T15:01:39Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122721481184489904:ea7bf29ac847b675837be3cb18508305b676beb090177601e106c96265482e0c:gpt-6.1-sol:medium:2": {
+      "post_id": "2122721481184489904",
+      "source_hash": "ea7bf29ac847b675837be3cb18508305b676beb090177601e106c96265482e0c",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Flipper Devices, Linux 기반 다기능 도구 ‘Flipper One’을 399달러에 출시\n\nhttps://t.co/I7UG5TF959\n\nhttps://t.co/I7UG5TF959",
+      "translated_at": "2026-11-17T16:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122717648786186364:c456f14e62f5cf3c4a06c8e1ed8c994a616015a25152070fb5547d38d081c347:gpt-6.1-sol:medium:2": {
+      "post_id": "2122717648786186364",
+      "source_hash": "c456f14e62f5cf3c4a06c8e1ed8c994a616015a25152070fb5547d38d081c347",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 해커들이 개발자들을 infostealers에 감염시키기 위해 50개에 가까운 AI 및 blockchain 브랜드를 사칭하고 있습니다.\n\n\"Trigram\"으로 명명된 이 캠페인은 가짜 채용 제안과 악성 code repositories, clipboard를 이용한 속임수로 credentials, crypto wallets, SSH keys를 탈취합니다.\n\n작동 방식 ⬇️ https://t.co/SiDuELwZtC",
+      "translated_at": "2026-11-17T16:01:38Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122711601447092667:f7fba9a17bb9e5982a2139d8359bf871162d4e254c612bce769bfe5aec15f0a7:gpt-6.1-sol:medium:2": {
+      "post_id": "2122711601447092667",
+      "source_hash": "f7fba9a17bb9e5982a2139d8359bf871162d4e254c612bce769bfe5aec15f0a7",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "‼️ 속보: Oracle이 오늘 Java 취약점 11개를 수정할 예정이다. 모두 인증 없이 원격으로 악용될 가능성이 있다.\n\n한편, OpenJDK의 심각한 RCE 취약점(CVE-2026-114938, CVSS 9.2)에 관한 보도가 나와 우려가 커지고 있다. 세부 내용은 아직 확인되지 않았다.\n\nJava 사용자가 알아야 할 내용 ↓ https://t.co/qb0pUMqTLe",
+      "translated_at": "2026-11-17T16:01:44Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122708091741286672:7dd43a0801249f4514ce7f135b9b3ba0c51015270027c64504dbc33f11284d34:gpt-6.1-sol:medium:2": {
+      "post_id": "2122708091741286672",
+      "source_hash": "7dd43a0801249f4514ce7f135b9b3ba0c51015270027c64504dbc33f11284d34",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft 연구는 비밀번호를 훔치는 대신 사용자가 정상적인 로그인을 승인하도록 유도하는 device code phishing이 AI coding agents로까지 확장될 수 있음을 GitHub Copilot CLI를 예로 들어 보여줍니다. https://t.co/7f9wVY7Omw\n\n통제된 proof-of-concept 시뮬레이션에서는 device code 하나를 승인하는 것만으로 네 가지 결과가 발생할 수 있었습니다. 진행 중인 session의 원격 조작, agent memory에 오해를 유발하는 내용 기록, 동기화된 session 기록 노출, 비공개 repositories 접근입니다. 이 중 실제 환경에서 관찰된 사례는 없었습니다.\n\n어떤 device-flow client든 이런 방식의 표적이 될 수 있으며, 정상적인 인증 페이지라고 해서 요청이 안전하다는 뜻은 아닙니다. Microsoft Defender의 탐지 및 차단 기능은 phishing 시도와 GitHub 권한 부여 활동의 연관성을 파악하는 데 도움이 됩니다. 전체 연구 결과와 완화 지침은 블로그에서 확인하세요.",
+      "translated_at": "2026-11-17T16:01:57Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
