@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T16:01:57Z",
+  "checked_at": "2026-11-17T17:01:29Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2702,6 +2702,18 @@
       "prompt_version": "2",
       "text_ko": "Microsoft 연구는 비밀번호를 훔치는 대신 사용자가 정상적인 로그인을 승인하도록 유도하는 device code phishing이 AI coding agents로까지 확장될 수 있음을 GitHub Copilot CLI를 예로 들어 보여줍니다. https://t.co/7f9wVY7Omw\n\n통제된 proof-of-concept 시뮬레이션에서는 device code 하나를 승인하는 것만으로 네 가지 결과가 발생할 수 있었습니다. 진행 중인 session의 원격 조작, agent memory에 오해를 유발하는 내용 기록, 동기화된 session 기록 노출, 비공개 repositories 접근입니다. 이 중 실제 환경에서 관찰된 사례는 없었습니다.\n\n어떤 device-flow client든 이런 방식의 표적이 될 수 있으며, 정상적인 인증 페이지라고 해서 요청이 안전하다는 뜻은 아닙니다. Microsoft Defender의 탐지 및 차단 기능은 phishing 시도와 GitHub 권한 부여 활동의 연관성을 파악하는 데 도움이 됩니다. 전체 연구 결과와 완화 지침은 블로그에서 확인하세요.",
       "translated_at": "2026-11-17T16:01:57Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122731051822780803:5b4b71664fdf5cb7883a95b8d1a756b7594427174358134e6fb32b996124c657:gpt-6.1-sol:medium:2": {
+      "post_id": "2122731051822780803",
+      "source_hash": "5b4b71664fdf5cb7883a95b8d1a756b7594427174358134e6fb32b996124c657",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🤷‍♂️\n\nSquiblydoo (@SquiblydooBlog)\n\nstealer를 실행하고 가짜 crypto-apps를 설치해 seed phrases 등을 훔치는 데 사용된 \"GoogleCert.scpt\".\n\n제보: @malwrhunterteam\n\nDPRK도 이와 같은 empty padding 기법을 쓴다. 이게 누구 짓인지는 모르겠지만, 기발해 보였다.\n\nhttps://t.co/7icFwkB1TS\n\n— https://nitter.gq/SquiblydooBlog/status/2122721556866416739",
+      "translated_at": "2026-11-17T17:01:29Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
