@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T07:01:19Z",
+  "checked_at": "2026-11-17T08:01:36Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2330,6 +2330,42 @@
       "prompt_version": "2",
       "text_ko": "🚨 ScreenConnect를 겨냥한 공격이 여전히 이어지고 있습니다.\n\nConnectWise는 해커들이 SCKit malware로 패치되지 않은 시스템을 노리고 있어 MSP 네트워크가 위험에 처해 있다고 경고했습니다.\n\n최근 공격이 급증하면서 41개 조직의 호스트 205대가 피해를 입었습니다. CVSS 점수 9.9의 심각한 취약점까지 더해져 위협이 커지고 있습니다.\n\n알아두어야 할 내용 ↓ https://t.co/a5iRyEcm0p",
       "translated_at": "2026-11-17T07:01:19Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122598492103413990:aee7a8f8d0bf2d4bbd32f81a6297f2bf7120755fbc3d7f4504d0fc1729757902:gpt-6.1-sol:medium:2": {
+      "post_id": "2122598492103413990",
+      "source_hash": "aee7a8f8d0bf2d4bbd32f81a6297f2bf7120755fbc3d7f4504d0fc1729757902",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "⚠️ Zero Trust 전략에 중대한 사각지대가 있을 수 있습니다. 바로 모바일 기기입니다.\n\n정상적으로 로그인했다고 해서 휴대전화가 안전하다는 뜻은 아닙니다.\n\nSamsung Knox는 개인정보 보호를 위해 필터링한 모바일 보안 신호를 호환되는 보안 도구에 제공해 이러한 가시성의 공백을 메우는 데 도움을 줄 수 있습니다.\n\n무엇을 놓치고 있는지 확인해 보세요: https://t.co/Bn7VTMfIIt",
+      "translated_at": "2026-11-17T08:01:20Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122592071835955285:b2b61b7aae9e765a0a5dc02ce1de29181a85c14c1dff585ef1724a2554a28708:gpt-6.1-sol:medium:2": {
+      "post_id": "2122592071835955285",
+      "source_hash": "b2b61b7aae9e765a0a5dc02ce1de29181a85c14c1dff585ef1724a2554a28708",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Ransomware 제휴 조직원 용의자, 미국으로 송환…징역 27년형 위기\n\nhttps://t.co/9K9jukYU8q\n\nhttps://t.co/9K9jukYU8q",
+      "translated_at": "2026-11-17T08:01:26Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122589269080596832:fd1711dc15ea49b37f8130287b6675c2c18ff83d1ae8f19bb2332979986f3dd0:gpt-6.1-sol:medium:2": {
+      "post_id": "2122589269080596832",
+      "source_hash": "fd1711dc15ea49b37f8130287b6675c2c18ff83d1ae8f19bb2332979986f3dd0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "‼️ 속보 - 해커들이 Optimizely scripts를 가로채 CNN, BBC, Zoom 등 주요 사이트 방문자에게 악성 code를 전달했습니다.\n\n최소 178개 조직이 영향을 받았습니다. payload는 카드 정보를 노리고 암호화폐 주소를 바꿔치기했으며, iOS exploits를 시도했습니다.\n\n전체 기사 ↓ https://t.co/oDJPzHc4Ma",
+      "translated_at": "2026-11-17T08:01:36Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null

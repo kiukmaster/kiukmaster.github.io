@@ -1,87 +1,111 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T07:01:07Z",
-  "last_success_at": "2026-11-17T07:01:07Z",
+  "checked_at": "2026-11-17T08:01:09Z",
+  "last_success_at": "2026-11-17T08:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-17T04:17:01Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-17T01:21:22Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
-      "latest_post_at": "2026-11-17T06:30:23Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
+      "latest_post_at": "2026-11-17T07:51:31Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
-      "latest_post_at": "2026-11-17T02:12:33Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
+      "latest_post_at": "2026-11-17T07:26:00Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-17T03:49:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T07:01:07Z",
-      "last_success_at": "2026-11-17T07:01:07Z",
+      "checked_at": "2026-11-17T08:01:09Z",
+      "last_success_at": "2026-11-17T08:01:09Z",
       "latest_post_at": "2026-11-16T22:57:38Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122598492103413990",
+      "author": "TheHackersNews",
+      "text": "⚠️ Your Zero Trust strategy may have a critical blind spot: mobile devices.\n\nA valid login doesn't mean the phone is secure.\n\nSamsung Knox can feed privacy-filtered mobile security signals into compatible security tools to help close that visibility gap.\n\nSee what's missing: https://t.co/Bn7VTMfIIt",
+      "url": "https://x.com/TheHackersNews/status/2122598492103413990",
+      "published_at": "2026-11-17T07:51:31Z",
+      "collected_at": "2026-11-17T08:01:09Z"
+    },
+    {
+      "id": "2122592071835955285",
+      "author": "BleepinComputer",
+      "text": "Ransomware affiliate suspect extradited to US, faces 27 years in prison\n\nhttps://t.co/9K9jukYU8q\n\nhttps://t.co/9K9jukYU8q",
+      "url": "https://x.com/BleepinComputer/status/2122592071835955285",
+      "published_at": "2026-11-17T07:26:00Z",
+      "collected_at": "2026-11-17T08:01:09Z"
+    },
+    {
+      "id": "2122589269080596832",
+      "author": "TheHackersNews",
+      "text": "‼️ BREAKING - Hackers hijacked Optimizely scripts to serve malicious code to visitors of CNN, BBC, Zoom and other major sites.\n\nAt least 178 organizations affected. The payload targeted card data, swapped crypto addresses and attempted iOS exploits.\n\nFull story ↓ https://t.co/oDJPzHc4Ma",
+      "url": "https://x.com/TheHackersNews/status/2122589269080596832",
+      "published_at": "2026-11-17T07:14:52Z",
+      "collected_at": "2026-11-17T08:01:09Z"
+    },
     {
       "id": "2122578077301784897",
       "author": "TheHackersNews",
