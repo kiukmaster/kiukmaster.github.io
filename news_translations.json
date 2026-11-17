@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T03:01:17Z",
+  "checked_at": "2026-11-17T04:01:29Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2246,6 +2246,54 @@
       "prompt_version": "2",
       "text_ko": "Optimizely supply chain attack으로 주요 브랜드 사이트가 malware에 감염\n\nhttps://t.co/oxa4ISpDXE\n\nhttps://t.co/oxa4ISpDXE",
       "translated_at": "2026-11-17T03:01:17Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122537460882407599:7a81e0e146ec365b77185b153f382b30df136be99e7bdaa53832e6ad43b40bec:gpt-6.1-sol:medium:2": {
+      "post_id": "2122537460882407599",
+      "source_hash": "7a81e0e146ec365b77185b153f382b30df136be99e7bdaa53832e6ad43b40bec",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Telegram Widgets, 출시 며칠 만에 RCE 시연 등장하고 Malware 경고도 나와 https://t.co/Kj1JJofgMP",
+      "translated_at": "2026-11-17T04:01:23Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122534877824221206:894cc6c3bdb4e17b997b3829941a739fad2f63455deddeda1d88b0deca85cd4d:gpt-6.1-sol:medium:2": {
+      "post_id": "2122534877824221206",
+      "source_hash": "894cc6c3bdb4e17b997b3829941a739fad2f63455deddeda1d88b0deca85cd4d",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "skipped",
+      "attempts": 0,
+      "last_error": null
+    },
+    "2122534679702323559:666150aaaca43768c773ae7abb3cd44ae0081cb41edcdfab2b1d596f2c9c80e7:gpt-6.1-sol:medium:2": {
+      "post_id": "2122534679702323559",
+      "source_hash": "666150aaaca43768c773ae7abb3cd44ae0081cb41edcdfab2b1d596f2c9c80e7",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "skipped",
+      "attempts": 0,
+      "last_error": null
+    },
+    "2122533182948229181:a4970eef73568c5c6e7d198be0b33f0a1efc61aa2c09a5c3971b06c3edb3be97:gpt-6.1-sol:medium:2": {
+      "post_id": "2122533182948229181",
+      "source_hash": "a4970eef73568c5c6e7d198be0b33f0a1efc61aa2c09a5c3971b06c3edb3be97",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Google Project Zero, 30일 공개 시한 도입 추진 https://t.co/UHBakch4gV",
+      "translated_at": "2026-11-17T04:01:29Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
