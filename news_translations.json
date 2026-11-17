@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T02:01:22Z",
+  "checked_at": "2026-11-17T03:01:17Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2234,6 +2234,18 @@
       "prompt_version": "2",
       "text_ko": "coding agents가 작성한 코드를 sandbox에서 실행하는 새로운 방법들을 살펴보고 있습니다. 여기서는 agents가 Mac에서 구동되지만 코드는 WebAssembly, QEMU 또는 Apple Container sandbox에서 실행하는 external sandbox pattern을 소개합니다. Claude Code, Codex, Pi 데모도 함께 있습니다. https://t.co/0XIhs4XYvQ",
       "translated_at": "2026-11-17T02:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122513188742648318:eba088186711051fb137f38134959217bb14766fe2d2912bf74fa37e40dce5cf:gpt-6.1-sol:medium:2": {
+      "post_id": "2122513188742648318",
+      "source_hash": "eba088186711051fb137f38134959217bb14766fe2d2912bf74fa37e40dce5cf",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Optimizely supply chain attack으로 주요 브랜드 사이트가 malware에 감염\n\nhttps://t.co/oxa4ISpDXE\n\nhttps://t.co/oxa4ISpDXE",
+      "translated_at": "2026-11-17T03:01:17Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
