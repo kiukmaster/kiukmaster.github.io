@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T05:01:14Z",
+  "checked_at": "2026-11-17T06:01:21Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2308,6 +2308,18 @@
       "translated_at": null,
       "status": "skipped",
       "attempts": 0,
+      "last_error": null
+    },
+    "2122556224076140967:a1c578825e09db2450c1d7f0f6dc780bbcf05dc33ae10d16247a5b66b6f1b506:gpt-6.1-sol:medium:2": {
+      "post_id": "2122556224076140967",
+      "source_hash": "a1c578825e09db2450c1d7f0f6dc780bbcf05dc33ae10d16247a5b66b6f1b506",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "🚨 해커들이 이미 N-central 취약점을 악용해 crypto miners를 배포하고 있습니다.\n\n이런 가운데 N-able이 authentication bypass와 remote code execution 위험을 포함한 취약점 17개를 추가로 패치했습니다.\n\n⚠️ Agents와 Probes도 업데이트해야 합니다.\n\n자세한 내용: https://t.co/3b8dW7Tw4s",
+      "translated_at": "2026-11-17T06:01:21Z",
+      "status": "ok",
+      "attempts": 1,
       "last_error": null
     }
   }
