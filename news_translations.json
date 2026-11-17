@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T00:01:24Z",
+  "checked_at": "2026-11-17T01:01:28Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2212,6 +2212,18 @@
       "translated_at": null,
       "status": "skipped",
       "attempts": 0,
+      "last_error": null
+    },
+    "2122484150770807014:d70abc97c64c756276e30115f8be44bac3b44ab16922d9732de9cc6a54237245:gpt-6.1-sol:medium:2": {
+      "post_id": "2122484150770807014",
+      "source_hash": "d70abc97c64c756276e30115f8be44bac3b44ab16922d9732de9cc6a54237245",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Microsoft Threat Intelligence가 11월 12일 발생한 Microsoft 365 서비스 장애를 악용한 phishing 캠페인에 대한 상세 분석을 발표했습니다. 이는 위협 행위자들이 전 세계적으로 주목받는 사건을 social engineering의 미끼로 악용한 사례입니다. https://t.co/AnGgiciktm\n\n이 캠페인은 정상적인 Microsoft 365 서비스 상태 알림으로 위장한 이메일을 사용해 전 세계 여러 산업 분야의 조직을 표적으로 삼습니다. Microsoft Defender는 이 캠페인에 사용된 악성 도메인을 차단하며, Microsoft Defender for Office 365는 phishing 이메일을 차단하고 격리합니다.\n\n저희는 이 활동이 credential phishing이었을 가능성이 높다고 평가합니다. 다만 현재 확보된 증거만으로는 credential capture, malware 전달, 침해 후 활동이 있었는지 확인할 수 없습니다. 자격 증명을 입력했다면 조직은 계정 침해, 메일함 접근, business email compromise, 내부 phishing, 클라우드 협업 데이터 접근의 위험을 고려해야 합니다.\n\nIOCs, Microsoft Defender XDR hunting queries, 완화 지침은 블로그에서 확인하세요.",
+      "translated_at": "2026-11-17T01:01:28Z",
+      "status": "ok",
+      "attempts": 1,
       "last_error": null
     }
   }

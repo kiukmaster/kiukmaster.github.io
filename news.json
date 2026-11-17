@@ -1,87 +1,95 @@
 {
   "version": 2,
-  "checked_at": "2026-11-17T00:01:09Z",
-  "last_success_at": "2026-11-17T00:01:09Z",
+  "checked_at": "2026-11-17T01:01:09Z",
+  "last_success_at": "2026-11-17T01:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T23:53:20Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T22:54:13Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T20:03:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
-      "latest_post_at": "2026-11-14T06:32:58Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
+      "latest_post_at": "2026-11-17T00:17:10Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-17T00:01:09Z",
-      "last_success_at": "2026-11-17T00:01:09Z",
+      "checked_at": "2026-11-17T01:01:09Z",
+      "last_success_at": "2026-11-17T01:01:09Z",
       "latest_post_at": "2026-11-16T22:57:38Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122484150770807014",
+      "author": "MsftSecIntel",
+      "text": "Microsoft Threat Intelligence has published a detailed analysis of the phishing campaign exploiting the November 12 Microsoft 365 service disruption, an example of threat actors exploiting notable global incidents in social engineering lures. https://t.co/AnGgiciktm\n\nThe campaign uses emails disguised as legitimate Microsoft 365 service-health notifications to target organizations across multiple industry sectors worldwide. Microsoft Defender blocks malicious domains used in this campaign, and Microsoft Defender for Office 365 blocks and quarantines phishing emails.\n\nWe assess that this activity was likely credential phishing, but available evidence does not confirm credential capture, malware delivery, or post-compromise activity. If credentials were entered, organizations should consider the risk of account compromise, mailbox access, business email compromise, internal phishing, and access to cloud collaboration data.\n\nRead the blog for IOCs, Microsoft Defender XDR hunting queries, and mitigation guidance.",
+      "url": "https://x.com/MsftSecIntel/status/2122484150770807014",
+      "published_at": "2026-11-17T00:17:10Z",
+      "collected_at": "2026-11-17T01:01:09Z"
+    },
     {
       "id": "2122478357774307524",
       "author": "Unit42_Intel",
