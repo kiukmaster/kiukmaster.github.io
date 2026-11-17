@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-16T23:01:29Z",
+  "checked_at": "2026-11-17T00:01:24Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -2188,6 +2188,30 @@
       "translated_at": "2026-11-16T23:01:29Z",
       "status": "ok",
       "attempts": 1,
+      "last_error": null
+    },
+    "2122478357774307524:fc1a2c8afdaebb5f968231cc771696977b9fbecd5900782370cb18d84de687b9:gpt-6.1-sol:medium:2": {
+      "post_id": "2122478357774307524",
+      "source_hash": "fc1a2c8afdaebb5f968231cc771696977b9fbecd5900782370cb18d84de687b9",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "보고서로 위장해 다운로드된 ZIP 압축 파일이 DLL side-loading을 이용해 #PureLogs / #PureRAT용 악성 Python script를 해독하고 실행한다. 자세한 내용: https://t.co/asDQbpBRpH",
+      "translated_at": "2026-11-17T00:01:24Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122478155722072110:f3b4f7c01b53e2a98b4cc15477e980944b8f1a33c638320d669ae8216fb0deb7:gpt-6.1-sol:medium:2": {
+      "post_id": "2122478155722072110",
+      "source_hash": "f3b4f7c01b53e2a98b4cc15477e980944b8f1a33c638320d669ae8216fb0deb7",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "skipped",
+      "attempts": 0,
       "last_error": null
     }
   }

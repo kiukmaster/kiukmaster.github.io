@@ -1,87 +1,103 @@
 {
   "version": 2,
-  "checked_at": "2026-11-16T23:01:08Z",
-  "last_success_at": "2026-11-16T23:01:08Z",
+  "checked_at": "2026-11-17T00:01:09Z",
+  "last_success_at": "2026-11-17T00:01:09Z",
   "sources": {
     "AISecHub": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
-      "latest_post_at": "2026-11-16T01:18:06Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
+      "latest_post_at": "2026-11-16T23:53:20Z",
       "error": null
     },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-14T20:01:45Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-16T14:05:58Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-16T22:54:13Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-16T20:03:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-16T19:13:16Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-16T08:54:56Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
-      "latest_post_at": "2026-11-13T21:48:02Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
+      "latest_post_at": "2026-11-16T23:54:08Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-14T06:32:58Z",
       "error": null
     },
     "malwrhunterteam": {
       "status": "ok",
-      "checked_at": "2026-11-16T23:01:08Z",
-      "last_success_at": "2026-11-16T23:01:08Z",
+      "checked_at": "2026-11-17T00:01:09Z",
+      "last_success_at": "2026-11-17T00:01:09Z",
       "latest_post_at": "2026-11-16T22:57:38Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122478357774307524",
+      "author": "Unit42_Intel",
+      "text": "A downloaded ZIP archive disguised as a report uses DLL side-loading to decode and run a malicious Python script for #PureLogs / #PureRAT. Details at https://t.co/asDQbpBRpH",
+      "url": "https://x.com/Unit42_Intel/status/2122478357774307524",
+      "published_at": "2026-11-16T23:54:08Z",
+      "collected_at": "2026-11-17T00:01:09Z"
+    },
+    {
+      "id": "2122478155722072110",
+      "author": "AISecHub",
+      "text": "https://t.co/KLHzMqB2wA",
+      "url": "https://x.com/AISecHub/status/2122478155722072110",
+      "published_at": "2026-11-16T23:53:20Z",
+      "collected_at": "2026-11-17T00:01:09Z"
+    },
     {
       "id": "2122464137208836201",
       "author": "malwrhunterteam",
