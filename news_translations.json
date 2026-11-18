@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-17T23:01:27Z",
+  "checked_at": "2026-11-18T00:01:20Z",
   "status": "ok",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -3002,6 +3002,18 @@
       "prompt_version": "2",
       "text_ko": "\"WEEB\"라는 제목이 붙은 어떤 패널: https://panel.mehmeterdogdu[.]shop/\n\n🤷‍♂️",
       "translated_at": "2026-11-17T23:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122828312313524522:adfecb7c1a07d459b24b6969bad41f495db02aafa98c379e5d6c9268f19c5e01:gpt-6.1-sol:medium:2": {
+      "post_id": "2122828312313524522",
+      "source_hash": "adfecb7c1a07d459b24b6969bad41f495db02aafa98c379e5d6c9268f19c5e01",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "치명적인 Java4Shell 취약점으로 주요 Java 애플리케이션에서 RCE 공격 가능\n\nhttps://t.co/jAbMX7Jfoi\n\nhttps://t.co/jAbMX7Jfoi",
+      "translated_at": "2026-11-18T00:01:20Z",
       "status": "ok",
       "attempts": 1,
       "last_error": null
