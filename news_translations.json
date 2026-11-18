@@ -3,7 +3,7 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-18T06:01:44Z",
+  "checked_at": "2026-11-18T07:02:13Z",
   "status": "error",
   "entries": {
     "2120829090982773046:f5aa37e1ba009b149b41608e9ea96479bcb44970b5ac8cd454cc7c93524acd0c:gpt-6.1-sol:medium:1": {
@@ -3117,6 +3117,18 @@
     "2122933060845043754:a1baaecb5c186004e515bfa363b96c9193fef5356139d2de322a9f4946b560eb:gpt-6.1-sol:medium:2": {
       "post_id": "2122933060845043754",
       "source_hash": "a1baaecb5c186004e515bfa363b96c9193fef5356139d2de322a9f4946b560eb",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122944680317067366:a614d103bb3e22fd45acebb997024841919ab53648a7cb35f8578e023405a713:gpt-6.1-sol:medium:2": {
+      "post_id": "2122944680317067366",
+      "source_hash": "a614d103bb3e22fd45acebb997024841919ab53648a7cb35f8578e023405a713",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "medium",
       "prompt_version": "2",
