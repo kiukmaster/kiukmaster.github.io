@@ -1,73 +1,97 @@
 {
   "version": 2,
-  "checked_at": "2026-11-18T08:01:20Z",
-  "last_success_at": "2026-11-18T08:01:20Z",
+  "checked_at": "2026-11-18T09:01:07Z",
+  "last_success_at": "2026-11-18T09:01:07Z",
   "sources": {
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
       "latest_post_at": "2026-11-17T22:40:53Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
-      "latest_post_at": "2026-11-18T07:15:00Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
+      "latest_post_at": "2026-11-18T08:26:03Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
-      "latest_post_at": "2026-11-17T23:04:44Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
+      "latest_post_at": "2026-11-18T08:24:33Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
-      "latest_post_at": "2026-11-18T07:46:38Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
+      "latest_post_at": "2026-11-18T08:51:06Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
       "latest_post_at": "2026-11-17T21:20:03Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-18T08:01:20Z",
-      "last_success_at": "2026-11-18T08:01:20Z",
+      "checked_at": "2026-11-18T09:01:07Z",
+      "last_success_at": "2026-11-18T09:01:07Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122975876765651349",
+      "author": "SecurityWeek",
+      "text": "Oracle Patches 640 Vulnerabilities With November 2026 CSPU https://t.co/rnEYp0kW2w",
+      "url": "https://x.com/SecurityWeek/status/2122975876765651349",
+      "published_at": "2026-11-18T08:51:06Z",
+      "collected_at": "2026-11-18T09:01:07Z"
+    },
+    {
+      "id": "2122969572332503392",
+      "author": "TheHackersNews",
+      "text": "⚠️ Hackers are actively exploiting a critical 9.4-severity flaw in Puppet Enterprise.\n\nCVE-2026-115731 allows remote code execution on central management servers, potentially putting entire fleets of systems at risk.\n\nCISA confirms active exploitation.\n\nWhat you need to know: https://t.co/6hgqEE68Ph",
+      "url": "https://x.com/TheHackersNews/status/2122969572332503392",
+      "published_at": "2026-11-18T08:26:03Z",
+      "collected_at": "2026-11-18T09:01:07Z"
+    },
+    {
+      "id": "2122969193884549497",
+      "author": "BleepinComputer",
+      "text": "British Scattered Spider hacker sentenced to 6 years in prison\n\nhttps://t.co/yllAVAEUwI\n\nhttps://t.co/yllAVAEUwI",
+      "url": "https://x.com/BleepinComputer/status/2122969193884549497",
+      "published_at": "2026-11-18T08:24:33Z",
+      "collected_at": "2026-11-18T09:01:07Z"
+    },
     {
       "id": "2122959652732154290",
       "author": "SecurityWeek",
@@ -123,30 +147,6 @@
       "url": "https://x.com/SecurityWeek/status/2122901358978216391",
       "published_at": "2026-11-18T03:55:00Z",
       "collected_at": "2026-11-18T05:01:10Z"
-    },
-    {
-      "id": "2122891292975710441",
-      "author": "SecurityWeek",
-      "text": "Fandango Warns Ticket Buyers of Payment Card Data Exposure https://t.co/xQFZe6C4mE",
-      "url": "https://x.com/SecurityWeek/status/2122891292975710441",
-      "published_at": "2026-11-18T03:15:00Z",
-      "collected_at": "2026-11-18T05:01:10Z"
-    },
-    {
-      "id": "2122879722371604625",
-      "author": "SecurityWeek",
-      "text": "Classified Communications Network at the National Security Agency Goes Down - https://t.co/BsoZKaMeNC",
-      "url": "https://x.com/SecurityWeek/status/2122879722371604625",
-      "published_at": "2026-11-18T02:29:01Z",
-      "collected_at": "2026-11-18T03:01:09Z"
-    },
-    {
-      "id": "2122879212826587212",
-      "author": "SecurityWeek",
-      "text": "MSP ScreenConnect Servers Targeted in Month-Long Campaign https://t.co/2lncLpDXT0",
-      "url": "https://x.com/SecurityWeek/status/2122879212826587212",
-      "published_at": "2026-11-18T02:27:00Z",
-      "collected_at": "2026-11-18T03:01:09Z"
     }
   ],
   "started_at": "2026-11-12T10:56:48Z"
