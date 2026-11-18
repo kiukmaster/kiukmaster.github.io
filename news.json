@@ -1,84 +1,84 @@
 {
   "version": 2,
-  "checked_at": "2026-11-18T03:01:09Z",
+  "checked_at": "2026-11-18T04:01:11Z",
   "last_success_at": "2026-11-18T03:01:09Z",
   "sources": {
     "AISecHub": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T19:15:08Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "wunderwuzzi23": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "simonw": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T22:40:53Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "TheHackersNews": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T19:38:14Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "BleepinComputer": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T23:04:44Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "SecurityWeek": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-18T02:29:01Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "DarkReading": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "InfosecurityMag": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "Unit42_Intel": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T21:20:03Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "MsftSecIntel": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
-      "error": null
+      "error": "HTTP 429"
     },
     "malwrhunterteam": {
-      "status": "ok",
-      "checked_at": "2026-11-18T03:01:09Z",
+      "status": "error",
+      "checked_at": "2026-11-18T04:01:11Z",
       "last_success_at": "2026-11-18T03:01:09Z",
       "latest_post_at": "2026-11-17T22:06:47Z",
-      "error": null
+      "error": "HTTP 429"
     }
   },
   "items": [
