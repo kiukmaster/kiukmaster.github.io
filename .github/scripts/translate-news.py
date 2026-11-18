@@ -351,6 +351,16 @@ def main():
             collector.write_atomic(args.cache, empty_cache())
         cache = collector.read_json(args.cache)
         validate_cache(cache)
+        version = cache["prompt_version"] if args.initialize_cache or args.validate_only else PROMPT_VERSION
+        active_keys = {
+            cache_key(item["id"], source_hash(item["text"]), prompt_version=version)
+            for item in state["items"]
+        }
+        if cache["entries"].keys() - active_keys:
+            if args.validate_only:
+                raise InvalidData("Translation cache contains entries outside the retained posts")
+            cache["entries"] = {key: entry for key, entry in cache["entries"].items() if key in active_keys}
+            collector.write_atomic(args.cache, cache)
         if args.validate_only or args.initialize_cache:
             print(f"Translation cache valid: entries={len(cache['entries'])}")
             return 0

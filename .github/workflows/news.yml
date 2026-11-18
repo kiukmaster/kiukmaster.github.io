@@ -51,7 +51,7 @@ jobs:
             result=$?
             if [ "$result" -ne 2 ]; then exit "$result"; fi
             git -C .news-state symbolic-ref HEAD refs/heads/news-data
-            cp data/news.json .news-state/news.json
+            cp data/news.json data/news_translations.json .news-state/
           fi
           python3 .github/scripts/collect-news.py --state .news-state/news.json --migrate
           python3 .github/scripts/translate-news.py --state .news-state/news.json \

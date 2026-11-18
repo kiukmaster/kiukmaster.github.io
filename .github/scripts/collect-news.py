@@ -20,6 +20,7 @@ import xml.etree.ElementTree as ET
 FEED_HOST = "nitter.gq"
 MAX_RESPONSE = 2 * 1024 * 1024
 MAX_TEXT = 1200
+POST_LIMIT = 10
 HANDLE = re.compile(r"[A-Za-z0-9_]{1,15}\Z")
 POST_ID = re.compile(r"[0-9]{1,25}\Z")
 POST_PATH = re.compile(r"/([A-Za-z0-9_]{1,15})/status/([0-9]{1,25})/?\Z")
@@ -107,10 +108,8 @@ def _validate_state(state, version):
         raise InvalidData("Invalid archive success time")
     if not isinstance(state["sources"], dict) or not isinstance(state["items"], list):
         raise InvalidData("Invalid archive collections")
-    if version == 2 and started is None and len(state["items"]) > 10:
+    if version == 2 and started is None and len(state["items"]) > POST_LIMIT:
         raise InvalidData("Uninitialized archive exceeds preview limit")
-    if started and len(state["items"]) < 10:
-        raise InvalidData("Initialized archive is missing its initial records")
     source_handles = set()
     for handle, source in state["sources"].items():
         if not valid_handle(handle) or handle.lower() in source_handles:
@@ -155,12 +154,14 @@ def _validate_state(state, version):
             if published < started:
                 initial_count += 1
         ids.add(post_id)
-    if initial_count > 10:
+    if initial_count > POST_LIMIT:
         raise InvalidData("Archive exceeds the initial historical post limit")
 
 
 def validate_state(state):
     _validate_state(state, 2)
+    if len(state["items"]) > POST_LIMIT:
+        raise InvalidData("News exceeds the retained post limit")
 
 
 def sorted_posts(items):
@@ -168,16 +169,20 @@ def sorted_posts(items):
         parse_timestamp(item["published_at"]), int(item["id"])), reverse=True)
 
 
-def migrate_state(state):
-    if isinstance(state, dict) and state.get("version") == 2:
-        validate_state(state)
-        return False
-    _validate_state(state, 1)
-    state["version"] = 2
-    state["started_at"] = None
-    state["items"] = sorted_posts(state["items"])[:10]
+def migrate_state(state, sources):
+    version = 2 if isinstance(state, dict) and state.get("version") == 2 else 1
+    _validate_state(state, version)
+    if version == 1:
+        state["version"] = 2
+        state["started_at"] = None
+    allowed = {source["handle"].lower() for source in sources}
+    items = sorted_posts(item for item in state["items"] if item["author"].lower() in allowed)[:POST_LIMIT]
+    statuses = {handle: status for handle, status in state["sources"].items() if handle.lower() in allowed}
+    changed = version == 1 or items != state["items"] or statuses != state["sources"]
+    state["items"] = items
+    state["sources"] = statuses
     validate_state(state)
-    return True
+    return changed
 
 
 class TextContent(HTMLParser):
@@ -323,6 +328,7 @@ def collect(state, sources):
         raise InvalidData("Archive check time is later than the current clock")
     started = parse_timestamp(state["started_at"], nullable=True)
     items = {item["id"]: item for item in state["items"]}
+    previous_ids = set(items)
     candidates = {}
     failed = 0
     successful = 0
@@ -337,7 +343,6 @@ def collect(state, sources):
                    for post in posts
                    for existing in (items.get(post["id"]), candidates.get(post["id"]))):
                 raise InvalidData("Post ID conflicts with an archived author")
-            account_added = 0
             for post in posts:
                 if started is None:
                     candidates[post["id"]] = post
@@ -346,7 +351,6 @@ def collect(state, sources):
                 if old:
                     items[post["id"]] = {**old, "text": post["text"]}
                 elif parse_timestamp(post["published_at"]) >= started:
-                    account_added += 1
                     items[post["id"]] = post
             latest = max((post["published_at"] for post in posts), default=None)
             previous_latest = previous.get("latest_post_at")
@@ -358,8 +362,7 @@ def collect(state, sources):
                 "error": None,
             }
             successful += 1
-            added += account_added
-            print(f"{handle}: ok received={len(posts)} added={account_added}")
+            print(f"{handle}: ok received={len(posts)}")
         except (InvalidData, HTTPError, URLError, TimeoutError, OSError, UnicodeError, ET.ParseError) as exc:
             state["sources"][handle] = {
                 "status": "error",
@@ -371,14 +374,15 @@ def collect(state, sources):
             failed += 1
             print(f"{handle}: error")
     if started is None:
-        if successful == len(sources) and len(candidates) >= 10:
-            state["items"] = sorted_posts(candidates.values())[:10]
+        if successful == len(sources) and len(candidates) >= POST_LIMIT:
+            state["items"] = sorted_posts(candidates.values())[:POST_LIMIT]
             state["started_at"] = checked_at
             added = len(state["items"])
         else:
-            print(f"Initialization pending: candidates={len(candidates)} required=10 failed_sources={failed}")
+            print(f"Initialization pending: candidates={len(candidates)} required={POST_LIMIT} failed_sources={failed}")
     else:
-        state["items"] = sorted_posts(items.values())
+        state["items"] = sorted_posts(items.values())[:POST_LIMIT]
+        added = sum(post["id"] not in previous_ids for post in state["items"])
     if successful:
         state["last_success_at"] = checked_at
     validate_state(state)
@@ -391,20 +395,21 @@ def main():
     parser.add_argument("--sources", type=Path, default=Path("data/news_sources.json"))
     mode = parser.add_mutually_exclusive_group()
     mode.add_argument("--validate-only", action="store_true")
-    mode.add_argument("--migrate", action="store_true", help="Migrate a valid v1 archive without network requests")
+    mode.add_argument("--migrate", action="store_true", help="Apply the current archive schema and retention without fetching")
     args = parser.parse_args()
     try:
         sources = read_json(args.sources)
         validate_sources(sources)
         state = read_json(args.state)
+        migrated = migrate_state(state, sources)
         if args.migrate:
-            migrated = migrate_state(state)
             if migrated:
                 write_atomic(args.state, state)
             print(f"Archive migration: changed={int(migrated)} version=2 posts={len(state['items'])}")
             return 0
-        validate_state(state)
         if args.validate_only:
+            if migrated:
+                raise InvalidData("News archive requires migration or retention cleanup")
             print(f"Archive valid: posts={len(state['items'])} sources={len(state['sources'])}")
             return 0
         failed, added = collect(state, sources)

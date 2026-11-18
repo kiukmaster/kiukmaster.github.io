@@ -1,167 +1,153 @@
 {
   "version": 2,
-  "checked_at": "2026-11-12T09:16:50Z",
-  "last_success_at": "2026-11-12T09:16:50Z",
+  "checked_at": "2026-11-18T07:01:08Z",
+  "last_success_at": "2026-11-18T07:01:08Z",
   "sources": {
-    "AISecHub": {
-      "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-12T04:36:10Z",
-      "error": null
-    },
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-11T18:41:18Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-10T20:55:01Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-17T22:40:53Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-12T08:24:08Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-18T06:47:08Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-11T23:01:49Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-17T23:04:44Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-12T08:43:02Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-18T03:57:00Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-11T18:40:01Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-10T09:00:03Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-10T21:17:06Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-17T21:20:03Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-11T20:06:06Z",
-      "error": null
-    },
-    "malwrhunterteam": {
-      "status": "ok",
-      "checked_at": "2026-11-12T09:16:50Z",
-      "last_success_at": "2026-11-12T09:16:50Z",
-      "latest_post_at": "2026-11-11T22:52:24Z",
+      "checked_at": "2026-11-18T07:01:08Z",
+      "last_success_at": "2026-11-18T07:01:08Z",
+      "latest_post_at": "2026-11-17T19:14:32Z",
       "error": null
     }
   },
   "items": [
     {
-      "id": "2120799520699326735",
+      "id": "2122944680317067366",
+      "author": "TheHackersNews",
+      "text": "‼️ ALERT - Microsoft's AI Agent Framework package has been hijacked on PyPI.\n\nAttackers pushed two malicious versions (1.26.1 and 1.26.2) that steal cloud credentials and tokens—silently, on EVERY Python startup.\n\nCheck NOW ↓ https://t.co/Asljd1PtjN",
+      "url": "https://x.com/TheHackersNews/status/2122944680317067366",
+      "published_at": "2026-11-18T06:47:08Z",
+      "collected_at": "2026-11-18T07:01:08Z"
+    },
+    {
+      "id": "2122933060845043754",
+      "author": "TheHackersNews",
+      "text": "🛑 Russian hackers turned ONE Google Workspace breach into a SECOND U.S. organization compromise.\n\nCOLD RELIC stole employee data, hijacked identities, abused MFA, and weaponized trusted contacts to phish its next victim.\n\nGoogle revealed how → https://t.co/1IDQAVgH5s",
+      "url": "https://x.com/TheHackersNews/status/2122933060845043754",
+      "published_at": "2026-11-18T06:00:58Z",
+      "collected_at": "2026-11-18T06:01:10Z"
+    },
+    {
+      "id": "2122910305504416213",
+      "author": "TheHackersNews",
+      "text": "‼️#Java4Shell exploit details are FINALLY OUT.\n\nResearchers reveal how CVE-2026-114938 can enable pre-auth RCE in Jira, Jenkins, Keycloak & more on vulnerable Java servers.\n\nIndependent labs confirm memory corruption and data leaks.\n\nFull details here: https://t.co/zTByQmNOtp",
+      "url": "https://x.com/TheHackersNews/status/2122910305504416213",
+      "published_at": "2026-11-18T04:30:33Z",
+      "collected_at": "2026-11-18T05:01:10Z"
+    },
+    {
+      "id": "2122901861984580087",
       "author": "SecurityWeek",
-      "text": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt https://t.co/jpqt6Oz9fo",
-      "url": "https://x.com/SecurityWeek/status/2120799520699326735",
-      "published_at": "2026-11-12T08:43:02Z",
-      "collected_at": "2026-11-12T09:16:50Z"
+      "text": "Market Research Giant Ipsos Investigating Breach of Internal System https://t.co/qyadUFdiZK",
+      "url": "https://x.com/SecurityWeek/status/2122901861984580087",
+      "published_at": "2026-11-18T03:57:00Z",
+      "collected_at": "2026-11-18T05:01:10Z"
     },
     {
-      "id": "2120794762886443159",
-      "author": "TheHackersNews",
-      "text": "🚨 Node.js fixes 16 security flaws, including an HTTPS bug that can expose TLS private keys under specific server conditions.\n\nAnother lets unauthenticated clients crash HTTP/2 servers on 24.x/26.x.\n\n7 rated high. Full details: https://t.co/8020ZkJJeO",
-      "url": "https://x.com/TheHackersNews/status/2120794762886443159",
-      "published_at": "2026-11-12T08:24:08Z",
-      "collected_at": "2026-11-12T09:16:50Z"
-    },
-    {
-      "id": "2120783672878186661",
-      "author": "TheHackersNews",
-      "text": "‼️ Attackers hijacked over 4,800 #GitHub accounts to plant credential-stealing malware in repositories.\n\nThe stealer executed in at least 1,806 repos, harvesting CI and cloud credentials while attackers often erased traces of its activity.\n\nSeen a wfx-docs branch? Check your repos: https://t.co/fwFKP1BKOx",
-      "url": "https://x.com/TheHackersNews/status/2120783672878186661",
-      "published_at": "2026-11-12T07:40:04Z",
-      "collected_at": "2026-11-12T09:16:50Z"
-    },
-    {
-      "id": "2120769833621180849",
-      "author": "TheHackersNews",
-      "text": "⚠️ Over 4,800 stolen GitHub accounts used to plant a CI secret stealer that ran in at least 1,806 repositories.\n\nThe malware targeted #GitHub secrets and cloud credentials. Attackers reverted malicious commits within a minute and usually deleted workflow logs.\n\nDetails → https://t.co/fwFKP1BKOx",
-      "url": "https://x.com/TheHackersNews/status/2120769833621180849",
-      "published_at": "2026-11-12T06:45:04Z",
-      "collected_at": "2026-11-12T09:16:50Z"
-    },
-    {
-      "id": "2120746775455858849",
-      "author": "TheHackersNews",
-      "text": "‼️ BREAKING - Critical Apache HTTP/2 flaw could allow unauthenticated remote code execution.\n\nCVE-2026-119618 affects versions 2.4.55–2.4.70 with HTTP/2 enabled.\n\nCVSS 9.8. Fixed in 2.4.71, but some #Linux distributions still await patches.\n\nRead more → https://t.co/pqK7XVed3I",
-      "url": "https://x.com/TheHackersNews/status/2120746775455858849",
-      "published_at": "2026-11-12T05:13:27Z",
-      "collected_at": "2026-11-12T09:16:50Z"
-    },
-    {
-      "id": "2120739362950234247",
+      "id": "2122901358978216391",
       "author": "SecurityWeek",
-      "text": "Critical Xen Orchestra Flaws Exploited in Attacks https://t.co/5pMHlKQUNK",
-      "url": "https://x.com/SecurityWeek/status/2120739362950234247",
-      "published_at": "2026-11-12T04:44:00Z",
-      "collected_at": "2026-11-12T09:16:50Z"
+      "text": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity https://t.co/WYnnFoLetf",
+      "url": "https://x.com/SecurityWeek/status/2122901358978216391",
+      "published_at": "2026-11-18T03:55:00Z",
+      "collected_at": "2026-11-18T05:01:10Z"
     },
     {
-      "id": "2120738768806404225",
-      "author": "TheHackersNews",
-      "text": "‼️ Hackers are abusing ScreenConnect to push rogue clients delivering SCKit malware.\n\nAt least 288 endpoints across 48 organizations were targeted, Huntress reports.\n\nConnectWise has disabled 5 third-party extensions.\n\nAttack details + IoCs → https://t.co/arJr75n9Tw",
-      "url": "https://x.com/TheHackersNews/status/2120738768806404225",
-      "published_at": "2026-11-12T04:41:38Z",
-      "collected_at": "2026-11-12T09:16:50Z"
+      "id": "2122891292975710441",
+      "author": "SecurityWeek",
+      "text": "Fandango Warns Ticket Buyers of Payment Card Data Exposure https://t.co/xQFZe6C4mE",
+      "url": "https://x.com/SecurityWeek/status/2122891292975710441",
+      "published_at": "2026-11-18T03:15:00Z",
+      "collected_at": "2026-11-18T05:01:10Z"
     },
     {
-      "id": "2120737391044653059",
-      "author": "AISecHub",
-      "text": "https://t.co/XyPmpGZnAh",
-      "url": "https://x.com/AISecHub/status/2120737391044653059",
-      "published_at": "2026-11-12T04:36:10Z",
-      "collected_at": "2026-11-12T09:16:50Z"
+      "id": "2122879722371604625",
+      "author": "SecurityWeek",
+      "text": "Classified Communications Network at the National Security Agency Goes Down - https://t.co/BsoZKaMeNC",
+      "url": "https://x.com/SecurityWeek/status/2122879722371604625",
+      "published_at": "2026-11-18T02:29:01Z",
+      "collected_at": "2026-11-18T03:01:09Z"
     },
     {
-      "id": "2120730192431792482",
-      "author": "AISecHub",
-      "text": "https://t.co/pyDlMOtzM7\n\nAustralian Signals Directorate (@ASDGovAu)\n\nTesting AI agents in cyber security environments? Make sure they stay within scope. Our new publication, Securing AI testing environments, outlines practical steps to contain AI agents, strengthen oversight & reduce risk during testing. Find out more 👉 https://t.co/do913bRB7f\n\n— https://nitter.gq/ASDGovAu/status/2120645242810720348",
-      "url": "https://x.com/AISecHub/status/2120730192431792482",
-      "published_at": "2026-11-12T04:07:33Z",
-      "collected_at": "2026-11-12T09:16:50Z"
+      "id": "2122879212826587212",
+      "author": "SecurityWeek",
+      "text": "MSP ScreenConnect Servers Targeted in Month-Long Campaign https://t.co/2lncLpDXT0",
+      "url": "https://x.com/SecurityWeek/status/2122879212826587212",
+      "published_at": "2026-11-18T02:27:00Z",
+      "collected_at": "2026-11-18T03:01:09Z"
     },
     {
-      "id": "2120726925102727416",
-      "author": "AISecHub",
-      "text": "https://t.co/Bb6CHIb11M\n\nPerplexity (@perplexity_ai)\n\nWe are publishing new research on our findings from red-teaming SPACE, our VM sandbox for Computer agents.\n\nWe gave 12 models two tasks: escape the VM to take a credential from the host, and bypass SPACE's network policy to reach a blocked URL.\n\nWe found that the standard Capture the Flag setup used in red-teaming can steer agents away from the security boundary being tested, and that security-specialized models don't guarantee better results.\n\nhttps://t.co/Egh3x3uX4c\n\n— https://nitter.gq/perplexity_ai/status/2120582674549203004",
-      "url": "https://x.com/AISecHub/status/2120726925102727416",
-      "published_at": "2026-11-12T03:54:34Z",
-      "collected_at": "2026-11-12T09:16:50Z"
+      "id": "2122872420508000619",
+      "author": "SecurityWeek",
+      "text": "Access Dental Management Data Breach Impacts Over 340,000 https://t.co/Su7XTKChMT",
+      "url": "https://x.com/SecurityWeek/status/2122872420508000619",
+      "published_at": "2026-11-18T02:00:00Z",
+      "collected_at": "2026-11-18T02:01:08Z"
+    },
+    {
+      "id": "2122828312313524522",
+      "author": "BleepinComputer",
+      "text": "Critical Java4Shell flaw allows RCE attacks on major Java applications\n\nhttps://t.co/jAbMX7Jfoi\n\nhttps://t.co/jAbMX7Jfoi",
+      "url": "https://x.com/BleepinComputer/status/2122828312313524522",
+      "published_at": "2026-11-17T23:04:44Z",
+      "collected_at": "2026-11-18T00:01:10Z"
     }
   ],
-  "started_at": null
+  "started_at": "2026-11-12T10:56:48Z"
 }

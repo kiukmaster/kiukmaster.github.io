@@ -3,7 +3,128 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": null,
-  "status": "pending",
-  "entries": {}
+  "checked_at": "2026-11-18T07:02:13Z",
+  "status": "error",
+  "entries": {
+    "2122828312313524522:adfecb7c1a07d459b24b6969bad41f495db02aafa98c379e5d6c9268f19c5e01:gpt-6.1-sol:medium:2": {
+      "post_id": "2122828312313524522",
+      "source_hash": "adfecb7c1a07d459b24b6969bad41f495db02aafa98c379e5d6c9268f19c5e01",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "치명적인 Java4Shell 취약점으로 주요 Java 애플리케이션에서 RCE 공격 가능\n\nhttps://t.co/jAbMX7Jfoi\n\nhttps://t.co/jAbMX7Jfoi",
+      "translated_at": "2026-11-18T00:01:20Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122872420508000619:7b97bea5e98cdc7cddecde87bcefb3b75ad87bf51834fadf2f9586bb76b2359e:gpt-6.1-sol:medium:2": {
+      "post_id": "2122872420508000619",
+      "source_hash": "7b97bea5e98cdc7cddecde87bcefb3b75ad87bf51834fadf2f9586bb76b2359e",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "Access Dental Management에서 발생한 Data Breach로 34만 명 이상이 영향을 받아 https://t.co/Su7XTKChMT",
+      "translated_at": "2026-11-18T02:01:18Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122879722371604625:f3ea30b80b740aecb4d4f0c9538c43a2a205fd159673ea91708b767b51d21ffa:gpt-6.1-sol:medium:2": {
+      "post_id": "2122879722371604625",
+      "source_hash": "f3ea30b80b740aecb4d4f0c9538c43a2a205fd159673ea91708b767b51d21ffa",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "국가안보국 기밀 통신망에 장애 발생 - https://t.co/BsoZKaMeNC",
+      "translated_at": "2026-11-18T03:01:22Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122879212826587212:8b029f6456471f07319fa49ce4166212c64342ed31f3705682368513811a51c3:gpt-6.1-sol:medium:2": {
+      "post_id": "2122879212826587212",
+      "source_hash": "8b029f6456471f07319fa49ce4166212c64342ed31f3705682368513811a51c3",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": "한 달간 이어진 캠페인의 표적이 된 MSP ScreenConnect 서버 https://t.co/2lncLpDXT0",
+      "translated_at": "2026-11-18T03:01:27Z",
+      "status": "ok",
+      "attempts": 1,
+      "last_error": null
+    },
+    "2122910305504416213:ac8058d0dbfe38f6d5b21de887428c4c885bf89dc4ece5b4dd93a527d2cbf786:gpt-6.1-sol:medium:2": {
+      "post_id": "2122910305504416213",
+      "source_hash": "ac8058d0dbfe38f6d5b21de887428c4c885bf89dc4ece5b4dd93a527d2cbf786",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122901861984580087:00a7945f3da6822a2adc9c726f6642928221021824242d44bdcc4679b1c83e6f:gpt-6.1-sol:medium:2": {
+      "post_id": "2122901861984580087",
+      "source_hash": "00a7945f3da6822a2adc9c726f6642928221021824242d44bdcc4679b1c83e6f",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122901358978216391:793e3c5f3e66103030497621c54e6b4b7b08babcaa0428ea75049d4e4d66b2d5:gpt-6.1-sol:medium:2": {
+      "post_id": "2122901358978216391",
+      "source_hash": "793e3c5f3e66103030497621c54e6b4b7b08babcaa0428ea75049d4e4d66b2d5",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122891292975710441:dd67b828581e5124b6000c460f3e1970d91e28e12810c2f10ca5e3c952bcff1d:gpt-6.1-sol:medium:2": {
+      "post_id": "2122891292975710441",
+      "source_hash": "dd67b828581e5124b6000c460f3e1970d91e28e12810c2f10ca5e3c952bcff1d",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122933060845043754:a1baaecb5c186004e515bfa363b96c9193fef5356139d2de322a9f4946b560eb:gpt-6.1-sol:medium:2": {
+      "post_id": "2122933060845043754",
+      "source_hash": "a1baaecb5c186004e515bfa363b96c9193fef5356139d2de322a9f4946b560eb",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122944680317067366:a614d103bb3e22fd45acebb997024841919ab53648a7cb35f8578e023405a713:gpt-6.1-sol:medium:2": {
+      "post_id": "2122944680317067366",
+      "source_hash": "a614d103bb3e22fd45acebb997024841919ab53648a7cb35f8578e023405a713",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 1,
+      "last_error": "rate_limited"
+    }
+  }
 }
