@@ -1,73 +1,89 @@
 {
   "version": 2,
-  "checked_at": "2026-11-18T09:01:07Z",
-  "last_success_at": "2026-11-18T09:01:07Z",
+  "checked_at": "2026-11-18T10:01:18Z",
+  "last_success_at": "2026-11-18T10:01:18Z",
   "sources": {
     "wunderwuzzi23": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
       "error": null
     },
     "simonw": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-17T22:40:53Z",
       "error": null
     },
     "TheHackersNews": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
-      "latest_post_at": "2026-11-18T08:26:03Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
+      "latest_post_at": "2026-11-18T09:31:20Z",
       "error": null
     },
     "BleepinComputer": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
-      "latest_post_at": "2026-11-18T08:24:33Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
+      "latest_post_at": "2026-11-18T09:24:47Z",
       "error": null
     },
     "SecurityWeek": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-18T08:51:06Z",
       "error": null
     },
     "DarkReading": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
       "error": null
     },
     "InfosecurityMag": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
       "error": null
     },
     "Unit42_Intel": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-17T21:20:03Z",
       "error": null
     },
     "MsftSecIntel": {
       "status": "ok",
-      "checked_at": "2026-11-18T09:01:07Z",
-      "last_success_at": "2026-11-18T09:01:07Z",
+      "checked_at": "2026-11-18T10:01:18Z",
+      "last_success_at": "2026-11-18T10:01:18Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
       "error": null
     }
   },
   "items": [
+    {
+      "id": "2122986001085894991",
+      "author": "TheHackersNews",
+      "text": "🛑 CISA urges immediate patching of Java4Shell (CVE-2026-114938).\n\nThe critical Oracle Java flaw (CVSS 8.1) could allow unauthenticated remote code execution, putting apps like Jenkins, Jira, and Confluence at risk.\n\nPatches are out.\n\nHere's what to know ↓ https://t.co/9AzFjOF5gb",
+      "url": "https://x.com/TheHackersNews/status/2122986001085894991",
+      "published_at": "2026-11-18T09:31:20Z",
+      "collected_at": "2026-11-18T10:01:18Z"
+    },
+    {
+      "id": "2122984353454010506",
+      "author": "BleepinComputer",
+      "text": "Microsoft announces Windows Server 2028 with hardened security\n\nhttps://t.co/Exii733bBL\n\nhttps://t.co/Exii733bBL",
+      "url": "https://x.com/BleepinComputer/status/2122984353454010506",
+      "published_at": "2026-11-18T09:24:47Z",
+      "collected_at": "2026-11-18T10:01:18Z"
+    },
     {
       "id": "2122975876765651349",
       "author": "SecurityWeek",
@@ -130,22 +146,6 @@
       "text": "‼️#Java4Shell exploit details are FINALLY OUT.\n\nResearchers reveal how CVE-2026-114938 can enable pre-auth RCE in Jira, Jenkins, Keycloak & more on vulnerable Java servers.\n\nIndependent labs confirm memory corruption and data leaks.\n\nFull details here: https://t.co/zTByQmNOtp",
       "url": "https://x.com/TheHackersNews/status/2122910305504416213",
       "published_at": "2026-11-18T04:30:33Z",
-      "collected_at": "2026-11-18T05:01:10Z"
-    },
-    {
-      "id": "2122901861984580087",
-      "author": "SecurityWeek",
-      "text": "Market Research Giant Ipsos Investigating Breach of Internal System https://t.co/qyadUFdiZK",
-      "url": "https://x.com/SecurityWeek/status/2122901861984580087",
-      "published_at": "2026-11-18T03:57:00Z",
-      "collected_at": "2026-11-18T05:01:10Z"
-    },
-    {
-      "id": "2122901358978216391",
-      "author": "SecurityWeek",
-      "text": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity https://t.co/WYnnFoLetf",
-      "url": "https://x.com/SecurityWeek/status/2122901358978216391",
-      "published_at": "2026-11-18T03:55:00Z",
       "collected_at": "2026-11-18T05:01:10Z"
     }
   ],
