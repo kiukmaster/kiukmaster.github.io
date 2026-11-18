@@ -1,87 +1,127 @@
 {
   "version": 2,
-  "checked_at": "2026-11-18T04:01:11Z",
-  "last_success_at": "2026-11-18T03:01:09Z",
+  "checked_at": "2026-11-18T05:01:10Z",
+  "last_success_at": "2026-11-18T05:01:10Z",
   "sources": {
     "AISecHub": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
-      "latest_post_at": "2026-11-17T19:15:08Z",
-      "error": "HTTP 429"
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
+      "latest_post_at": "2026-11-18T04:19:32Z",
+      "error": null
     },
     "wunderwuzzi23": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "simonw": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T22:40:53Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "TheHackersNews": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
-      "latest_post_at": "2026-11-17T19:38:14Z",
-      "error": "HTTP 429"
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
+      "latest_post_at": "2026-11-18T04:30:33Z",
+      "error": null
     },
     "BleepinComputer": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T23:04:44Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "SecurityWeek": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
-      "latest_post_at": "2026-11-18T02:29:01Z",
-      "error": "HTTP 429"
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
+      "latest_post_at": "2026-11-18T03:57:00Z",
+      "error": null
     },
     "DarkReading": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "InfosecurityMag": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "Unit42_Intel": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T21:20:03Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "MsftSecIntel": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "malwrhunterteam": {
-      "status": "error",
-      "checked_at": "2026-11-18T04:01:11Z",
-      "last_success_at": "2026-11-18T03:01:09Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T05:01:10Z",
+      "last_success_at": "2026-11-18T05:01:10Z",
       "latest_post_at": "2026-11-17T22:06:47Z",
-      "error": "HTTP 429"
+      "error": null
     }
   },
   "items": [
+    {
+      "id": "2122910305504416213",
+      "author": "TheHackersNews",
+      "text": "‼️#Java4Shell exploit details are FINALLY OUT.\n\nResearchers reveal how CVE-2026-114938 can enable pre-auth RCE in Jira, Jenkins, Keycloak & more on vulnerable Java servers.\n\nIndependent labs confirm memory corruption and data leaks.\n\nFull details here: https://t.co/zTByQmNOtp",
+      "url": "https://x.com/TheHackersNews/status/2122910305504416213",
+      "published_at": "2026-11-18T04:30:33Z",
+      "collected_at": "2026-11-18T05:01:10Z"
+    },
+    {
+      "id": "2122907535552446723",
+      "author": "AISecHub",
+      "text": "https://t.co/k7n4Ovs6kI",
+      "url": "https://x.com/AISecHub/status/2122907535552446723",
+      "published_at": "2026-11-18T04:19:32Z",
+      "collected_at": "2026-11-18T05:01:10Z"
+    },
+    {
+      "id": "2122901861984580087",
+      "author": "SecurityWeek",
+      "text": "Market Research Giant Ipsos Investigating Breach of Internal System https://t.co/qyadUFdiZK",
+      "url": "https://x.com/SecurityWeek/status/2122901861984580087",
+      "published_at": "2026-11-18T03:57:00Z",
+      "collected_at": "2026-11-18T05:01:10Z"
+    },
+    {
+      "id": "2122901358978216391",
+      "author": "SecurityWeek",
+      "text": "Corma Receives $125 Million to Train Foundation Models for Defensive Cybersecurity https://t.co/WYnnFoLetf",
+      "url": "https://x.com/SecurityWeek/status/2122901358978216391",
+      "published_at": "2026-11-18T03:55:00Z",
+      "collected_at": "2026-11-18T05:01:10Z"
+    },
+    {
+      "id": "2122891292975710441",
+      "author": "SecurityWeek",
+      "text": "Fandango Warns Ticket Buyers of Payment Card Data Exposure https://t.co/xQFZe6C4mE",
+      "url": "https://x.com/SecurityWeek/status/2122891292975710441",
+      "published_at": "2026-11-18T03:15:00Z",
+      "collected_at": "2026-11-18T05:01:10Z"
+    },
     {
       "id": "2122879722371604625",
       "author": "SecurityWeek",
