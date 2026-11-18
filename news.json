@@ -1,73 +1,89 @@
 {
   "version": 2,
-  "checked_at": "2026-11-18T07:47:51Z",
-  "last_success_at": "2026-11-18T07:01:08Z",
+  "checked_at": "2026-11-18T08:01:20Z",
+  "last_success_at": "2026-11-18T08:01:20Z",
   "sources": {
     "wunderwuzzi23": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-14T21:31:49Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "simonw": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-17T22:40:53Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "TheHackersNews": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
-      "latest_post_at": "2026-11-18T06:47:08Z",
-      "error": "HTTP 429"
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
+      "latest_post_at": "2026-11-18T07:15:00Z",
+      "error": null
     },
     "BleepinComputer": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-17T23:04:44Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "SecurityWeek": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
-      "latest_post_at": "2026-11-18T03:57:00Z",
-      "error": "HTTP 429"
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
+      "latest_post_at": "2026-11-18T07:46:38Z",
+      "error": null
     },
     "DarkReading": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-17T18:45:51Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "InfosecurityMag": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-17T14:31:02Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "Unit42_Intel": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-17T21:20:03Z",
-      "error": "HTTP 429"
+      "error": null
     },
     "MsftSecIntel": {
-      "status": "error",
-      "checked_at": "2026-11-18T07:47:51Z",
-      "last_success_at": "2026-11-18T07:01:08Z",
+      "status": "ok",
+      "checked_at": "2026-11-18T08:01:20Z",
+      "last_success_at": "2026-11-18T08:01:20Z",
       "latest_post_at": "2026-11-17T19:14:32Z",
-      "error": "HTTP 429"
+      "error": null
     }
   },
   "items": [
+    {
+      "id": "2122959652732154290",
+      "author": "SecurityWeek",
+      "text": "Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover https://t.co/9AjKmiIFAX",
+      "url": "https://x.com/SecurityWeek/status/2122959652732154290",
+      "published_at": "2026-11-18T07:46:38Z",
+      "collected_at": "2026-11-18T08:01:20Z"
+    },
+    {
+      "id": "2122951690903281694",
+      "author": "TheHackersNews",
+      "text": "🚨 Your biggest cybersecurity risk in 2027 may already be in your vulnerability backlog.\n\nAnnual pentests, unverified fixes, and CVSS-driven priorities are widening the gaps.\n\n@PlexTrac founder Dan DeCloss explains what security teams need to change before 2027.\n\nRead → https://t.co/fRptjZM6KY",
+      "url": "https://x.com/TheHackersNews/status/2122951690903281694",
+      "published_at": "2026-11-18T07:15:00Z",
+      "collected_at": "2026-11-18T08:01:20Z"
+    },
     {
       "id": "2122944680317067366",
       "author": "TheHackersNews",
@@ -131,22 +147,6 @@
       "url": "https://x.com/SecurityWeek/status/2122879212826587212",
       "published_at": "2026-11-18T02:27:00Z",
       "collected_at": "2026-11-18T03:01:09Z"
-    },
-    {
-      "id": "2122872420508000619",
-      "author": "SecurityWeek",
-      "text": "Access Dental Management Data Breach Impacts Over 340,000 https://t.co/Su7XTKChMT",
-      "url": "https://x.com/SecurityWeek/status/2122872420508000619",
-      "published_at": "2026-11-18T02:00:00Z",
-      "collected_at": "2026-11-18T02:01:08Z"
-    },
-    {
-      "id": "2122828312313524522",
-      "author": "BleepinComputer",
-      "text": "Critical Java4Shell flaw allows RCE attacks on major Java applications\n\nhttps://t.co/jAbMX7Jfoi\n\nhttps://t.co/jAbMX7Jfoi",
-      "url": "https://x.com/BleepinComputer/status/2122828312313524522",
-      "published_at": "2026-11-17T23:04:44Z",
-      "collected_at": "2026-11-18T00:01:10Z"
     }
   ],
   "started_at": "2026-11-12T10:56:48Z"

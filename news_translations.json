@@ -3,33 +3,9 @@
   "model": "gpt-6.1-sol",
   "reasoning_effort": "medium",
   "prompt_version": "2",
-  "checked_at": "2026-11-18T07:47:55Z",
+  "checked_at": "2026-11-18T08:01:27Z",
   "status": "error",
   "entries": {
-    "2122828312313524522:adfecb7c1a07d459b24b6969bad41f495db02aafa98c379e5d6c9268f19c5e01:gpt-6.1-sol:medium:2": {
-      "post_id": "2122828312313524522",
-      "source_hash": "adfecb7c1a07d459b24b6969bad41f495db02aafa98c379e5d6c9268f19c5e01",
-      "model": "gpt-6.1-sol",
-      "reasoning_effort": "medium",
-      "prompt_version": "2",
-      "text_ko": "치명적인 Java4Shell 취약점으로 주요 Java 애플리케이션에서 RCE 공격 가능\n\nhttps://t.co/jAbMX7Jfoi\n\nhttps://t.co/jAbMX7Jfoi",
-      "translated_at": "2026-11-18T00:01:20Z",
-      "status": "ok",
-      "attempts": 1,
-      "last_error": null
-    },
-    "2122872420508000619:7b97bea5e98cdc7cddecde87bcefb3b75ad87bf51834fadf2f9586bb76b2359e:gpt-6.1-sol:medium:2": {
-      "post_id": "2122872420508000619",
-      "source_hash": "7b97bea5e98cdc7cddecde87bcefb3b75ad87bf51834fadf2f9586bb76b2359e",
-      "model": "gpt-6.1-sol",
-      "reasoning_effort": "medium",
-      "prompt_version": "2",
-      "text_ko": "Access Dental Management에서 발생한 Data Breach로 34만 명 이상이 영향을 받아 https://t.co/Su7XTKChMT",
-      "translated_at": "2026-11-18T02:01:18Z",
-      "status": "ok",
-      "attempts": 1,
-      "last_error": null
-    },
     "2122879722371604625:f3ea30b80b740aecb4d4f0c9538c43a2a205fd159673ea91708b767b51d21ffa:gpt-6.1-sol:medium:2": {
       "post_id": "2122879722371604625",
       "source_hash": "f3ea30b80b740aecb4d4f0c9538c43a2a205fd159673ea91708b767b51d21ffa",
@@ -124,6 +100,30 @@
       "translated_at": null,
       "status": "error",
       "attempts": 2,
+      "last_error": "rate_limited"
+    },
+    "2122959652732154290:d97fd07b89859ad6764f32894519b64ff33eb3bd645fdef968eadbafa0553d2b:gpt-6.1-sol:medium:2": {
+      "post_id": "2122959652732154290",
+      "source_hash": "d97fd07b89859ad6764f32894519b64ff33eb3bd645fdef968eadbafa0553d2b",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 1,
+      "last_error": "rate_limited"
+    },
+    "2122951690903281694:66a44dbc3ccbe456ba6569cee93ebded0408b0bf744e9bdab7326685c16f139a:gpt-6.1-sol:medium:2": {
+      "post_id": "2122951690903281694",
+      "source_hash": "66a44dbc3ccbe456ba6569cee93ebded0408b0bf744e9bdab7326685c16f139a",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "prompt_version": "2",
+      "text_ko": null,
+      "translated_at": null,
+      "status": "error",
+      "attempts": 1,
       "last_error": "rate_limited"
     }
   }
