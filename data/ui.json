@@ -11,6 +11,7 @@
   "newsUpdated": ["최근 갱신", "Last updated"], "newsChecked": ["최근 확인", "Last checked"],
   "newsPending": ["첫 수집 대기", "Awaiting first collection"],
   "newsHourly": ["매시 00분 확인 예정", "Scheduled hourly at :00"],
+  "newsPaused": ["자동 수집 일시중지", "Automatic collection paused"],
   "newsFailures": ["수집 실패 계정", "Sources with errors"],
   "newsKept": ["이전에 수집한 게시글은 유지됩니다.", "Previously collected posts are retained."],
   "newsSources": ["수집 계정", "Sources"], "newsOriginal": ["X 원문", "Original on X"],

@@ -13,7 +13,7 @@
     {{ $updated := time.In "Asia/Seoul" (time.AsTime $news.last_success_at) }}
     <time datetime="{{ $updated.Format "2006-01-02T15:04:05Z07:00" }}">{{ $updated.Format "2006.01.02 15:04" }} KST</time>
     {{ else }}<span data-i18n="newsPending">{{ partial "t.html" "newsPending" }}</span>{{ end }}
-    <span class="news-hourly" data-i18n="newsHourly">{{ partial "t.html" "newsHourly" }}</span>
+    <span class="news-hourly" data-i18n="newsPaused">{{ partial "t.html" "newsPaused" }}</span>
   </p>
   {{ $translation := hugo.Data.news_translations | default (dict) }}
   {{ $translationLabel := "" }}

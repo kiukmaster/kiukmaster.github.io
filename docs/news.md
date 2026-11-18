@@ -2,6 +2,10 @@
 
 News는 `data/news_sources.json`에 등록한 X 계정의 게시글을 모읍니다. 본문을 누르면 X 원문으로 이동합니다. KO는 저장된 한국어 번역, EN은 수집 원문입니다.
 
+현재 자동 수집과 번역은 일시중지 상태입니다. 기존 글은 `news-data` 브랜치에서 계속 게시합니다.
+
+충전 후 재개할 때는 GitHub Actions에서 `Collect X news`를 활성화하고, 아래 설정대로 블로그 Worker의 `triggers.crons`를 `["0 * * * *"]`로 복원해 배포합니다. 첫 수집이 성공하면 News 상태 문구를 `newsPaused`에서 `newsHourly`로 되돌립니다.
+
 ```mermaid
 flowchart LR
   S[매시 00분 Cloudflare] --> A[GitHub Actions 실행 요청]
