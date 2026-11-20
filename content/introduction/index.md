@@ -14,7 +14,7 @@ build:
 
 <b>⭐</b> K-Shield Jr. (11.1 ~ 11.30)
 
-## 수상 이력(교내포함)
+## 수상 이력
 Google AI Agent Challenge <b>우수상</b>
 
 AI 창의 아이디어 부트캠프 <b>우수상</b>
