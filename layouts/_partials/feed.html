@@ -9,7 +9,7 @@
       <label class="sr-only" for="sort" data-i18n="sort">{{ partial "t.html" "sort" }}</label><select id="sort">{{ range slice "newest" "oldest" "title" }}{{ $key := . }}{{ if eq . "title" }}{{ $key = "titleSort" }}{{ end }}<option value="{{ . }}" data-i18n="{{ $key }}">{{ partial "t.html" $key }}</option>{{ end }}</select>
     </div>
   </form>
-  <div class="filter-row"><button type="button" class="reset-filter" id="reset" hidden data-i18n="reset">{{ partial "t.html" "reset" }}</button></div>
+  <div class="filter-row"><a class="reset-filter" id="reset" href="/posts/" hidden data-i18n="reset">{{ partial "t.html" "reset" }}</a></div>
   <div id="feed-error" class="feed-error" role="alert" hidden><span data-i18n="loadError">{{ partial "t.html" "loadError" }}</span> <button type="button" id="retry" data-i18n="retry">{{ partial "t.html" "retry" }}</button></div>
   <div class="posts-grid" id="post-list">{{ range $pagination.Pages }}{{ partial "card.html" . }}{{ else }}<p data-i18n="noPosts">{{ partial "t.html" "noPosts" }}</p>{{ end }}</div>
   <nav class="pagination" id="pagination" aria-label="페이지">{{ if $pagination.HasPrev }}<a class="button secondary" href="{{ $pagination.Prev.URL }}" data-i18n="prevPage">{{ partial "t.html" "prevPage" }}</a>{{ end }}{{ if $pagination.HasNext }}<a class="button secondary" href="{{ $pagination.Next.URL }}" data-i18n="nextPage">{{ partial "t.html" "nextPage" }}</a>{{ end }}</nav>

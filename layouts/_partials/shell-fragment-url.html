@@ -1,0 +1,5 @@
+{{- $html := string .html -}}
+{{- $name := strings.TrimPrefix "/" .key -}}
+{{- $revision := substr (crypto.SHA256 $html) 0 12 -}}
+{{- $resource := resources.FromString (printf "shell-content/%s.%s.txt" $name $revision) $html -}}
+{{- return $resource.RelPermalink -}}

@@ -1,0 +1,51 @@
+{{- $catalog := newScratch -}}
+{{- $catalog.Set "fs" (dict) -}}
+{{- $catalog.Set "routes" (dict) -}}
+{{- $catalog.Set "records" (dict) -}}
+{{- $rootKids := slice -}}
+{{- $catalog.SetInMap "routes" site.Home.RelPermalink "~" -}}
+
+{{- range slice "posts" "contests" "ongoing" -}}
+  {{- $section := . -}}
+  {{- with site.GetPage (printf "/%s" $section) -}}
+    {{- $path := printf "~/%s" $section -}}
+    {{- $pages := .RegularPages -}}
+    {{- if eq $section "posts" -}}{{- $pages = where site.RegularPages "Section" "posts" -}}{{- end -}}
+    {{- $postList := eq $section "posts" -}}
+    {{- $kids := partial "shell-files.html" (dict "catalog" $catalog "parent" $path "pages" (partial "posts.html" $pages) "postList" $postList) -}}
+    {{- $catalog.SetInMap "fs" $path (dict "dir" true "kids" $kids "title" .Title "url" .RelPermalink "postList" $postList) -}}
+    {{- $catalog.SetInMap "routes" .RelPermalink $path -}}
+    {{- $rootKids = $rootKids | append $section -}}
+  {{- end -}}
+{{- end -}}
+
+{{- range slice "categories" "tags" -}}
+  {{- $taxonomy := . -}}
+  {{- with site.GetPage (printf "/%s" $taxonomy) -}}
+    {{- $path := printf "~/%s" $taxonomy -}}
+    {{- $terms := slice -}}
+    {{- range partial "categories.html" .Pages -}}
+      {{- $logical := strings.TrimPrefix (printf "/%s/" $taxonomy) .Path -}}
+      {{- $name := replaceRE `[-/]+` "-" $logical -}}
+      {{- if in $terms $name -}}{{- $name = printf "%s-%s" $name (substr (crypto.SHA256 .Path) 0 12) -}}{{- end -}}
+      {{- $termPath := path.Join $path $name -}}
+      {{- $termPosts := partial "posts.html" (where .RegularPages "Section" "posts") -}}
+      {{- $kids := partial "shell-files.html" (dict "catalog" $catalog "parent" $termPath "pages" $termPosts "postList" true) -}}
+      {{- $catalog.SetInMap "fs" $termPath (dict "dir" true "kids" $kids "title" .Title "url" .RelPermalink "postList" true) -}}
+      {{- $catalog.SetInMap "routes" .RelPermalink $termPath -}}
+      {{- $terms = $terms | append $name -}}
+    {{- end -}}
+    {{- $catalog.SetInMap "fs" $path (dict "dir" true "kids" $terms "title" (partial "t.html" $taxonomy) "url" .RelPermalink) -}}
+    {{- $catalog.SetInMap "routes" .RelPermalink $path -}}
+    {{- if or (eq $taxonomy "categories") $terms -}}{{- $rootKids = $rootKids | append $taxonomy -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with site.GetPage "/introduction" -}}
+  {{- $about := partial "shell-fragment-url.html" (dict "key" "about" "html" (partial "shell-body.html" .)) -}}
+  {{- $catalog.SetInMap "fs" "~/about.md" (dict "title" "index.md" "heading" .Title "note" site.Home.Description "parent" "~/posts" "url" (printf "%s#introduction" site.Home.RelPermalink) "baseURL" (relURL "introduction/") "contentURL" $about) -}}
+  {{- $catalog.SetInMap "routes" (relURL "about.html") "~/about.md" -}}
+  {{- $rootKids = $rootKids | append "about.md" -}}
+{{- end -}}
+{{- $catalog.SetInMap "fs" "~" (dict "dir" true "kids" $rootKids "title" site.Title "url" site.Home.RelPermalink) -}}
+{{- return (dict "fs" ($catalog.Get "fs") "routes" ($catalog.Get "routes")) -}}

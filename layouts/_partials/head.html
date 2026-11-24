@@ -1,10 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; frame-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'; frame-src 'self'">
 <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
-<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+{{ $icon := resources.Get "favicon.png" }}
+<link rel="icon" href="{{ ($icon | fingerprint "sha256").RelPermalink }}" type="image/png" sizes="{{ $icon.Width }}x{{ $icon.Height }}">
 {{ with .Description }}<meta name="description" content="{{ . }}"><meta property="og:description" content="{{ . }}">{{ end }}
 <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -15,21 +16,31 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 {{ else }}<meta property="og:type" content="website">{{ end }}
-{{ $boot := resources.Get "js/boot.js" | minify | fingerprint "sha256" }}
+{{ $boot := resources.Get "js/boot.js" }}
+{{ if .IsHome }}
+  {{ $profile := resources.Get "js/terminal.js" | minify | fingerprint "sha256" }}
+  {{ $profileCSS := resources.Get "css/terminal.css" | minify | fingerprint "sha256" }}
+  {{ $loader := resources.Get "js/classic-home.js" | resources.ExecuteAsTemplate "js/classic-home-loader.js" (dict "js" $profile "css" $profileCSS) }}
+  {{ $boot = slice $boot $loader | resources.Concat "js/home-boot.js" }}
+  <noscript><link rel="stylesheet" href="{{ $profileCSS.RelPermalink }}" integrity="{{ $profileCSS.Data.Integrity }}"></noscript>
+{{ end }}
+{{ $boot = $boot | minify | fingerprint "sha256" }}
 <script src="{{ $boot.RelPermalink }}" integrity="{{ $boot.Data.Integrity }}"></script>
 {{ $css := resources.Get "css/style.css" | minify | fingerprint "sha256" }}
 {{ $fonts := resources.Get "css/fonts.css" | minify | fingerprint "sha256" }}
 <link rel="stylesheet" href="{{ $fonts.RelPermalink }}" integrity="{{ $fonts.Data.Integrity }}">
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ $browserJS := resources.Get "js/shell-browser.js" | minify | fingerprint "sha256" }}
+<script src="{{ $browserJS.RelPermalink }}" integrity="{{ $browserJS.Data.Integrity }}" defer></script>
+{{ if ne .Kind "404" }}
+{{ $shellFonts := resources.Get "css/terminal-fonts.css" | minify | fingerprint "sha256" }}
+{{ $shellCSS := resources.Get "css/shell.css" | minify | fingerprint "sha256" }}
+{{ $shellJS := resources.Get "js/shell.js" | minify | fingerprint "sha256" }}
+{{ $fireworksJS := resources.Get "js/shell-fireworks.js" | minify | fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $shellFonts.RelPermalink }}" integrity="{{ $shellFonts.Data.Integrity }}">
+<link rel="stylesheet" href="{{ $shellCSS.RelPermalink }}" integrity="{{ $shellCSS.Data.Integrity }}">
+<script src="{{ $fireworksJS.RelPermalink }}" integrity="{{ $fireworksJS.Data.Integrity }}" defer></script>
+<script src="{{ $shellJS.RelPermalink }}" integrity="{{ $shellJS.Data.Integrity }}" defer></script>
+{{ end }}
 {{ $js := resources.Get "js/site.js" | resources.ExecuteAsTemplate "js/site.js" . | minify | fingerprint "sha256" }}
 <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
-{{ if .IsHome }}
-{{ $terminalCSS := resources.Get "css/terminal.css" | minify | fingerprint "sha256" }}
-{{ $terminalJS := resources.Get "js/terminal.js" | minify | fingerprint "sha256" }}
-<link rel="stylesheet" href="{{ $terminalCSS.RelPermalink }}" integrity="{{ $terminalCSS.Data.Integrity }}">
-<script src="{{ $terminalJS.RelPermalink }}" integrity="{{ $terminalJS.Data.Integrity }}" defer></script>
-{{ $introCSS := resources.Get "css/intro.css" | minify | fingerprint "sha256" }}
-{{ $introJS := resources.Get "js/intro.js" | minify | fingerprint "sha256" }}
-<link rel="stylesheet" href="{{ $introCSS.RelPermalink }}" integrity="{{ $introCSS.Data.Integrity }}">
-<script src="{{ $introJS.RelPermalink }}" integrity="{{ $introJS.Data.Integrity }}" defer></script>
-{{ end }}

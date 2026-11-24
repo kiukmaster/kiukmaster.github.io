@@ -1,0 +1,6 @@
+{{- $author := site.Params.author -}}
+<p class="shell-contact">
+  <a href="{{ $author.github }}" rel="me noopener">GitHub</a>
+  <a href="{{ $author.linkedin }}" rel="me noopener">LinkedIn</a>
+  <button type="button" data-email="{{ $author.email }}" aria-label="{{ partial "t.html" "copyEmail" }} {{ $author.email }}">{{ $author.email }}</button>
+</p>

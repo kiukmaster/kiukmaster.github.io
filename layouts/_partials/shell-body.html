@@ -1,0 +1,30 @@
+<div class="prose" lang="ko">
+  {{- if eq .Path "/introduction" }}
+    {{- $author := site.Params.author }}
+    <div class="profile-heading">
+      <p class="profile-name" data-ko="{{ $author.name }}" data-en="{{ $author.nameen }}">{{ $author.name }}</p>
+    </div>
+    <p class="profile-role" data-ko="{{ $author.role }}" data-en="{{ $author.roleen }}">{{ $author.role }}</p>
+    <p class="profile-bio" data-ko="{{ $author.bio }}" data-en="{{ $author.bioen }}">{{ $author.bio }}</p>
+    {{ .Content }}
+    {{ partial "shell-contact.html" . }}
+    <p class="sidebar-since"><span data-i18n="recordSince">{{ partial "t.html" "recordSince" }}</span> <time datetime="2026-09-22">2026.09.22</time></p>
+  {{- else }}
+    {{- with .Description }}<p class="article-description">{{ . }}</p>{{ end }}
+    {{- if eq .Section "posts" }}
+      {{- $categories := .GetTerms "categories" }}
+      {{- $tags := .GetTerms "tags" }}
+      <p>{{ .ReadingTime }} <span data-i18n="minutes">{{ partial "t.html" "minutes" }}</span></p>
+      {{- if or $categories $tags }}
+      <div class="tag-list">
+        {{- range $categories }}<a class="tag" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+        {{- range $tags }}<a class="tag" href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      </div>
+      {{- end }}
+      {{- if .Fragments.Headings }}
+      <details class="shell-toc"><summary data-i18n="toc">{{ partial "t.html" "toc" }}</summary><div class="toc-list">{{ .TableOfContents }}</div></details>
+      {{- end }}
+    {{- end }}
+    {{ .Content }}
+  {{- end }}
+</div>

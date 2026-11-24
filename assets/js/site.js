@@ -148,6 +148,9 @@
     let timer;
     let failedMode = null;
     let composing = false;
+    const inBlogFrame = window.frameElement?.id === 'blog-frame';
+    const stored = inBlogFrame ? window.parent.history.state?.kiukClassicList : null;
+    const restored = stored?.url === location.href ? stored : null;
     const queryKey = () => JSON.stringify([state.q, state.category, state.tag, state.sort]);
     const initialQuery = JSON.stringify(['', feed.dataset.category || '', feed.dataset.tag || '', 'newest']);
     let renderedQuery = initialQuery;
@@ -173,7 +176,9 @@
       const url = new URL(listRoot, location.origin);
       for (const key of ['q', 'category', 'tag']) if (state[key]) url.searchParams.set(key, state[key]);
       if (state.sort !== 'newest') url.searchParams.set('sort', state.sort);
+      if (url.pathname === location.pathname && url.search === location.search) return;
       history.replaceState(null, '', url.pathname + url.search);
+      document.dispatchEvent(new Event('kiuk:location-replaced'));
     }
 
     function getPosts() {
@@ -201,7 +206,7 @@
       });
     }
 
-    async function load(mode, trigger) {
+    async function load(mode, trigger, amount = pageSize) {
       clearTimeout(timer);
       if (mode === 'more' && queryKey() !== renderedQuery) mode = 'reset';
       const triggeredWithFocus = trigger && document.activeElement === trigger;
@@ -218,7 +223,7 @@
         if (token !== request) return;
         const result = filtered(posts, current);
         const nextStart = mode === 'reset' ? 0 : start;
-        const nextEnd = Math.min(mode === 'reset' ? pageSize : end + pageSize, result.length);
+        const nextEnd = Math.min((mode === 'reset' ? 0 : end) + amount, result.length);
         const shown = mode === 'more' ? Array.from(list.querySelectorAll('.post-card h2 a'), link => link.pathname) : [];
         const canAppend = mode === 'more' && shown.every((path, index) => path === result[nextStart + index]?.url);
         const fragment = document.createDocumentFragment();
@@ -243,6 +248,7 @@
         failedMode = null;
         updateControls();
         if (shouldMoveFocus()) (firstAddedTitle || search).focus();
+        if (inBlogFrame && trigger) rememberList();
       } catch {
         if (token !== request) return;
         failedMode = mode;
@@ -266,7 +272,6 @@
     search.addEventListener('input', onInput);
     form.addEventListener('submit', event => { event.preventDefault(); state.q = search.value; load('reset'); });
     sort.addEventListener('change', () => { state.sort = ['newest', 'oldest', 'title'].includes(sort.value) ? sort.value : 'newest'; load('reset'); });
-    reset.addEventListener('click', () => location.assign('/posts/'));
     document.addEventListener('keydown', event => {
       if (event.key === '/' && !event.ctrlKey && !event.metaKey && !event.altKey && !event.target.closest('input, textarea, select, [contenteditable]')) {
         event.preventDefault();
@@ -275,9 +280,36 @@
     });
     more.addEventListener('click', () => load('more', more));
     retry.addEventListener('click', () => load(failedMode, retry));
-    window.addEventListener('popstate', () => location.reload());
+    function rememberList() {
+      if (!window.frameElement?.isConnected || window.parent.location.href !== location.href || renderedQuery !== queryKey()) return;
+      const focus = document.activeElement?.closest('.post-card h2 a')?.href || '';
+      const snapshot = { url: location.href, count: end - start, y: window.scrollY, focus };
+      const navigation = window.parent.history;
+      navigation.replaceState({ ...navigation.state, kiukClassicList: snapshot }, '');
+    }
+
+    if (inBlogFrame) {
+      // 링크가 바깥 주소창을 바꾸기 전에 돌아올 목록의 위치를 기록합니다.
+      document.addEventListener('click', event => {
+        if (event.target.closest?.('a[href]')) rememberList();
+      }, true);
+      window.addEventListener('scrollend', rememberList);
+    } else window.addEventListener('popstate', () => location.reload());
     updateControls();
-    if (['q', 'category', 'tag', 'sort'].some(key => params.get(key))) load('reset');
+    const hasFilters = ['q', 'category', 'tag', 'sort'].some(key => params.get(key));
+    const countToShow = Math.max(pageSize, restored?.count || 0);
+    let ready;
+    if (hasFilters) ready = load('reset', null, countToShow);
+    else if (restored?.count > end - start) ready = load('more', null, restored.count - (end - start));
+    if (restored) {
+      const restoreRequest = request;
+      Promise.resolve(ready).then(() => {
+        if (restoreRequest !== request || failedMode || !window.frameElement?.isConnected || window.parent.location.href !== location.href) return;
+        const link = Array.from(list.querySelectorAll('h2 a')).find(item => item.href === restored.focus);
+        if (link && document.activeElement === document.body) link.focus({ preventScroll: true });
+        window.scrollTo({ top: restored.y, behavior: 'instant' });
+      });
+    }
   }
 
   function initArticle() {
@@ -339,18 +371,21 @@
 
   }
 
+  document.addEventListener('click', async event => {
+    const email = event.target.closest('button[data-email]');
+    if (!email || email.disabled) return;
+    email.disabled = true;
+    try { notify(await copyText(email.dataset.email) ? 'emailCopied' : 'copyFail'); }
+    finally { email.disabled = false; }
+  });
+  if (root.classList.contains('shell-ready')) return;
+
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => {
     if (!['ko', 'en'].includes(button.dataset.lang)) return;
     language = button.dataset.lang;
     storage.set('lang', language);
     applyLanguage();
   }));
-  const email = document.getElementById('copy-email');
-  email?.addEventListener('click', async () => {
-    email.disabled = true;
-    notify(await copyText(email.dataset.email) ? 'emailCopied' : 'copyFail');
-    email.disabled = false;
-  });
   const feed = document.getElementById('post-feed');
   if (feed) initFeed(feed);
   initArticle();

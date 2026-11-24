@@ -1,0 +1,26 @@
+{{- $catalog := .catalog -}}
+{{- $parent := .parent -}}
+{{- $pages := .pages -}}
+{{- if .postList -}}{{- $pages = sort $pages "Date.UnixMilli" "asc" -}}{{- end -}}
+{{- $names := slice -}}
+{{- range $pages -}}
+  {{- $relative := strings.TrimPrefix (printf "/%s/" .Section) .Path -}}
+  {{- $name := replace (replace $relative "%" "%25") "/" "%2F" -}}
+  {{- $names = $names | append (printf "%s.md" $name) -}}
+{{- end -}}
+{{- range $i, $page := $pages -}}
+  {{- $name := index $names $i -}}
+  {{- $canonicalPath := path.Join "~" $page.Section $name -}}
+  {{- $node := index ($catalog.Get "records") $page.Path -}}
+  {{- if not $node -}}
+    {{- $baseURL := $page.RelPermalink | default (relURL (printf "%s/" (strings.TrimPrefix "/" $page.Path))) -}}
+    {{- $body := partial "shell-fragment-url.html" (dict "key" $page.Path "html" (partial "shell-body.html" $page)) -}}
+    {{- $node = dict "title" $page.Title "date" ((time.In "Asia/Seoul" $page.Date).Format "2006.01.02 15:04 KST") "note" $page.Description "url" $page.RelPermalink "baseURL" $baseURL "contentURL" $body -}}
+    {{- $catalog.SetInMap "records" $page.Path $node -}}
+    {{- with $page.RelPermalink -}}{{- $catalog.SetInMap "routes" . $canonicalPath -}}{{- end -}}
+  {{- end -}}
+  {{- $next := "" -}}
+  {{- if lt (add $i 1) (len $names) -}}{{- $next = path.Join $parent (index $names (add $i 1)) -}}{{- end -}}
+  {{- $catalog.SetInMap "fs" (path.Join $parent $name) (merge $node (dict "parent" $parent "next" $next)) -}}
+{{- end -}}
+{{- return $names -}}

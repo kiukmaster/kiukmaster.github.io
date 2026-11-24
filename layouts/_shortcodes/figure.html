@@ -1,0 +1,49 @@
+{{- $url := urls.Parse (.Get "src") -}}
+{{- $src := $url.String -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $small := false -}}
+{{- $large := false -}}
+{{- if not $url.IsAbs -}}
+  {{- with or (.Page.Resources.Get $url.Path) (resources.Get $url.Path) -}}
+    {{- $src = .RelPermalink -}}
+    {{- if and $width (findRE `^[1-9][0-9]{0,8}$` (string $width)) (in (slice "image/jpeg" "image/png" "image/webp") .MediaType.Type) -}}
+      {{- $displayWidth := int $width -}}
+      {{- $smallWidth := math.Min $displayWidth .Width | int -}}
+      {{- $largeWidth := math.Min (mul $displayWidth 2) .Width | int -}}
+      {{- $small = .Resize (printf "%dx webp q82" $smallWidth) -}}
+      {{- $src = $small.RelPermalink -}}
+      {{- if gt $largeWidth $smallWidth -}}
+        {{- $large = .Resize (printf "%dx webp q82" $largeWidth) -}}
+      {{- end -}}
+      {{- if and (not $height) (eq $displayWidth $smallWidth) -}}
+        {{- $height = $small.Height -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- with .Get "link" -}}
+    <a href="{{ . }}"{{ with $.Get "target" }} target="{{ . }}"{{ end }}{{ with $.Get "rel" }} rel="{{ . }}"{{ end }}>
+  {{- end -}}
+  <img src="{{ $src }}"
+    {{- with $large }} srcset="{{ $small.RelPermalink }} {{ $small.Width }}w, {{ .RelPermalink }} {{ .Width }}w" sizes="{{ $width }}px"{{ end }}
+    {{- if or (.Get "alt") (.Get "caption") }} alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ $.Get "caption" | markdownify | plainify }}{{ end }}"{{ end }}
+    {{- with $width }} width="{{ . }}"{{ end }}
+    {{- with $height }} height="{{ . }}"{{ end }}
+    loading="{{ .Get "loading" | default "lazy" }}" decoding="async">
+  {{- with .Get "link" }}</a>{{ end -}}
+  {{- if or (.Get "title") (.Get "caption") (.Get "attr") -}}
+    <figcaption>
+      {{- with .Get "title" }}<h4>{{ . }}</h4>{{ end -}}
+      {{- if or (.Get "caption") (.Get "attr") -}}
+        <p>{{- .Get "caption" | markdownify -}}
+          {{- with .Get "attrlink" }}<a href="{{ . }}">{{ end -}}
+          {{- .Get "attr" | markdownify -}}
+          {{- with .Get "attrlink" }}</a>{{ end -}}
+        </p>
+      {{- end -}}
+    </figcaption>
+  {{- end -}}
+</figure>

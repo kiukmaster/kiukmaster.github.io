@@ -1,0 +1,14 @@
+{{- $target := .Permalink -}}
+{{- if and .Page.IsHome (in .Page.Aliases "/about.html") -}}
+  {{- $target = printf "%s#introduction" $target -}}
+{{- end -}}
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Page.Title | default site.Title }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <meta http-equiv="refresh" content="0; url={{ $target }}">
+</head>
+<body><a href="{{ $target }}">{{ .Page.Title | default site.Title }}</a></body>
+</html>

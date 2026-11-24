@@ -1,0 +1,63 @@
+<div class="page shell-page" lang="ko">
+  <a class="skip-link" href="#cmd">명령어 입력으로 건너뛰기</a>
+  <div class="term" data-host="kiuk" data-start-path="{{ .startPath }}">
+    <header class="bar">
+      <div class="bar-title">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/>
+        </svg>
+        <span id="title"></span>
+      </div>
+      <button type="button" class="btn" id="help-btn" aria-controls="out">명령어 도움말</button>
+    </header>
+
+    <div class="stage">
+      <main id="out" class="out" aria-label="터미널 출력" aria-live="polite"></main>
+      <canvas id="shell-fireworks" class="shell-fireworks" aria-hidden="true" width="0" height="0" hidden></canvas>
+      <section id="win" class="win" aria-label="KIUK 블로그" hidden>
+        <button type="button" class="icon-btn" id="win-close" aria-label="블로그 닫고 터미널로 돌아가기">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/>
+          </svg>
+        </button>
+        <div class="win-browser" id="win-browser" hidden>
+          <div class="browser-notice" id="browser-notice">
+            <span role="status" id="browser-status"></span>
+            <button type="button" class="btn" id="browser-retry" hidden>다시 불러오기</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div id="cands" class="cands" aria-label="자동완성 후보" hidden></div>
+    <div class="prompt">
+      <label for="cmd" id="ps1"></label>
+      <div class="prompt-field">
+        <input id="cmd" type="text" aria-label="터미널 명령어" placeholder="명령어 입력 후 Enter, Tab은 자동완성" enterkeyhint="go" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+        <button type="button" class="btn" id="cancel-password" hidden>취소</button>
+        <button type="button" class="btn btn-solid" id="run">실행</button>
+      </div>
+    </div>
+    <nav id="chips" class="chips" aria-label="추천 명령어"></nav>
+  </div>
+</div>
+
+<template id="tpl-shell-article">
+  <article class="post">
+    <header class="post-head">
+      <h2 data-article-title tabindex="-1"></h2>
+      <p class="post-meta" data-article-meta></p>
+    </header>
+    <div class="post-body" data-article-body></div>
+    <div class="post-acts" data-article-actions></div>
+  </article>
+</template>
+<template id="tpl-welcome">
+  <section class="welcome">
+    <h1>{{ site.Title }}</h1>
+    <p class="tagline">{{ site.Params.author.name }} / {{ site.Params.author.role }}</p>
+    <p class="guide">이 블로그는 터미널처럼 움직입니다. 아래 입력창에 명령어를 직접 입력하거나 화면의 항목을 누르세요. 항목을 누르면 해당 명령어가 입력창에 표시된 뒤 실행됩니다.</p>
+  </section>
+</template>
+<template id="tpl-contact">{{ partial "shell-contact.html" .page }}</template>
+<template id="shell-catalog">{{ .fs | jsonify }}</template>
