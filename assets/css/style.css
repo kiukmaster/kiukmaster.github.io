@@ -245,10 +245,11 @@ input:focus, select:focus { border-color: var(--strong-border); }
 .news-more { margin-top: 26px; }
 .news-more .button { gap: 10px; }
 @media (max-width: 640px) {
-  .contest-row { gap: 12px; padding: 12px 0; }
+  .contest-row { align-items: baseline; gap: 12px; padding: 12px 0; }
   .contest-row time { flex-basis: 78px; font-size: 12px; }
   .contest-time { display: none; }
-  .contest-description { margin-left: 12px; }
+  .contest-text { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; overflow: visible; white-space: normal; word-break: keep-all; }
+  .contest-description { margin-left: 0; }
 }
 
 .article-layout { grid-template-columns: 220px minmax(0, 1fr); }

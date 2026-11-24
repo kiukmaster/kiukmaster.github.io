@@ -125,7 +125,10 @@
     const reset = document.getElementById('reset');
     const more = document.getElementById('more');
     const pagination = document.getElementById('pagination');
+    const nextPage = pagination.querySelector('[data-i18n="nextPage"]');
+    const previousPage = pagination.querySelector('[data-i18n="prevPage"]');
     const error = document.getElementById('feed-error');
+    const retry = document.getElementById('retry');
     const count = document.getElementById('results-count');
     const params = new URLSearchParams(location.search);
     const listRoot = localPath(feed.dataset.listRoot || '/posts/');
@@ -137,22 +140,27 @@
       sort: ['newest', 'oldest', 'title'].includes(params.get('sort')) ? params.get('sort') : 'newest'
     };
     let start = (Math.max(1, Number(feed.dataset.pageNumber) || 1) - 1) * pageSize;
-    let end = start + list.querySelectorAll('.post-card').length;
+    const initialEnd = start + list.querySelectorAll('.post-card').length;
+    let end = initialEnd;
     let total = Number(feed.dataset.total) || 0;
     let indexPromise;
     let request = 0;
     let timer;
-    let failedMode = 'reset';
+    let failedMode = null;
     let composing = false;
     const queryKey = () => JSON.stringify([state.q, state.category, state.tag, state.sort]);
-    let renderedQuery = JSON.stringify(['', feed.dataset.category || '', feed.dataset.tag || '', 'newest']);
+    const initialQuery = JSON.stringify(['', feed.dataset.category || '', feed.dataset.tag || '', 'newest']);
+    let renderedQuery = initialQuery;
     search.value = state.q;
     sort.value = state.sort;
 
     function updateControls() {
       count.textContent = `${total} ${t('entries')}`;
       reset.hidden = !(state.q || state.category || state.tag || state.sort !== 'newest');
-      more.hidden = end >= total || queryKey() !== renderedQuery;
+      more.hidden = Boolean(failedMode) || end >= total || queryKey() !== renderedQuery;
+      if (nextPage) nextPage.hidden = !failedMode || end !== initialEnd || renderedQuery !== initialQuery;
+      if (previousPage) previousPage.hidden = start === 0;
+      pagination.hidden = !pagination.querySelector('a:not([hidden])');
       document.querySelectorAll('.category-link').forEach(link => {
         const active = state.category ? link.querySelector('span')?.textContent === state.category : new URL(link.href).pathname === '/posts/';
         link.classList.toggle('active', active);
@@ -193,9 +201,11 @@
       });
     }
 
-    async function load(mode) {
+    async function load(mode, trigger) {
       clearTimeout(timer);
       if (mode === 'more' && queryKey() !== renderedQuery) mode = 'reset';
+      const triggeredWithFocus = trigger && document.activeElement === trigger;
+      const shouldMoveFocus = () => triggeredWithFocus && (document.activeElement === trigger || document.activeElement === document.body);
       const token = ++request;
       const current = { ...state };
       const currentQuery = queryKey();
@@ -209,26 +219,36 @@
         const result = filtered(posts, current);
         const nextStart = mode === 'reset' ? 0 : start;
         const nextEnd = Math.min(mode === 'reset' ? pageSize : end + pageSize, result.length);
+        const shown = mode === 'more' ? Array.from(list.querySelectorAll('.post-card h2 a'), link => link.pathname) : [];
+        const canAppend = mode === 'more' && shown.every((path, index) => path === result[nextStart + index]?.url);
         const fragment = document.createDocumentFragment();
-        result.slice(nextStart, nextEnd).forEach(post => fragment.append(card(post)));
+        let firstAddedTitle;
+        result.slice(canAppend ? end : nextStart, nextEnd).forEach(post => {
+          const entry = card(post);
+          if (mode === 'more' && !firstAddedTitle && (canAppend || !shown.includes(post.url))) firstAddedTitle = entry.querySelector('h2 a');
+          fragment.append(entry);
+        });
         if (!result.length) {
           const key = current.q || current.category || current.tag ? 'noResults' : 'noPosts';
           const empty = element('p', 'empty-state', t(key));
           empty.dataset.i18n = key;
           fragment.append(empty);
         }
-        list.replaceChildren(fragment);
+        if (canAppend) list.append(fragment);
+        else list.replaceChildren(fragment);
         start = nextStart;
         end = nextEnd;
         total = result.length;
         renderedQuery = currentQuery;
-        pagination.querySelector('[data-i18n="nextPage"]')?.setAttribute('hidden', '');
-        if (mode === 'reset') pagination.hidden = true;
+        failedMode = null;
         updateControls();
+        if (shouldMoveFocus()) (firstAddedTitle || search).focus();
       } catch {
         if (token !== request) return;
         failedMode = mode;
         error.hidden = false;
+        updateControls();
+        if (shouldMoveFocus()) retry.focus();
       } finally {
         if (token === request) { feed.removeAttribute('aria-busy'); more.disabled = false; }
       }
@@ -253,8 +273,8 @@
         search.focus();
       }
     });
-    more.addEventListener('click', () => load('more'));
-    document.getElementById('retry').addEventListener('click', () => load(failedMode));
+    more.addEventListener('click', () => load('more', more));
+    retry.addEventListener('click', () => load(failedMode, retry));
     window.addEventListener('popstate', () => location.reload());
     updateControls();
     if (['q', 'category', 'tag', 'sort'].some(key => params.get(key))) load('reset');
@@ -277,6 +297,13 @@
     const article = document.getElementById('article-body');
     if (!article) return;
     const progress = document.getElementById('reading-progress');
+    const headings = [...article.querySelectorAll('h2[id], h3[id], h4[id]')];
+    const links = [...document.querySelectorAll('.toc-list a[href^="#"]')].map(link => {
+      let id = link.hash.slice(1);
+      try { id = decodeURIComponent(id); } catch { /* 문자 그대로 작성한 앵커도 허용합니다. */ }
+      return { link, id };
+    });
+    let currentHeading;
     let scheduled = false;
     scheduleProgress = () => {
       if (scheduled || !progress) return;
@@ -287,6 +314,20 @@
         const available = box.height - window.innerHeight + header;
         const fraction = available > 0 ? Math.min(1, Math.max(0, (header - box.top) / available)) : Number(box.bottom <= window.innerHeight);
         progress.style.width = `${fraction * 100}%`;
+        const anchorTop = parseFloat(getComputedStyle(root).scrollPaddingTop) || header;
+        let current;
+        for (const heading of headings) {
+          if (heading.getBoundingClientRect().top > anchorTop + 1) break;
+          current = heading;
+        }
+        if (current !== currentHeading) {
+          currentHeading = current;
+          links.forEach(({ link, id }) => {
+            const active = current?.id === id;
+            link.classList.toggle('active', active);
+            if (active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current');
+          });
+        }
         scheduled = false;
       });
     };
@@ -296,23 +337,6 @@
     article.querySelectorAll('img').forEach(image => image.addEventListener('load', scheduleProgress));
     scheduleProgress();
 
-    if ('IntersectionObserver' in window) {
-      const headings = [...article.querySelectorAll('h2[id], h3[id], h4[id]')];
-      const links = [...document.querySelectorAll('.toc-list a[href^="#"]')];
-      const visible = new Set();
-      const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => { if (entry.isIntersecting) visible.add(entry.target); else visible.delete(entry.target); });
-        const current = headings.find(heading => visible.has(heading));
-        if (!current) return;
-        links.forEach(link => {
-          let active = false;
-          try { active = decodeURIComponent(link.hash.slice(1)) === current.id; } catch { /* 잘못된 앵커는 활성화하지 않습니다. */ }
-          link.classList.toggle('active', active);
-          if (active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current');
-        });
-      }, { rootMargin: '-15% 0px -60% 0px' });
-      headings.forEach(heading => observer.observe(heading));
-    }
   }
 
   document.querySelectorAll('[data-lang]').forEach(button => button.addEventListener('click', () => {

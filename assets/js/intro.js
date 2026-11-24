@@ -8,6 +8,7 @@
   const $ = selector => intro.querySelector(selector);
   const views = [...intro.querySelectorAll('[data-view]')];
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const replay = document.getElementById('replay-intro');
   const storageKey = 'kiuk.restored';
   const timeouts = new Set();
   let active = false;
@@ -43,20 +44,26 @@
     document.documentElement.classList.remove('intro-active');
     document.body.classList.remove('intro-active');
     delete intro.dataset.phase;
-    history.replaceState(history.state, '', location.pathname + location.search + '#introduction');
+    if (!location.hash) history.replaceState(history.state, '', location.pathname + location.search + '#introduction');
+    const atIntroduction = location.hash === '#introduction';
     document.dispatchEvent(new CustomEvent(recover ? 'kiuk:terminal-recovery' : 'kiuk:introduction', {
-      detail: { fromIntro, focus: fromIntro && !document.hidden }
+      detail: { fromIntro, focus: fromIntro && atIntroduction && !document.hidden }
     }));
-    if (fromIntro) window.scrollTo({ top: 0, behavior: 'instant' });
+    if (fromIntro && atIntroduction) window.scrollTo({ top: 0, behavior: 'instant' });
+    if (fromIntro && !atIntroduction) site.querySelector(':target')?.scrollIntoView({ behavior: 'instant' });
   }
 
   function setPhase(next) {
+    const skipFocused = document.activeElement?.hasAttribute('data-home');
     phase = next;
     intro.dataset.phase = next;
     views.forEach(view => { view.hidden = view.dataset.view !== next; });
     const labels = { boot: '블로그 불러오는 중', crash: '터미널 복구 대기', reboot: '복구 모드로 다시 시작하는 중' };
     $('[data-phase-status]').textContent = labels[next];
-    if (!document.hidden) $(`[data-view="${next}"] [data-phase-focus]`)?.focus({ preventScroll: true });
+    if (!document.hidden) {
+      const view = $(`[data-view="${next}"]`);
+      (skipFocused ? view.querySelector('[data-home]') : view).focus({ preventScroll: true });
+    }
   }
 
   function runBoot() {
@@ -123,14 +130,14 @@
     if (event.persisted && !intro.hidden) showTerminal();
   });
   window.addEventListener('hashchange', () => {
-    if (active && location.hash === '#introduction') showTerminal({ save: true });
+    if (active && location.hash) showTerminal({ save: location.hash === '#introduction' });
   });
   reduced.addEventListener('change', event => {
+    if (replay) replay.hidden = event.matches;
     if (event.matches && active) showTerminal();
   });
-  const replay = document.getElementById('replay-intro');
   replay?.addEventListener('click', startIntro);
-  if (replay) replay.hidden = false;
-  if (hasRestored() || reduced.matches || location.hash === '#introduction') showTerminal();
+  if (replay) replay.hidden = reduced.matches;
+  if (hasRestored() || reduced.matches || location.hash) showTerminal();
   else startIntro();
 })();

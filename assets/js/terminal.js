@@ -109,7 +109,7 @@
     select('whoami');
     if (save) remember(true);
     if (focus) {
-      $('#introduction-title').focus({ preventScroll: true });
+      controls.querySelector('[aria-pressed="true"]').focus();
       status.textContent = '소개를 표시했습니다.';
     }
   }
@@ -129,7 +129,7 @@
     $('#state-label').textContent = 'RESTORE';
     status.textContent = '';
     renderRepair();
-    if (focus) $('#terminal-recovery-title').focus({ preventScroll: true });
+    if (focus) $('#terminal-recovery-title').focus();
   }
 
   async function repair(row, fromBulk = false) {
@@ -151,7 +151,7 @@
     if (finishing) {
       remember(true);
       if (await wait(180) && ticket === generation) {
-        showReady({ focus: !document.hidden && (terminal.contains(document.activeElement) || document.activeElement === document.body) });
+        showReady({ focus: !document.hidden && (recoveryView.contains(document.activeElement) || document.activeElement === document.body) });
       }
     } else if (hadFocus && !fromBulk && (document.activeElement === button || document.activeElement === document.body)) {
       rows.find(item => !completed.has(item.dataset.repairItem) && !pending.has(item.dataset.repairItem))?.querySelector('[data-repair]').focus({ preventScroll: true });
