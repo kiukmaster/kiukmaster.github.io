@@ -1,7 +1,8 @@
 {{ define "main" }}
 {{ $pages := partial "posts.html" .RegularPages }}
 {{ $pagination := .Paginate $pages 10 }}
-<div class="page-heading"><h1 data-i18n="ongoing">{{ partial "t.html" "ongoing" }}</h1><span class="results-count">{{ len $pages }} <span data-i18n="ongoingEntries">{{ partial "t.html" "ongoingEntries" }}</span></span></div>
+{{ $unit := cond (eq (len $pages) 1) "ongoingEntry" "ongoingEntries" }}
+<div class="page-heading"><h1 data-i18n="ongoing">{{ partial "t.html" "ongoing" }}</h1><span class="results-count">{{ len $pages }} <span data-i18n="{{ $unit }}">{{ partial "t.html" $unit }}</span></span></div>
 {{ if $pages }}
 <ul class="contest-list">
   {{ range $pagination.Pages }}

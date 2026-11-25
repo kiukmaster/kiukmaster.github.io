@@ -177,6 +177,11 @@ html.shell-ready .shell-page { display: flex; }
 .shell-page .prompt input { flex: 1 1 0; min-width: 0; height: 44px; padding: 0; border: 0; background: transparent; color: var(--strong); font: inherit; caret-color: var(--accent); }
 .shell-page .prompt input:focus { outline: none; }
 .shell-page .prompt input::placeholder { color: var(--dim); opacity: 1; }
+.shell-page #complete-command { display: none; }
+
+@media (any-pointer: coarse) {
+  .shell-page #complete-command { display: block; min-width: 44px; padding-inline: 8px; }
+}
 
 .shell-page .win {
   position: fixed;
@@ -242,8 +247,22 @@ html.shell-ready .shell-page { display: flex; }
   .shell-page .prompt input { font-size: 16px; }
 }
 
+@media (max-width: 640px), (max-height: 600px) {
+  .shell-page .chips {
+    flex-wrap: nowrap;
+    max-height: none;
+    overflow-x: auto;
+    padding-block: 4px max(4px, env(safe-area-inset-bottom));
+  }
+  .shell-page .chips > * { flex: none; }
+  .shell-page .chips .strip-label { display: none; }
+  .shell-page .chips .chip { flex-wrap: nowrap; white-space: nowrap; }
+  .shell-page .chips .chip-cmd { max-width: 16ch; overflow: hidden; text-overflow: ellipsis; }
+  .shell-page .chips .chip-sub { flex: none; }
+}
+
 @media (max-height: 600px) {
   .shell-page { padding-block: 0; }
-  .shell-page .chips, .shell-page .cands { flex-wrap: nowrap; max-height: none; padding-block: 4px; overflow-x: auto; }
-  .shell-page .chips > *, .shell-page .cands > * { flex: none; }
+  .shell-page .cands { flex-wrap: nowrap; max-height: none; padding-block: 4px; overflow-x: auto; }
+  .shell-page .cands > * { flex: none; }
 }

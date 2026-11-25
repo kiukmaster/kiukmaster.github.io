@@ -239,7 +239,7 @@
   }
 
   function runButton(cls, command, ...children) {
-    return el('button', { type: 'button', class: cls, onclick: () => typeAndRun(command) }, ...children);
+    return el('button', { type: 'button', class: cls, onclick: event => typeAndRun(command, event.currentTarget) }, ...children);
   }
 
   function actionChip(label, command) {
@@ -262,6 +262,29 @@
     const entry = { kind: 'ls', path, number, pages };
     lastListing = pages ? entry : null;
     add(entry);
+  }
+
+  function startDirectory(path) {
+    if (path === home) {
+      add({ kind: 'welcome' });
+      add({ kind: 'cmd', text: 'help', at: home });
+      add({ kind: 'help' });
+    } else {
+      add({ kind: 'cmd', text: 'ls', at: path });
+      listDirectory(path);
+    }
+  }
+
+  function restoreList(saved) {
+    if (!files[saved?.path]?.dir) return null;
+    const sameList = e => e.kind === 'ls' && e.path === saved.path && e.number === saved.number && e.only === saved.only;
+    let entry = state.log.find(e => e.id === saved.id && sameList(e)) || state.log.findLast(sameList);
+    if (!entry) {
+      entry = { ...saved };
+      add(entry);
+    }
+    lastListing = entry.pages ? entry : null;
+    return entry;
   }
 
   function renderEntry(entry) {
@@ -298,7 +321,7 @@
       return list;
     }
     if (entry.kind === 'ls') {
-      const list = el('div', { class: 'list' });
+      const list = el('div', { class: 'list', 'data-list-id': entry.id });
       if (!entry.only && !files[entry.path].kids.length) list.append(el('p', { class: 'hint' }, '빈 폴더입니다.'));
       let namesToList = entry.only ? [entry.only] : files[entry.path].kids;
       if (entry.pages > 1) {
@@ -395,7 +418,7 @@
       const { prefix: parent, folder, name } = splitPath(state.cwd, path);
       prefix = name;
       const quote = /^["']/.test(raw) ? raw.charAt(0) : '';
-      choices = files[folder].kids.map(key => {
+      choices = files[folder].kids.filter(key => verb.toLowerCase() !== 'cd' || files[folder + '/' + key].dir).map(key => {
         const child = folder + '/' + key;
         return { name: names.get(child), tail: files[child].dir ? '/' : '' };
       });
@@ -507,7 +530,7 @@
     return url && url.origin === location.origin && /^https?:$/.test(url.protocol) ? url : null;
   }
 
-  function recordNavigation(url, replace = false) {
+  function recordNavigation(url, replace = false, source = null) {
     window.kiukFireworks.stop();
     const browserHistory = window.history;
     const current = { ...browserHistory.state, kiukShell: { cwd: state.cwd, view: state.view, browser: state.browser } };
@@ -515,6 +538,16 @@
     if (!sameAddress || !state.browser) delete current.kiukClassicList;
     try {
       const sameMode = Boolean(browserHistory.state?.kiukShell?.browser) === Boolean(state.browser);
+      if (!sameAddress && source?.matches('.file-row')) {
+        const list = source.parentElement;
+        const entry = state.log.find(item => item.id === list.dataset.listId);
+        const returnList = {
+          entry, row: Array.from(list.querySelectorAll('.file-row')).indexOf(source),
+          offset: source.getBoundingClientRect().top - out.getBoundingClientRect().top
+        };
+        const prior = browserHistory.state;
+        browserHistory.replaceState({ ...prior, kiukShell: { ...prior?.kiukShell, returnList } }, '');
+      }
       if (replace || (sameAddress && sameMode)) browserHistory.replaceState(current, '', url.href);
       else browserHistory.pushState(current, '', url.href);
     } catch {
@@ -640,6 +673,11 @@
   }
 
   function render() {
+    if (!state.browser) {
+      const current = files[state.view || state.cwd];
+      const siteTitle = files[home].title;
+      document.title = current === files[home] ? siteTitle : (current.heading || current.title) + ' | ' + siteTitle;
+    }
     byId('title').textContent = 'guest@' + host + ': ' + displayPath(state.cwd);
     byId('ps1').replaceChildren(passwordAttempts ? '[sudo] guest 비밀번호:' : promptNode(state.cwd));
     renderLog();
@@ -658,6 +696,7 @@
     input.placeholder = active ? '비밀번호 입력' : commandPlaceholder;
     input.setAttribute('aria-label', active ? 'sudo 비밀번호' : commandLabel);
     byId('cancel-password').hidden = !active;
+    byId('complete-command').hidden = active;
     byId('run').textContent = active ? '확인' : '실행';
   }
 
@@ -669,9 +708,10 @@
 
   async function submitInput(fromPrompt = false) {
     if (!passwordAttempts) {
-      const command = pendingCommand || input.value;
+      const command = pendingCommand?.text || input.value;
+      const source = pendingCommand?.source;
       stopTyping();
-      execute(command, fromPrompt);
+      execute(command, fromPrompt, source);
       return;
     }
     if (input.readOnly) return;
@@ -707,7 +747,7 @@
     out.scrollTop = out.scrollHeight;
   }
 
-  function execute(raw, fromPrompt = false) {
+  function execute(raw, fromPrompt = false, source = null) {
     if (state.browser) return;
     const line = normalizeHistoricalCommand(raw.trim(), state.cwd);
     if (!line) return;
@@ -784,7 +824,7 @@
     }
     if (previousView !== state.view || previousFolder !== state.cwd || state.browser) {
       const address = localURL(state.browser || files[state.view]?.url || files[state.cwd].url);
-      if (address) recordNavigation(address);
+      if (address) recordNavigation(address, false, !previousView && state.view ? source : null);
     }
     render();
     const last = state.log.length && out.querySelector('[data-eid="' + entry.id + '"]');
@@ -799,30 +839,30 @@
   }
 
   let typingFrame = 0;
-  let pendingCommand = '';
+  let pendingCommand = null;
   let composing = false;
   function stopTyping() {
     cancelAnimationFrame(typingFrame);
     typingFrame = 0;
-    pendingCommand = '';
+    pendingCommand = null;
   }
 
-  function typeAndRun(command) {
+  function typeAndRun(command, source = null) {
     if (state.browser) return;
     window.kiukFireworks.stop();
     if (passwordAttempts) leavePasswordPrompt();
     stopTyping();
     showCandidates([]);
-    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) { execute(command); return; }
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) { execute(command, false, source); return; }
     const letters = Array.from(command);
     const duration = Math.min(120, letters.length * 9);
     const start = performance.now();
-    pendingCommand = command;
+    pendingCommand = { text: command, source };
     function tick(now) {
       const fraction = Math.min(1, (now - start) / duration);
       input.value = letters.slice(0, Math.max(1, Math.ceil(letters.length * fraction))).join('');
       if (fraction < 1) typingFrame = requestAnimationFrame(tick);
-      else { stopTyping(); execute(command); }
+      else { stopTyping(); execute(command, false, source); }
     }
     tick(start);
   }
@@ -832,7 +872,7 @@
   input.addEventListener('input', () => { window.kiukFireworks.stop(); stopTyping(); pendingHash = ''; showCandidates([]); });
   input.addEventListener('keydown', event => {
     if (!passwordAttempts) window.kiukFireworks.stop();
-    const tab = event.key === 'Tab' && !event.shiftKey;
+    const tab = !passwordAttempts && event.key === 'Tab' && !event.shiftKey;
     if (tab) event.preventDefault();
     if (event.isComposing || composing || event.keyCode === 229) return;
     if (passwordAttempts) {
@@ -850,6 +890,12 @@
     } else if (event.key === 'Escape') {
       stopTyping(); showCandidates([]);
     }
+  });
+  byId('complete-command').addEventListener('click', () => {
+    if (passwordAttempts || composing) return;
+    stopTyping();
+    complete();
+    input.focus({ preventScroll: true });
   });
   byId('run').addEventListener('click', () => { if (!composing) submitInput(); });
   byId('cancel-password').addEventListener('click', leavePasswordPrompt);
@@ -932,6 +978,15 @@
     state.cwd = saved.cwd;
     state.view = saved.view;
     pendingHash = location.hash;
+    const previous = !state.view && saved.returnList;
+    const listing = previous && restoreList(previous.entry);
+    const restartDirectory = !state.view && !listing && initial && state.seq === 1;
+    if (restartDirectory) {
+      // 글을 새로고침하면 이전 문서의 터미널 출력은 남아 있지 않습니다.
+      state.log = [];
+      renderLog();
+      startDirectory(state.cwd);
+    }
     render();
     if (state.view) {
       if (!changed && !loading) {
@@ -939,7 +994,17 @@
         pendingHash = '';
       }
       if (!location.hash) title.focus({ preventScroll: true });
-    } else input.focus({ preventScroll: true });
+    } else {
+      const list = listing && out.querySelector('[data-list-id="' + CSS.escape(listing.id) + '"]');
+      const row = list && list.querySelectorAll('.file-row')[previous.row];
+      if (row) {
+        out.scrollTop += row.getBoundingClientRect().top - out.getBoundingClientRect().top - previous.offset;
+        row.focus({ preventScroll: true });
+      } else {
+        if (restartDirectory) out.scrollTop = 0;
+        input.focus({ preventScroll: true });
+      }
+    }
   });
   window.addEventListener('hashchange', () => {
     window.kiukFireworks.stop();
@@ -977,14 +1042,9 @@
     state.view = initial;
     pendingHash = location.hash;
     add({ kind: 'cmd', text: commandFor('open', initial), at: state.cwd });
-  } else if (startPath !== home) {
-    state.cwd = startPath;
-    add({ kind: 'cmd', text: 'ls', at: state.cwd });
-    listDirectory(state.cwd);
   } else {
-    add({ kind: 'welcome' });
-    add({ kind: 'cmd', text: 'help', at: home });
-    add({ kind: 'help' });
+    state.cwd = startPath;
+    startDirectory(state.cwd);
   }
   recordNavigation(new URL(location.href), true);
   render();

@@ -85,7 +85,7 @@ Google의 메시지를 주요 예시로 드는데 Google 메시지는 간단한 
 
 이들의 연구 방법은 아래와 같습니다.
 
-<img src="figure1.png" alt="error" loading=lazy width=600 />
+<img src="figure1.png" alt="error" loading=lazy width=600 height=489 />
 
 #### 참가자 모집
 - 미국에 거주하는 만 18세 이상 안드로이드 사용자 20명을 모집
@@ -111,7 +111,7 @@ Google의 메시지를 주요 예시로 드는데 Google 메시지는 간단한 
 #### 방법의 한계
 - 마지막 절에서는 참여자의 지역과 표본 규모, 모의 문자함을 사용하는 인터뷰 환경이 연구 해석에 주는 제약을 설명했다.
 
-<img src="figure2.png" alt="error" loading=lazy width=600 />
+<img src="figure2.png" alt="error" loading=lazy width=600 height=1333 />
 
 위 figure 2는 사칭 문자에 서로 다른 안내를 띄운 예시라고 설명합니다.
 
@@ -121,7 +121,7 @@ Google의 메시지를 주요 예시로 드는데 Google 메시지는 간단한 
 
 ### 3. 벤치마크 결과는?{#section-four}
 
-<img src="table1.png" alt="error" loading=lazy width=600 />
+<img src="table1.png" alt="error" loading=lazy width=600 height=429 />
 
 위 표는 원본 논문의 테이블 2 입니다.
 
@@ -131,7 +131,7 @@ Google의 메시지를 주요 예시로 드는데 Google 메시지는 간단한 
 
 저는 솔직히 영어 못하는지라... GPT 6.2 Astra를 통해 표를 한국어로 번역했습니다.
 
-<img src="table1_kor.png" alt="error" loading=lazy width=600 />
+<img src="table1_kor.png" alt="error" loading=lazy width=600 height=332 />
 
 가짜 배송 알림은 20명중 18명이 의심스럽다고 판단했네요.
 

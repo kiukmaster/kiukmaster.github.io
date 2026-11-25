@@ -1,7 +1,8 @@
 {{ $pages := partial "posts.html" .pages }}
 {{ $page := .page }}
 {{ $pagination := $page.Paginate $pages }}
-<div class="page-heading"><h1 {{ if .titleKey }}data-i18n="{{ .titleKey }}"{{ end }}>{{ .title }}</h1><span id="results-count" class="results-count" role="status" aria-live="polite">{{ len $pages }} <span data-i18n="entries">{{ partial "t.html" "entries" }}</span></span></div>
+{{ $unit := cond (eq (len $pages) 1) "entry" "entries" }}
+<div class="page-heading"><h1 {{ if .titleKey }}data-i18n="{{ .titleKey }}"{{ end }}>{{ .title }}</h1><span id="results-count" class="results-count" role="status" aria-live="polite">{{ len $pages }} <span data-i18n="{{ $unit }}">{{ partial "t.html" $unit }}</span></span></div>
 <section id="post-feed" data-index="/index.json" data-list-root="{{ $page.RelPermalink }}" data-category="{{ .category | default "" }}" data-tag="{{ .tag | default "" }}" data-page-number="{{ $pagination.PageNumber }}" data-page-size="{{ site.Params.pagesize }}" data-total="{{ len $pages }}">
   <form class="toolbar" id="search-form" role="search" data-js hidden>
     <div class="search-field"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.6 12.6 4.2 4.2"/></svg><label class="sr-only" for="search" data-i18n="search">{{ partial "t.html" "search" }}</label><input id="search" type="search" name="q" placeholder="{{ partial "t.html" "searchPlaceholder" }}" data-i18n-placeholder="searchPlaceholder" autocomplete="off"><kbd aria-hidden="true">/</kbd></div>
@@ -12,6 +13,6 @@
   <div class="filter-row"><a class="reset-filter" id="reset" href="/posts/" hidden data-i18n="reset">{{ partial "t.html" "reset" }}</a></div>
   <div id="feed-error" class="feed-error" role="alert" hidden><span data-i18n="loadError">{{ partial "t.html" "loadError" }}</span> <button type="button" id="retry" data-i18n="retry">{{ partial "t.html" "retry" }}</button></div>
   <div class="posts-grid" id="post-list">{{ range $pagination.Pages }}{{ partial "card.html" . }}{{ else }}<p data-i18n="noPosts">{{ partial "t.html" "noPosts" }}</p>{{ end }}</div>
-  <nav class="pagination" id="pagination" aria-label="페이지">{{ if $pagination.HasPrev }}<a class="button secondary" href="{{ $pagination.Prev.URL }}" data-i18n="prevPage">{{ partial "t.html" "prevPage" }}</a>{{ end }}{{ if $pagination.HasNext }}<a class="button secondary" href="{{ $pagination.Next.URL }}" data-i18n="nextPage">{{ partial "t.html" "nextPage" }}</a>{{ end }}</nav>
+  <nav class="pagination" id="pagination" aria-label="페이지" data-i18n-aria="pagination">{{ if $pagination.HasPrev }}<a class="button secondary" href="{{ $pagination.Prev.URL }}" data-i18n="prevPage">{{ partial "t.html" "prevPage" }}</a>{{ end }}{{ if $pagination.HasNext }}<a class="button secondary" href="{{ $pagination.Next.URL }}" data-i18n="nextPage">{{ partial "t.html" "nextPage" }}</a>{{ end }}</nav>
   <div class="load-more-wrap"><button class="button secondary" type="button" id="more" hidden data-i18n="more">{{ partial "t.html" "more" }}</button></div>
 </section>

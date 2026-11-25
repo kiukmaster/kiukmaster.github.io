@@ -18,6 +18,7 @@
         return;
       }
       if (event.button || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || link.target === '_blank') return;
+      if (url.hash && url.href === location.href) return;
       event.preventDefault();
       notify('kiuk:browser-navigate', { url: url.href, replace: false });
     });
@@ -49,6 +50,7 @@
         retry.hidden = false;
         return;
       }
+      document.title = doc.title;
       notice.hidden = true;
       if (doc.location.href !== requested) {
         next.dispatchEvent(new CustomEvent('kiuk:browser-navigate', {

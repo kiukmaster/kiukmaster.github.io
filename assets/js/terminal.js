@@ -24,7 +24,10 @@
     if (!reduced.matches && typeof panel.animate === 'function') {
       animation = panel.animate([{ opacity: .65, transform: 'translateY(3px)' }, { opacity: 1, transform: 'translateY(0)' }], { duration: 180, easing: 'ease-out' });
     }
-    status.textContent = `${button.querySelector('.terminal-command-label').textContent} 표시됨`;
+    const label = button.querySelector('.terminal-command-label');
+    status.dataset.ko = `${label.dataset.ko} 표시됨`;
+    status.dataset.en = `${label.dataset.en} shown`;
+    status.textContent = document.documentElement.lang === 'en' ? status.dataset.en : status.dataset.ko;
   });
   reduced.addEventListener('change', event => { if (event.matches) animation?.cancel(); });
   controls.hidden = false;

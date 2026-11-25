@@ -158,7 +158,7 @@
     sort.value = state.sort;
 
     function updateControls() {
-      count.textContent = `${total} ${t('entries')}`;
+      count.textContent = `${total} ${t(total === 1 ? 'entry' : 'entries')}`;
       reset.hidden = !(state.q || state.category || state.tag || state.sort !== 'newest');
       more.hidden = Boolean(failedMode) || end >= total || queryKey() !== renderedQuery;
       if (nextPage) nextPage.hidden = !failedMode || end !== initialEnd || renderedQuery !== initialQuery;

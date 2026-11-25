@@ -29,11 +29,12 @@
       </section>
     </div>
 
-    <div id="cands" class="cands" aria-label="자동완성 후보" hidden></div>
+    <div id="cands" class="cands" role="group" aria-label="자동완성 후보" hidden></div>
     <div class="prompt">
       <label for="cmd" id="ps1"></label>
       <div class="prompt-field">
-        <input id="cmd" type="text" aria-label="터미널 명령어" placeholder="명령어 입력 후 Enter, Tab은 자동완성" enterkeyhint="go" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+        <input id="cmd" type="text" aria-label="터미널 명령어" placeholder="명령어 입력" enterkeyhint="go" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+        <button type="button" class="btn" id="complete-command" aria-label="명령어 자동완성" aria-controls="cands">Tab</button>
         <button type="button" class="btn" id="cancel-password" hidden>취소</button>
         <button type="button" class="btn btn-solid" id="run">실행</button>
       </div>
@@ -56,7 +57,7 @@
   <section class="welcome">
     <h1>{{ site.Title }}</h1>
     <p class="tagline">{{ site.Params.author.name }} / {{ site.Params.author.role }}</p>
-    <p class="guide">이 블로그는 터미널처럼 움직입니다. 아래 입력창에 명령어를 직접 입력하거나 화면의 항목을 누르세요. 항목을 누르면 해당 명령어가 입력창에 표시된 뒤 실행됩니다.</p>
+    <p class="guide">입력창에 명령어를 적고 Enter를 눌러 실행하세요. Tab을 누르면 명령어나 글 제목을 자동완성할 수 있습니다. 화면의 항목을 누르면 해당 명령어가 입력창에 표시된 뒤 실행됩니다.</p>
   </section>
 </template>
 <template id="tpl-contact">{{ partial "shell-contact.html" .page }}</template>
